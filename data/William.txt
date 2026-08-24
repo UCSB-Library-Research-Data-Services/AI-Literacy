@@ -1,0 +1,256 @@
+Skip to Main Content
+William & Mary Libraries
+Research Guides
+Generative AI: Supporting AI Literacy, Research, and Publishing
+Gen AI Resources
+Search this Guide
+Search
+Generative AI: Supporting AI Literacy, Research, and Publishing: Gen AI Resources
+Home
+Generative AI Tools
+Developing AI Literacy
+Defining Artificial Intelligence
+Considerations for Using Generative AI
+Prompt Engineering
+Evaluating AI Tools & Outputs
+Citing Generative AI Contributions
+Ethics & Artificial Intelligence
+Researching with AI
+Publishing with AI
+Gen AI Resources
+Presentations and Prototypes on AI from W&M Libraries
+Resources at W&M
+Presentations and Prototypes on AI from W&M Libraries
+AI Show and Tell: What's New in 2025-March 2025 (slides)
+This link opens in a new window
+AI Show and Tell: What's New in 2025-March 2025 (video)
+This link opens in a new window
+ChatGPT and Other AI Tools for Research-May 2025 (slides)
+This link opens in a new window
+AI Show and Tell: Scite and Scite Assistant-Nov 2024 (slides)
+This link opens in a new window
+Prompt Engineering module from Designing for Learners: Generative AI in Teaching-Oct. 2024 (slides)
+This link opens in a new window
+Enhancing Research Conceptualization-slides (Jan. 2025)
+This link opens in a new window
+Using AI to Assist with Literature Reviews, Part 1 (Summer 2024)-video
+This link opens in a new window
+Using AI to Assist with Literature Reviews, Part 2 (Summer 2025)-video
+This link opens in a new window
+The Library in the AI Age (Fall 2026)
+This link opens in a new window
+What's New in 2026 (Jan. 2026)
+This link opens in a new window
+AI Show & Tell: Google Scholar and Fake Citations (Feb. 2026)
+This link opens in a new window
+AI Tools for Research slides
+This link opens in a new window
+AI Tools for Research-Summer 2026 workshop recording
+This link opens in a new window
+Resources at W&M
+AI at W&M
+This link opens in a new window
+Central clearinghouse for AI information at W&M
+Generative AI Tools Available at W&M
+This link opens in a new window
+List of W&M-supported or sanctioned AI tools
+Approaches to Teaching with Generative AI
+This link opens in a new window
+Guidance for faculty on teaching with GenAI from STLI
+Designing for Learners: Generative AI in Teaching
+This link opens in a new window
+Self-paced online course on GenAI in teaching and learning by STLI
+16 AI Things in 93 Days
+This link opens in a new window
+Self-paced professional development on AI for W&M community by W&M Libraries
+AI and Civic Leadership
+This link opens in a new window
+Self-paced professional development for the Year of Civic Leadership
+<<
+Previous:
+Publishing with AI
+
+As use of ChatGPT proliferated in the wake of its November 2022 release, many faculty and students began to ask, “If we use Generative AI, how should we cite it?”
+One of the key considerations for citing ChatGPT and other Generative AI tools involves an understanding of authorship. While the US Copyright Office, many journals, and a number of scholarly societies don’t consider ChatGPT eligible for authorship status, its contributions and incorporation within a work must still be acknowledged. Guidelines will vary by a discipline's - or journal's - style guide; however, general best practices include:
+- Acknowledge and describe the use of the Generative AI tool within the work. This includes providing a description of the tool, prompt engineering process, as well as the use case (drafting, summarizing, editing, providing feedback, etc.).
+- Attribute authorship to Open AI or the underlying application purveyor/data source, not ChatGPT, etc. Remember, ChatGPT isn't considered an author or co-author by many agencies.
+- Include the version and access date in the citation construct. As different versions will provide varied outputs and are now connected to the Internet, having both the tool and the access date is especially helpful for maintaining the scholarly record.
+Of course, you should always check with your professor and/or the publisher to determine if Generative AI is permissible prior to using it in your work.
+- 
+    
+Citation and Attribution with AI Tools from Brown University Library This link opens in a new windowThis guide from Brown has good guidelines to consider when documenting and atrributing your AI use (click info or the link for more)"Do cite or acknowledge the outputs of generative AI tools when you use them in your work. This includes direct quotations and paraphrasing, as well as using the tool for tasks like editing, translating, idea generation, and data processing.
+ 
+ Do not use sources that are cited by AI tools without reading those sources yourself. There are two different reasons for this:
+ Generative AI tools can create fake citations.
+ These tools may cite a real piece of writing, but the cited content may be inaccurate.
+ 
+ Be flexible in your approach to citing AI-generated content, because emerging guidelines will always lag behind the current state of technology, and the way that technology is applied. If you are unsure of how to cite something, include a note in your text that describes how you used a certain tool.
+ 
+When in doubt, remember that we cite sources for two primary purposes: first, to give credit to the author or creator; and second, to help others locate the sources you used in your research. Use these two concepts to help make decisions about using and citing AI-generated content."
+- 
+    
+AI DIsclosure Statement Builder This link opens in a new windowArtificial intelligence disclosure statement builder tool based on work of librarian Kari Weaver
+- Last Updated: Aug 20, 2026 8:12 PM
+- URL: https://guides.libraries.wm.edu/GenerativeAI
+- Print Page
+
+Increasingly, AI tools ar emoving towards all-in-one workspaces that combine a number of AI tools (including GenAI ones) so that researchers do not have to switch between tools depending on the task. These tools are mostly in very early stages.
+- 
+    
+Prism This link opens in a new windowFree LaTex-native tool from OpenAI (available only on personal not ChatGPT Edu accounts currently)
+- 
+    
+LeapSpace This link opens in a new windowPaid tool from Elsevier. Not broadly available yet
+- 
+    
+Ai2 Asta This link opens in a new windowAi2's next step in an AI-assisted workspace
+Tools for writing and publishing with generative AI can be:
+Useful for:
+- Getting started
+- Getting help with vocabulary, grammar, etc
+- Writing formulaic text - emails, resumes, etc
+- Getting unstuck; getting feedback on or refining your own work; and serving as a sounding board for (non-confidential) ideas
+- Coming up with titles
+Not recommended for:
+- Use if prohibited by your instructor, PI or faculty mentor, the journals you or your collaborators plan to submit to, or other stakeholders
+- Current (or future) events or things that change quickly unless it’s connected to Internet
+- Topics that you don’t know well without verifying from multiple sources or where accuracy is critical (because of “hallucinations” - basically all LLMs create plausible sounding but not necessarily correct material) - FACT CHECK!!!
+- Topics that are ill-defined, obscure, non-mainstream, non-Western, or personal - basically things that don’t have a lot of information online about them or that AI can’t “know” (How to Get an AI to Lie To You)
+- Sensitive or potentially harmful or offensive topics
+- Anything private or confidential
+- Generating whole papers
+- Generating citations and bibliographies
+Besides GenAI tools like ChatGPT and tools like Acrobat AI Assistant in Acrobat Pro, there are a number of tools for summarizing and chatting with documents.
+- 
+    
+Gemini Notebook This link opens in a new windowGoogle's beta AI research and learning assistant (used to be called NotebookLM). W&M students, faculty, and staff have access through the enterprise Google Workspace
+- 
+    
+ChatPDF This link opens in a new windowHas free tier.
+- 
+    
+Explainpaper This link opens in a new windowHas free tier.
+- 
+    
+Scholarcy This link opens in a new windowHas free tier.
+- 
+    
+SciSpace This link opens in a new windowFree. Has browser extension for Chrome.
+- 
+    
+OpenRead This link opens in a new windowHas free tier.
+- 
+    
+Humata This link opens in a new windowHas free tier.
+- 
+    
+WordTune This link opens in a new windowHas free tier.
+Besides the general genAI tools like ChatGPT and Copilot and the tools in Microsoft (CoPilot in 365) and Google Docs, there are a number of generative AI tools for writing. Here are just a few.
+- 
+    
+Grammarly This link opens in a new windowHas free tier.
+- 
+    
+Quillbot This link opens in a new windowHas free tier.
+- 
+    
+Researcher.life This link opens in a new windowHas free tier. Not all AI tools but includes writing and project assistants.
+- 
+    
+Jenni AI This link opens in a new windowHas free tier.
+- 
+    
+Paperpal This link opens in a new windowHas free tier
+- 
+    
+Trinka This link opens in a new windowHas free tier
+- 
+    
+Thesify This link opens in a new windowHass free tier
+In addition to the transcription features available in Word, Teams and Zoom and in general GenAI tools like Gemini, you may also need to transcribe something not created in one of those applications and can try one of the tools below.
+- 
+    
+Otter AI This link opens in a new windowHas free tier.
+- 
+    
+Transkribus This link opens in a new windowHas free tier
+- 
+    
+Vibe This link opens in a new windowFree install
+Use AI for visualization with caution! AI can distort and introduce errors into visualizations that can misrepresent scholarly work.
+AI tools for summarizing and writing papers can be:
+- Summarizing and simplifying dense text
+- Getting started and producing a rough draft
+- Getting help with vocabulary, grammar, translation, etc
+- Translating common languages
+- Writing formulaic text - emails, resumes, etc
+- Getting feedback on or refining your own work
+- Writing about any sensitive or potentially harmful or offensive topics
+- Writing about or transcribing anything private or confidential
+- Generating whole papers or taking the text as is - make it your own and add your own creative spark and thought
+- Last Updated: Aug 20, 2026 8:12 PM
+- URL: https://guides.libraries.wm.edu/GenerativeAI
+- Print Page
+
+When encountering new information, the AI-literate citizen interrogates the tool, its outputs,and how it is represented by the media/field experts, and considers questions such as the following:
+ChatGPT and other Generative AI tools "hallucinate"; that is, they can produce false information and can do so convincingly. For example, all of the GPT models have been known to fabricate fake citations to works that don't exist. The unsuspecting user then incorporates these fake citations into their own outputs, and unknowingly promotes misinformation.
+To be AI-literate, users must constantly question and fact-check the information that Generative AI tools like ChatGPT produce. While this can be cumbersome, not exercising due diligence can have serious repercussions.
+In addition, GenAI tools are designed to produce statiscally probable output, not necessarily factually accurate output. All GenAI tools "hallucinate" to some extent. Strategies like lateral reading can help with verification and fact checking of output from GenAI tools.
+Although there are multiple tools on the market currently advertising the capability to differentiate content that has been produced by Generative AI from that of humans, no single tool can - without human intervention and critical thinking - do so at this time. Additionally, in a paper for the International Journal for Educational Integrity, researchers from multiple European research institutions conducted a study on the efficacy of these tools in detecting AI-generated content and concluded "that the available detection tools are neither accurate nor reliable. . ."
+Librarians Sandy Hervieux and Amanda Wheatley, both of McGill University, created a framework - "The ROBOT Test" for evaluating AI tools (especially as these technologies and their respective outputs are presented by the media).
+Being AI Literate does not mean you need to understand the advanced mechanics of AI. It means that you are actively learning about the technologies involved and that you critically approach any texts you read that concern AI, especially news articles.
+You can use the ROBOT Test tool when reading about AI applications to help consider the legitimacy of the technology.
+__________
+This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
+Hervieux, S. & Wheatley, A. (2020). The ROBOT test [Evaluation tool]. The LibrAIry. https://thelibrairy.wordpress.com/2020/03/11/the-robot-test.
+
+There's no agreed upon definition of artificial intelligence, though our modern concept of artificial intelligence is often attributed to mathematician Alan Turing, who in 1950 as part of his seminal work Computing Machinery and Intelligence posed the question, "Can machines think?" Professor John McCarthy, an expert in artificial intelligence and professor of Stanford University, defines artificial intelligence as "the science and engineering of making intelligent machines."
+While definitions of artificial intelligence vary by academic discipline, one shared truth remains: Ideas about machine learning have evolved over time to culminate in myriad areas of study, research, applications, innovation, literature, film, and more that celebrate - and scrutinize - artificial intelligence and its impact on human intelligence.
+There are two different categories of AI: Narrow AI and General AI.
+Narrow AI:
+General AI:
+ChatGPT and other generative AI tools are closer to Narrow AI on the spectrum - they excel at specific tasks but have some difficulty transferring that ability to other tasks without human intervention. Yet, they possess far broader cognitive abilities than previous chatbots and will undoubtedly pave the way for a quicker advent of General AI, which still remains elusive.
+[The text above was generated with the assistance of Anthropic Claude. 7/12/23]
+In order to interrogate and ethically use AI, it's essential to have a basic vocabulary. The following are common terms in the machine learning and AI landscape.
+Algorithms
+"An algorithm is a set of instructions for solving a problem or accomplishing a task" (Investopedia). Algorithms are replicable processes that involve set rules. Examples of common algorithms include: Google's search algorithm, recipes, and the process for tying your shoes.
+Automation
+"Automation is the use of technology to perform tasks with where human input is minimized" (IBM). There are different types of automation: Basic automation, process automation, and intelligent automation. Examples of automation include: Household thermostats, 3D printing, creating email routing rules, and robotic process automation (RPA).
+Deep Learning
+"Deep learning is a subset of machine learning (ML), where artificial neural networks—algorithms modeled to work like the human brain—learn from large amounts of data" (Oracle). Automated YouTube captioning is an example of deep learning technology. 
+Large Language Models
+"Large language models (LLMs) are deep learning algorithms that can recognize, summarize, translate, predict, and generate content using very large datasets" (Nvidia). ChatGPT, Google Bard, DALL-E, and other Generative AI tools are examples of large language models.
+Machine Learning
+"The use and development of computer systems that are able to learn and adapt without following explicit instructions, by using algorithms and statistical models to analyze and draw inferences from patterns in data" (Oxford Languages). Machine learning is fundamental to automation, deep learning, and large language models.
+Natural Language Processing
+"Natural language processing (NLP) is a form of artificial intelligence (AI) that allows computers to understand human language, whether it be written, spoken, or even scribbled" (Coursera). To be effective, NLPs are constructed using colossal text corpuses, which usually exceed 500,000+ words. Common natural language techniques include sentiment analysis (determining if something is positive or negative or neutral), text summarization (creating a summary of a large body of text for readers), and topic modeling (grouping texts with similar topics).
+Neural Network
+"A neural network is a method in artificial intelligence that teaches computers to process data in a way that is inspired by the human brain. It is a type of machine learning process, called deep learning, that uses interconnected nodes or neurons in a layered structure that resembles the human brain. It creates an adaptive system that computers use to learn from their mistakes and improve continuously" (Amazon).
+Robotics
+"Technology dealing with the design, construction, and operation of robots in automation" (Merriam-Webster). Everyday examples can include robot vacuums, robotic process automation (RPA) 'bots, and virtual personal assistants (i.e., Siri, Alexa).
+Training Data
+The underlying dataset that trains the algorithm. The content - and biases - of this data, as well as the ways in which it is sourced, and the biases of the programmer (as humans, we all have biases) - all permeate the machine learning model. It's important to be aware of this training data, its sourcing, and its limitations when considering machine learning models.
+The following films, TV series, and works of literature are notable for their inclusion of and focus on artificial intelligence. This is a growing list of materials that are available through William & Mary Libraries.
+
+Thinking about using AI tools in your research? Consider the steps below:
+First check your course syllabus policies or with your professor! Some professors don't allow it; others allow it only under specific circumstances; and others encourage it. Using it when prohibited is an honor code violation so if you're unsure, just ask!
+If you are allowed and want to use it, think - about the purposes you're using it for, how you're using it, and why (including about your own values, opinions, and knowledge about AI). AI shouldn't replace your own thinking and learning, but assist you. Also think about which tools you're using, what kind of AI they use, and what kind of data they are trained on and what they are using your data for. W&M-provided versions of Gemini, NotebookLM, and Copilot and other tools have higher user limits, better performance, and better privacy protection than free models. Boost your AI literacy and learn to use AI ethically and thoughtfully. For more information, look at resources like the W&M Student's Guide to AI!
+Experiment, evaluate, and fact check! General generative AI chatbots like ChatGPT can "hallucinate" or create plausible-sounding but incorrect information. Evaluate AI output, iterate on your prompts, fact check, and be transparent about your AI use. Also, try different tools; there are other AI-powered tools that can be of more help than ChatGPT, especially for finding existing correct citations. For more information, check out our AI Tools for Research guide and library subscription tools like Scite!
+
+Prompt engineering involves using clear and concise phrases to elicit optimal responses from the large language model (LLM). Generally speaking, most users will need to continue to prompt incrementally and refine prompts to yield useful answers. Adding to these refined prompts, called threading, also will yield better results, as it will provide the LLM with some context.
+While OpenAI and other LLM purveyors initially provided little guidance in the way of engineering effective prompts, tools exist that can help users both generate and refine their prompts.
+
+In a simple sense, Large Language Models (LLMs) work by statistically predicting the next most likely words or output, and they prioritize fluency over accuracy. While GPT-5 is an improvement over previous models, it's still not perfect. Although LLMs generate text, they don't actually understand it, nor do they know anything about the real world. Remember, these are “stochastic parrots” (Bender et. al), not all-knowing magic beings or anything like a human intelligence no matter how fluent they are!
+The following video from Gartner articulates this, as well as the the power - and other pitfalls - of these tools.
+Generative AI tools can be useful for:
+They are not recommended for:
+Artificial intelligence advocates and critics have identified a host of potential benefits and harms caused by LLMs. These should be considered when using Generative AI tools. Although some of the following potential benefits and potential harms originated from a Lifelong Literacy Institute (LILi) webinar, Using ChatGPT to Engage in Library Instruction? Challenges and Opportunities, this list contains a broader understanding of potential benefits and harms:
+Potential Benefits:
+Potential Harms:
+Because we're in the Wild West of Generative AI, and we are all still learning about the impacts of this technology, this list of benefits and harms is likely to expand over time.
+William & Mary's Honor Code is a time-honored standard built upon the premise of mutual trust, that community members will not "lie, cheat, or steal, either in...academic or personal life." While the 2022-23 Student Handbook doesn't explicitly mention Generative AI, schools and faculty may have their own standards for how - or if - ChatGPT and other Generative AI tools can be used to complete assignments. To ensure compliance with the Honor Code (and avoid any student conduct violations), all students should:
+Students who are engaging in undergraduate research, or who are working as a Teaching Assistant, Graduate Assistant, or work-study student, should consult with their direct supervisor and Faculty Advisor to determine any limitations of using Generative AI for these purposes.
+
+To borrow a metaphor, you don't need to be a mechanic in order to drive a car. To be a competent (and arguably safe) driver, though, you do need to build a set of essential driving skills, including a knowledge of: The controls and features that each car (irrespective of brand) offers, dashboard symbols, signaling, steering, accelerating and braking, an understanding of road signs, and a knowledge of common traffic laws.
+In the same way, you don't need to be a data scientist, programmer, or application developer to be AI literate. However, you do need to have a basic understanding of what artificial intelligence is, what it isn't, how it works, and how to use it ethically and legally.
+Generative AI can have many applications and implications for students, including the need to build AI literacy skills and develop an ethical framework for leveraging Generative AI content creation tools. Developing AI literacy can help you:

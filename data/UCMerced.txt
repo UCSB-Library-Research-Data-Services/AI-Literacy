@@ -1,0 +1,467 @@
+Copyright and Artificial Intelligence – U.S. Copyright Office This link opens in a new window             
+        
+            
+    
+    
+                
+            "The Copyright Office has launched an initiative to examine the copyright law and policy issues raised by artificial intelligence (AI) technology, including the scope of copyright in works generated using AI tools and the use of copyrighted materials in AI training. "
+
+A topical overview of AI in research and education
+            
+        
+- 
+    
+Learn about Copilot Prompts This link opens in a new windowLearn about Copilot prompts from Microsoft
+- 
+    
+Prompt Engineering for ChatGPT This link opens in a new windowThis guide shares strategies and tactics for getting better results from large language models (sometimes referred to as GPT models) like GPT-4o. - by OpenAI
+- 
+    
+Prompt Engineering Guide This link opens in a new windowA comprehensive prompt design guide on various generative AI tools and prompt engineering
+- 
+    
+Prompting Engineering Training: ChatGPT Prompt Engineering for Developers (Free Online Course) This link opens in a new windowIn ChatGPT Prompt Engineering for Developers course, you will learn how to use a large language model (LLM) to quickly build new and powerful applications.
+- 
+    
+GenAI Chatbot Prompt Library for Educators This link opens in a new windowDevelop prompts to create lesson plans and complete administrative tasks
+- Last Updated: Jul 6, 2026 3:48 PM
+- URL: https://libguides.ucmerced.edu/artificial-intelligence
+- Print Page
+Copyright @ The Regents of the University of California. All rights reserved.
+Except where otherwise noted, this work is subject to the Creative Commons Attribution-Noncommercial 4.0 License.
+
+| Feature | Canva Magic Write | Grammarly | Jenni AI | Paperpal | Sudowrite | Wordtune | 
+|---|---|---|---|---|---|---|
+| Purpose | AI text generation within Canva designs | Writing enhancement and grammar checking | AI-assisted writing and citations | Academic writing assistance | Creative writing assistance | Writing enhancement and rewriting | 
+| Key Features | • Text generation • Integrated with Canva | • Grammar checks • Tone adjustments • Plagiarism detection | • AI autocomplete • Citation support | • Context-sensitive suggestions • Plagiarism detection | • Storytelling tools • Style suggestions | • Rewrites • AI suggestions • Summarizations | 
+| Price | Free up to 50 times; Included with Canva Pro subscription | Free; Premium: $12/month; Business plans available | Free; Unlimited: $12/month | Free; Prime: $11.5/month | Hobby & Student: $19/month; Professional: $29/month; Max: $59/month | Free; Advanced: $6.99/month; Unlimited: $9.99/month | 
+| Performance | Easy integration for design projects | Comprehensive language tools | Supports academic writing and research | Tailored for academic writing | Focuses on creative content generation | Enhances clarity and fluency | 
+| Limitations | Limited to Canva platform | Requires subscription for full features | Limited free version | Primarily for academic use | Best suited for creative writing | Limited advanced features in free version | 
+| Best For | Designers needing integrated text generation | General users needing comprehensive writing assistance | Researchers and students | Researchers and academics | Writers focusing on creative projects | Writers seeking enhanced clarity and style | 
+Copyright @ The Regents of the University of California. All rights reserved.
+
+As AI becomes more and more ubiquitous in our lives, it also leaves a large footprint on our environment. In Fall 2024, The Washington Post reported on the water and electricity consumption of AI data processing centers in their local communities:
+A year earlier, in Fall 2023, Rolling Stone reported that Microsoft's own environmental report " revealed that its global water consumption spiked by more than a third from 2021 to 2022":
+Google is planning to use nuclear power to fuel the energy needs of this technology as soon as 2035:
+Copyright @ The Regents of the University of California. All rights reserved.
+
+| Feature | Covidence | DistillerSR | EPPI-Reviewer | Rayyan | RobotReviewer | 
+|---|---|---|---|---|---|
+| Purpose | Streamlines systematic review processes | Systematic review management and automation | Data management and analysis for systematic reviews | Collaborative systematic review screening | Automated risk of bias assessment and data extraction | 
+| Key Features | • Study screening • Data extraction • Collaboration | • Study screening • Data extraction • Project management | • Data coding • Advanced analysis tools | • Collaborative filtering • Tagging and labeling • Mobile access | • Automated bias assessment • Data extraction | 
+| Price | Subscription-based, pricing on request | Subscription-based, pricing on request | Subscription-based, pricing on request | Free basic version; Premium features with subscription | Free | 
+| Performance | Efficient workflow management | Comprehensive and scalable for large projects | Flexible with advanced analysis capabilities | User-friendly interface, supports collaboration | Automates routine tasks, saving time | 
+| Limitations | May require training for full feature utilization | Requires training for optimal use | Complex interface for new users | Limited advanced features in free version | Limited to specific tasks like bias assessment | 
+| Best For | Teams seeking streamlined review processes | Large teams needing comprehensive review management | Researchers needing detailed data management and analysis | Teams needing collaborative and flexible screening | Researchers focusing on bias assessment and data extraction | 
+Copyright @ The Regents of the University of California. All rights reserved.
+
+A topical overview of AI in research and education
+            
+        
+                Bronwen Maxson Strubbe
+            
+        
+            
+    
+    
+        She/her/ella
+    
+    
+    
+                    Contact: 5200 North Lake Road, KL 275
+Merced, CA 95343
+bmaxson@ucmerced.edu
+Hablo español
+    Merced, CA 95343
+bmaxson@ucmerced.edu
+Hablo español
+209-756-7423
+            - 
+    
+Teaching with AI: A Practical Guide to A New Era of Human Learning by José Antonio Bowen; C. Edward Watson How AI is revolutionizing the future of learning and how educators can adapt to this new era of human thinking. Artificial Intelligence (AI) is revolutionizing the way we learn, work, and think. Its integration into classrooms and workplaces is already underway, impacting and challenging ideas about creativity, authorship, and education. In this groundbreaking and practical guide, teachers will discover how to harness and manage AI as a powerful teaching tool. José Antonio Bowen and C. Edward Watson present emerging and powerful research on the seismic changes AI is already creating in schools and the workplace, providing invaluable insights into what AI can accomplish in the classroom and beyond. By learning how to use new AI tools and resources, educators will gain the confidence to navigate the challenges and seize the opportunities presented by AI. From interactive learning techniques to advanced assignment and assessment strategies, this comprehensive guide offers practical suggestions for integrating AI effectively into teaching and learning environments. Bowen and Watson tackle crucial questions related to academic integrity, cheating, and other emerging issues. In the age of AI, critical thinking skills, information literacy, and a liberal arts education are more important than ever. As AI continues to reshape the nature of work and human thinking, educators can equip students with the skills they need to thrive in a rapidly evolving world. This book serves as a compass, guiding educators through the uncharted territory of AI-powered education and the future of teaching and learning.Call Number: eBookPublication Date: 2024
+- 
+    
+Artificial Intelligence Basics by N. Gupta; R. Mangla "Designed as a self-teaching introduction to the fundamental concepts of artificial intelligence, the book begins with its history, the Turing test, and early applications. Later chapters cover the basics of searching, game playing, and knowledge representation. Expert systems and machine learning are covered in detail, followed by separate programming chapters on Prolog and Python. The concluding chapter on artificial intelligence machines and robotics is comprehensive with numerous modern applications."--The publisherCall Number: eBookPublication Date: 2020
+- 
+    
+The Opposite of Cheating: Teaching for Integrity in the Age of AI by Tricia Bertram Gallant; David A. Rettinger In these days of an ever-expanding internet, generative AI, and term paper mills, students may find it too easy and tempting to cheat, and teachers may think they can't keep up. What's needed, and what Tricia Bertram Gallant and David A. Rettinger offer in this timely book, is a new approach--one that works with the realities of the twenty-first century, not just to protect academic integrity but also to maximize opportunities for students to learn. The Opposite of Cheating presents a positive, forward-looking, research-backed vision for what classroom integrity can look like in the GenAI era, both in cyberspace and on campus. Accordingly, the book outlines workable measures teachers can use to better understand why students cheat and to prevent cheating while aiming to enhance learning and integrity. Bertram Gallant and Rettinger provide practical suggestions to help faculty revise the conversation around integrity, refocus classes and students on learning, reconsider the structure and goals of assessment, and generally reframe our response to cheating. At the core of this strategy is a call for teachers, academic staff, institutional leaders, and administrators to rethink how we "show up" for students, and to reinforce and fully support quality teaching, learning, and assessment. With its evidentiary basis and its useful tips for instructors across disciplines, levels of experience, and modes of instruction, this book offers a much-needed chance to pause, rethink our purpose, and refocus on what matters--creating classes that center human interactions that foster the personal and professional growth of our students.  Call Number: [Request via ILL]Publication Date: 2025
+- 
+    
+Artificial Intelligence in Medicine by Stephan, Thompson, editor "In the ever-evolving realm of healthcare, 'Artificial Intelligence in Medicine' emerges as a trailblazing guide, offering an exhaustive exploration of the transformative power of Artificial Intelligence (AI). Crafted by leading experts in the field, this book sets out to bridge the gap between theoretical understanding and practical application, presenting a comprehensive journey through the foundational principles, cutting-edge applications, and the potential impact of AI in the medical landscape. This book embarks on a journey from foundational principles to advanced applications, presenting a holistic perspective on the integration of AI into diverse aspects of medicine. With a clear aim to cater to both researchers and practitioners, the scope extends from fundamental AI techniques to their innovative applications in disease detection, prediction, and patient care. Distinguished by its practical orientation, each chapter presents actionable workflows, making theoretical concepts directly applicable to real-world medical scenarios. This unique approach sets the book apart, making it an invaluable resource for learners and practitioners alike. This book caters to researchers, practitioners, and students in medicine, computer science, and healthcare technology. With a focus on practical applications, this book is an essential guide for navigating the dynamic intersection of AI and medicine. Whether you are an expert or a newcomer to the field, this comprehensive volume provides a roadmap to the revolutionary impact of AI on the future of healthcare" --Provided by publisher.Call Number: eBookPublication Date: 2025
+- 
+    
+Artificial Humanities: A Fictional Perspective on Language in AI by Nina Begus Artificial Humanities explores how literature, history, and art can deepen our understanding of artificial intelligence and its development. By examining fictional representations of AI in parallel with actual technological developments, Nina Begus presents a novel interdisciplinary framework for understanding the cultural, philosophical, and ethical dimensions of AI. She traces connections from Eliza Doolittle to ELIZA the chatbot and current language models, incorporates Slavic fictional examples from the Pygmalion paradigm, and compares mid-century science fiction and recent Hollywood films with contemporary developments in social robotics and virtual beings. Highlighting the impact of human-like AI design, from gendered virtual assistants to romanticized social robots, the book shows how these technologies intersect with longstanding humanistic questions about the concepts of creativity and language as well as the relations between humans and machines. Additionally, the book explores AI's applications in medical fields, particularly psychiatry and neurotechnology, including how AI interacts with the human body and mind to address conditions like paralysis. By emphasizing the philosophical and cultural implications of these technologies, Begus highlights the need for responsible innovation that prioritizes human well-being as well as machine potential outside of human imitation. Accessible and thought-provoking, Artificial Humanities offers tools for analyzing and assessing technologies while they are being developed and invites readers to see how the humanities can guide us toward a more thoughtful future for AI.Call Number: eBookPublication Date: 2025
+- 
+    
+AI Snake Oil: What Artificial Intelligence Can Do, What It Can’t, and How to Tell the Difference by Arvind Narayanan; Sayash Kapoor From two of TIME's 100 Most Influential People in AI, what you need to know about AI--and how to defend yourself against bogus AI claims and products Confused about AI and worried about what it means for your future and the future of the world? You're not alone. AI is everywhere--and few things are surrounded by so much hype, misinformation, and misunderstanding. In AI Snake Oil, computer scientists Arvind Narayanan and Sayash Kapoor cut through the confusion to give you an essential understanding of how AI works and why it often doesn't, where it might be useful or harmful, and when you should suspect that companies are using AI hype to sell AI snake oil--products that don't work, and probably never will. While acknowledging the potential of some AI, such as ChatGPT, AI Snake Oil uncovers rampant misleading claims about the capabilities of AI and describes the serious harms AI is already causing in how it's being built, marketed, and used in areas such as education, medicine, hiring, banking, insurance, and criminal justice. The book explains the crucial differences between types of AI, why organizations are falling for AI snake oil, why AI can't fix social media, why AI isn't an existential risk, and why we should be far more worried about what people will do with AI than about anything AI will do on its own. The book also warns of the dangers of a world where AI continues to be controlled by largely unaccountable big tech companies. By revealing AI's limits and real risks, AI Snake Oil will help you make better decisions about whether and how to use AI at work and home.Call Number: eBookPublication Date: 2024
+- 
+    
+Blood in the Machine: The Origins of the Rebellion Against Big Tech by Brian Merchant "The most important book to read about the AI boom" (Wired); The "gripping" (New Yorker) true story of the first time machines came for human jobs--and how the Luddite uprising explains the power, threat, and toll of big tech and AI today. Named one of the best books of the year by The New Yorker, Wired, and the Financial Times. A Next Big Idea Book Club "Must-Read" The most urgent story in modern tech begins not in Silicon Valley but two hundred years ago in rural England, when workers known as the Luddites rose up rather than starve at the hands of factory owners who were using automated machines to erase their livelihoods. The Luddites organized guerrilla raids to smash those machines--on punishment of death--and won the support of Lord Byron, enraged the Prince Regent, and inspired the birth of science fiction. This all-but-forgotten class struggle brought nineteenth-century England to its knees. Today, technology imperils millions of jobs, robots are crowding factory floors, and artificial intelligence will soon pervade every aspect of our economy. How will this change the way we live? And what can we do about it? The answers lie in Blood in the Machine. Brian Merchant intertwines a lucid examination of our current age with the story of the Luddites, showing how automation changed our world--and is shaping our future.Call Number: HC254.5 .M47 2023 (General Collection)Publication Date: 2023
+- 
+    
+Code Dependent: Living in the Shadow of AI by Madhumita Murgia Shortlisted for the Women's Prize for Non-Fiction Named a best book of the year by Esquire, The Spectator and Publishers Weekly A riveting story of what it means to be human in a world changed by artificial intelligence, revealing the perils and inequities of our growing reliance on automated decision-making On the surface, a British poet, an UberEats courier in Pittsburgh, an Indian doctor, and a Chinese activist in exile have nothing in common. But they are in fact linked by a profound common experience--unexpected encounters with artificial intelligence. In Code Dependent, Murgia shows how automated systems are reshaping our lives all over the world, from technology that marks children as future criminals, to an app that is helping to give diagnoses to a remote tribal community. AI has already infiltrated our day-to-day, through language-generating chatbots like ChatGPT and social media. But it's also affecting us in more insidious ways. It touches everything from our interpersonal relationships, to our kids' education, work, finances, public services, and even our human rights. By highlighting the voices of ordinary people in places far removed from the cozy enclave of Silicon Valley, Code Dependent explores the impact of a set of powerful, flawed, and often-exploitative technologies on individuals, communities, and our wider society. Murgia exposes how AI can strip away our collective and individual sense of agency, and shatter our illusion of free will. The ways in which algorithms and their effects are governed over the coming years will profoundly impact us all. Yet we can't agree on a common path forward. We cannot decide what preferences and morals we want to encode in these entities--or what controls we may want to impose on them. And thus, we are collectively relinquishing our moral authority to machines. In Code Dependent, Murgia not only sheds light on this chilling phenomenon, but also charts a path of resistance. AI is already changing what it means to be human, in ways large and small, and Murgia reveals what could happen if we fail to reclaim our humanity.Call Number: Q335 .M875 2024 (General Collection)Publication Date: 2024
+- 
+    
+The Digital Delusion: How Classroom Technology Harms our Kids' Learning--and How to Help Them Thrive Again by Jared Horvath Our children are struggling. Schools, once alive with deep learning born of human connection, are now dominated by screens. The result is unmistakable: falling performance, fractured attention, and the slow erosion of rigorous thought. We were told that classroom technology was progress. It wasn't. In THE DIGITAL DELUSION, neuroscientist and educator Dr. Jared Cooney Horvath reveals why digital tools in school consistently undermine learning -- and what parents, teachers, and schools can do to push back with purpose. Drawing on decades of neuroscience and education research, Horvath dismantles the core myths driving the EdTech movement, and offers a practical playbook for putting people -- not programs -- back at the center of education. This is not a call to reject technology. It's a call to reclaim real learning.Call Number: LB1028.3 .H77 2026 (General Collection)Publication Date: 2025
+- 
+    
+The AI Con: How to Fight Big Tech's Hype and Create the Future we Want by Emily M. Bender & Alex HannaCall Number: Q335 .B46 2025 (General Collection)Publication Date: 2025
+Artificial Intelligence (AI), a term introduced by the esteemed Stanford Professor John McCarthy in 1955, was originally described as "the science and engineering of making intelligent machines." Initially, AI research centered on programming machines to demonstrate certain behaviors, like playing games. However, the current focus is on crafting machines with the capacity to learn, resembling aspects of human learning processes.
+~ Andresen, S. L. (2002). John McCarthy: father of AI. IEEE Intelligent Systems, 17(5), 84-85.
+Generative AI refers to deep-learning models that can take raw data -- say, all of Wikipedia... -- and "learn" to generate statistically probably outputs when prompted.
+~ https://research.ibm.com/blog/what-is-generative-AI
+|  | Availability | Aproved For | Approved Data Protection Levels | Cost | Data Models | Data Sources | 
+|---|---|---|---|---|---|---|
+| Microsoft Copilot | Available Now | Faculty, Staff, & Students | P4 | Included in campus contract | Multiple, Undisclosed | Web | 
+| Copilot for Microsoft 365 | Available Now | Faculty & Staff | P4 | $360 Annually | Multiple, Undisclosed | Any data you keep in Microsoft Products | 
+| ChatGPT EDU | Available upon Request with a license (not free) | Faculty & Staff | P4 | Approx. $360 annually with a COA | GPT-4.0 | Web | 
+| Zoom AI Companion | Available Now | Faculty, Staff, & Students | P2 | Included in campus contract | Zoom LLM, Meta Llama 2, OpenAI, Anthropic | Any data you keep in Zoom | 
+| Canva Magic Studio | Available Now | Faculty, Staff, & Students | P2 | Included with paid license | GPT-4.0 | Web | 
+This table is accurate as of Feb 2026, check the link below for updates:
+- 
+    
+NY Times Topics: Artificial Intelligence This link opens in a new windowFollow this link for the latest news about AI from the New York Times. Use your academic pass through the Library to gain access to the news site.
+This guide has a Creative Commons Attribution ShareAlike (CC BY-SA) License. It is based on Artificial Intelligence (AI) LibGuide by Jing Lu at Purdue University Libraries, under that same license. This license lets others remix, tweak, and build upon your work for non-commercial purposes, as long as they credit you and license their new creations under the identical terms. If you would like to reuse any part of this LibGuide for noncommercial educational or instructional purposes, please contact (library@ucmerced.edu) and credit the guide's creator, or the original content creator as noted, and include a link to the source.
+- Last Updated: Jul 6, 2026 3:48 PM
+- URL: https://libguides.ucmerced.edu/artificial-intelligence
+- Print Page
+Copyright @ The Regents of the University of California. All rights reserved.
+Except where otherwise noted, this work is subject to the Creative Commons Attribution-Noncommercial 4.0 License.
+
+A topical overview of AI in research and education
+            
+        - 
+    
+ACM Policy on Authorship This link opens in a new window"Generative AI tools and technologies, such as ChatGPT, may not be listed as authors of an ACM published Work. The use of generative AI tools and technologies to create content is permitted but must be fully disclosed in the Work."
+- 
+    
+Elsevier AI Author Policy This link opens in a new window“Authors are allowed to use generative AI and AI-assisted technologies in the writing process before submission, but only to improve the language and readability of their paper and with the appropriate disclosure, as per our instructions in Elsevier’s Guide for Authors(opens in new tab/window).”
+- 
+    
+Emerald Publishing’s Stance on AI Tools and Authorship This link opens in a new window"Firstly, because these tools cannot take accountability for such work, AI tools/large language models cannot be credited with authorship of any Emerald publication. Secondly, any use of AI tools within the development of an Emerald publication must be flagged by the author(s) within the paper, chapter or case study."
+- 
+    
+IEEE Submission Policies This link opens in a new window“The use of content generated by artificial intelligence (AI) in a paper (including but not limited to text, figures, images, and code) shall be disclosed in the acknowledgments section of any paper submitted to an IEEE publication.”
+- 
+    
+Nature Statement on Authorship and AI This link opens in a new window“Large Language Models (LLMs), such as ChatGPT, do not currently satisfy our authorship criteria. Notably an attribution of authorship carries with it accountability for the work, which cannot be effectively applied to LLMs. Use of an LLM should be properly documented in the Methods section (and if a Methods section is not available, in a suitable alternative part) of the manuscript.”
+- 
+    
+Oxford Academic - Instructions to Authors This link opens in a new window"Natural language processing tools driven by artificial intelligence (AI) do not qualify as authors, and the Journal will screen for them in author lists. The use of AI (for example, to help generate content, write code, or process data) should be disclosed both in cover letters to editors and in the Methods or Acknowledgements section of manuscripts."
+- 
+    
+PLOS - Ethical Publishing Practice This link opens in a new window"Contributions by artificial intelligence (AI) tools and technologies to a study or to an article’s contents must be clearly reported in a dedicated section of the Methods, or in the Acknowledgements section for article types lacking a Methods section."
+- 
+    
+Sage - Using AI in Peer Review and Publishing This link opens in a new window"The currently available language models are not fully objective or factual. Authors using generative AI to write their research must make every effort to ensure that the output is factually correct, and the references provided reflect the claims made."
+- 
+    
+Taylor & Francis Editorial Policies - defining authorship in your research paper This link opens in a new window"Authors must be aware that using AI-based tools and technologies for article content generation, e.g. large language models (LLMs), generative AI, and chatbots (e.g. ChatGPT), is not in line with our authorship criteria. Where AI tools are used in content generation, they must be acknowledged and documented appropriately in the authored work."
+- 
+    
+Wiley - Best Practice Guidelines on Research Integrity and Publishing Ethics This link opens in a new window"The final decision about whether use of an AIGC tool is appropriate or permissible in the circumstances of a submitted manuscript or a published article lies with the journal’s editor or other party responsible for the publication’s editorial policy."
+- Last Updated: Jul 6, 2026 3:48 PM
+- URL: https://libguides.ucmerced.edu/artificial-intelligence
+- Print Page
+Copyright @ The Regents of the University of California. All rights reserved.
+Except where otherwise noted, this work is subject to the Creative Commons Attribution-Noncommercial 4.0 License.
+
+A topical overview of AI in research and education
+            
+        - 
+    
+aiEDU: The AI Education Project This link opens in a new window"aiEDU is a non-profit that creates equitable learning experiences that build foundational AI literacy."
+- 
+    
+AI4K12 Initiative This link opens in a new window"The initiative is developing (1) national guidelines for AI education for K-12, (2) an online, curated resource Directory to facilitate AI instruction, and (3) a community of practitioners, researchers, resource and tool developers focused on the AI for K-12 audience. Check out the following information to learn about this initiative."
+- 
+    
+DAILy Workshop for Middle School Students (MIT Media Lab) This link opens in a new window"The Daily-AI workshop, designed by MIT educators and experienced facilitators, features hands-on and computer-based activities on AI concepts, ethical issues in AI, creative expression using AI, and how AI relates to your future."
+- 
+    
+Day of AI Curriculum This link opens in a new window“Developed by leading faculty and educators from MIT RAISE (Responsible AI for Social Empowerment and Education), each curriculum features four hours on average of hands-on activities that engage kids in creative discovery, discussion, and critical thinking as they learn the fundamentals of AI.”
+- 
+    
+Google AI Experiments This link opens in a new windowGoogle's home for the latest AI tools. These interactive tools have been designed to be effortlessly demonstrated in classrooms, offering an engaging and user-friendly experience. Through the seamless integration of AI technology, students can engage in learning by actively engaging with these tools, turning education into an enjoyable and hands-on experience.
+- 
+    
+Hands-on AI Projects for Elementary Teachers (PDF) This link opens in a new windowA comprehensive, step-by-step instructional guide curated by the International Society for Technology in Education (ISTE), specifically tailored for elementary teachers aiming to introduce AI concepts to their students.
+- 
+    
+Hands-on AI Projects for Secondary Teachers (PDF) This link opens in a new windowA comprehensive, step-by-step instructional guide curated by the International Society for Technology in Education (ISTE), specifically tailored for secondary teachers.
+- Last Updated: Jul 6, 2026 3:48 PM
+- URL: https://libguides.ucmerced.edu/artificial-intelligence
+- Print Page
+Copyright @ The Regents of the University of California. All rights reserved.
+Except where otherwise noted, this work is subject to the Creative Commons Attribution-Noncommercial 4.0 License.
+
+A topical overview of AI in research and education
+            
+        
+                Bronwen Maxson Strubbe
+            
+        
+            
+    
+    
+        She/her/ella
+    
+    
+    
+                    Contact: 5200 North Lake Road, KL 275
+Merced, CA 95343
+bmaxson@ucmerced.edu
+Hablo español
+    Merced, CA 95343
+bmaxson@ucmerced.edu
+Hablo español
+209-756-7423
+            - 
+    
+Teaching with AI: A Practical Guide to A New Era of Human Learning by José Antonio Bowen; C. Edward Watson How AI is revolutionizing the future of learning and how educators can adapt to this new era of human thinking. Artificial Intelligence (AI) is revolutionizing the way we learn, work, and think. Its integration into classrooms and workplaces is already underway, impacting and challenging ideas about creativity, authorship, and education. In this groundbreaking and practical guide, teachers will discover how to harness and manage AI as a powerful teaching tool. José Antonio Bowen and C. Edward Watson present emerging and powerful research on the seismic changes AI is already creating in schools and the workplace, providing invaluable insights into what AI can accomplish in the classroom and beyond. By learning how to use new AI tools and resources, educators will gain the confidence to navigate the challenges and seize the opportunities presented by AI. From interactive learning techniques to advanced assignment and assessment strategies, this comprehensive guide offers practical suggestions for integrating AI effectively into teaching and learning environments. Bowen and Watson tackle crucial questions related to academic integrity, cheating, and other emerging issues. In the age of AI, critical thinking skills, information literacy, and a liberal arts education are more important than ever. As AI continues to reshape the nature of work and human thinking, educators can equip students with the skills they need to thrive in a rapidly evolving world. This book serves as a compass, guiding educators through the uncharted territory of AI-powered education and the future of teaching and learning.Call Number: eBookPublication Date: 2024
+- 
+    
+Artificial Intelligence Basics by N. Gupta; R. Mangla "Designed as a self-teaching introduction to the fundamental concepts of artificial intelligence, the book begins with its history, the Turing test, and early applications. Later chapters cover the basics of searching, game playing, and knowledge representation. Expert systems and machine learning are covered in detail, followed by separate programming chapters on Prolog and Python. The concluding chapter on artificial intelligence machines and robotics is comprehensive with numerous modern applications."--The publisherCall Number: eBookPublication Date: 2020
+- 
+    
+The Opposite of Cheating: Teaching for Integrity in the Age of AI by Tricia Bertram Gallant; David A. Rettinger In these days of an ever-expanding internet, generative AI, and term paper mills, students may find it too easy and tempting to cheat, and teachers may think they can't keep up. What's needed, and what Tricia Bertram Gallant and David A. Rettinger offer in this timely book, is a new approach--one that works with the realities of the twenty-first century, not just to protect academic integrity but also to maximize opportunities for students to learn. The Opposite of Cheating presents a positive, forward-looking, research-backed vision for what classroom integrity can look like in the GenAI era, both in cyberspace and on campus. Accordingly, the book outlines workable measures teachers can use to better understand why students cheat and to prevent cheating while aiming to enhance learning and integrity. Bertram Gallant and Rettinger provide practical suggestions to help faculty revise the conversation around integrity, refocus classes and students on learning, reconsider the structure and goals of assessment, and generally reframe our response to cheating. At the core of this strategy is a call for teachers, academic staff, institutional leaders, and administrators to rethink how we "show up" for students, and to reinforce and fully support quality teaching, learning, and assessment. With its evidentiary basis and its useful tips for instructors across disciplines, levels of experience, and modes of instruction, this book offers a much-needed chance to pause, rethink our purpose, and refocus on what matters--creating classes that center human interactions that foster the personal and professional growth of our students.  Call Number: [Request via ILL]Publication Date: 2025
+- 
+    
+Artificial Intelligence in Medicine by Stephan, Thompson, editor "In the ever-evolving realm of healthcare, 'Artificial Intelligence in Medicine' emerges as a trailblazing guide, offering an exhaustive exploration of the transformative power of Artificial Intelligence (AI). Crafted by leading experts in the field, this book sets out to bridge the gap between theoretical understanding and practical application, presenting a comprehensive journey through the foundational principles, cutting-edge applications, and the potential impact of AI in the medical landscape. This book embarks on a journey from foundational principles to advanced applications, presenting a holistic perspective on the integration of AI into diverse aspects of medicine. With a clear aim to cater to both researchers and practitioners, the scope extends from fundamental AI techniques to their innovative applications in disease detection, prediction, and patient care. Distinguished by its practical orientation, each chapter presents actionable workflows, making theoretical concepts directly applicable to real-world medical scenarios. This unique approach sets the book apart, making it an invaluable resource for learners and practitioners alike. This book caters to researchers, practitioners, and students in medicine, computer science, and healthcare technology. With a focus on practical applications, this book is an essential guide for navigating the dynamic intersection of AI and medicine. Whether you are an expert or a newcomer to the field, this comprehensive volume provides a roadmap to the revolutionary impact of AI on the future of healthcare" --Provided by publisher.Call Number: eBookPublication Date: 2025
+- 
+    
+Artificial Humanities: A Fictional Perspective on Language in AI by Nina Begus Artificial Humanities explores how literature, history, and art can deepen our understanding of artificial intelligence and its development. By examining fictional representations of AI in parallel with actual technological developments, Nina Begus presents a novel interdisciplinary framework for understanding the cultural, philosophical, and ethical dimensions of AI. She traces connections from Eliza Doolittle to ELIZA the chatbot and current language models, incorporates Slavic fictional examples from the Pygmalion paradigm, and compares mid-century science fiction and recent Hollywood films with contemporary developments in social robotics and virtual beings. Highlighting the impact of human-like AI design, from gendered virtual assistants to romanticized social robots, the book shows how these technologies intersect with longstanding humanistic questions about the concepts of creativity and language as well as the relations between humans and machines. Additionally, the book explores AI's applications in medical fields, particularly psychiatry and neurotechnology, including how AI interacts with the human body and mind to address conditions like paralysis. By emphasizing the philosophical and cultural implications of these technologies, Begus highlights the need for responsible innovation that prioritizes human well-being as well as machine potential outside of human imitation. Accessible and thought-provoking, Artificial Humanities offers tools for analyzing and assessing technologies while they are being developed and invites readers to see how the humanities can guide us toward a more thoughtful future for AI.Call Number: eBookPublication Date: 2025
+- 
+    
+AI Snake Oil: What Artificial Intelligence Can Do, What It Can’t, and How to Tell the Difference by Arvind Narayanan; Sayash Kapoor From two of TIME's 100 Most Influential People in AI, what you need to know about AI--and how to defend yourself against bogus AI claims and products Confused about AI and worried about what it means for your future and the future of the world? You're not alone. AI is everywhere--and few things are surrounded by so much hype, misinformation, and misunderstanding. In AI Snake Oil, computer scientists Arvind Narayanan and Sayash Kapoor cut through the confusion to give you an essential understanding of how AI works and why it often doesn't, where it might be useful or harmful, and when you should suspect that companies are using AI hype to sell AI snake oil--products that don't work, and probably never will. While acknowledging the potential of some AI, such as ChatGPT, AI Snake Oil uncovers rampant misleading claims about the capabilities of AI and describes the serious harms AI is already causing in how it's being built, marketed, and used in areas such as education, medicine, hiring, banking, insurance, and criminal justice. The book explains the crucial differences between types of AI, why organizations are falling for AI snake oil, why AI can't fix social media, why AI isn't an existential risk, and why we should be far more worried about what people will do with AI than about anything AI will do on its own. The book also warns of the dangers of a world where AI continues to be controlled by largely unaccountable big tech companies. By revealing AI's limits and real risks, AI Snake Oil will help you make better decisions about whether and how to use AI at work and home.Call Number: eBookPublication Date: 2024
+- 
+    
+Blood in the Machine: The Origins of the Rebellion Against Big Tech by Brian Merchant "The most important book to read about the AI boom" (Wired); The "gripping" (New Yorker) true story of the first time machines came for human jobs--and how the Luddite uprising explains the power, threat, and toll of big tech and AI today. Named one of the best books of the year by The New Yorker, Wired, and the Financial Times. A Next Big Idea Book Club "Must-Read" The most urgent story in modern tech begins not in Silicon Valley but two hundred years ago in rural England, when workers known as the Luddites rose up rather than starve at the hands of factory owners who were using automated machines to erase their livelihoods. The Luddites organized guerrilla raids to smash those machines--on punishment of death--and won the support of Lord Byron, enraged the Prince Regent, and inspired the birth of science fiction. This all-but-forgotten class struggle brought nineteenth-century England to its knees. Today, technology imperils millions of jobs, robots are crowding factory floors, and artificial intelligence will soon pervade every aspect of our economy. How will this change the way we live? And what can we do about it? The answers lie in Blood in the Machine. Brian Merchant intertwines a lucid examination of our current age with the story of the Luddites, showing how automation changed our world--and is shaping our future.Call Number: HC254.5 .M47 2023 (General Collection)Publication Date: 2023
+- 
+    
+Code Dependent: Living in the Shadow of AI by Madhumita Murgia Shortlisted for the Women's Prize for Non-Fiction Named a best book of the year by Esquire, The Spectator and Publishers Weekly A riveting story of what it means to be human in a world changed by artificial intelligence, revealing the perils and inequities of our growing reliance on automated decision-making On the surface, a British poet, an UberEats courier in Pittsburgh, an Indian doctor, and a Chinese activist in exile have nothing in common. But they are in fact linked by a profound common experience--unexpected encounters with artificial intelligence. In Code Dependent, Murgia shows how automated systems are reshaping our lives all over the world, from technology that marks children as future criminals, to an app that is helping to give diagnoses to a remote tribal community. AI has already infiltrated our day-to-day, through language-generating chatbots like ChatGPT and social media. But it's also affecting us in more insidious ways. It touches everything from our interpersonal relationships, to our kids' education, work, finances, public services, and even our human rights. By highlighting the voices of ordinary people in places far removed from the cozy enclave of Silicon Valley, Code Dependent explores the impact of a set of powerful, flawed, and often-exploitative technologies on individuals, communities, and our wider society. Murgia exposes how AI can strip away our collective and individual sense of agency, and shatter our illusion of free will. The ways in which algorithms and their effects are governed over the coming years will profoundly impact us all. Yet we can't agree on a common path forward. We cannot decide what preferences and morals we want to encode in these entities--or what controls we may want to impose on them. And thus, we are collectively relinquishing our moral authority to machines. In Code Dependent, Murgia not only sheds light on this chilling phenomenon, but also charts a path of resistance. AI is already changing what it means to be human, in ways large and small, and Murgia reveals what could happen if we fail to reclaim our humanity.Call Number: Q335 .M875 2024 (General Collection)Publication Date: 2024
+- 
+    
+The Digital Delusion: How Classroom Technology Harms our Kids' Learning--and How to Help Them Thrive Again by Jared Horvath Our children are struggling. Schools, once alive with deep learning born of human connection, are now dominated by screens. The result is unmistakable: falling performance, fractured attention, and the slow erosion of rigorous thought. We were told that classroom technology was progress. It wasn't. In THE DIGITAL DELUSION, neuroscientist and educator Dr. Jared Cooney Horvath reveals why digital tools in school consistently undermine learning -- and what parents, teachers, and schools can do to push back with purpose. Drawing on decades of neuroscience and education research, Horvath dismantles the core myths driving the EdTech movement, and offers a practical playbook for putting people -- not programs -- back at the center of education. This is not a call to reject technology. It's a call to reclaim real learning.Call Number: LB1028.3 .H77 2026 (General Collection)Publication Date: 2025
+- 
+    
+The AI Con: How to Fight Big Tech's Hype and Create the Future we Want by Emily M. Bender & Alex HannaCall Number: Q335 .B46 2025 (General Collection)Publication Date: 2025
+Artificial Intelligence (AI), a term introduced by the esteemed Stanford Professor John McCarthy in 1955, was originally described as "the science and engineering of making intelligent machines." Initially, AI research centered on programming machines to demonstrate certain behaviors, like playing games. However, the current focus is on crafting machines with the capacity to learn, resembling aspects of human learning processes.
+~ Andresen, S. L. (2002). John McCarthy: father of AI. IEEE Intelligent Systems, 17(5), 84-85.
+Generative AI refers to deep-learning models that can take raw data -- say, all of Wikipedia... -- and "learn" to generate statistically probably outputs when prompted.
+~ https://research.ibm.com/blog/what-is-generative-AI
+|  | Availability | Aproved For | Approved Data Protection Levels | Cost | Data Models | Data Sources | 
+|---|---|---|---|---|---|---|
+| Microsoft Copilot | Available Now | Faculty, Staff, & Students | P4 | Included in campus contract | Multiple, Undisclosed | Web | 
+| Copilot for Microsoft 365 | Available Now | Faculty & Staff | P4 | $360 Annually | Multiple, Undisclosed | Any data you keep in Microsoft Products | 
+| ChatGPT EDU | Available upon Request with a license (not free) | Faculty & Staff | P4 | Approx. $360 annually with a COA | GPT-4.0 | Web | 
+| Zoom AI Companion | Available Now | Faculty, Staff, & Students | P2 | Included in campus contract | Zoom LLM, Meta Llama 2, OpenAI, Anthropic | Any data you keep in Zoom | 
+| Canva Magic Studio | Available Now | Faculty, Staff, & Students | P2 | Included with paid license | GPT-4.0 | Web | 
+This table is accurate as of Feb 2026, check the link below for updates:
+- 
+    
+NY Times Topics: Artificial Intelligence This link opens in a new windowFollow this link for the latest news about AI from the New York Times. Use your academic pass through the Library to gain access to the news site.
+This guide has a Creative Commons Attribution ShareAlike (CC BY-SA) License. It is based on Artificial Intelligence (AI) LibGuide by Jing Lu at Purdue University Libraries, under that same license. This license lets others remix, tweak, and build upon your work for non-commercial purposes, as long as they credit you and license their new creations under the identical terms. If you would like to reuse any part of this LibGuide for noncommercial educational or instructional purposes, please contact (library@ucmerced.edu) and credit the guide's creator, or the original content creator as noted, and include a link to the source.
+- Last Updated: Jul 6, 2026 3:48 PM
+- URL: https://libguides.ucmerced.edu/artificial-intelligence
+- Print Page
+Copyright @ The Regents of the University of California. All rights reserved.
+Except where otherwise noted, this work is subject to the Creative Commons Attribution-Noncommercial 4.0 License.
+
+| Feature | Copilot | Perplexity | ChatGPT | Claude | 
+|---|---|---|---|---|
+| Base Technology | GPT-4 with Bing integration | Mixture of expert models | OpenAI's GPT models (GPT-4o, GPT-4o mini) | Claude Sonnet 4.6, a LLM reasoning model | 
+| Information Accuracy | Real-time but can be inaccurate | Excels in accuracy, real-time | Depends on pre-trained knowledge, limited web access | Depends on pre-trained knowledge | 
+| Interaction Style | Creative, balanced, precise styles | Structured responses | Natural conversations | Conversational, thoughtful, helpful | 
+| Specialized Features | • DALL-E 3 integration • Microsoft ecosystem integration | • Advanced article summarization • Various writing modes | • Custom instructions • Web browsing (paid) • Image generation | • Create and work with artifacts for code, documents, and visualizations (charts) • Assist with complex reasoning tasks • Work across multiple languages • Generate creative content (not images) • Provide thoughtful responses to philosophical questions | 
+| Limitations | • 5 responses per conversation • 4000 characters per prompt | Lacks image generation capability | Free version has knowledge cut-off | • Free version has knowledge cut-off • Cannot run code outside of specific sandbox environments • Restrictions around certain harmful content • Cannot generate images based on text | 
+| Price | Free to UC Merced users $30/month for Microsoft 365 Copilot $20/month for Copilot Pro | Free plan available Professional plan: $20/month | Free plan available Plus: $20/month  | Free plan available $20 pro plan; Max plans have tiered pricing | 
+| Best For | General-purpose AI with web search | Research and information retrieval Also works for news and financial updates | Versatile conversations and content generation | Thoughtful humanistic conversations | 
+Haiku 4.5 is for quick responses: Opus 4.8 is $17/month for complex tasks.
+Copyright @ The Regents of the University of California. All rights reserved.
+
+A topical overview of AI in research and education
+            
+        - 
+    
+Teaching with AI: A Practical Guide to A New Era of Human Learning by José Antonio Bowen; C. Edward Watson How AI is revolutionizing the future of learning and how educators can adapt to this new era of human thinking. Artificial Intelligence (AI) is revolutionizing the way we learn, work, and think. Its integration into classrooms and workplaces is already underway, impacting and challenging ideas about creativity, authorship, and education. In this groundbreaking and practical guide, teachers will discover how to harness and manage AI as a powerful teaching tool. José Antonio Bowen and C. Edward Watson present emerging and powerful research on the seismic changes AI is already creating in schools and the workplace, providing invaluable insights into what AI can accomplish in the classroom and beyond. By learning how to use new AI tools and resources, educators will gain the confidence to navigate the challenges and seize the opportunities presented by AI. From interactive learning techniques to advanced assignment and assessment strategies, this comprehensive guide offers practical suggestions for integrating AI effectively into teaching and learning environments. Bowen and Watson tackle crucial questions related to academic integrity, cheating, and other emerging issues. In the age of AI, critical thinking skills, information literacy, and a liberal arts education are more important than ever. As AI continues to reshape the nature of work and human thinking, educators can equip students with the skills they need to thrive in a rapidly evolving world. This book serves as a compass, guiding educators through the uncharted territory of AI-powered education and the future of teaching and learning.Call Number: eBookPublication Date: 2024
+- 
+    
+Artificial Intelligence Basics by N. Gupta; R. Mangla "Designed as a self-teaching introduction to the fundamental concepts of artificial intelligence, the book begins with its history, the Turing test, and early applications. Later chapters cover the basics of searching, game playing, and knowledge representation. Expert systems and machine learning are covered in detail, followed by separate programming chapters on Prolog and Python. The concluding chapter on artificial intelligence machines and robotics is comprehensive with numerous modern applications."--The publisherCall Number: eBookPublication Date: 2020
+- 
+    
+The Opposite of Cheating: Teaching for Integrity in the Age of AI by Tricia Bertram Gallant; David A. Rettinger In these days of an ever-expanding internet, generative AI, and term paper mills, students may find it too easy and tempting to cheat, and teachers may think they can't keep up. What's needed, and what Tricia Bertram Gallant and David A. Rettinger offer in this timely book, is a new approach--one that works with the realities of the twenty-first century, not just to protect academic integrity but also to maximize opportunities for students to learn. The Opposite of Cheating presents a positive, forward-looking, research-backed vision for what classroom integrity can look like in the GenAI era, both in cyberspace and on campus. Accordingly, the book outlines workable measures teachers can use to better understand why students cheat and to prevent cheating while aiming to enhance learning and integrity. Bertram Gallant and Rettinger provide practical suggestions to help faculty revise the conversation around integrity, refocus classes and students on learning, reconsider the structure and goals of assessment, and generally reframe our response to cheating. At the core of this strategy is a call for teachers, academic staff, institutional leaders, and administrators to rethink how we "show up" for students, and to reinforce and fully support quality teaching, learning, and assessment. With its evidentiary basis and its useful tips for instructors across disciplines, levels of experience, and modes of instruction, this book offers a much-needed chance to pause, rethink our purpose, and refocus on what matters--creating classes that center human interactions that foster the personal and professional growth of our students.  Call Number: [Request via ILL]Publication Date: 2025
+- 
+    
+Artificial Intelligence in Medicine by Stephan, Thompson, editor "In the ever-evolving realm of healthcare, 'Artificial Intelligence in Medicine' emerges as a trailblazing guide, offering an exhaustive exploration of the transformative power of Artificial Intelligence (AI). Crafted by leading experts in the field, this book sets out to bridge the gap between theoretical understanding and practical application, presenting a comprehensive journey through the foundational principles, cutting-edge applications, and the potential impact of AI in the medical landscape. This book embarks on a journey from foundational principles to advanced applications, presenting a holistic perspective on the integration of AI into diverse aspects of medicine. With a clear aim to cater to both researchers and practitioners, the scope extends from fundamental AI techniques to their innovative applications in disease detection, prediction, and patient care. Distinguished by its practical orientation, each chapter presents actionable workflows, making theoretical concepts directly applicable to real-world medical scenarios. This unique approach sets the book apart, making it an invaluable resource for learners and practitioners alike. This book caters to researchers, practitioners, and students in medicine, computer science, and healthcare technology. With a focus on practical applications, this book is an essential guide for navigating the dynamic intersection of AI and medicine. Whether you are an expert or a newcomer to the field, this comprehensive volume provides a roadmap to the revolutionary impact of AI on the future of healthcare" --Provided by publisher.Call Number: eBookPublication Date: 2025
+- 
+    
+Artificial Humanities: A Fictional Perspective on Language in AI by Nina Begus Artificial Humanities explores how literature, history, and art can deepen our understanding of artificial intelligence and its development. By examining fictional representations of AI in parallel with actual technological developments, Nina Begus presents a novel interdisciplinary framework for understanding the cultural, philosophical, and ethical dimensions of AI. She traces connections from Eliza Doolittle to ELIZA the chatbot and current language models, incorporates Slavic fictional examples from the Pygmalion paradigm, and compares mid-century science fiction and recent Hollywood films with contemporary developments in social robotics and virtual beings. Highlighting the impact of human-like AI design, from gendered virtual assistants to romanticized social robots, the book shows how these technologies intersect with longstanding humanistic questions about the concepts of creativity and language as well as the relations between humans and machines. Additionally, the book explores AI's applications in medical fields, particularly psychiatry and neurotechnology, including how AI interacts with the human body and mind to address conditions like paralysis. By emphasizing the philosophical and cultural implications of these technologies, Begus highlights the need for responsible innovation that prioritizes human well-being as well as machine potential outside of human imitation. Accessible and thought-provoking, Artificial Humanities offers tools for analyzing and assessing technologies while they are being developed and invites readers to see how the humanities can guide us toward a more thoughtful future for AI.Call Number: eBookPublication Date: 2025
+- 
+    
+AI Snake Oil: What Artificial Intelligence Can Do, What It Can’t, and How to Tell the Difference by Arvind Narayanan; Sayash Kapoor From two of TIME's 100 Most Influential People in AI, what you need to know about AI--and how to defend yourself against bogus AI claims and products Confused about AI and worried about what it means for your future and the future of the world? You're not alone. AI is everywhere--and few things are surrounded by so much hype, misinformation, and misunderstanding. In AI Snake Oil, computer scientists Arvind Narayanan and Sayash Kapoor cut through the confusion to give you an essential understanding of how AI works and why it often doesn't, where it might be useful or harmful, and when you should suspect that companies are using AI hype to sell AI snake oil--products that don't work, and probably never will. While acknowledging the potential of some AI, such as ChatGPT, AI Snake Oil uncovers rampant misleading claims about the capabilities of AI and describes the serious harms AI is already causing in how it's being built, marketed, and used in areas such as education, medicine, hiring, banking, insurance, and criminal justice. The book explains the crucial differences between types of AI, why organizations are falling for AI snake oil, why AI can't fix social media, why AI isn't an existential risk, and why we should be far more worried about what people will do with AI than about anything AI will do on its own. The book also warns of the dangers of a world where AI continues to be controlled by largely unaccountable big tech companies. By revealing AI's limits and real risks, AI Snake Oil will help you make better decisions about whether and how to use AI at work and home.Call Number: eBookPublication Date: 2024
+- 
+    
+Blood in the Machine: The Origins of the Rebellion Against Big Tech by Brian Merchant "The most important book to read about the AI boom" (Wired); The "gripping" (New Yorker) true story of the first time machines came for human jobs--and how the Luddite uprising explains the power, threat, and toll of big tech and AI today. Named one of the best books of the year by The New Yorker, Wired, and the Financial Times. A Next Big Idea Book Club "Must-Read" The most urgent story in modern tech begins not in Silicon Valley but two hundred years ago in rural England, when workers known as the Luddites rose up rather than starve at the hands of factory owners who were using automated machines to erase their livelihoods. The Luddites organized guerrilla raids to smash those machines--on punishment of death--and won the support of Lord Byron, enraged the Prince Regent, and inspired the birth of science fiction. This all-but-forgotten class struggle brought nineteenth-century England to its knees. Today, technology imperils millions of jobs, robots are crowding factory floors, and artificial intelligence will soon pervade every aspect of our economy. How will this change the way we live? And what can we do about it? The answers lie in Blood in the Machine. Brian Merchant intertwines a lucid examination of our current age with the story of the Luddites, showing how automation changed our world--and is shaping our future.Call Number: HC254.5 .M47 2023 (General Collection)Publication Date: 2023
+- 
+    
+Code Dependent: Living in the Shadow of AI by Madhumita Murgia Shortlisted for the Women's Prize for Non-Fiction Named a best book of the year by Esquire, The Spectator and Publishers Weekly A riveting story of what it means to be human in a world changed by artificial intelligence, revealing the perils and inequities of our growing reliance on automated decision-making On the surface, a British poet, an UberEats courier in Pittsburgh, an Indian doctor, and a Chinese activist in exile have nothing in common. But they are in fact linked by a profound common experience--unexpected encounters with artificial intelligence. In Code Dependent, Murgia shows how automated systems are reshaping our lives all over the world, from technology that marks children as future criminals, to an app that is helping to give diagnoses to a remote tribal community. AI has already infiltrated our day-to-day, through language-generating chatbots like ChatGPT and social media. But it's also affecting us in more insidious ways. It touches everything from our interpersonal relationships, to our kids' education, work, finances, public services, and even our human rights. By highlighting the voices of ordinary people in places far removed from the cozy enclave of Silicon Valley, Code Dependent explores the impact of a set of powerful, flawed, and often-exploitative technologies on individuals, communities, and our wider society. Murgia exposes how AI can strip away our collective and individual sense of agency, and shatter our illusion of free will. The ways in which algorithms and their effects are governed over the coming years will profoundly impact us all. Yet we can't agree on a common path forward. We cannot decide what preferences and morals we want to encode in these entities--or what controls we may want to impose on them. And thus, we are collectively relinquishing our moral authority to machines. In Code Dependent, Murgia not only sheds light on this chilling phenomenon, but also charts a path of resistance. AI is already changing what it means to be human, in ways large and small, and Murgia reveals what could happen if we fail to reclaim our humanity.Call Number: Q335 .M875 2024 (General Collection)Publication Date: 2024
+- 
+    
+The Digital Delusion: How Classroom Technology Harms our Kids' Learning--and How to Help Them Thrive Again by Jared Horvath Our children are struggling. Schools, once alive with deep learning born of human connection, are now dominated by screens. The result is unmistakable: falling performance, fractured attention, and the slow erosion of rigorous thought. We were told that classroom technology was progress. It wasn't. In THE DIGITAL DELUSION, neuroscientist and educator Dr. Jared Cooney Horvath reveals why digital tools in school consistently undermine learning -- and what parents, teachers, and schools can do to push back with purpose. Drawing on decades of neuroscience and education research, Horvath dismantles the core myths driving the EdTech movement, and offers a practical playbook for putting people -- not programs -- back at the center of education. This is not a call to reject technology. It's a call to reclaim real learning.Call Number: LB1028.3 .H77 2026 (General Collection)Publication Date: 2025
+- 
+    
+The AI Con: How to Fight Big Tech's Hype and Create the Future we Want by Emily M. Bender & Alex HannaCall Number: Q335 .B46 2025 (General Collection)Publication Date: 2025
+- Last Updated: Jul 6, 2026 3:48 PM
+- URL: https://libguides.ucmerced.edu/artificial-intelligence
+- Print Page
+Copyright @ The Regents of the University of California. All rights reserved.
+Except where otherwise noted, this work is subject to the Creative Commons Attribution-Noncommercial 4.0 License.
+
+| Feature | DALL-E | Firefly | Midjourney |  | 
+|---|---|---|---|---|
+| Purpose | AI image generation using text prompts | AI image generation with Adobe integration | AI image generation with community engagement |  | 
+| Key Features | • Credit-based system • High-quality image outputs | • Generative Fill • Text effects • Adobe ecosystem integration | • Discord integration • High-resolution images • Community gallery |  | 
+| Price | Free credits for new users; additional credits available for purchase | Free with 25 credits; Premium at $4.99/month or $49.99/year | Basic: $10/month; Standard: $30/month; Pro: $60/month |  | 
+| Performance | High-quality, creative outputs | Integrated with Adobe tools, good for design workflows | Fast image generation, strong community support |  | 
+| Limitations | Credit availability can limit usage | Limited customization options, issues with facial features | Consistent character depiction can be challenging |  | 
+| Best For | Creative professionals and hobbyists exploring AI art | Designers using Adobe products, looking for integrated workflows | Artists seeking community interaction and rapid prototyping |  | 
+Copyright @ The Regents of the University of California. All rights reserved.
+
+| A table showing 8 AI-powered tools for research, giving their purpose, key features, price, and recommendations for what it is best used for. |  |  |  |  |  |  |  |  | 
+|---|---|---|---|---|---|---|---|---|
+| Feature | Scite | Elicit | Litmaps | Inciteful | Research Rabbit | Scholarcy | Semantic Scholar | Consensus | 
+|---|---|---|---|---|---|---|---|---|
+| Purpose | Analyzes citation patterns for literature reviews | Automates research workflows, especially empirical research | Visualizes article connections through interactive maps | Provides related papers and shows citation relationships | Discovers and visualizes relevant literature and authors | Summarizes research articles and creates flashcards | Finds and summarizes citations | AI-powered search engine | 
+| Key Features | Citation analysis | • Displays relevant papers • Summarizes key information | • Interactive maps • Citation tracking | • Citation relationships • Multidisciplinary research support | • Visualizations • Personalized recommendations • Based on Semantic Scholar | • Summarizes articles • Highlights key points | TL;DR summaries | • Analyzes research papers to look for consensus • Based on Semantic Scholar | 
+| Price | Subscription required | Free with sign-up; Pro subscription available | Free for limited use; Pro subscription for unlimited access | Free | Free | Free; Scholarcy Plus at $45/year | Free | Free with sign-up; Option to Upgrade to Pro | 
+| Best For | Literature review and critical analysis | Streamlining empirical research | Exploring research connections | Multidisciplinary research | Discovering literature and author connections | Simplifying reading and engagement with research articles | Discovering research literature | Identifying consensus within research areas | 
+| Underlying Source of Data & Coverage | Scite includes every item assigned a DOI, or "over 175 million publications ...from these articles we have extracted 1.8 billion citation statements." Read more at scite's coverage of the scholarly literature. | Elicit is built on the Semantic Scholar corpus. According to Elict's website FAQ section, they include "545,000 clinical trial registrations from clinicaltrials.gov and 138 million academic papers". | Litmaps uses open-access metadata sources including Open Alex, Semantic Scholar, and CrossRef. According to Litmaps Database: Coverage, Open Access, and Article Indexing, LitMaps claims to cover over 270 million academic articles. | Data Sources include Open Alex, Semantic Scholar, CrossRef, and OpenCitations. | ResearchRabbit uses CrossRef, Semantic Scholar, and Open Alex to give access to 270+ million research articles. | According to 8 Steps To Structured Knowledge Extraction From Research Papers, Scholarcy uses PubMed, CrossRef, and Unpaywall. | The Semantic Scholar corpus includes almost 235 million papers. | According to What does Consensus Search Over?, it uses Semantic Scholar, OpenAlex, and its own crawl of the scholarly web to give access to over 200 million scientific documents. | 
+Please note that these tools use freely available papers or publicly accessible abstracts. They DO NOT have access to pay-walled content, such as that found in UC Merced Library databases.
+Copyright @ The Regents of the University of California. All rights reserved.
+
+A topical overview of AI in research and education
+            
+        - 
+    
+Generative AI for Educators This link opens in a new windowDeveloped by AI experts at Google in collaboration with MIT RAISE, this course will help you bring AI into your practice. With Generative AI for Educators, you’ll learn how to use generative AI tools to help you save time on everyday tasks, personalize instruction, enhance lessons and activities in creative ways, and more.
+- 
+    
+GenAI Chatbot Prompt Library for Educators This link opens in a new windowDevelop prompts to create lesson plans and complete administrative tasks
+- 
+    
+Generative AI for Educators This link opens in a new windowDeveloped by AI experts at Google in collaboration with MIT RAISE, this course will help you bring AI into educational practice.
+- Last Updated: Jul 6, 2026 3:48 PM
+- URL: https://libguides.ucmerced.edu/artificial-intelligence
+- Print Page
+Copyright @ The Regents of the University of California. All rights reserved.
+Except where otherwise noted, this work is subject to the Creative Commons Attribution-Noncommercial 4.0 License.
+
+AI tools can significantly enhance productivity across professional, educational, and personal tasks. Explore the subpages to discover AI tools tailored to your specific needs.
+Be aware that only certain AI tools have been vetted and approved by OIT for sensitive data. Please visit the UC Merced AI website below for details.
+|  | Availability | Aproved For | Approved Data Protection Levels | Cost | Data Models | Data Sources | 
+|---|---|---|---|---|---|---|
+| Microsoft Copilot | Available Now | Faculty, Staff, & Students | P4 | Included in campus contract | Multiple, Undisclosed | Web | 
+| Copilot for Microsoft 365 | Available Now | Faculty & Staff | P4 | $360 Annually | Multiple, Undisclosed | Any data you keep in Microsoft Products | 
+| ChatGPT EDU | Available upon Request with a license (not free) | Faculty & Staff | P4 | Approx. $360 annually with a COA | GPT-4.0 | Web | 
+| Zoom AI Companion | Available Now | Faculty, Staff, & Students | P2 | Included in campus contract | Zoom LLM, Meta Llama 2, OpenAI, Anthropic | Any data you keep in Zoom | 
+| Canva Magic Studio | Available Now | Faculty, Staff, & Students | P2 | Included with paid license | GPT-4.0 | Web | 
+This table is accurate as of Feb 2026, check the link below for updates:
+Copyright @ The Regents of the University of California. All rights reserved.
+
+A topical overview of AI in research and education
+            
+        
+- 
+    
+The Ethical Framework for AI in Education (PDF) This link opens in a new windowThe Institute for Ethical AI in Education
+- 
+    
+Ethics of AI: Challenges and Governance This link opens in a new windowAn overview of current trends in regulating AI in different regions and discusses the key ethical issues to establishing fair and inclusive regulatory systems at the global level - The United Nations Educational, Scientific and Cultural Organization (UNESCO)
+- 
+    
+Ethics of Artificial Intelligence and Robotics This link opens in a new windowStanford Encyclopedia of Philosophy
+- 
+    
+Understanding artificial intelligence ethics and safety (PDF) This link opens in a new windowThe Alan Turing Institute
+- Last Updated: Jul 6, 2026 3:48 PM
+- URL: https://libguides.ucmerced.edu/artificial-intelligence
+- Print Page
+Copyright @ The Regents of the University of California. All rights reserved.
+Except where otherwise noted, this work is subject to the Creative Commons Attribution-Noncommercial 4.0 License.
+
+| Feature | Synthesia | VEED | Vidyo.ai | 
+|---|---|---|---|
+| Purpose | AI video generation | Online video editing and creation | AI content repurposing and video editing | 
+| Key Features | • AI avatars • Multilingual support • Customizable gestures | • AI avatars • AI-powered editing • Collaboration tools • Stock library | • Content repurposing • Video editing suite | 
+| Price | Starter: $22/month Creator: $67/month Enterprise: Custom pricing | Free tier available; Lite: $12/month; Pro: $30/month/  | Free trial available Pro: $29.99/month Pro+: $49.99/month | 
+| Performance | High-quality video output; intuitive interface | User-friendly, suitable for quick edits | Comprehensive suite for content creators | 
+| Limitations | Limited customization of facial expressions | Limited advanced features in free version | Higher tiers needed for full feature access | 
+| Best For | Businesses needing scalable video production | Creators looking for easy-to-use online editing tools | Professionals needing robust content repurposing solutions | 
+Copyright @ The Regents of the University of California. All rights reserved.
+
+| Feature | ClassPoint | Eduaide.ai | Gradescope | Magic School | NotebookLM | QuestionWell | Quizlet | Twee | 
+|---|---|---|---|---|---|---|---|---|
+| Purpose | Interactive presentation tool | AI workspace for lesson planning | Digital grading and assessment tool | AI platform for schools | AI-powered note-taking and summarization | AI question generation | Learning platform with flashcards | Text and media tools for education | 
+| Key Features | • Interactive quizzes • Annotation tools | • Lesson planning • Resource creation | • AI-assisted grading • Rubric development • Analytics | • Lesson planning • Assessment tools | • Note organization • Summarization • Integration with Google Workspace | • Question generation • Export options | • Flashcards • Study modes | • Text and media conversion • Export to PDF/Google Forms | 
+| Price | Free; Pro: $8/month | Free; Pro: $49.99/year | Free trial; Paid plans start at $25/month | Free; Plus: $100/year | Free with Google account | Free; Paid: $7/month | Free; Plus: $1.99/month | Free; Pro: $11.95/month | 
+| Performance | Enhances presentations with interactive features | Simplifies lesson planning and feedback | Streamlines grading with AI | Integrates various educational tools | Organizes and summarizes notes efficiently | Simplifies quiz creation | Offers diverse study tools | Converts media to text efficiently | 
+| Limitations | Limited advanced features in free version | Full features require subscription | Requires setup and training | Full features require paid plan | Limited to Google Workspace users | Advanced features require subscription | Ads in free version | Full features require subscription | 
+| Best For | Teachers enhancing classroom presentations | Teachers needing comprehensive lesson planning tools | Educators needing efficient grading solutions | Schools looking to integrate AI into teaching | Students and professionals needing organized note-taking | Teachers creating quizzes and assessments | Students and educators looking for study aids | Teachers converting media content | 
+Copyright @ The Regents of the University of California. All rights reserved.
+
+A topical overview of AI in research and education
+            
+        The journals below are ranked by SJR number. Please note: Just because they are listed does not mean this library has full text access.
+- 
+    
+Science Robotics This link opens in a new windowUnited States
+- 
+    
+Journal of the ACM This link opens in a new windowUnited States
+- 
+    
+Soft Robotics This link opens in a new windowUnited States
+- Last Updated: Jul 6, 2026 3:48 PM
+- URL: https://libguides.ucmerced.edu/artificial-intelligence
+- Print Page
+Copyright @ The Regents of the University of California. All rights reserved.
+Except where otherwise noted, this work is subject to the Creative Commons Attribution-Noncommercial 4.0 License.
+
+Guideline: https://apastyle.apa.org/blog/how-to-cite-chatgpt
+APA format: Author. (Date).Title (Month Day version) [Additional Descriptions ]. Source
+Author: The author of the model.
+Date: The year of the version.
+Title: The name of the model. The version number is included after the title in parentheses.
+Bracketed text: References for additional descriptions
+Source: When the publisher and author names are identical, omit the publisher name in the source element of the reference and proceed directly to the URL.
+APA reference entry: OpenAI. (2023). ChatGPT (Feb 13 version) [Large language model]. https://chat.openai.com
+APA in-text citation: (OpenAI, 2023)
+Example 1 from APA Guideline
+When prompted with “Is the left brain right brain divide real or a metaphor?” the ChatGPT-generated text indicated that although the two brain hemispheres are somewhat specialized, “the notation that people can be characterized as ‘left-brained’ or ‘right-brained’ is considered to be an oversimplification and a popular myth” (OpenAI, 2023).
+Reference
+OpenAI. (2023). ChatGPT (Mar 14 version) [Large language model]. https://chat.openai.com/chat
+Example 2 from APA Guideline
+When given a follow-up prompt of “What is a more accurate representation?” the ChatGPT-generated text indicated that “different brain regions work together to support various cognitive processes” and “the functional specialization of different regions can change in response to experience and environmental factors” (OpenAI, 2023; see Appendix A for the full transcript).
+Guideline: https://style.mla.org/citing-generative-ai-updated-revised/
+MLA format: “Text of prompt” prompt. ChatGPT, Day Month version, OpenAI, Day Month Year, chat.openai.com.
+MLA Works Cited entry: “Explain antibiotics” prompt. ChatGPT, 13 Feb. version, OpenAI, 16 Feb. 2023, chat.openai.com.
+MLA in-text citation: ("Explain antibiotics")
+Recommendations on how to cite AI-generated content
+Chicago style recommends citing ChatGPT in a Chicago footnote
+1. Text generated by ChatGPT, March 31, 2023, OpenAI, https://chat.openai.com.
+According to the Guidelines for Artificial Intelligence (AI)-Generated Text (based on IEEE Author Center Submission Guidelines), 
+The use of content generated by artificial intelligence (AI) (including but not limited to text, figures, images, and code) shall be disclosed in an acknowledgments section. The AI system used shall be identified, and specific sections of the document that use AI-generated content shall be identified and accompanied by a brief explanation regarding the level at which the AI system was used to generate the content. The use of AI systems for editing and grammar enhancement should be disclosed as noted above.
+IEEE has not published an official guideline on citing AI-generated content yet. The IEEE Author Center recommends consulting the Chicago Manual of Style for guidance for any usage not included in the IEEE Editorial Style Manual. The Chicago Manual of Style has recommendations on how to cite AI-generated content.
+Copyright @ The Regents of the University of California. All rights reserved.
+
+Generating Research Ideas: AI tools analyze data to identify trends, gaps, and emerging topics, helping refine research questions. They suggest innovative angles by recognizing patterns in existing literature or datasets.
+Finding Relevant Information: AI tools use natural language processing (NLP) to locate relevant articles, papers, and datasets quickly. These tools help you find pertinent and high-quality sources by analyzing content and citations.
+Data Scraping: AI tools can scrape data from websites, automatically collecting large amounts of relevant information for analysis. This method has become increasingly popular in research to efficiently gather datasets from web sources.
+Generating Titles and Summaries: AI can help craft concise titles or generate summaries from long texts, assisting with abstracts or introductions.
+AI-Assisted Research Writing: AI writing tools assist in organizing literature reviews, methodologies, and discussions by providing relevant suggestions tailored to your writing style, helping speed up and streamline the writing process.
+Data Analysis: AI tools enhance data analysis by recognizing patterns in complex datasets, automating repetitive tasks like data cleaning, and generating predictive insights.
+Citation Management: AI-powered tools simplify citation management by automatically organizing references, generating bibliographies, and ensuring adherence to style guidelines.
+Various AI tools are invaluable throughout the systematic review or evidence synthesis process. While the consensus acknowledges the significant utility of AI tools across different review stages, it's imperative to grasp their inherent biases and weaknesses. Moreover, ethical considerations such as copyright and intellectual property must be at the forefront.
+Please visit our online guide about Systematic Reviews to learn more:
+Copyright @ The Regents of the University of California. All rights reserved.

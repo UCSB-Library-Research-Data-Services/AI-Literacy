@@ -1,0 +1,180 @@
+The practice of learning how to identify, use, and evaluate AI tools and products is building a set of literacies similar to when a person learns to read, write, and think critically. Below are three steps to help you build foundational knowledge and practical skills to engage effectively with AI:
+Understand AI: The first step involves grasping basic concepts about how AI works and various types. This includes learning about machine learning, natural language processing, and other key AI technologies. A solid understanding of how AI tools are designed and the types of tasks they can perform is critical at this stage. It's essential to explore what input these tools require and what kinds of outputs (text, audio, visual) they generate.
+Use and Apply AI: Once you understand the basics, the next step is to start using AI tools in practical scenarios. This involves interacting with systems like ChatGPT to achieve desired outcomes, experimenting with prompt engineering, and learning how to iterate and improve outputs. At this level, you may begin to witness potential issues, such as AI-generated biases and hallucinations.
+Analyze and Evaluate AI: After becoming familiar with AI tools, the next step is to critically evaluate them. This involves reflecting on the ethical, societal, and environmental impacts of AI, analyzing its broader implications, and assessing the potential biases in its outputs. At this stage, users can discuss and critique the development and use of AI in various applications.
+Together, these steps can help you develop a robust literacy around AI, enabling you to engage with the technology thoughtfully and responsibly.
+References
+
+As the development and proliferation of AI has seen enormous growth, so have concerns related to ethics, safety, and governance (or lack thereof) of these tools. Within higher education contexts, there are many considerations that instructors, researchers, and students should evaluate before deciding to integrate tools in their teaching, scholarship, or course work.
+Below, we briefly summarize major debates about the ethics of using AI. This should serve as a starting point, and we encourage all our users to investigate the issues further as you evaluate various tools, their potential benefits, and the potential risks.
+Often called "algorithmic bias," bias in AI and machine learning generally comes down to the data used to train AI tools, the ways in which they may be flawed or over or under-represent certain groups, and then perpetuate harms that can disadvantage people. As the Algorithmic Justice league notes in their mission, "We now live in a world where AI governs access to information, opportunity and freedom. However, AI systems can perpetuate racism, sexism, ableism, and other harmful forms of discrimination, therefore, presenting significant threats to our society - from healthcare, to economic opportunity, to our criminal justice system."
+With AI tools being integrated into education, surveillance, finance, health, and even dating systems, there are many potential real-life outcomes that potential users should be concerned about.
+Further Reading
+Privacy has emerged as a major concern related to AI tools, especially on the part of scholars and community advocates, and it can take a number of different forms, from the potential leakage of sensitive or personal information, to the vulnerability of the AI systems to hacking and attacks, to the possibility of abusive surveillance systems.
+As Mark Coeckelbergh explains, "AI, and in particular machine learning applications working with big data, often involves the collection and use of personal information. AI can also be used for surveillance, on the street but also in the workplace and—through smart-phones and social media—everywhere. Often people do no even know that data are being gathered, or that the data they provided in one context are then used by third parties in another context." (97-98)
+As researchers are expected to be transparent and ethical in their collection, handling, and use of data for research, AI companies should be held to similar standards. However, these practices are often obscured and opaque, making the evaluation of those tools and your potential privacy and security risks difficult to assess.
+The use of copyrighted material, both writing and visual art, without licensing, permission, or attribution has become a major concern for scholars and creatives alike. The U.S. Copyright Office is in the process of publishing reports about the application of copyright lat and policy as it relates to the training and output of generative AI. As of now, numerous lawsuits are still making their way through the courts, so these topics are not yet settled law, but we recommend following these cases as developments emerge. Below, we share some resources to help you stay abreast of the information.
+Like any new technology, the emergence of AI has also linked to changes in work and the exploitation of laborers.
+As Kate Crawford argues in The Atlas of AI, "I focus on how the experience of work is shifting in relation to increased surveillance, algorithmic assessment, and the modulation of time. Put another way, instead of asking whether robots will replace humans, I'm' interested in how humans are increasingly treated like robots and what this means for the role of labor. Many forms of work are shrouded in the term 'artificial intelligence,' hiding the fact that people are often performing rote tasks to shore up the impression that machines can do the work. But large-scale computation is deeply rooted in and running on the exploitation of human bodies." (56)
+Additionally, we're seeing AI change the nature of work every day, and the implications of this are not yet clear.
+The environmental impacts of AI have caused growing concern and alarm. These technologies require immense amounts of energy and natural resources to function, while their components also produce waste that disproportionately affects poor communities, communities of color, and those in the Global South.
+
+For Researchers, literature reviews can be time consuming and challenging, especially for those who work at the intersection of multiple disciplines. A growing number of tools have been developed to assist researchers with their lit reviews, including generating keywords, providing context, summarizing sources, and mapping connected publications.
+For additional information about creating literature reviews, visit our Research Guide on Literature Reviews.
+Here are a handful of free tools that are well-documented and generally reliable for the creation of literature reviews. These can help researchers understand the literature in an existing field and make connections across seemingly disparate disciplines.
+Many draw from the same data sources (namely Semantic Scholar), with some pulling from additional sources. We recommend testing out the various tools to determine which ones best suit your needs. And, as always, verify any information against library resources.
+You'll note that these tools will not suffer from the same hallucination issues as other generative AI tools, since these draw from specific open databases and are not generating new content.
+Please be aware that these tools are not integrated with the UCSB Library systems and may direct you toward articles on publisher sites with pay walls. If that happens, please return to the UCSB Library website to search for those articles through our databases, and reach out to librarians if you experience issues.
+Semantic Scholar - Originally established as a database that indexed scientific scholarship, Semantic Scholar now offers an AI search and discovery tool that searches its index of 200+ million publications to generate summaries of scholarly papers, draw connections across similar papers, make recommendations, and highlight influential citations. Free to use, but login is required to access all features. Many other tools are built on the Semantic Scholar database.
+Elicit - This AI research assistant helps in evidence synthesis, text extraction, finding papers, filtering studies by type, brainstorming, and more. Users can enter a research question, and the AI identifies top papers in the field, even without perfect keyword matching. Elicit only includes academic papers and pulls from over 126 million papers through Semantic Scholar.
+Inciteful - Inciteful offers two tools, a Paper Discovery tool and a Literature Connector tool, both built on free open data. The Paper Discovery tool uses network analysis algorithms to help researchers find research and evaluate the network within which it is located, while the Literature Connector allows researchers to find connections between multiple texts. The latter is especially useful for interdisciplinary scholars who may struggle to find ways of bringing different areas of study together. Their tools draw on data from a number of sources, including Open Alex, Semantic Scholar, CrossRef, and Open Citations, to connect over 2 billion citations and over 240 million papers. The Inciteful Literature Connector also has a Zotero Plugin that allows researchers to search directly from Zotero.
+Research Rabbit - An AI research assistant designed to assist researchers in literature research, discovering and organizing academic papers efficiently. It offers features such as interactive visualizations, collaborative exploration, and personalized recommendations. Users can create collections of papers, visualize networks of papers and co-authorships, and explore research questions. Unlike the previous two platforms listed, Research Rabbit doesn’t start with a question, but a paper that already is known. You need to have a starting article to go down a “rabbit hole” to see connections between papers.
+There are many other tools out there for researchers. Please note that they often require subscriptions and offer premium features for a fee.
+
+Welcome to your guide on Generative Artificial Intelligence (AI) and Academic Use. This guide is curated by librarians across multiple divisions of the UCSB Library and will evolve as best practices and policies about these tools develop. Through the lens of Library and Information Science, this resource is meant to advance your AI literacy skills, including how to evaluate AI tools and how to safely and responsibly use them in your work.
+On the Home page, you can find a menu to navigate between topics that will provide you with information on how to use GenAI as a tool in your academic research, AI terminology, ethical concerns, and academic policy. For those brand new to AI, be sure to take a glance at the Introduction to AI page for short videos explaining AI and Generative AI (GenAI) along with other primers on the topic!
+A Note on the UCSB Library Approach to Generative AI
+This guide is informed by library values, summarized by in the following quote, excerpted from the International Federation of Library Associations and Institutions' "Entry Point to Libraries and AI":
+"Library values and ethics are highly relevant to the responsible use of AI in society. They seek to promote equal access to knowledge for all and the right to free expression. They argue for openness and accountability and yet also respect individual privacy, organisational confidentiality, and intellectual property rights."
+Please contact your subject librarian to discuss your Generative AI Literacy questions. If you have any questions or suggestions related to this guide, please contact teaching&learning@library.ucsb.edu.
+The UCSB Information Technology Council AI Subcommittee has published Guidelines for AI use (see link below). We would like to offer the following general guidance.
+Coursework
+Students, before using AI in your assignments, please check your syllabus for any policy your professor may have included. If you have any questions about whether your use of AI is acceptable to your professor, please check with them.
+Research
+Researchers, if you are considering using GenAI in your original research, please be aware that many publishers and funding agencies have policies that prohibit the use of GenAI. Please check with the appropriate organization and follow their guidance.
+
+Students, this section lists some common ways AI may be used acceptably in academic research. Be cautious when using AI tools as you may be more at risk of accidental plagiarism or opening yourself up to intellectual property theft from the AI tool. GenAI uses existing information from the internet and other users to answer your prompts, so please be careful when you use GenAI tools. In your course work, you want to ensure the ideas presented are your original ideas, any ideas that are not yours are cited, and the final work you present is unique to you.
+You can feel good about using AI when it assists with your writing and does not replace it. AI does not produce original ideas, but you do. Rely on your curiosity to develop your unique perspective. Using AI to write for you is plagiarism. Whenever you use text or information produced by AI you must cite it as a source.
+Always check with your instructor for their guidelines or rules on how GenAI can be used in their course.
+Brainstorming
+Tip: Prompt AI to brainstorm a specific topic. The AI tool can highlight core concepts, provide historical context, point out common misconceptions and practical applications, call attention to critiques and challenges, and connect the topic to related concepts and domains.
+Pro: AI can quickly identify related ideas, events, and other data related to a topic.
+Con: AI is limited by the knowledge it scrapes from the internet and does not engage the learner in critical thinking.
+Ideation
+Tip: AI can help generate arguments for and against an idea or topic. These arguments can be helpful in the ideation phase of your coursework when determining your unique position or thesis.
+Pro: AI can help you consider your topic from various viewpoints you may not have studied otherwise.
+Con: AI may disrupt a learner's development of critical thinking skills by filling in gaps in one's knowledge while failing to engage the learner in active evaluation of the information source for accuracy, authenticity, and bias. When using AI for ideation purposes, it is essential to consider it the most basic starting point and follow up on any information by fact-checking and further research into the topic.
+Inquiry
+Tip: Ask AI to provide background on a topic or to define a word, and it will assist you with data harvested from online encyclopedias, dictionaries, and other open information sources.
+Pro: Quickly get information on a person, topic, or historical event.
+Con: AI is only as reliable as the information it sources from and has been found to hallucinate. While quick information on a subject may be helpful, it should not be counted on for reliability. If you find information you want to use in your coursework, check it against a reliable source. If you need assistance, please contact a librarian.
+Practice
+Tip: AI can help you practice skills, whether it's writing techniques like paraphrasing or structuring an argumentative paper, or generating problem sets or practice equations.
+Pro: AI can work in a pinch to provide examples and exercises.
+Con: AI can not replace tutors or librarians who can assist you with your academic work and protect your intellectual property. Please do not enter any of your original ideas into AI, as they can be added to the AI knowledge base and shared with other users.
+Research Assistance
+Tip: AI can direct you to research sources.
+Pro: Some AI products have been built to direct scholars to useful authors and research.
+Con: AI has been known to provide false sources called hallucinations. Always check a source you find through AI by searching an academic index on the library website or looking up the author on the open web. Because OpenAI can only search the open web, it does not replace academic research. Some subscription services may provide academic access.
+Is using AI cheating?
+Before you turn in academic work that has included the use of GenAI tools, ask yourself a few questions to feel confident the work you are turning in is original, free of misinformation, and others' ideas have been properly cited:
+UC Santa Barbara Writing Program. (2024). UCSB Writing Program AI Policy.
+
+Coding is one area in which AI assistance has been making great strides, and has been met with both enthusiasm and skepticism. From "vibe coders" to AI cynics, there is spectrum of opinions about using these tools in coding. While these tools can be used to help with review, automation, auto-completion, debugging, translation, documentation, vulnerability detection, and code generation, we recommend certain practices to ensure responsible AI-assisted programming.
+In general, these tools should be used to aid and empower human coders, but the process can be challenging as you acquire the experience necessary to make the tools work for you. As with AI tools in general, LLMs used for coding are often over-confident and prone to hallucinations, and will require patience to iterate and improve the results. The work produced by AI tools, like all work, should always be reviewed, validated, and verified.
+As Wills et al. note:
+[T]he integration of generative AI tools such as ChatGPT holds immense promise for advancing academic research (e.g. in ecological and evolutionary fields), revolutionising coding education and practices, promoting inclusivity, and facilitating knowledge dissemination. However, researchers must navigate the ethical and methodological challenges inherent in harnessing AI technologies, prioritising transparency, validation, and critical inquiry to ensure the integrity and credibility of research initiatives. (2191)
+As with any AI tool, proceed with caution and understand the the potential risks of sharing original work with AI tools and with accepting the work of GenAI without adequate review. Read policies and Terms of Service agreements carefully and understand how your data is being used or processed.
+Please review the guidance on Academic Integrity before using any tools.
+Generative AI tools can be helpful for beginners learning how to code. Chat tools in particular allow researchers to ask LLM chatbots coding-related questions. Your results will depend on the effectiveness of your questions.
+These tools allow you to code with the assistance of an "AI agent," which are LLMs that can autonomously execute commands and perform tasks on behalf of a user. This often requires users provide a great deal of access to your computer to complete their tasks. Please consider issues of privacy and security, options for containers, etc., before granting tools access to your machines.
+We recommend additional research and guidance about working with LLMs to write code. Several guides are shared below under "Resources."
+Below are a few common tools for AI-assisted coding that our library experts consider well-suited for beginners (includes both proprietary and open source tools):
+When choosing a tool, remember that these are meant to assist you in your coding. As with other research practices, you, as the researcher and the programmer, need to be able to read the code and ensure that you understand how it works and can explain it to others.
+Consider too, that cloud-hosted LLM services can pose security and privacy concerns for researchers. In those cases, self-hosting LLMs for research purposes, could address the data privacy issues.
+*UCSB users can upgrade their GitHUb account to "Copilot Pro" for free if they want to test out Copilot. More information on that can be found below:
+For additional assistance with Generative AI and coding applications, please reach out to experts at the DREAM Lab.
+For experienced programmers, there is a shift away from using chatbots via conversational modes to using AI coding tools that are integrated in the Integrated Developer Environments (IDE).
+
+Skip to Main Content
+University of California, Santa Barbara
+X
+Library Homepage
+Hours
+Giving
+University of California, Santa Barbara
+LibGuides
+Generative AI & Academic Use
+Citing Generative AI
+Search this Guide
+Search
+Generative AI & Academic Use: Citing Generative AI
+Home
+Introduction to Generative AI
+Academic Integrity
+Generative AI Literacy
+Evaluating Generative AI Tools
+Evaluating Generative AI Outputs
+Generative AI Use in Coursework
+Generative AI & Literature Reviews
+Generative AI & Scholarly Publishing
+Generative AI in Coding
+Generative AI in Grant Writing
+Citing Generative AI
+Ethical Concerns
+Resources for Citing AI in Academic Work
+UCSD How to Cite AI
+UC San Diego's guide page on how different citation styles recommend attributing AI-generated content, updated 2023.
+UCSB Citing Chat GPT in STEM
+UC Santa Barbara's section on citing ChatGPT in the STEM LibGuide Resources.
+UCSB Office of Teaching and Learning: How to Cite AI
+UC Santa Barbara Office of Teaching and Learning's "How to Cite AI" document includes sample approaches for how to cite AI contributions to work.
+<<
+Previous:
+Generative AI in Grant Writing
+Next:
+Ethical Concerns >>
+
+Welcome to your guide on Generative Artificial Intelligence (AI) and Academic Use. This guide is curated by librarians across multiple divisions of the UCSB Library and will evolve as best practices and policies about these tools develop. Through the lens of Library and Information Science, this resource is meant to advance your AI literacy skills, including how to evaluate AI tools and how to safely and responsibly use them in your work.
+On the Home page, you can find a menu to navigate between topics that will provide you with information on how to use GenAI as a tool in your academic research, AI terminology, ethical concerns, and academic policy. For those brand new to AI, be sure to take a glance at the Introduction to AI page for short videos explaining AI and Generative AI (GenAI) along with other primers on the topic!
+A Note on the UCSB Library Approach to Generative AI
+This guide is informed by library values, summarized by in the following quote, excerpted from the International Federation of Library Associations and Institutions' "Entry Point to Libraries and AI":
+"Library values and ethics are highly relevant to the responsible use of AI in society. They seek to promote equal access to knowledge for all and the right to free expression. They argue for openness and accountability and yet also respect individual privacy, organisational confidentiality, and intellectual property rights."
+Please contact your subject librarian to discuss your Generative AI Literacy questions. If you have any questions or suggestions related to this guide, please contact teaching&learning@library.ucsb.edu.
+The UCSB Information Technology Council AI Subcommittee has published Guidelines for AI use (see link below). We would like to offer the following general guidance.
+Coursework
+Students, before using AI in your assignments, please check your syllabus for any policy your professor may have included. If you have any questions about whether your use of AI is acceptable to your professor, please check with them.
+Research
+Researchers, if you are considering using GenAI in your original research, please be aware that many publishers and funding agencies have policies that prohibit the use of GenAI. Please check with the appropriate organization and follow their guidance.
+
+Certain types of AI use can be considered plagiarism, and you want to be certain you are meeting the academic integrity expectations of your course and the University.
+The UCSB Academic Integrity Policy states:
+"Taking credit for any work you did not create including, but not limited to, books, articles, methodology, results, compositions, images, lectures, computer programs, internet postings, or utilizing artificial-intelligence programs without prior approval from instructor."
+Before using GenAI for any coursework, please check with your instructor about prohibitions and allowed uses.
+Note: AI detection software is not reliable.
+
+- 
+    
+AI 101 - Campus EditionAI 101 is the first installment of a 3-part series on Generative AI in the UCSB teaching context. The Campus Edition introduces AI and its use in instruction.
+- 
+    
+AI 102 - AI FundamentalsAI 102 is the second installment of a three-part series on Generative AI in the UCSB teaching context. AI 102 focuses on the fundamental aspects of AI to help instructors and students recognize how AI tools are built, the different kinds of AI that currently exist, and the various ways that AI is used in everyday life, education, and industries.
+- 
+    
+AI 103 - Learning, Critical Thinking, and AIAI 103 is the final installment of a three-part series on Generative AI in the UCSB teaching context. AI 103 addresses the impact AI tools can have on learning and critical thinking; interpreting results produced by AI systems; identifying limitations and potential errors; and formulating arguments about the benefits and drawbacks of AI implementation.
+- 
+    
+UC AI Primer: Core Concepts and FundamentalsThis online module link can also be found on the AI 102 - Fundamental webpage. The goal of the module is to develop a shared understanding of Artificial Intelligence for everyone across UC.
+The rapid progress in AI is paving the way for new research opportunities and discoveries, while also raising important ethical and safety concerns. This three-minute video from the scholars at Caltech delves into the evolution of AI and its implications for our world.
+Generative AI includes tools that relate text input to existing data and respond by creating new text, images, videos, music, or even voices. It's changing how we learn, teach, and produce information. But what exactly is generative AI? KI-Campus, from the German Federal Ministry of Education and Research, explains it in this brief two-minute video.
+- 
+    
+A Generative AI PrimerThis Generative AI Primer, originally published in August 2024 by Jisc, a UK digital, data and technology agency focused on tertiary education, provides a short introduction to generative AI, exploring some of the main points and current models. It is available in a blog format that they pledge to update regularly.
+- 
+    
+Large Language Model TutorialThis is a brief tutorial from the AI Pedagogy Project, created by metaLAB (at) Harvard, on how to use the OpenAI product ChatGPT, which is driven by a large language model.
+- 
+    
+Exposing AILifehacker offers tech help and credible, practical, science-based life advice. In August 2024, they published a webpage with tools to help you spot AI-generated information sources.
+- 
+    
+Generative AI Product TrackerThe Generative AI Product Tracker lists generative AI products that are either marketed specifically towards postsecondary faculty or students or appear to be actively in use by postsecondary faculty or students for teaching, learning, or research activities. The Tracker is a living document, which we update regularly as new products enter the market or new information about existing products becomes available. (ITHIKA S+R, 2024).
+- 
+    
+Responsible Generative AI ToolkitGoogle tools and guidance to design, build and evaluate open AI models responsibly.
+- 
+    
+There is an AI for ThatThere's An AI For That (TAAFT) is the leading AI aggregator, with over 2 million monthly active users and the largest database of AI tools and tasks. The website includes a variety of topics, including a timeline of AI capabilities, the Job Impact Index, which shows the impact of AI on over 4,000 human jobs, as well as which AI tools are most suited to each job.
+- Last Updated: Apr 24, 2026 6:39 AM
+- URL: https://guides.library.ucsb.edu/ai
+- Print Page

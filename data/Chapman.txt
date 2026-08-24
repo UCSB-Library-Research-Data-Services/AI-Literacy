@@ -1,0 +1,96 @@
+Whether you know it or not, artificial intelligence (AI) is already a large part of your daily life. Much of it is invisible to you, but it's working behind the scenes personalizing your video and music recommendations, customizing your social media feeds, analyzing your spending habits to detect fraud, and touching up your posts with photo filters.
+So, what is artificial intelligence?
+Broadly speaking, artificial intelligence refers to the development of computer systems that can perform tasks that would typically require human intelligence. These systems are designed to learn, reason, and make decisions based on large amounts of data.
+While there isn't a single definitive definition of AI, NASA follows the following definition:
+Source: What is Artificial Intelligence? (n.d.). NASA. Retrieved July 21, 2025, from https://www.nasa.gov/what-is-artificial-intelligence/
+ 
+One of the most important things to understand about AI is that the decisions made by AI are based on probability and statistics. So, no matter how advanced the system is or how much data went into feeding the machine learning of a particular AI program, the decisions made by AI are not based on the same kind of nuanced and creative reasoning that can be accomplished by a human. Probability-based decisions are often correct, but not always--so there will be times when AI tools make errors or even spread misinformation.
+AI Literacy refers to the foundational concepts you need to understand artificial intelligence and its role in your academic and everyday life. In a widely used definition:
+"AI literacy is the ability to understand, use, and think critically about AI technologies and their impact on society, ethics, and everyday life."
+Source: Lo, L. S. (2025). AI literacy: A guide for academic libraries. College & Research Libraries News, 86(3), 120. AI Literacy: A Guide for Academic Libraries | Lo | College & Research Libraries News
+In the last couple of years, there have been significant advancements in AI that have impacted the daily lives of students. In particular, the release of tools that fall under the category of generative AI. Generative AI refers to a specific class of AI tools that are able to create new content and include tools like ChatGPT, CoPilot, Gemini, Claude, Midjourney, just to name a few. With such powerful new technology at our fingertips, it's no surprise that generative AI continues to transform how we find, use, and create information—in other words, our information literacy habits and abilities.
+Right now is a time when educators and students alike are figuring out how generative AI fits into and affects their learning. Although it is challenging, we are all figuring it out, just as those who came before wrestled with the invention of tools like Google, Wikipedia, and the Internet that similarly changed information behaviors when they were introduced.
+Our goal for AI literacy, then, is to provide guidance to students to help develop useful and ethical information behaviors, including how to contextualize information from AI and think critically about the use of AI in their work. Not only is this important now, as you're starting college, but once you finish college as well, since AI skills are increasingly expected in the workplace.
+The Generative AI chatbots that we are all familiar with--ChatGPT, Claude, Copilot, Gemini, and such (many of which you can access through PantherAI)--are powered by Large Language Models (LLMs). An LLM is a software system that has been designed to be capable of understanding and generating human language. Since they can replicate activities that we associate with human intelligence, we label that system as an example of artificial intelligence.
+LLMs have been exposed--in a process called training--to vast amounts of textual data in order to understand and generate human-like responses. These advanced language models enable chatbots to carry on coherent and contextually relevant conversations.
+LLMs are built using deep learning techniques and trained on enormous textual datasets so that they can excel in various language processing and understanding tasks. The data is processed through a neural network, specifically, a "transformer" architecture (note, the "T" in GPT stands for "transformer"). Here's a reasonably simple explanation of how it works:
+Specifically, a transformer can read vast amounts of text, spot patterns in how words and phrases relate to each other, and then make predictions about what words should come next. You may have heard LLMs being compared to supercharged autocorrect engines, and that's actually not too far off the mark: ChatGPT and Bard don't really “know” anything, but they are very good at figuring out which word follows another, which starts to look like real thought and creativity when it gets to an advanced enough stage.
+Source: David Nield. “How ChatGPT and Other LLMs Work—and Where They Could Go Next.” Wired, April 30, 2023. https://www.wired.com/story/how-chatgpt-works-large-language-model/
+ChatGPT, a generative AI-powered chatbot, is currently the most popular tool based on an LLM. Many estimates have ChatGPT, a commercial software product from OpenAI, with around a 60% market share. We mentioned some other chatbots above, and there are other generative AI tools that go beyond conversational capabilities and focus more on search and research, like Perplexity, Consensus, and Elicit.
+If you have ever used ChatGPT, or one of the other AI chatbots, you probably know that it has a relatively simple interface. You enter a question as natural language (known as a prompt), and it generates text responses that approximate human language. There are all kinds of applications for this technology, from creative endeavors to research assistance (you'll read more about the ethical use of generative AI tools on the next page of this module).
+Just a few years ago, it was easy to state that ChatGPT is not a search engine. Traditionally, a search engine like Google would seek out existing texts (in the form of webpages) and return them as a set of results, and LLM-enabled chatbots, like Claude and ChatGPT, would generate brand new text based on the probability of what is the most plausible response.
+Increasingly however, companies like Microsoft and Google are expending enormous effort to combine generative AI LLMs with search engines. You can already see this in the results that a Google search provides. Chapman University makes Microsoft's Copilot available to all students. Copilot adds the capabilities of an LLM to Microsoft's existing search engine Bing. Another example of integrating search capabilities with an LLM is the research-oriented tool Perplexity.
+Now that you have some foundation to understand what LLMs and generative AI are capable of, you're probably wondering how you can use these tools. Read on in the next page.
+All of these methods are useful in developing your research process using generative AI tools. Notice that these tools can be ethically used in ways that support the entire research process.
+This page is mostly based on the following source:  Mollick, E. (2025, January 26). Against “Brain Damage” [Substack newsletter]. One Useful Thing. https://www.oneusefulthing.org/p/against-brain-damage  
+Some people have argued that generative AI tools like ChatGPT make you dumber or damage your brain. The good news is that they don't really. But these tools do have the potential to negatively impact your learning, your creativity, and your critical thinking abilities. 
+According to Ethan Mollick (2025), an influential researcher on AI, the danger isn’t that AI makes you “dumber,” it’s that it offers a tempting shortcut that can cause you to skip the real thinking and learning that help you grow as a student and thinker.
+A recent study from MIT's Media Lab found that when students use generative AI it can short-circuit the mental effort that leads to deeper understanding. That means that even when you’re using generative AI honestly (not just to cheat but to help with your work), you still have to be careful that it doesn’t backfire by preventing you from really learning.
+Here are some tips from Mollick (2025) to make sure you are at the center of the learning and thinking process:
+As Mollick points out, many writers believe that the act of writing helps to think through ideas. If you let AI handle your writing, you may never figure out what you truly believe or how much you understand about a topic. 
+ 
+Try using the following strategy to maximize your thinking while using AI: 
+Mollick puts this well:
+AI doesn't damage our brains, but unthinking use can damage our thinking. What's at stake isn't our neurons but our habits of mind. There is plenty of work worth automating or replacing with AI (we rarely mourn the math we do with calculators), but also a lot of work where our thinking is important. ... Our fear of AI “damaging our brains” is actually a fear of our own laziness. … Your brain is safe. Your thinking, however, is up to you. (Mollick, 2025)
+References:
+Concerns about the environmental impact of generative AI, especially the data centers powering these AI tools, have been growing. A poll from The University of Chicago in October 2025 found that 72% of Americans are concerned about how AI affects the environment.
+Read more about the environmental impact of AI:
+Individual choices can reduce unnecessary AI use, although broader changes by technology companies, energy providers, and policymakers are also needed to address AI’s overall environmental impact. But we can make thoughtful decisions about whether and how we use AI.
+Before using an AI tool, ask yourself these questions:
+Do you really need generative AI for this task?
+Could you answer your question or complete the task on your own?
+Could you search for information using library resources or other open online sources instead of relying on AI?
+Which model is most efficient?
+If you still decide to use an AI tool, try to choose a model and workflow that use resources more efficiently.
+You can explore tools like the AI Energy Score Dashboard or How Hungry is AI? Dashboard to see how different AI models compare in terms of energy use, water consumption, and carbon emissions.
+Use Chapman University’s PantherAI, which can reduce reliance on large external cloud services, thus lowering demand on big data centers and the energy they use.
+Can you reuse your AI outputs?
+Reuse or refine AI‑generated content (such as an outline, prompt response, or template) instead of running many similar prompts for the same task.
+Avoid repeatedly re‑uploading the same files or asking the model to do the same long process over and over.
+These practices help reduce the total amount of computation over time, which can lower overall energy and water use.
+Read more on Tips to Lower Your AI Environmental Footprint
+As users think critically about the trade‑offs of using AI, many companies and researchers are also working to reduce AI’s impact on the climate.
+AI is often described as a “double‑edged sword” for sustainability: large models and data centers create environmental costs, but more efficient AI designs and climate‑focused applications of AI can also contribute to climate solutions.
+Image from Binary Semantics. Sustainable AI: The role of Green AI in Climate Action
+For further reading about AI's energy dilemma, read an article from the World Economic Forum Annual Meeting
+In our research and our daily lives, we constantly interact with data, but we rarely reflect on how well we understand it.
+In order to critically consume, produce, and think about data, we need a basic framework for understanding it. Data literacy is our ability to interpret and understand data. On this page, we’ll briefly focus on a few related key concepts and some basic terminology.
+We rarely encounter raw data in our everyday lives. Instead, we see data represented as numbers and charts that are meant to tell a data story or provide evidence for a claim.
+A single data point, or datum, can be almost anything: a measurement, an observation, a response to a survey question. Usually, a single data point doesn’t tell us much. But a collection of data points, or data, has the potential for us to make larger observations or draw conclusions about the information that we collected.
+When we collect similar or related data together, we have a data set.
+To illustrate these terms, here’s an example:
+"Suppose you were out hiking and you accidentally fell and broke your arm. Luckily, your friends are there to take you to the emergency room and help you fill out the mountain of paperwork the nurse hands you. Each answer you scribble down gives the doctor data they can use to decide how to help heal your arm. All the information together makes up a data set on you and your medical history.
+Now some questions, like “Age?” or “Height?” give the doctor quantitative data or data that’s represented by numbers, or quantities.
+But not everything about us can be written as a number. Like the question: how the heck did you break your arm? Information that’s describing qualities something has or a category it belongs to is called qualitative data. …
+And after you make it through all the paperwork, the doctor might add data in other ways. If they take an x-ray, this photo becomes a data point in your medical history. Or they might record an audio clip of your heartbeat or video of an ultrasound. Your file has a long story to tell."
+Source: Arizona State University: (“What are Data and Data Literacy”)
+Data is more than just numbers: it can include images, text, or audio. Interpreting charts, graphs, and visuals is as important as reading numbers.
+Visual literacy is the ability to read, interpret, and critically evaluate visual information, including but not limited to data representations such as charts, graphs, and maps.
+Understanding visual data is key to spotting patterns, identifying misleading visuals, and making informed decisions.
+When viewing a chart or graph, here’s some starting points you can consider:
+"If you torture the data long enough, it will confess to anything" - economist Ronald Coase
+A common misconception is that data is purely objective. We see charts and naturally feel that the information we're seeing is truthful and persuasive. After all, it’s just numbers, right? But take caution! As Alberto Cairo says in his book, How Charts Lie:
+Politicians, marketers, and advertisers throw numbers and charts at us with no expectation of our delving into them: the average family will save $100 a month thanks to this tax cut; the unemployment rate is at 4.5%, a historic low, thanks to our stimulus package; 59% of Americans disapprove of the president's performance; 9 out of 10 dentists recommend our toothpaste; there is a 20% chance of rain today; eating more chocolate may help you win the Nobel Prize (Cairo, xi).
+Source: Cairo, A. (2019). How charts lie: Getting smarter about visual information (First edition). W. W. Norton & Company, Inc.
+In fact, sometimes even real, accurate data can be used to deceive.
+Deceptive Data Example 1: Amazon Sales
+Take a look at this chart of country of origin for production of items for sale on Amazon. What assumption might someone make when looking at these percentages?
+At first glance, it may appear that the percentages represent a breakdown of a whole, as is typical in bar charts. But the total exceeds 100% (71% + 30% + 14% + … = well over 150%).
+If someone did not read or understand the footnote carefully, it might be wrongly assumed the percentages represent exclusive product sourcing from each country. In reality, survey respondents could select multiple countries, meaning many sellers source from more than one location.
+A stacked or grouped bar chart would have been more effective in showing overlapping data selections and preventing misinterpretation. This example of a revised chart may be a more accurate data visualization:
+Deceptive Data Example 2: 2024 Presidential Election Maps
+Here is another example of deceiving data visualizations:
+This is a map of the 2024 Presidential Election results by land area of each county. Does it look like most of the country voted red or blue?
+The same dataset was used to plot another graph based on counties according to their population, with the largest bubbles being the highest populated counties. Now, does this data visualization change your interpretation for more red or blue votes?
+In the first map, it appears that most of the country voted red. The map is dominated by red circles, suggesting a landslide victory. But this map shows land, not people. Large rural counties with low population density take up more visual space, skewing our perception of voter distribution.
+In the second version of the map, this time sized by population, the size of each bubble now reflects how many people live in each county. High-population urban areas (often voting blue) appear much larger.
+Each map tells a different story:
+In actuality, the 2024 popular vote was very close, with Trump winning the election. Actual 2024 results:
+This illustrates how even accurate data can be presented in ways that shape very different interpretations, depending on what is emphasized.
+Map Sources:
+You don’t need to be a data scientist to protect yourself from misleading data. But you can build some healthy skepticism in order to be an informed information consumer. Just remember, instead of accepting charts and statistics right away, try to question where the data came from, how they might have been collected, and whether they are accurately depicted in the source you're seeing.
+Visuals are powerful tools, but they can be used for persuasion just as much as for truth.
+Many free tutorials, videos, and webinars are available through a quick internet search. Chapman University students can also access short online courses by creating a free account on the SAGE Campus website. Some courses useful for your self-learning include:
+Check out the Leatherby Libraries guide on Data Sets and Resources to find all sorts of data for your research!
+Check your understanding of Digital Literacy by completing the practice quiz below.
+You may also open the quiz in a new tab or window using this link: Digital Literacy - FFC Practice Quiz

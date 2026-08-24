@@ -1,0 +1,226 @@
+You are expected to complete the work assigned to you so the professor can see if you are learning and what you’ve learned. Ask yourself these two questions before using an AI resource/tool.
+Is the resource/tool doing the thing for you that is being assessed?
+Make sure you are doing the work that is being assessed. For example, if spelling isn’t being assessed, then you can use a spell checker. However, if your language skills are being assessed, then you shouldn't use Chat GPT or Google Translate (for example).
+Is the resource/tool allowed by the course instructor?
+If you use a tool/resource that has been prohibited OR if you use one that is not explicitly allowed, then you might be cheating.
+✔️ Values test – does using GenAI on this assignment (given the learning objectives/grading rubric) undermine honesty, respect, responsibility, fairness or trustworthiness?
+✔️ Standards test – does using GenAI on this assignment undermine academic integrity standards of the instructor or the institution (e.g., what you submit should be your own work in your own words)
+✔️ Exposure test – if the professor or the Academic Integrity Office knew I used GenAI for this assignment, do I feel okay about that or fearful about that being exposed?
+If you doubt using GenAI for academic work, be sure to ASK your instructor.
+This page was created in collaboration with Tricia Bertram Gallant, Ph.D., Director of UCSD Academic Integrity Office & Triton Testing Center.
+
+Both teaching with AI and creating AI-proof assignments involve designing assessments that emphasize critical thinking, creativity, and problem-solving, making it difficult for students to rely solely on AI-generated responses. This list of resources has been compiled to support educators in adapting to and integrating artificial intelligence into their teaching practices, offering a range of tools, strategies, and case studies.
+- 
+    
+UC San Diego Academic Integrity Office: Artificial Intelligence & Academic IntegrityResources for instructors and students who are navigating the use of AI in the context of coursework. Includes the Critical AI Literacy Canvas Module which can be integrated into courses.
+- 
+    
+AI and College Writing: An Orientation for Students by Anna MillsThis is a draft document addressed to students that will eventually become a textbook hosted on LibreTexts to accompany How Arguments Work: A Guide to Writing and Analyzing Texts in College.
+- 
+    
+AI Hacks for EducatorsYee, Kevin; Uttich, Laurie; Main, Eric; and Giltner, Elizabeth, "AI Hacks for Educators" (2024). UCF Created OER Works. 9.
+"AI Hacks for Educators" is a comprehensive guide designed to help faculty leverage generative artificial intelligence (GenAI) tools, particularly Large Language Models (LLMs), to enhance their teaching, research, and professional development while lessening their workload. Written by experienced educators from the UCF's Faculty Center for Teaching and Learning, this book offers 55 practical tips and strategies for integrating AI into various aspects of academic life. The authors explore how AI can streamline course preparation; develop lesson plans, assignments, activities, and rubrics that improve student engagement; facilitate their own research, review, and publication processes; and boost overall productivity.
+- 
+    
+AI Prompts for Teaching (Cynthia Alby)A comprehensive guide offering various AI prompts for educators in higher education and secondary settings. It emphasizes using Large Language Models (LLMs) like Copilot, GPT-4o, Claude.ai, and Gemini for tasks such as course design, lesson planning, giving feedback, creating assessments, and generating interactive activities. The guide stresses the importance of conversational prompting, checking AI outputs, and leveraging AI to enhance teaching and learning, often referencing the work of Ethan Mollick and the "Learning That Matters" framework.
+- 
+    
+AI Text Generators and Teaching Writing: Starting Points for Inquiry (WAC Clearinghouse)Overview with links to collections of resources for those who teach writing. Compiled by Anna Mills.
+- 
+    
+Are Your Students Ready for AI? (Harvard Business Publishing Education, 6/14/2023)Introduces the PAIR framework to create assignments "to Prepare Learners for a ChatGPT World."
+ Problem formulation: Students define the problem or challenge they want to solve.
+ AI tool selection: Students choose the best generative AI tools to help them with their problem. They learn how to explore, compare, and evaluate different generative AI tools and their features.
+ Interaction: Students use the generative AI tools to solve their problem. They experiment with different inputs and outputs and see how the generative AI tools affect their problem-solving process and outcome.
+Reflection: Students assess and report their experiences with the generative AI tools.
+- 
+    
+ChatGPT and other Artificial Intelligence Challenges and Opportunities (Political Science)This essay will be added to the second edition of Dr. Hershey’s ebooklet, How to Teach American Politics (and Other Subjects) Effectively.
+- 
+    
+Considerations for Using AI in the Classroom (University of Wisconsin - Madison L&S Instructional Design Collaborative, 12/8/2023)Discusses considerations for instructors using AI in the classroom and activities for incorporating AI into discussions and assignments
+- 
+    
+A Framework for AI Literacy (EDUCAUSE Review, 6/3/2024)Addresses AI literacy at the following four levels:
+ 1. Understand AI
+ 2. Use and Apply AI
+ 3. Analyze and Evaluate AI
+4. Create AI
+- 
+    
+Peer & AI Review + Reflection (PAIRR)Peer & AI Review + Reflection (PAIRR) is a five-part curricular intervention: 1) Students discuss and reflect on short readings on AI and language equity. 2) They complete peer review of draft writing assignments. 3) They prompt an AI tool to review the same drafts, with instructor guidance on privacy settings. 4) They critically reflect on and assess both types of feedback, considering their goals and audience(s), and 5) They revise.
+- 
+    
+Teaching Effectively with ChatGPT (Companion site to the book) ResourcesCo-authors Levy and Pérez Albertos draw from their experience teaching at Harvard, insights from educators around the world, and extensive discussions with students. Chapter Resources and ChatGPT Prompts
+- 
+    
+Teaching Repository for AI-Infused Learning (TRAIL)A curated collection of openly licensed, peer-reviewed strategies that use generative AI tools to support learning in higher education.
+- 
+    
+TextGenEd (WAC Clearinghouse)This fully open access and peer-reviewed collection features 34 undergraduate-level assignments to support students' AI literacy, rhetorical and ethical engagements, creative exploration, and professional writing text gen technology, along with an Introduction to guide instructors' understanding and their selection of what to emphasize in their courses. TextGenEd enables teachers to integrate text generation technologies into their courses and respond to this crucial moment.
+- 
+    
+AI & OER Community HubHosted by the OER Commons. A community space supporting the use of artificial intelligence for the creation and adaptation of Open Educational Resources
+- 
+    
+Generative Textbooks – A Brief Example (6/5/2023)Blog post by David Wiley (Chief Academic Officer of Lumen Learning) suggesting using generative AI as a "generative textbook" where, "instead of containing instructional content, it provides the learner with a series of prompts they can use to elicit information from a large language model like ChatGPT." The example uses a series of questions to teach students about sleep.
+- 
+    
+Anna Mills' SubstackAI, writing, and pedagogy. Anna Mills teaches writing at Cañada College. She is the author of the OER textbook How Arguments Work, and her writing on AI in higher education has appeared in The Chronicle of Higher Education and Inside Higher Ed. Ongoing Sources of AI Professional Development: A Short List for Higher Education
+- 
+    
+One Useful Thing blog (Ethan Mollick)Blog by Ethan Mollick, professor at the Wharton School of the University of Pennsylvania, currently focused primarily on implementing AI into academia. Particularly useful post: How to Use AI to Do Stuff: An Opinionated Guide/
+- 
+    
+Modern Language Association and Conference on College Composition and Communication Joint Task Force on Writing and AIIncludes a Quick Start Guide to AI and Writing as well as more recent updates on AI and the humanities classroom.
+- 
+    
+Artificial Intelligence and Academic Professions (AAUP report, July 2025)Educational technology, or ed-tech, including artificial intelligence (AI), continues to become more integrated into teaching and research in higher education, with minimal oversight. The AAUP’s ad hoc Committee on Artificial Intelligence and Academic Professions—composed of higher education faculty members, staff, and scholars interested in technology and its impact on academic labor—was formed under the assumption that faculty members are best positioned to understand and improve teaching and learning conditions, including the development and implementation of institutional policies around educational technology.
+ 
+To learn more about the experiences and priorities of AAUP members, the committee conducted a survey with a sample of five hundred members from nearly two hundred campuses across the country, collected during a two-week time period. Respondents emphasized the importance of improving education on AI, promoting shared governance through policies and oversight, and focusing on equity, transparency, and worker protections. Based on those responses, the committee identified the five key concerns listed below and described more fully in the findings section of this report.
+- 
+    
+The Curious Educator’s Guide to AI (Kyle Mackie and Erin Aspenlieder, McMaster University, 2024)This guide is designed to help educators and researchers better understand the evolving role of Artificial Intelligence (AI) in higher education. This openly-licensed ebook contains strategies and exercises to help foster an understanding of AI’s potential benefits and challenges. Evaluating AI Tools: Rubric for AI Tool Evaluation
+- 
+    
+Generative AI Training Modules for Faculty (University of North Carolina, Summer 2023)Self-paced modules about teaching and ensuring academic integrity with AI created by a committee of faculty members and staff at the University of North Carolina in Summer 2023.
+- 
+    
+LexisNexis GenAI Curriculum ToolkitThis toolkit was created in partnership with educators to support responsible use of generative AI in academic settings.
+ - Lesson Plan 1: Core Concepts & Prompt Engineering Essentials
+ - Lesson Plan 2: Trust, But Verify | Ensuring GenAI-Assisted Research Integrity
+ - Lesson Plan 3: Sound Research Starts Here
+ Inside each you’ll find:
+ - Three adaptable lesson plans with clear learning objectives
+ - Templates, activities, and worksheets you can plug right into instruction
+- Additional materials such as a checklist for evaluating AI-assisted assignments, a guide to choosing genAI tools fit for academic research, a do’s and don’ts checklist for students to help with AI-assisted research, and more.
+- 
+    
+Navigating AI in Education: Making Informed Choices at UCSD (Lew Ludwig, 1/23/2025)Presentation slides and resources
+- 
+    
+Co-Intelligence by Ethan MollickISBN: 9780593716717Publication Date: 2024-04-02AN INSTANT NEW YORK TIMES BESTSELLER From Wharton professor and author of the popular One Useful Thing Substack newsletter Ethan Mollick comes the definitive playbook for working, learning, and living in the new age of AI Something new entered our world in November 2022 -- the first general purpose AI that could pass for a human and do the kinds of creative, innovative work that only humans could do previously. Wharton professor Ethan Mollick immediately understood what ChatGPT meant: after millions of years on our own, humans had developed a kind of co-intelligence that could augment, or even replace, human thinking. Through his writing, speaking, and teaching, Mollick has become one of the most prominent and provocative explainers of AI, focusing on the practical aspects of how these new tools for thought can transform our world. In Co-Intelligence, Mollick urges us to engage with AI as co-worker, co-teacher, and coach. He assesses its profound impact on business and education, using dozens of real-time examples of AI in action. Co-Intelligence shows what it means to think and work together with smart machines, and why it's imperative that we master that skill. Mollick challenges us to utilize AI's enormous power without losing our identity, to learn from it without being misled, and to harness its gifts to create a better human future. Wide ranging, hugely thought-provoking, optimistic, and lucid, Co-Intelligence reveals the promise and power of this new era.
+- 
+    
+Teaching with AI by José Antonio Bowen; C. Edward WatsonISBN: 9781421449227Publication Date: 2024-04-30How AI is revolutionizing the future of learning and how educators can adapt to this new era of human thinking. Artificial Intelligence (AI) is revolutionizing the way we learn, work, and think. Its integration into classrooms and workplaces is already underway, impacting and challenging ideas about creativity, authorship, and education. In this groundbreaking and practical guide, teachers will discover how to harness and manage AI as a powerful teaching tool. José Antonio Bowen and C. Edward Watson present emerging and powerful research on the seismic changes AI is already creating in schools and the workplace, providing invaluable insights into what AI can accomplish in the classroom and beyond. By learning how to use new AI tools and resources, educators will gain the confidence to navigate the challenges and seize the opportunities presented by AI. From interactive learning techniques to advanced assignment and assessment strategies, this comprehensive guide offers practical suggestions for integrating AI effectively into teaching and learning environments. Bowen and Watson tackle crucial questions related to academic integrity, cheating, and other emerging issues. In the age of AI, critical thinking skills, information literacy, and a liberal arts education are more important than ever. As AI continues to reshape the nature of work and human thinking, educators can equip students with the skills they need to thrive in a rapidly evolving world. This book serves as a compass, guiding educators through the uncharted territory of AI-powered education and the future of teaching and learning.
+- 
+    
+AI Opportunity InventoryThe AI Opportunity Inventory is a multi-stakeholder initiative designed to identify, catalogue, and analyze artificial intelligence use cases that have the potential to meaningfully contribute to major societal goals. The project aims to highlight how AI can improve outcomes in areas like healthcare, education, energy development, and disaster response.
+- 
+    
+Best Practices for Using AI Tools as an Author, Peer Reviewer, or EditorLeung TI, de Azevedo Cardoso T, Mavragani A, Eysenbach G Best Practices for Using AI Tools as an Author, Peer Reviewer, or Editor J Med Internet Res 2023;25:e51584
+- 
+    
+Artificial Intelligence in Peer Review: Enhancing Efficiency While Preserving IntegrityDoskaliuk B, Zimba O, Yessirkepov M, Klishch I, Yatsyshyn R. Artificial Intelligence in Peer Review: Enhancing Efficiency While Preserving Integrity. J Korean Med Sci. 2025 Feb;40(7):e92. https://doi.org/10.3346/jkms.2025.40.e92
+- 
+    
+The Artificial Intelligence Disclosure (AID) Framework: An IntroductionWeaver, K. (2024). The Artificial Intelligence Disclosure (AID) Framework: An Introduction. College & Research Libraries News, 85(10), 407. doi:https://doi.org/10.5860/crln.85.10.407
+- 
+    
+AI Law LibrariansAll Things AI Law Librarian-ish, Generative AI, and Legal Research/Education/Technology
+- 
+    
+Generative AI News (Nicole Hennig)Monthly e-newsletter for librarians and others "Exploring AI’s potential and staying current with AI literacy."
+- 
+    
+LibTech InsightsLibTech Insights examines the day-to-day impact of library and education technology on academic librarians. Features blog posts, webinars, podcasts, and other content formats to provide guidance on technology trends, products, and news, as they relate to generative AI, user experience, accessibility, digital literacies, and much, much more.
+- 
+    
+ARL Day in ReviewDay in Review highlights news and other stories of interest to the research library community in the US and Canada. Released Monday through Thursday, Day in Review is curated by Gary D. Price, co-founder and editor of Library Journal’s infoDOCKET, and edited and produced by the ARL Communications team.
+- 
+    
+AI + Libraries: Information Literacy, Instruction, & Reference (Florida International University Libraries)This mega guide delves into the integration of Artificial Intelligence within libraries, covering topics such as information literacy, instructional strategies, and reference services. Covers: Information Literacy + AI; GenAI & Information Literacy References; AI & Librarianship Research; AI Issues; AI in your Library Workflow; AI Tools; links to other organizations' AI LibGuides; AI Literacy; Prompting AI; and Leveraging AI for Enhanced Reference & User Services (presentation)
+- 
+    
+AI in Libraries (Georgia Public Libraries Tech Center)Lists ways different library functions can use AI.
+- 
+    
+AIRUS AI Tools, Resources, Projects, & Scholarship SpreadsheetSpreadsheet of AI tools and other resources collected by members of RUSA's AIRUS (Artificial Intelligence in Reference & User Services Interest Group)
+- 
+    
+BigLAM: BigScience Libraries, Archives and Museums (Hugging Face)BigLAM started as a datasets hackathon focused on making data from Libraries, Archives, and Museums (LAMS) with potential machine-learning applications accessible via the Hugging Face Hub. We are continuing to work on making more datasets available via the Hugging Face hub to help make these datasets more discoverable, open them up to new audiences, and help ensure that machine-learning datasets more closely reflect the richness of human culture.
+- 
+    
+RDMLA: AI for Librarians (Research Data Management Librarian Academy)The Research Data Management Librarian Academy (RDMLA) is a free online professional development program for librarians, information professionals, or other professionals who work in a data-intensive environment throughout the world.
+RDMLA: AI for Librarians is an extension of RDMLA, designed to help librarians build practical AI skills for the modern library. As AI rapidly transforms data and information science, this course provides a hands-on introduction to AI applications in library settings, with a strong focus on ethical and responsible use. Through real-world scenarios, participants will explore how AI can enhance library workflows and user services, equipping librarians to confidently integrate AI into their work. RDMLA features a unique partnership between a LIS academic program, academic health sciences and research libraries, faculty and scholars, and Elsevier.
+- 
+    
+Robo Schol: An Artificial Intelligence and Scholarly Communication ToolkitA living document that began with resources suggested by participants in the EBSS Scholarly Communication Committee’s Spring 2024 Water Cooler Event.
+- 
+    
+Ethical Use of AI in Library Research (Dona Ana Community College Library)The 3 minute video discusses the ethical use of generative AI tools like ChatGPT, Google Gemini, and Perplexity in library research. It covers how AI can ethically support the research process by:
+ - Generating research angles for broad topics
+ - Strengthening thesis statements
+ - Creating Boolean search strings for databases
+ - Helping organize ideas into outlines
+ - Assisting with basic formatting
+It also emphasizes the importance of verifying information provided by AI due to the risk of hallucination and always checking with professors about their AI policies.
+- 
+    
+Research Libraries Guiding Principles for Artificial Intelligence (ARL, 4/2024)Articulating a set of research library guiding principles for AI is useful to influence policy and advocate for the responsible development and deployment of AI technologies, promote ethical and transparent practices, and build trust among stakeholders, within research libraries as well as across the research environment. These principles will serve as a foundational framework for the ethical and transparent use of AI and reflect the values we hold in research libraries. ARL will rely on these principles in our policy advocacy and engagement.
+- 
+    
+Viewfinder: A toolkit for values-driven AI in libraries and archives.Viewfinder is a participatory toolkit designed to facilitate ethical reflection about AI in libraries and archives from different stakeholder perspectives. Viewfinder was developed by librarians and technology ethicists at Montana State University, University of Montana, James Madison University, and Iowa State University, based on research conducted between 2022 and 2025. The work was made possible in part by funding from the Institute of Museum and Library Services.
+- 
+    
+AI Competencies for Academic Library WorkersApproved by the ACRL Board of Directors, October 2025
+- 
+    
+Futurescape Libraries AI ToolkitThis toolkit is designed for leaders of research libraries who want to integrate the ARL/CNI AI Scenarios into ongoing planning activities—such as annual operating plans, strategic reviews, or cross-institutional conversations.
+- 
+    
+Viewfinder: A toolkit for values-driven AI in libraries and archivesThis toolkit facilitates ethical reflection about AI scenarios in libraries and archives from different stakeholder perspectives. Viewfinder was developed by librarians and technology ethicists at Montana State University, University of Montana, James Madison University, and Iowa State University, based on research conducted between 2022 and 2025. The work was made possible in part by funding from the Institute of Museum and Library Services.
+- 
+    
+Academic Integrity Virtual Symposium 2023: The Threats and Opportunities of Artificial Intelligence & Contract Cheating: Charting a Teaching & Learning Path Forward - April 17-21, 2023Recordings of four days of talks from researchers, instructors, and students
+- 
+    
+Chatting GPT at the San Diego Supercomputer Center - April 19, 2023Three-hour symposium offered by UC San Diego Halıcıoğlu Data Science Institute (HDSI), Institute for Practical Ethics, and San Diego Supercomputer Center (SDSC)
+- 
+    
+AI Weirdness blogBlog by Janelle Shane, author of You Look Like a Thing and I Love You: How AI Works and Why it’s Making the World a Weirder Place
+- 
+    
+Generative AI / Adoption TrackerThis tracker visualizes data from the first nationally representative U.S. surveys of genAI usage at work and at home. Our data come from the Real-Time Population Survey (RPS), anational online labor market surveyof working-age adults aged 18-64 that has run since 2020.
+- Last Updated: Jun 16, 2026 8:56 AM
+- URL: https://ucsd.libguides.com/AI
+- Print Page
+
+Utilizing GenAI tools effectively involves choosing the right tool for the task at hand, crafting prompts that generate the output you want/expect, AND using the tools ethically and with integrity. This section of the guide focuses on crafting prompts and evaluating and choosing specific tools.
+✔️ Fact-check AI-generated content and verify sources, especially if you plan to use the content in the work you share and/or publish. 
+✔️ Students: Use tools within the guidelines established by instructors and the Academic Integrity Office.
+✔️ Employees: Follow employer guidelines, whether UC San Diego or another organization.
+❌ Do not include Personal Identifiable Information (PII) in prompts, either your own or anyone else's.
+Learn Prompting defines "prompt engineering" as "the process of communicating effectively with an AI to achieve desired results."
+Using GenAI tools effectively requires that the user know the right questions to ask, and how to phrase them for the best results. Vague or generic questions generate vague or generic results. (In other words, garbage in, garbage out.)
+Tips for crafting prompts to get the best results from chatbots:
+✔️ If you are unfamiliar with the topic, check the chatbot's work.
+✔️ Treat the chatbot like a brand new assistant who is eager to please but doesn't know what they don't know. 
+❌️ ChatGPT and other chatbots are notorious for making up citations to sources that do not exist. If you are asking for factual information, choose tools that provide links to the websites for information sources so that you can check their work.
+There are almost as many frameworks for structuring prompts as there are acronyms available in the English language. Ultimately, there is no single right or wrong way to structure a prompt, though the output will likely vary depending on the instructions a chatbot is given. Consider these frameworks as guides for crafting a prompt more than hard and fast rules. When in doubt, we suggest starting with a simple framework, like RTF (Role/Task/Format) or TAG (Task/Action/Goal).
+Many tech reviewers have published comparisons between popular AI chatbots, but the landscape changes rapidly.
+This guide primarily features free and freemium tools. We recommend experimenting with these options before investing in any paid subscriptions. Unless you need a feature that is unique to another tool, we also highly recommend choosing chatbots that connect to the internet and provide links so that you can verify their claims.
+UC San Diego accounts currently support TritonGPT, Google Gemini and NotebookLM, and Microsoft Copilot.
+Google Gemini is a multimodal AI model powering Google's AI chatbot and integrated across its products, capable of understanding and generating diverse data.
+Meta's popular, open source Llama model powers many different tools. Meta AI's assistant is available as a stand-alone app and infused throughout Meta's products like Facebook and Instagram. The assistant in Facebook, Instagram, and WhatsApp messengers is designed to provide personalized and empathetic responses, understand context and nuances of human conversations, and offer creative solutions and ideas.
+Sign in with your ucsd.edu email address. Dimensions is a linked research data platform, including information on publications, research funding, patents and clinical trials, all on an international scale. Dimensions is designed to help anyone involved in research to gain better knowledge about activity in their research area or institution, and how it has changed over time. The Library has an institutional account with added functionality
+Includes AI summarizer feature, Dimensions Research GPT (Dimensions’ scientific evidence + ChatGPT), and Chat with this PDF in Papers integration.
+Some examples of the ways in which Dimensions can be used include - 
+• Discovery of the latest publications, awarded grant funding, clinical trials or patents on any topic of interest, worldwide.
+• Benchmarking of research organizations, funders, publications or researchers in a particular topic, or across all research activity.
+• Identification of new sources of research funding for future funding applications
+• Clear and unbiased analysis of the research activity at our own organization, and how this is changing over time.
+✔️ Students take note: please make sure that you are using these in accordance with your instructor's rules on use of generative AI and the Academic Integrity Office's guidelines. 
+✔️ If you have questions or concerns, please consult your instructor first.
+AI-powered image generation uses deep learning models to create novel visuals from text prompts, sketches, or reference images. By training on massive datasets of photographs, paintings, and other imagery, these models learn to map textual concepts and visual patterns into coherent, high-quality outputs. Users can describe a scene in words and the model interprets that description to produce a matching image.
+Open source image generators invite community involvement, transparency, and customization by publishing their model weights, training code, and sample notebooks. Open source models empower researchers and artists to experiment, audit, and adapt the technology. Two leading examples are Stable Diffusion and FLUX.
+LoRAs are lightweight modules that augment a pre-trained image model without retraining all of its parameters. By combining open source backbones like Stable Diffusion or FLUX with curated LoRA modules, artists and developers gain maximum creative control while keeping computation costs low.
+Most AI image generating sites operate on a freemium model where users are allotted a set number of credits. For many tools, the credits reset daily or monthly, but some tools provide only a one-time allotment. Users who pay for accounts can generally unlock more credits and/or premium features. We do not recommend paying for any sites without further research.
+DALL-E is OpenAI's text-to-image model. DALL-E 3 is included in a ChatGPT Plus subscription or available for free via Copilot Design.
+FLUX.1 is a suite of advanced text-to-image models known for their exceptional image detail, prompt adherence, style diversity, and scene complexity. FLUX is developed by Black Forest Labs, which was founded by former researchers from Stability AI.
+Stable Diffusion is a family of popular open source text-to-image models created by Stability AI. Anyone can download and run the code on their own PC, and a plethora of generative AI sites have incorporated Stable Diffusion code into their tools in both its original form and modified through low-ranking adaptation (LoRA), an AI training technique that helps to fine-tune the models.
+
+Generative artificial intelligence (AI) is a category of web-based tools that use algorithms, data, and statistical models to draw reasonable inferences to create content of its own (e,g., text, images, etc.). They are not search engines but rather trained chatbots. Using a prompt, a chatbot strives to fill in the next missing content piece, "what one might expect" (Wolfram).
+These tools use large language models to provide bots with the data they need to reply to a prompt you have given it appropriately. For example, when ChatGPT writes a response to a prompt, it provides text based on what words came before and what is the most likely next word. Because AI uses natural language and computes so quickly, it can often seem like the chatbot is, in fact, intelligent.
+The field of AI is changing at a rapid pace. We know that these generative tools help users synthesize information and create content (code, essays, art, music, etc.). However, these tools can also "hallucinate", or make up facts or sources and create biased content.
+Make sure it is ethical to use AI (see AI and Academic Integrity) and fact-check any content and sources you plan to use in the work you share with others or publish that has been generated by AI.

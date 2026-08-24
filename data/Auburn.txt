@@ -1,0 +1,88 @@
+This LibGuide provides an overview of AI definitions, resources, ethical considerations, and applications of AI in teaching, research, and learning. AI Literacy involves understanding the functions of AI tools, ethical issues related to AI, how to use AI
+Auburn University is an Adobe Creative Campus; students and employees have access to Adobe Creative Cloud including generative AI such as Adobe Firefly. Learn more at adobe.auburn.edu and at the AU Libraries’ Adobe Creative Space.
+Auburn University has an enterprise license with Turnitin, a comprehensive plagiarism detection service integrated with Canvas to ensure the academic integrity of students' work. Turnitin offers tools to detect plagiarism and provide feedback on student writing. It compares submitted papers to a large database of academic papers, websites, and other sources to identify potential plagiarism. Similarity by Turnitin generates a similarity report that shows the percentage of matching text and the sources of the matches.
+This article lists AI tools available to students, faculty, and staff at AU. These AI-enabled software are vetted and available as described for enterprise-level use across campus. Each item listed below is a brief description of an available AI tool and links to more information.
+Auburn University is a Microsoft Campus that uses Microsoft's Copilot as an integrated application tool. Copilot is an advanced conversational AI model based on OpenAI's GPT-4 and Microsoft's Bing, offering a variety of capabilities. It is designed to assist users with numerous tasks, including synthesizing information, providing support, and completing productivity-related activities.OpenAI's GPT-4 and Microsoft's Bing offer a range of capabilities. It is designed to assist users with various tasks, from synthesizing information and offering support to completing productivity-related activities.
+
+Guidance for Responsible Use of Artificial Intelligence This link opens in a new window             
+        
+            
+    
+    
+                
+            Commitment to Responsible Use of AI
+Auburn University, Auburn University at Montgomery, the Alabama Cooperative Extension System, and the Alabama Agricultural Experiment Station are committed to the responsible use of artificial intelligence (AI) in academic, research, operational, and administrative settings. While many AI tools are designed to enhance productivity, performance, and efficiency, they can also cause harm if used improperly, unethically, unlawfully, or insecurely.
+The University adheres to all applicable state, federal, and international laws regarding the use of AI. Additionally, we are dedicated to the ethical, humane, and socially responsible application of AI tools and systems. Responsible use of AI is guided by principles of ethics, transparency, accountability, data privacy, security, fairness, and human-centered oversight.
+
+Artifical Intelligence (A.I.) Literacy: Resources for Educators
+This LibGuide provides an overview of AI definitions, resources, ethical considerations, and applications of AI in teaching, research, and learning. AI Literacy involves understanding the functions of AI tools, ethical issues related to AI, how to use AI
+The Auburn University Biggio Center for the Enhancement of Teaching and Learning introduces a world-class, online, self-paced course: "Teaching with AI" especially designed for higher education faculty, graduates, and professional staff.
+The Biggio Center suggests one of four syllabus statements depending on the instructor's desired level of use of generative AI tools. All technology must be vetted through the Auburn University vetting process prior to use.
+Bloom's Taxonomy
+Use this table as a reference for evaluating and considering changes to aligned course activities (or, where possible, learning outcomes) that emphasize distinctive human skills and or integrate generative AI (GenAI) tools as a supplement to the learning process.
+
+Copyright and Artificial Intelligence- U.S. Copyright Office This link opens in a new window             
+        
+            
+    
+    
+                
+            The Copyright Office has launched an initiative to examine the copyright law and policy issues raised by artificial intelligence (AI) technology, including the scope of copyright in works generated using AI tools and the use of copyrighted materials in AI training. Includes "Copyright Registration Guidance for Works Containing AI-Generated Material" and links to training.
+
+Artifical Intelligence (A.I.) Literacy: AI in Research
+This LibGuide provides an overview of AI definitions, resources, ethical considerations, and applications of AI in teaching, research, and learning. AI Literacy involves understanding the functions of AI tools, ethical issues related to AI, how to use AI
+Dimensions Research GPT is a custom version of GPT integrated into the ChatGPT platform. It specifically utilizes Dimensions' database of open-access scholarly publications to deliver research-driven answers that include clickable references.
+Users of Dimensions Research GPT can receive quick answers supported by sources they can easily trace. Available to all users of ChatGPT. You must sign in to your ChatGPT account to use Dimensions.
+ResearchRabbit is a free online platform using AI-driven citation analysis, offering two ways to start your research.
+You can search for and add articles known to be relevant to your topic, which is ideal if you have a strong research starting point. Alternatively, if you have a Zotero collection, you can import it directly into ResearchRabbit.
+(From the website) Semantic Scholar is a free, AI-powered research and discovery tool developed by the non-profit Allen Institute for Artificial Intelligence. It helps users navigate the vast and ever-growing literature across all scientific domains. By utilizing artificial intelligence to extract meaning from scientific texts, Semantic Scholar enables researchers to find information more efficiently compared to traditional search engines.
+This innovative discovery tool can assist you by:
+- Providing a quick overview of research papers
+- Keeping you updated in your field
+- Helping you manage your reading materials
+- Enhancing your understanding of the topics you are researching
+
+Artificial Intelligence (AI) is the ability of computer systems to perform tasks that usually require human intelligence. These tasks include:
+- Learning
+- Reasoning
+- Problem-solving
+- Perception
+- Decision-making
+ 
+Machine Learning is a part of AI that allows programs to automatically improve their performance on specific tasks.
+Generative Artificial Intelligence (GenAI) is a subset of AI that uses generative models to create content. This can include:
+- Text
+- Images
+- Videos
+- Audio
+- Software code
+ 
+The function of GenAI is to analyze patterns in training data and generate new data in response to natural language prompts. Some examples of large language models that illustrate GenAI tools are:
+- ChatGPT
+- Copilot
+- Gemini
+- Claude
+- Grok
+- DeepSeek
+
+Prompt Engineering
+When assigning a task to a language model (LLM), providing clear, specific instructions yields better results. Here are some effective ways to be specific:
+ 
+1. Provide a role: For example, say, "You are a scientist who studies dark matter."
+2. Define the audience: For instance, specify, "…for an audience of second graders."
+3. Specify the tone: Indicate, "In a scholarly tone,…"
+4. Indicate the format: For example, you can say, "In five bullet points,…" 
+ 
+Using these strategies can help improve the quality of the output.
+
+This LibGuide provides an overview of AI definitions, resources, ethical considerations, and applications of AI in teaching, research, and learning. AI Literacy involves understanding the functions of AI tools, ethical issues related to AI, how to use AI
+1. Ensure Ethical Use: Verify that it is ethical to use GenAI output by checking your syllabus and Auburn's Guidance for Responsible Use of Artificial Intelligence (OACP).
+2. Fact-Check Content: Before incorporating any GenAI content into your work, make sure to verify its accuracy and reliability.
+3. Properly Cite or Acknowledge Your Use: Follow guidelines for citing or acknowledging your use of GenAI appropriately.
+See below for guidance on how to cite/acknowledge the use of GenAI.
+You should: cite a generative AI tool whenever you paraphrase, quote, or incorporate into your own work any content (whether text, image, data, or other) that was created by it
+acknowledge all functional uses of the tool (like editing your prose or translating words) in a note, your text, or another suitable location
+Most AI chat tools, including ChatGPT, now include a sharing option that typically provides users with a unique URL and a title for each chat. This makes creating an APA Style reference for a specific chat a simple matter of following the author–date–title–source format used in most APA Style references.
+Include a reference and in-text citation for a specific AI chat foremostly when doing so will be helpful for readers
+For most types of writing, you can simply acknowledge the AI tool in your text (e.g., “The following recipe for pizza dough was generated by ChatGPT”).
+The AMA Manual of Style's section Acknowledging Support, Assistance, and Contributions of Those Who Are Not Authors recommends noting the use of AI tools in the Acknowledgements or Methods section of your paper, depending on what you used the tool for.
