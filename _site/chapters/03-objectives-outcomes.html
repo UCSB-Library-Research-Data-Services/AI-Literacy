@@ -385,6 +385,14 @@ flowchart LR
 
     A --&gt; B
     B --&gt; C
+
+    classDef paradigm fill:#eff6ff,stroke:#2563eb,stroke-width:2px,color:#1e40af;
+    classDef redesign fill:#fffbeb,stroke:#d97706,stroke-width:2px,color:#92400e;
+    classDef policy fill:#ecfdf5,stroke:#059669,stroke-width:2px,color:#065f46;
+
+    class A paradigm;
+    class B redesign;
+    class C policy;
 </pre>
 </div>
 <p></p><figcaption> Pedagogical Transformation Model for Educators</figcaption> </figure><p></p>
@@ -1123,22 +1131,30 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <span id="cb2-92"><a href="#cb2-92" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-93"><a href="#cb2-93" aria-hidden="true" tabindex="-1"></a><span class="in">    A --&gt; B</span></span>
 <span id="cb2-94"><a href="#cb2-94" aria-hidden="true" tabindex="-1"></a><span class="in">    B --&gt; C</span></span>
-<span id="cb2-95"><a href="#cb2-95" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
-<span id="cb2-96"><a href="#cb2-96" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-97"><a href="#cb2-97" aria-hidden="true" tabindex="-1"></a><span class="fu">### 1. Assessment Redesign (Process over Product)</span></span>
-<span id="cb2-98"><a href="#cb2-98" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Mitigating Cognitive Offloading**: Designing assessments that require metacognitive reflection, live research defense, peer review, and authentic problem-solving that cannot be trivially automated (UCSD, USC, Chapman).</span>
-<span id="cb2-99"><a href="#cb2-99" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**The PAIR / PAIRR Framework** (UC San Diego): Scaffolding assignments into *Problem formulation*, *AI tool selection*, *Interaction*, and *Reflection* (PAIR), followed by *Peer &amp; AI Review + Reflection* (PAIRR).</span>
-<span id="cb2-100"><a href="#cb2-100" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-101"><a href="#cb2-101" aria-hidden="true" tabindex="-1"></a><span class="fu">### 2. Syllabus Transparency &amp; Explicit Boundaries</span></span>
-<span id="cb2-102"><a href="#cb2-102" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Establishing explicit, tiered syllabus policies rather than vague guidelines (e.g., clarifying exactly when AI is permitted for brainstorming vs. prohibited during drafting).</span>
-<span id="cb2-103"><a href="#cb2-103" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-104"><a href="#cb2-104" aria-hidden="true" tabindex="-1"></a><span class="fu">### 3. AI-Assisted Course Preparation</span></span>
-<span id="cb2-105"><a href="#cb2-105" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Modeling the transparent use of AI in lesson planning, drafting case studies, and creating customized rubric criteria while maintaining human oversight (USC, UC Davis).</span>
-<span id="cb2-106"><a href="#cb2-106" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-107"><a href="#cb2-107" aria-hidden="true" tabindex="-1"></a>---</span>
+<span id="cb2-95"><a href="#cb2-95" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-96"><a href="#cb2-96" aria-hidden="true" tabindex="-1"></a><span class="in">    classDef paradigm fill:#eff6ff,stroke:#2563eb,stroke-width:2px,color:#1e40af;</span></span>
+<span id="cb2-97"><a href="#cb2-97" aria-hidden="true" tabindex="-1"></a><span class="in">    classDef redesign fill:#fffbeb,stroke:#d97706,stroke-width:2px,color:#92400e;</span></span>
+<span id="cb2-98"><a href="#cb2-98" aria-hidden="true" tabindex="-1"></a><span class="in">    classDef policy fill:#ecfdf5,stroke:#059669,stroke-width:2px,color:#065f46;</span></span>
+<span id="cb2-99"><a href="#cb2-99" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-100"><a href="#cb2-100" aria-hidden="true" tabindex="-1"></a><span class="in">    class A paradigm;</span></span>
+<span id="cb2-101"><a href="#cb2-101" aria-hidden="true" tabindex="-1"></a><span class="in">    class B redesign;</span></span>
+<span id="cb2-102"><a href="#cb2-102" aria-hidden="true" tabindex="-1"></a><span class="in">    class C policy;</span></span>
+<span id="cb2-103"><a href="#cb2-103" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb2-104"><a href="#cb2-104" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-105"><a href="#cb2-105" aria-hidden="true" tabindex="-1"></a><span class="fu">### 1. Assessment Redesign (Process over Product)</span></span>
+<span id="cb2-106"><a href="#cb2-106" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Mitigating Cognitive Offloading**: Designing assessments that require metacognitive reflection, live research defense, peer review, and authentic problem-solving that cannot be trivially automated (UCSD, USC, Chapman).</span>
+<span id="cb2-107"><a href="#cb2-107" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**The PAIR / PAIRR Framework** (UC San Diego): Scaffolding assignments into *Problem formulation*, *AI tool selection*, *Interaction*, and *Reflection* (PAIR), followed by *Peer &amp; AI Review + Reflection* (PAIRR).</span>
 <span id="cb2-108"><a href="#cb2-108" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-109"><a href="#cb2-109" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">← Previous: 2. Definitions of AI Literacy</span><span class="co">](02-definitions.qmd)</span>{.btn .btn-outline-secondary}</span>
-<span id="cb2-110"><a href="#cb2-110" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">Next: 4. Policies, Guidelines &amp; Citation →</span><span class="co">](04-policies-guidelines.qmd)</span>{.btn .btn-primary}</span>
+<span id="cb2-109"><a href="#cb2-109" aria-hidden="true" tabindex="-1"></a><span class="fu">### 2. Syllabus Transparency &amp; Explicit Boundaries</span></span>
+<span id="cb2-110"><a href="#cb2-110" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Establishing explicit, tiered syllabus policies rather than vague guidelines (e.g., clarifying exactly when AI is permitted for brainstorming vs. prohibited during drafting).</span>
+<span id="cb2-111"><a href="#cb2-111" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-112"><a href="#cb2-112" aria-hidden="true" tabindex="-1"></a><span class="fu">### 3. AI-Assisted Course Preparation</span></span>
+<span id="cb2-113"><a href="#cb2-113" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Modeling the transparent use of AI in lesson planning, drafting case studies, and creating customized rubric criteria while maintaining human oversight (USC, UC Davis).</span>
+<span id="cb2-114"><a href="#cb2-114" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-115"><a href="#cb2-115" aria-hidden="true" tabindex="-1"></a>---</span>
+<span id="cb2-116"><a href="#cb2-116" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-117"><a href="#cb2-117" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">← Previous: 2. Definitions of AI Literacy</span><span class="co">](02-definitions.qmd)</span>{.btn .btn-outline-secondary}</span>
+<span id="cb2-118"><a href="#cb2-118" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">Next: 4. Policies, Guidelines &amp; Citation →</span><span class="co">](04-policies-guidelines.qmd)</span>{.btn .btn-primary}</span>
 </code><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></pre></div>
 </div></div></div></div></div>
 </div> <!-- /content -->

@@ -566,6 +566,26 @@ flowchart LR
     DH --&gt; D1["Auburn University"]
     DH --&gt; D2["Chapman University"]
     DH --&gt; D3["William and Mary"]
+
+    classDef root fill:#1e293b,stroke:#0f172a,stroke-width:2px,color:#ffffff;
+    classDef ucHeader fill:#1d4ed8,stroke:#1e40af,stroke-width:2px,color:#ffffff;
+    classDef ucNode fill:#eff6ff,stroke:#3b82f6,stroke-width:2px,color:#1e40af;
+    classDef toolHeader fill:#059669,stroke:#047857,stroke-width:2px,color:#ffffff;
+    classDef toolNode fill:#ecfdf5,stroke:#10b981,stroke-width:2px,color:#065f46;
+    classDef critHeader fill:#7c3aed,stroke:#6d28d9,stroke-width:2px,color:#ffffff;
+    classDef critNode fill:#f5f3ff,stroke:#8b5cf6,stroke-width:2px,color:#5b21b6;
+    classDef demystHeader fill:#d97706,stroke:#b45309,stroke-width:2px,color:#ffffff;
+    classDef demystNode fill:#fffbeb,stroke:#f59e0b,stroke-width:2px,color:#92400e;
+
+    class ALL root;
+    class UC ucHeader;
+    class U1,U2,U3,U4,U5 ucNode;
+    class TD toolHeader;
+    class T1,T2 toolNode;
+    class CO critHeader;
+    class C1 critNode;
+    class DH demystHeader;
+    class D1,D2,D3 demystNode;
 </pre>
 </div>
 <p></p><figcaption> Institutional Alignment and Curricular Networks</figcaption> </figure><p></p>
@@ -1300,32 +1320,52 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <span id="cb1-75"><a href="#cb1-75" aria-hidden="true" tabindex="-1"></a><span class="in">    DH --&gt; D1["Auburn University"]</span></span>
 <span id="cb1-76"><a href="#cb1-76" aria-hidden="true" tabindex="-1"></a><span class="in">    DH --&gt; D2["Chapman University"]</span></span>
 <span id="cb1-77"><a href="#cb1-77" aria-hidden="true" tabindex="-1"></a><span class="in">    DH --&gt; D3["William and Mary"]</span></span>
-<span id="cb1-78"><a href="#cb1-78" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
-<span id="cb1-79"><a href="#cb1-79" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-80"><a href="#cb1-80" aria-hidden="true" tabindex="-1"></a><span class="fu">### 1. The University of California Core Network</span></span>
-<span id="cb1-81"><a href="#cb1-81" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Institutions**: UC Davis, UC Merced, UC Santa Barbara, UC San Diego, with USC closely adjacent.</span>
-<span id="cb1-82"><a href="#cb1-82" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Pairwise Affinity**: **0.952 to 0.969** (highest pairwise affinity in the corpus is UCSB $\leftrightarrow$ UCSD at **0.9694**).</span>
-<span id="cb1-83"><a href="#cb1-83" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Underlying Rationale**: These guides exhibit shared pedagogical structures: multi-parameter prompt design rubrics (CLEAR, RTF, TAG), standardized citation requirements across style guides, campus data security tiers (P2/P4 data protection), and active coordination on authentic assessment design.</span>
-<span id="cb1-84"><a href="#cb1-84" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-85"><a href="#cb1-85" aria-hidden="true" tabindex="-1"></a><span class="fu">### 2. The Pragmatic Tool-Use Dyad</span></span>
-<span id="cb1-86"><a href="#cb1-86" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Institutions**: Baylor University $\leftrightarrow$ University of Arkansas.</span>
-<span id="cb1-87"><a href="#cb1-87" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Pairwise Affinity**: **0.9422** similarity with each other, but isolated from the rest of the corpus (similarities to other institutions drop below **0.87**).</span>
-<span id="cb1-88"><a href="#cb1-88" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Underlying Rationale**: Both guides prioritize the mechanics of research and discovery tools—natural language database querying, RAG summaries in EBSCO/OneSearch, and data mining scripts—focusing on practical user workflows rather than theoretical or sociotechnical critiques.</span>
-<span id="cb1-89"><a href="#cb1-89" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-90"><a href="#cb1-90" aria-hidden="true" tabindex="-1"></a><span class="fu">### 3. The Critical Theory Outlier: UC Irvine</span></span>
-<span id="cb1-91"><a href="#cb1-91" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Institution**: UC Irvine.</span>
-<span id="cb1-92"><a href="#cb1-92" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Maximum Similarity**: **0.8848** (to UC Davis) and **0.8780** (to UCSB).</span>
-<span id="cb1-93"><a href="#cb1-93" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Underlying Rationale**: While other UC campuses balance tool optimization with critical evaluation, UC Irvine structures its guide primarily around **Critical Information Literacy (CIL)** and the ACRL Framework. The guide focuses heavily on algorithmic bias, data worker labor exploitation in the global South, and environmental footprints, de-emphasizing utilitarian prompt-engineering guides.</span>
-<span id="cb1-94"><a href="#cb1-94" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-95"><a href="#cb1-95" aria-hidden="true" tabindex="-1"></a><span class="fu">### 4. Demystification &amp; Cognitive Preserving Cluster</span></span>
-<span id="cb1-96"><a href="#cb1-96" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Institutions**: Auburn University, Chapman University, William &amp; Mary.</span>
-<span id="cb1-97"><a href="#cb1-97" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Pairwise Affinity**: **0.9338 – 0.9452**.</span>
-<span id="cb1-98"><a href="#cb1-98" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Underlying Rationale**: These institutions emphasize demystifying AI concepts for non-programmers, preventing cognitive offloading ("Against Brain Damage"), and implementing accessible evaluation rubrics (the ROBOT Test).</span>
+<span id="cb1-78"><a href="#cb1-78" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-79"><a href="#cb1-79" aria-hidden="true" tabindex="-1"></a><span class="in">    classDef root fill:#1e293b,stroke:#0f172a,stroke-width:2px,color:#ffffff;</span></span>
+<span id="cb1-80"><a href="#cb1-80" aria-hidden="true" tabindex="-1"></a><span class="in">    classDef ucHeader fill:#1d4ed8,stroke:#1e40af,stroke-width:2px,color:#ffffff;</span></span>
+<span id="cb1-81"><a href="#cb1-81" aria-hidden="true" tabindex="-1"></a><span class="in">    classDef ucNode fill:#eff6ff,stroke:#3b82f6,stroke-width:2px,color:#1e40af;</span></span>
+<span id="cb1-82"><a href="#cb1-82" aria-hidden="true" tabindex="-1"></a><span class="in">    classDef toolHeader fill:#059669,stroke:#047857,stroke-width:2px,color:#ffffff;</span></span>
+<span id="cb1-83"><a href="#cb1-83" aria-hidden="true" tabindex="-1"></a><span class="in">    classDef toolNode fill:#ecfdf5,stroke:#10b981,stroke-width:2px,color:#065f46;</span></span>
+<span id="cb1-84"><a href="#cb1-84" aria-hidden="true" tabindex="-1"></a><span class="in">    classDef critHeader fill:#7c3aed,stroke:#6d28d9,stroke-width:2px,color:#ffffff;</span></span>
+<span id="cb1-85"><a href="#cb1-85" aria-hidden="true" tabindex="-1"></a><span class="in">    classDef critNode fill:#f5f3ff,stroke:#8b5cf6,stroke-width:2px,color:#5b21b6;</span></span>
+<span id="cb1-86"><a href="#cb1-86" aria-hidden="true" tabindex="-1"></a><span class="in">    classDef demystHeader fill:#d97706,stroke:#b45309,stroke-width:2px,color:#ffffff;</span></span>
+<span id="cb1-87"><a href="#cb1-87" aria-hidden="true" tabindex="-1"></a><span class="in">    classDef demystNode fill:#fffbeb,stroke:#f59e0b,stroke-width:2px,color:#92400e;</span></span>
+<span id="cb1-88"><a href="#cb1-88" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-89"><a href="#cb1-89" aria-hidden="true" tabindex="-1"></a><span class="in">    class ALL root;</span></span>
+<span id="cb1-90"><a href="#cb1-90" aria-hidden="true" tabindex="-1"></a><span class="in">    class UC ucHeader;</span></span>
+<span id="cb1-91"><a href="#cb1-91" aria-hidden="true" tabindex="-1"></a><span class="in">    class U1,U2,U3,U4,U5 ucNode;</span></span>
+<span id="cb1-92"><a href="#cb1-92" aria-hidden="true" tabindex="-1"></a><span class="in">    class TD toolHeader;</span></span>
+<span id="cb1-93"><a href="#cb1-93" aria-hidden="true" tabindex="-1"></a><span class="in">    class T1,T2 toolNode;</span></span>
+<span id="cb1-94"><a href="#cb1-94" aria-hidden="true" tabindex="-1"></a><span class="in">    class CO critHeader;</span></span>
+<span id="cb1-95"><a href="#cb1-95" aria-hidden="true" tabindex="-1"></a><span class="in">    class C1 critNode;</span></span>
+<span id="cb1-96"><a href="#cb1-96" aria-hidden="true" tabindex="-1"></a><span class="in">    class DH demystHeader;</span></span>
+<span id="cb1-97"><a href="#cb1-97" aria-hidden="true" tabindex="-1"></a><span class="in">    class D1,D2,D3 demystNode;</span></span>
+<span id="cb1-98"><a href="#cb1-98" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
 <span id="cb1-99"><a href="#cb1-99" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-100"><a href="#cb1-100" aria-hidden="true" tabindex="-1"></a>---</span>
-<span id="cb1-101"><a href="#cb1-101" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-102"><a href="#cb1-102" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">← Previous: 5. Instructional Frameworks</span><span class="co">](05-frameworks.qmd)</span>{.btn .btn-outline-secondary}</span>
-<span id="cb1-103"><a href="#cb1-103" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">Next: 7. Strategic Recommendations →</span><span class="co">](07-recommendations.qmd)</span>{.btn .btn-primary}</span>
+<span id="cb1-100"><a href="#cb1-100" aria-hidden="true" tabindex="-1"></a><span class="fu">### 1. The University of California Core Network</span></span>
+<span id="cb1-101"><a href="#cb1-101" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Institutions**: UC Davis, UC Merced, UC Santa Barbara, UC San Diego, with USC closely adjacent.</span>
+<span id="cb1-102"><a href="#cb1-102" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Pairwise Affinity**: **0.952 to 0.969** (highest pairwise affinity in the corpus is UCSB $\leftrightarrow$ UCSD at **0.9694**).</span>
+<span id="cb1-103"><a href="#cb1-103" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Underlying Rationale**: These guides exhibit shared pedagogical structures: multi-parameter prompt design rubrics (CLEAR, RTF, TAG), standardized citation requirements across style guides, campus data security tiers (P2/P4 data protection), and active coordination on authentic assessment design.</span>
+<span id="cb1-104"><a href="#cb1-104" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-105"><a href="#cb1-105" aria-hidden="true" tabindex="-1"></a><span class="fu">### 2. The Pragmatic Tool-Use Dyad</span></span>
+<span id="cb1-106"><a href="#cb1-106" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Institutions**: Baylor University $\leftrightarrow$ University of Arkansas.</span>
+<span id="cb1-107"><a href="#cb1-107" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Pairwise Affinity**: **0.9422** similarity with each other, but isolated from the rest of the corpus (similarities to other institutions drop below **0.87**).</span>
+<span id="cb1-108"><a href="#cb1-108" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Underlying Rationale**: Both guides prioritize the mechanics of research and discovery tools—natural language database querying, RAG summaries in EBSCO/OneSearch, and data mining scripts—focusing on practical user workflows rather than theoretical or sociotechnical critiques.</span>
+<span id="cb1-109"><a href="#cb1-109" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-110"><a href="#cb1-110" aria-hidden="true" tabindex="-1"></a><span class="fu">### 3. The Critical Theory Outlier: UC Irvine</span></span>
+<span id="cb1-111"><a href="#cb1-111" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Institution**: UC Irvine.</span>
+<span id="cb1-112"><a href="#cb1-112" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Maximum Similarity**: **0.8848** (to UC Davis) and **0.8780** (to UCSB).</span>
+<span id="cb1-113"><a href="#cb1-113" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Underlying Rationale**: While other UC campuses balance tool optimization with critical evaluation, UC Irvine structures its guide primarily around **Critical Information Literacy (CIL)** and the ACRL Framework. The guide focuses heavily on algorithmic bias, data worker labor exploitation in the global South, and environmental footprints, de-emphasizing utilitarian prompt-engineering guides.</span>
+<span id="cb1-114"><a href="#cb1-114" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-115"><a href="#cb1-115" aria-hidden="true" tabindex="-1"></a><span class="fu">### 4. Demystification &amp; Cognitive Preserving Cluster</span></span>
+<span id="cb1-116"><a href="#cb1-116" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Institutions**: Auburn University, Chapman University, William &amp; Mary.</span>
+<span id="cb1-117"><a href="#cb1-117" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Pairwise Affinity**: **0.9338 – 0.9452**.</span>
+<span id="cb1-118"><a href="#cb1-118" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Underlying Rationale**: These institutions emphasize demystifying AI concepts for non-programmers, preventing cognitive offloading ("Against Brain Damage"), and implementing accessible evaluation rubrics (the ROBOT Test).</span>
+<span id="cb1-119"><a href="#cb1-119" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-120"><a href="#cb1-120" aria-hidden="true" tabindex="-1"></a>---</span>
+<span id="cb1-121"><a href="#cb1-121" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-122"><a href="#cb1-122" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">← Previous: 5. Instructional Frameworks</span><span class="co">](05-frameworks.qmd)</span>{.btn .btn-outline-secondary}</span>
+<span id="cb1-123"><a href="#cb1-123" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">Next: 7. Strategic Recommendations →</span><span class="co">](07-recommendations.qmd)</span>{.btn .btn-primary}</span>
 </code><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></pre></div>
 </div></div></div></div></div>
 </div> <!-- /content -->

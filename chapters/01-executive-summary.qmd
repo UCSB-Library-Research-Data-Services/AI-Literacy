@@ -42,6 +42,22 @@ flowchart TD
                 UCSB, UCSD, USC, William and Mary`"]
     T2 --> I2["Baylor University, University of Arkansas"]
     T3 --> I3["UC Irvine"]
+
+    classDef root fill:#1e293b,stroke:#0f172a,stroke-width:2px,color:#ffffff;
+    classDef hybridHeader fill:#1d4ed8,stroke:#1e40af,stroke-width:2px,color:#ffffff;
+    classDef hybridNode fill:#eff6ff,stroke:#3b82f6,stroke-width:2px,color:#1e40af;
+    classDef toolHeader fill:#059669,stroke:#047857,stroke-width:2px,color:#ffffff;
+    classDef toolNode fill:#ecfdf5,stroke:#10b981,stroke-width:2px,color:#065f46;
+    classDef critHeader fill:#7c3aed,stroke:#6d28d9,stroke-width:2px,color:#ffffff;
+    classDef critNode fill:#f5f3ff,stroke:#8b5cf6,stroke-width:2px,color:#5b21b6;
+
+    class ROOT root;
+    class T1 hybridHeader;
+    class I1 hybridNode;
+    class T2 toolHeader;
+    class I2 toolNode;
+    class T3 critHeader;
+    class I3 critNode;
 ```
 
 ---

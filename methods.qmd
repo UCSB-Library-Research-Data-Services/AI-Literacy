@@ -34,6 +34,16 @@ flowchart TD
     P --> S3
     M --> S3
     S3 --> R
+
+    classDef data fill:#f8fafc,stroke:#475569,stroke-width:2px,color:#0f172a;
+    classDef stage1 fill:#f0f9ff,stroke:#0284c7,stroke-width:2px,color:#0369a1;
+    classDef stage2 fill:#eef2ff,stroke:#4f46e5,stroke-width:2px,color:#3730a3;
+    classDef stage3 fill:#ecfdf5,stroke:#059669,stroke-width:2px,color:#065f46;
+
+    class D data;
+    class S1,P stage1;
+    class S2,M stage2;
+    class S3,R stage3;
 ```
 
 ---

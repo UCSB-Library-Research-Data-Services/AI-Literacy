@@ -71,6 +71,14 @@ flowchart LR
     
     A --> B
     B --> C
+
+    classDef stage1 fill:#e0f2fe,stroke:#0284c7,stroke-width:2px,color:#0369a1;
+    classDef stage2 fill:#d1fae5,stroke:#059669,stroke-width:2px,color:#065f46;
+    classDef stage3 fill:#ede9fe,stroke:#7c3aed,stroke-width:2px,color:#5b21b6;
+
+    class A stage1;
+    class B stage2;
+    class C stage3;
 ```
 
 ---
@@ -110,6 +118,14 @@ flowchart TD
 
     DL --> IL
     IL --> AL
+
+    classDef digital fill:#f1f5f9,stroke:#64748b,stroke-width:2px,color:#1e293b;
+    classDef info fill:#e0e7ff,stroke:#4f46e5,stroke-width:2px,color:#312e81;
+    classDef ai fill:#ede9fe,stroke:#7c3aed,stroke-width:2.5px,color:#4c1d95;
+
+    class DL digital;
+    class IL info;
+    class AL ai;
 ```
 
 - **Digital Literacy** provides the infrastructural baseline: understanding campus data security tiers (e.g. UC Merced P2/P4 classifications), compute environments, and API endpoints.

@@ -26,6 +26,18 @@ flowchart TD
          Partner with Teaching Centers and publish syllabus templates`"]
 
     P1 --> P2 --> P3 --> P4 --> P5
+
+    classDef phase1 fill:#eff6ff,stroke:#1d4ed8,stroke-width:2px,color:#1e3a8a;
+    classDef phase2 fill:#f0fdfa,stroke:#0d9488,stroke-width:2px,color:#115e59;
+    classDef phase3 fill:#ecfdf5,stroke:#059669,stroke-width:2px,color:#065f46;
+    classDef phase4 fill:#f5f3ff,stroke:#7c3aed,stroke-width:2px,color:#5b21b6;
+    classDef phase5 fill:#fffbeb,stroke:#d97706,stroke-width:2px,color:#92400e;
+
+    class P1 phase1;
+    class P2 phase2;
+    class P3 phase3;
+    class P4 phase4;
+    class P5 phase5;
 ```
 
 ---

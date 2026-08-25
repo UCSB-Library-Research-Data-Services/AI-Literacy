@@ -90,6 +90,14 @@ flowchart LR
 
     A --> B
     B --> C
+
+    classDef paradigm fill:#eff6ff,stroke:#2563eb,stroke-width:2px,color:#1e40af;
+    classDef redesign fill:#fffbeb,stroke:#d97706,stroke-width:2px,color:#92400e;
+    classDef policy fill:#ecfdf5,stroke:#059669,stroke-width:2px,color:#065f46;
+
+    class A paradigm;
+    class B redesign;
+    class C policy;
 ```
 
 ### 1. Assessment Redesign (Process over Product)

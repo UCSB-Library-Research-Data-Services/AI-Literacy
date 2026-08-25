@@ -73,6 +73,26 @@ flowchart LR
     DH --> D1["Auburn University"]
     DH --> D2["Chapman University"]
     DH --> D3["William and Mary"]
+
+    classDef root fill:#1e293b,stroke:#0f172a,stroke-width:2px,color:#ffffff;
+    classDef ucHeader fill:#1d4ed8,stroke:#1e40af,stroke-width:2px,color:#ffffff;
+    classDef ucNode fill:#eff6ff,stroke:#3b82f6,stroke-width:2px,color:#1e40af;
+    classDef toolHeader fill:#059669,stroke:#047857,stroke-width:2px,color:#ffffff;
+    classDef toolNode fill:#ecfdf5,stroke:#10b981,stroke-width:2px,color:#065f46;
+    classDef critHeader fill:#7c3aed,stroke:#6d28d9,stroke-width:2px,color:#ffffff;
+    classDef critNode fill:#f5f3ff,stroke:#8b5cf6,stroke-width:2px,color:#5b21b6;
+    classDef demystHeader fill:#d97706,stroke:#b45309,stroke-width:2px,color:#ffffff;
+    classDef demystNode fill:#fffbeb,stroke:#f59e0b,stroke-width:2px,color:#92400e;
+
+    class ALL root;
+    class UC ucHeader;
+    class U1,U2,U3,U4,U5 ucNode;
+    class TD toolHeader;
+    class T1,T2 toolNode;
+    class CO critHeader;
+    class C1 critNode;
+    class DH demystHeader;
+    class D1,D2,D3 demystNode;
 ```
 
 ### 1. The University of California Core Network

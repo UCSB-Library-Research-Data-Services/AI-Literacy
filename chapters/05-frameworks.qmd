@@ -63,6 +63,18 @@ flowchart TD
     B --> C
     C --> D
     D --> E
+
+    classDef rClass fill:#eff6ff,stroke:#2563eb,stroke-width:2px,color:#1e40af;
+    classDef o1Class fill:#fffbeb,stroke:#d97706,stroke-width:2px,color:#92400e;
+    classDef bClass fill:#f5f3ff,stroke:#7c3aed,stroke-width:2px,color:#5b21b6;
+    classDef o2Class fill:#fff1f2,stroke:#e11d48,stroke-width:2px,color:#881337;
+    classDef tClass fill:#ecfdf5,stroke:#059669,stroke-width:2px,color:#065f46;
+
+    class A rClass;
+    class B o1Class;
+    class C bClass;
+    class D o2Class;
+    class E tClass;
 ```
 
 ### Core Evaluation Criteria

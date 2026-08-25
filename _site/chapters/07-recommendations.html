@@ -315,6 +315,18 @@ flowchart TD
          Partner with Teaching Centers and publish syllabus templates`"]
 
     P1 --&gt; P2 --&gt; P3 --&gt; P4 --&gt; P5
+
+    classDef phase1 fill:#eff6ff,stroke:#1d4ed8,stroke-width:2px,color:#1e3a8a;
+    classDef phase2 fill:#f0fdfa,stroke:#0d9488,stroke-width:2px,color:#115e59;
+    classDef phase3 fill:#ecfdf5,stroke:#059669,stroke-width:2px,color:#065f46;
+    classDef phase4 fill:#f5f3ff,stroke:#7c3aed,stroke-width:2px,color:#5b21b6;
+    classDef phase5 fill:#fffbeb,stroke:#d97706,stroke-width:2px,color:#92400e;
+
+    class P1 phase1;
+    class P2 phase2;
+    class P3 phase3;
+    class P4 phase4;
+    class P5 phase5;
 </pre>
 </div>
 <p></p><figcaption> Five-Phase Implementation Roadmap for Academic Library AI Curricula</figcaption> </figure><p></p>
@@ -994,34 +1006,46 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a><span class="in">         Partner with Teaching Centers and publish syllabus templates`"]</span></span>
 <span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a><span class="in">    P1 --&gt; P2 --&gt; P3 --&gt; P4 --&gt; P5</span></span>
-<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
-<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a>---</span>
-<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a><span class="fu">## Actionable Recommendations</span></span>
-<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a><span class="fu">### 1. Adopt an Explicit, Multi-Dimensional Definition of AI Literacy</span></span>
-<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a>Move beyond implicit operationalization. Libraries should formally adopt a multi-dimensional definition (such as Leo Lo’s taxonomy or UCSB’s three-stage continuum: *Understand*, *Use and Apply*, *Analyze and Evaluate*) that explicitly connects AI literacy to information literacy, digital ethics, and cognitive development.</span>
-<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a><span class="fu">### 2. Update Source Evaluation Rubrics for Generative Media</span></span>
-<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a>Traditional source evaluation rubrics (such as the CRAAP test) presuppose human authorship, peer review, and stable publication channels. Libraries should implement evaluation rubrics tailored to generative systems—such as **The ROBOT Test** (*Reliability, Objective, Bias, Owner, Type*)—and train students in **Lateral Reading** to independently corroborate non-deterministic outputs and synthetic citations.</span>
-<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a><span class="fu">### 3. Integrate Structured Prompt Engineering into Information Literacy</span></span>
-<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a>Incorporate structured prompting heuristics (**CLEAR**, **RTF**, **TAG**, **Conversational Threading**) into library instruction. Reframing prompt design as strategic, iterative query formulation reinforces core information literacy concepts: faceted search, parameter manipulation, and context setting.</span>
-<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a><span class="fu">### 4. Teach Sociotechnical, Environmental, and Labor Dimensions</span></span>
-<span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a>Following the models of **UC Irvine**, **Chapman**, and **UC Merced**, expand curricula beyond functional mechanics to examine the material impacts of GenAI:</span>
-<span id="cb1-48"><a href="#cb1-48" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Ecological Footprints**: The substantial electrical energy and cooling water requirements of enterprise AI data centers.</span>
-<span id="cb1-49"><a href="#cb1-49" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Data Labor Supply Chains**: The outsourced, low-wage human labor involved in data labeling, cleaning, and Reinforcement Learning from Human Feedback (RLHF).</span>
-<span id="cb1-50"><a href="#cb1-50" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Algorithmic Bias &amp; Representation**: The systemic cultural, demographic, and epistemological skews embedded in massive web-scraped training datasets.</span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a><span class="in">    classDef phase1 fill:#eff6ff,stroke:#1d4ed8,stroke-width:2px,color:#1e3a8a;</span></span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a><span class="in">    classDef phase2 fill:#f0fdfa,stroke:#0d9488,stroke-width:2px,color:#115e59;</span></span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a><span class="in">    classDef phase3 fill:#ecfdf5,stroke:#059669,stroke-width:2px,color:#065f46;</span></span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a><span class="in">    classDef phase4 fill:#f5f3ff,stroke:#7c3aed,stroke-width:2px,color:#5b21b6;</span></span>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a><span class="in">    classDef phase5 fill:#fffbeb,stroke:#d97706,stroke-width:2px,color:#92400e;</span></span>
+<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a><span class="in">    class P1 phase1;</span></span>
+<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a><span class="in">    class P2 phase2;</span></span>
+<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a><span class="in">    class P3 phase3;</span></span>
+<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a><span class="in">    class P4 phase4;</span></span>
+<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a><span class="in">    class P5 phase5;</span></span>
+<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a>---</span>
+<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a><span class="fu">## Actionable Recommendations</span></span>
+<span id="cb1-48"><a href="#cb1-48" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-49"><a href="#cb1-49" aria-hidden="true" tabindex="-1"></a><span class="fu">### 1. Adopt an Explicit, Multi-Dimensional Definition of AI Literacy</span></span>
+<span id="cb1-50"><a href="#cb1-50" aria-hidden="true" tabindex="-1"></a>Move beyond implicit operationalization. Libraries should formally adopt a multi-dimensional definition (such as Leo Lo’s taxonomy or UCSB’s three-stage continuum: *Understand*, *Use and Apply*, *Analyze and Evaluate*) that explicitly connects AI literacy to information literacy, digital ethics, and cognitive development.</span>
 <span id="cb1-51"><a href="#cb1-51" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-52"><a href="#cb1-52" aria-hidden="true" tabindex="-1"></a><span class="fu">### 5. Partner with Campus Teaching Centers on Authentic Assessment</span></span>
-<span id="cb1-53"><a href="#cb1-53" aria-hidden="true" tabindex="-1"></a>Collaborate closely with campus Centers for Teaching and Learning (modeled by UC Davis and USC) to support faculty in assignment redesign. Libraries should guide instructors toward process-oriented, authentic assessments that emphasize metacognitive reflection, research defense, and peer review (e.g., the **PAIR/PAIRR framework**), mitigating uncritical cognitive offloading while fostering genuine intellectual agency.</span>
+<span id="cb1-52"><a href="#cb1-52" aria-hidden="true" tabindex="-1"></a><span class="fu">### 2. Update Source Evaluation Rubrics for Generative Media</span></span>
+<span id="cb1-53"><a href="#cb1-53" aria-hidden="true" tabindex="-1"></a>Traditional source evaluation rubrics (such as the CRAAP test) presuppose human authorship, peer review, and stable publication channels. Libraries should implement evaluation rubrics tailored to generative systems—such as **The ROBOT Test** (*Reliability, Objective, Bias, Owner, Type*)—and train students in **Lateral Reading** to independently corroborate non-deterministic outputs and synthetic citations.</span>
 <span id="cb1-54"><a href="#cb1-54" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-55"><a href="#cb1-55" aria-hidden="true" tabindex="-1"></a>---</span>
-<span id="cb1-56"><a href="#cb1-56" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-57"><a href="#cb1-57" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">← Previous: 6. Semantic Similarity &amp; Clustering</span><span class="co">](06-similarity-clusters.qmd)</span>{.btn .btn-outline-secondary}</span>
-<span id="cb1-58"><a href="#cb1-58" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">Explore Institutional Data: Data Explorer →</span><span class="co">](../explorer.qmd)</span>{.btn .btn-success}</span>
+<span id="cb1-55"><a href="#cb1-55" aria-hidden="true" tabindex="-1"></a><span class="fu">### 3. Integrate Structured Prompt Engineering into Information Literacy</span></span>
+<span id="cb1-56"><a href="#cb1-56" aria-hidden="true" tabindex="-1"></a>Incorporate structured prompting heuristics (**CLEAR**, **RTF**, **TAG**, **Conversational Threading**) into library instruction. Reframing prompt design as strategic, iterative query formulation reinforces core information literacy concepts: faceted search, parameter manipulation, and context setting.</span>
+<span id="cb1-57"><a href="#cb1-57" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-58"><a href="#cb1-58" aria-hidden="true" tabindex="-1"></a><span class="fu">### 4. Teach Sociotechnical, Environmental, and Labor Dimensions</span></span>
+<span id="cb1-59"><a href="#cb1-59" aria-hidden="true" tabindex="-1"></a>Following the models of **UC Irvine**, **Chapman**, and **UC Merced**, expand curricula beyond functional mechanics to examine the material impacts of GenAI:</span>
+<span id="cb1-60"><a href="#cb1-60" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Ecological Footprints**: The substantial electrical energy and cooling water requirements of enterprise AI data centers.</span>
+<span id="cb1-61"><a href="#cb1-61" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Data Labor Supply Chains**: The outsourced, low-wage human labor involved in data labeling, cleaning, and Reinforcement Learning from Human Feedback (RLHF).</span>
+<span id="cb1-62"><a href="#cb1-62" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Algorithmic Bias &amp; Representation**: The systemic cultural, demographic, and epistemological skews embedded in massive web-scraped training datasets.</span>
+<span id="cb1-63"><a href="#cb1-63" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-64"><a href="#cb1-64" aria-hidden="true" tabindex="-1"></a><span class="fu">### 5. Partner with Campus Teaching Centers on Authentic Assessment</span></span>
+<span id="cb1-65"><a href="#cb1-65" aria-hidden="true" tabindex="-1"></a>Collaborate closely with campus Centers for Teaching and Learning (modeled by UC Davis and USC) to support faculty in assignment redesign. Libraries should guide instructors toward process-oriented, authentic assessments that emphasize metacognitive reflection, research defense, and peer review (e.g., the **PAIR/PAIRR framework**), mitigating uncritical cognitive offloading while fostering genuine intellectual agency.</span>
+<span id="cb1-66"><a href="#cb1-66" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-67"><a href="#cb1-67" aria-hidden="true" tabindex="-1"></a>---</span>
+<span id="cb1-68"><a href="#cb1-68" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-69"><a href="#cb1-69" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">← Previous: 6. Semantic Similarity &amp; Clustering</span><span class="co">](06-similarity-clusters.qmd)</span>{.btn .btn-outline-secondary}</span>
+<span id="cb1-70"><a href="#cb1-70" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">Explore Institutional Data: Data Explorer →</span><span class="co">](../explorer.qmd)</span>{.btn .btn-success}</span>
 </code><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></pre></div>
 </div></div></div></div></div>
 </div> <!-- /content -->

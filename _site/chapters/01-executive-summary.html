@@ -327,6 +327,22 @@ flowchart TD
                 UCSB, UCSD, USC, William and Mary`"]
     T2 --&gt; I2["Baylor University, University of Arkansas"]
     T3 --&gt; I3["UC Irvine"]
+
+    classDef root fill:#1e293b,stroke:#0f172a,stroke-width:2px,color:#ffffff;
+    classDef hybridHeader fill:#1d4ed8,stroke:#1e40af,stroke-width:2px,color:#ffffff;
+    classDef hybridNode fill:#eff6ff,stroke:#3b82f6,stroke-width:2px,color:#1e40af;
+    classDef toolHeader fill:#059669,stroke:#047857,stroke-width:2px,color:#ffffff;
+    classDef toolNode fill:#ecfdf5,stroke:#10b981,stroke-width:2px,color:#065f46;
+    classDef critHeader fill:#7c3aed,stroke:#6d28d9,stroke-width:2px,color:#ffffff;
+    classDef critNode fill:#f5f3ff,stroke:#8b5cf6,stroke-width:2px,color:#5b21b6;
+
+    class ROOT root;
+    class T1 hybridHeader;
+    class I1 hybridNode;
+    class T2 toolHeader;
+    class I2 toolNode;
+    class T3 critHeader;
+    class I3 critNode;
 </pre>
 </div>
 <p></p><figcaption> Distribution of Primary AI Literacy Curricular Orientations across Institutions</figcaption> </figure><p></p>
@@ -1069,48 +1085,64 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <span id="cb2-44"><a href="#cb2-44" aria-hidden="true" tabindex="-1"></a><span class="in">                UCSB, UCSD, USC, William and Mary`"]</span></span>
 <span id="cb2-45"><a href="#cb2-45" aria-hidden="true" tabindex="-1"></a><span class="in">    T2 --&gt; I2["Baylor University, University of Arkansas"]</span></span>
 <span id="cb2-46"><a href="#cb2-46" aria-hidden="true" tabindex="-1"></a><span class="in">    T3 --&gt; I3["UC Irvine"]</span></span>
-<span id="cb2-47"><a href="#cb2-47" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
-<span id="cb2-48"><a href="#cb2-48" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-49"><a href="#cb2-49" aria-hidden="true" tabindex="-1"></a>---</span>
-<span id="cb2-50"><a href="#cb2-50" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-51"><a href="#cb2-51" aria-hidden="true" tabindex="-1"></a><span class="fu">## Detailed Curricular Typologies</span></span>
-<span id="cb2-52"><a href="#cb2-52" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-53"><a href="#cb2-53" aria-hidden="true" tabindex="-1"></a><span class="fu">### 1. Comprehensive / Balanced Hybrid (72.7%, *n* = 8)</span></span>
-<span id="cb2-54"><a href="#cb2-54" aria-hidden="true" tabindex="-1"></a>Characterized by a dual-axis pedagogy that pairs operational utility (prompt engineering, iterative refinement, literature discovery) with rigorous evaluative frameworks (algorithmic bias detection, citation ethics, hallucination verification, environmental and labor cost analyses). </span>
+<span id="cb2-47"><a href="#cb2-47" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-48"><a href="#cb2-48" aria-hidden="true" tabindex="-1"></a><span class="in">    classDef root fill:#1e293b,stroke:#0f172a,stroke-width:2px,color:#ffffff;</span></span>
+<span id="cb2-49"><a href="#cb2-49" aria-hidden="true" tabindex="-1"></a><span class="in">    classDef hybridHeader fill:#1d4ed8,stroke:#1e40af,stroke-width:2px,color:#ffffff;</span></span>
+<span id="cb2-50"><a href="#cb2-50" aria-hidden="true" tabindex="-1"></a><span class="in">    classDef hybridNode fill:#eff6ff,stroke:#3b82f6,stroke-width:2px,color:#1e40af;</span></span>
+<span id="cb2-51"><a href="#cb2-51" aria-hidden="true" tabindex="-1"></a><span class="in">    classDef toolHeader fill:#059669,stroke:#047857,stroke-width:2px,color:#ffffff;</span></span>
+<span id="cb2-52"><a href="#cb2-52" aria-hidden="true" tabindex="-1"></a><span class="in">    classDef toolNode fill:#ecfdf5,stroke:#10b981,stroke-width:2px,color:#065f46;</span></span>
+<span id="cb2-53"><a href="#cb2-53" aria-hidden="true" tabindex="-1"></a><span class="in">    classDef critHeader fill:#7c3aed,stroke:#6d28d9,stroke-width:2px,color:#ffffff;</span></span>
+<span id="cb2-54"><a href="#cb2-54" aria-hidden="true" tabindex="-1"></a><span class="in">    classDef critNode fill:#f5f3ff,stroke:#8b5cf6,stroke-width:2px,color:#5b21b6;</span></span>
 <span id="cb2-55"><a href="#cb2-55" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-56"><a href="#cb2-56" aria-hidden="true" tabindex="-1"></a>Institutions such as **Auburn, Chapman, UC Davis, UC Merced, UC Santa Barbara, UC San Diego, USC, and William &amp; Mary** position AI literacy as an evolution of information literacy, requiring both functional capability and ethical discernment.</span>
-<span id="cb2-57"><a href="#cb2-57" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-58"><a href="#cb2-58" aria-hidden="true" tabindex="-1"></a>::: {.callout-tip}</span>
-<span id="cb2-59"><a href="#cb2-59" aria-hidden="true" tabindex="-1"></a><span class="fu">#### Hallmarks of Balanced Hybrid Guides</span></span>
-<span id="cb2-60"><a href="#cb2-60" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Teach systematic prompt construction heuristics (**CLEAR**, **RTF**, **TAG**).</span>
-<span id="cb2-61"><a href="#cb2-61" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Introduce tailored evaluation rubrics designed specifically for synthetic outputs (**The ROBOT Test**).</span>
-<span id="cb2-62"><a href="#cb2-62" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Emphasize academic integrity, attribution transparency, and citation mechanics across citation styles.</span>
-<span id="cb2-63"><a href="#cb2-63" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb2-56"><a href="#cb2-56" aria-hidden="true" tabindex="-1"></a><span class="in">    class ROOT root;</span></span>
+<span id="cb2-57"><a href="#cb2-57" aria-hidden="true" tabindex="-1"></a><span class="in">    class T1 hybridHeader;</span></span>
+<span id="cb2-58"><a href="#cb2-58" aria-hidden="true" tabindex="-1"></a><span class="in">    class I1 hybridNode;</span></span>
+<span id="cb2-59"><a href="#cb2-59" aria-hidden="true" tabindex="-1"></a><span class="in">    class T2 toolHeader;</span></span>
+<span id="cb2-60"><a href="#cb2-60" aria-hidden="true" tabindex="-1"></a><span class="in">    class I2 toolNode;</span></span>
+<span id="cb2-61"><a href="#cb2-61" aria-hidden="true" tabindex="-1"></a><span class="in">    class T3 critHeader;</span></span>
+<span id="cb2-62"><a href="#cb2-62" aria-hidden="true" tabindex="-1"></a><span class="in">    class I3 critNode;</span></span>
+<span id="cb2-63"><a href="#cb2-63" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
 <span id="cb2-64"><a href="#cb2-64" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-65"><a href="#cb2-65" aria-hidden="true" tabindex="-1"></a><span class="fu">### 2. Tool-Use / Practical Productivity (18.2%, *n* = 2)</span></span>
-<span id="cb2-66"><a href="#cb2-66" aria-hidden="true" tabindex="-1"></a>Focuses on immediate functional integration, interface navigation, and vendor-integrated library discovery platforms. </span>
-<span id="cb2-67"><a href="#cb2-67" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-68"><a href="#cb2-68" aria-hidden="true" tabindex="-1"></a>**Baylor** and the **University of Arkansas** focus on embedding GenAI within search workflows—such as natural language querying through discovery layers (e.g., Ex Libris Primo Research Assistant, EBSCO AI Insights, Mintel Leap) and research data mining scripts—while providing baseline guidance on instructor compliance and citation.</span>
-<span id="cb2-69"><a href="#cb2-69" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-70"><a href="#cb2-70" aria-hidden="true" tabindex="-1"></a><span class="fu">### 3. Critical &amp; Ethical Evaluation (9.1%, *n* = 1)</span></span>
-<span id="cb2-71"><a href="#cb2-71" aria-hidden="true" tabindex="-1"></a>Prioritizes structural critique over tool optimization. </span>
-<span id="cb2-72"><a href="#cb2-72" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-73"><a href="#cb2-73" aria-hidden="true" tabindex="-1"></a>**UC Irvine** centers its instructional guide on Critical Information Literacy (CIL) and the ACRL Framework, interrogating the sociopolitical dimensions of large language models (LLMs), including algorithmic bias, labor exploitation in training data pipelines, environmental impacts, and the erosion of epistemic authority.</span>
-<span id="cb2-74"><a href="#cb2-74" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-75"><a href="#cb2-75" aria-hidden="true" tabindex="-1"></a>---</span>
-<span id="cb2-76"><a href="#cb2-76" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-77"><a href="#cb2-77" aria-hidden="true" tabindex="-1"></a><span class="fu">## Definitional Approaches Across the Corpus</span></span>
-<span id="cb2-78"><a href="#cb2-78" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-79"><a href="#cb2-79" aria-hidden="true" tabindex="-1"></a>A key finding is the split between formal definition and implicit curricular scaffolding:</span>
+<span id="cb2-65"><a href="#cb2-65" aria-hidden="true" tabindex="-1"></a>---</span>
+<span id="cb2-66"><a href="#cb2-66" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-67"><a href="#cb2-67" aria-hidden="true" tabindex="-1"></a><span class="fu">## Detailed Curricular Typologies</span></span>
+<span id="cb2-68"><a href="#cb2-68" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-69"><a href="#cb2-69" aria-hidden="true" tabindex="-1"></a><span class="fu">### 1. Comprehensive / Balanced Hybrid (72.7%, *n* = 8)</span></span>
+<span id="cb2-70"><a href="#cb2-70" aria-hidden="true" tabindex="-1"></a>Characterized by a dual-axis pedagogy that pairs operational utility (prompt engineering, iterative refinement, literature discovery) with rigorous evaluative frameworks (algorithmic bias detection, citation ethics, hallucination verification, environmental and labor cost analyses). </span>
+<span id="cb2-71"><a href="#cb2-71" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-72"><a href="#cb2-72" aria-hidden="true" tabindex="-1"></a>Institutions such as **Auburn, Chapman, UC Davis, UC Merced, UC Santa Barbara, UC San Diego, USC, and William &amp; Mary** position AI literacy as an evolution of information literacy, requiring both functional capability and ethical discernment.</span>
+<span id="cb2-73"><a href="#cb2-73" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-74"><a href="#cb2-74" aria-hidden="true" tabindex="-1"></a>::: {.callout-tip}</span>
+<span id="cb2-75"><a href="#cb2-75" aria-hidden="true" tabindex="-1"></a><span class="fu">#### Hallmarks of Balanced Hybrid Guides</span></span>
+<span id="cb2-76"><a href="#cb2-76" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Teach systematic prompt construction heuristics (**CLEAR**, **RTF**, **TAG**).</span>
+<span id="cb2-77"><a href="#cb2-77" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Introduce tailored evaluation rubrics designed specifically for synthetic outputs (**The ROBOT Test**).</span>
+<span id="cb2-78"><a href="#cb2-78" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Emphasize academic integrity, attribution transparency, and citation mechanics across citation styles.</span>
+<span id="cb2-79"><a href="#cb2-79" aria-hidden="true" tabindex="-1"></a>:::</span>
 <span id="cb2-80"><a href="#cb2-80" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-81"><a href="#cb2-81" aria-hidden="true" tabindex="-1"></a>| Category | Proportion | Institutions | Pedagogical Focus |</span>
-<span id="cb2-82"><a href="#cb2-82" aria-hidden="true" tabindex="-1"></a>| :--- | :--- | :--- | :--- |</span>
-<span id="cb2-83"><a href="#cb2-83" aria-hidden="true" tabindex="-1"></a>| **Explicit Formal Definition** | **45.5%** (*n*=5) | Auburn, Chapman, UCSB, USC, William &amp; Mary | Formulates a bounded conceptual model (e.g. Leo Lo’s taxonomy, 3-stage developmental continuum). |</span>
-<span id="cb2-84"><a href="#cb2-84" aria-hidden="true" tabindex="-1"></a>| **Implicit Characterization** | **54.5%** (*n*=6) | Baylor, UArkansas, UCDavis, UCIrvine, UCMerced, UCSD | Embeds literacy across operational workflows, database tools, and integrity guidelines without an isolated definition. |</span>
+<span id="cb2-81"><a href="#cb2-81" aria-hidden="true" tabindex="-1"></a><span class="fu">### 2. Tool-Use / Practical Productivity (18.2%, *n* = 2)</span></span>
+<span id="cb2-82"><a href="#cb2-82" aria-hidden="true" tabindex="-1"></a>Focuses on immediate functional integration, interface navigation, and vendor-integrated library discovery platforms. </span>
+<span id="cb2-83"><a href="#cb2-83" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-84"><a href="#cb2-84" aria-hidden="true" tabindex="-1"></a>**Baylor** and the **University of Arkansas** focus on embedding GenAI within search workflows—such as natural language querying through discovery layers (e.g., Ex Libris Primo Research Assistant, EBSCO AI Insights, Mintel Leap) and research data mining scripts—while providing baseline guidance on instructor compliance and citation.</span>
 <span id="cb2-85"><a href="#cb2-85" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-86"><a href="#cb2-86" aria-hidden="true" tabindex="-1"></a>---</span>
-<span id="cb2-87"><a href="#cb2-87" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-88"><a href="#cb2-88" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">Next: 2. Definitions of AI Literacy Across Institutions →</span><span class="co">](02-definitions.qmd)</span>{.btn .btn-primary}</span>
+<span id="cb2-86"><a href="#cb2-86" aria-hidden="true" tabindex="-1"></a><span class="fu">### 3. Critical &amp; Ethical Evaluation (9.1%, *n* = 1)</span></span>
+<span id="cb2-87"><a href="#cb2-87" aria-hidden="true" tabindex="-1"></a>Prioritizes structural critique over tool optimization. </span>
+<span id="cb2-88"><a href="#cb2-88" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-89"><a href="#cb2-89" aria-hidden="true" tabindex="-1"></a>**UC Irvine** centers its instructional guide on Critical Information Literacy (CIL) and the ACRL Framework, interrogating the sociopolitical dimensions of large language models (LLMs), including algorithmic bias, labor exploitation in training data pipelines, environmental impacts, and the erosion of epistemic authority.</span>
+<span id="cb2-90"><a href="#cb2-90" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-91"><a href="#cb2-91" aria-hidden="true" tabindex="-1"></a>---</span>
+<span id="cb2-92"><a href="#cb2-92" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-93"><a href="#cb2-93" aria-hidden="true" tabindex="-1"></a><span class="fu">## Definitional Approaches Across the Corpus</span></span>
+<span id="cb2-94"><a href="#cb2-94" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-95"><a href="#cb2-95" aria-hidden="true" tabindex="-1"></a>A key finding is the split between formal definition and implicit curricular scaffolding:</span>
+<span id="cb2-96"><a href="#cb2-96" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-97"><a href="#cb2-97" aria-hidden="true" tabindex="-1"></a>| Category | Proportion | Institutions | Pedagogical Focus |</span>
+<span id="cb2-98"><a href="#cb2-98" aria-hidden="true" tabindex="-1"></a>| :--- | :--- | :--- | :--- |</span>
+<span id="cb2-99"><a href="#cb2-99" aria-hidden="true" tabindex="-1"></a>| **Explicit Formal Definition** | **45.5%** (*n*=5) | Auburn, Chapman, UCSB, USC, William &amp; Mary | Formulates a bounded conceptual model (e.g. Leo Lo’s taxonomy, 3-stage developmental continuum). |</span>
+<span id="cb2-100"><a href="#cb2-100" aria-hidden="true" tabindex="-1"></a>| **Implicit Characterization** | **54.5%** (*n*=6) | Baylor, UArkansas, UCDavis, UCIrvine, UCMerced, UCSD | Embeds literacy across operational workflows, database tools, and integrity guidelines without an isolated definition. |</span>
+<span id="cb2-101"><a href="#cb2-101" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-102"><a href="#cb2-102" aria-hidden="true" tabindex="-1"></a>---</span>
+<span id="cb2-103"><a href="#cb2-103" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-104"><a href="#cb2-104" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">Next: 2. Definitions of AI Literacy Across Institutions →</span><span class="co">](02-definitions.qmd)</span>{.btn .btn-primary}</span>
 </code><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></pre></div>
 </div></div></div></div></div>
 </div> <!-- /content -->
