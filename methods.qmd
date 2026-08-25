@@ -115,6 +115,7 @@ uv run python analysis.py --compare
 ```
 
 Available arguments:
+
 - `--model`: Unified identifier formatted as `<provider>/<model_name>` (e.g., `dreamlab/gemini-3.7-flash`, `ollama/llama3.2`, `aicommons/claude-3-5-sonnet`). If no slash is provided, `dreamlab` is assumed as the default provider.
 - `--embed-provider`: Source for vector embedding generation (`dreamlab` or `ollama`).
 - `--embed-model`: Specific embedding model name (defaults to `gemini-embedding-2` for `dreamlab` or `nomic-embed-text` for `ollama`).
