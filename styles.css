@@ -39,10 +39,11 @@ svg.mermaid-js,
 .mermaid svg,
 .mermaid {
   display: block !important;
+  max-height: 800px;
   width: auto !important;
   max-width: 100% !important;
   height: auto !important;
-  min-height: 80px !important;
+  min-height: 150px !important;
   overflow: visible !important;
   font-family: inherit !important;
   margin: 1.5rem auto !important;
