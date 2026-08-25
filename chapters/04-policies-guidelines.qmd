@@ -67,6 +67,7 @@ Every surveyed library explicitly cites major academic publisher policies (Elsev
 ## Data Privacy & Institutional Governance
 
 Guides at **UC Merced**, **UC San Diego**, and **Chapman University** emphasize institutional IT data classifications:
+
 - **No PII or Sensitive Data in Public AI**: Users must never enter student records, patient data, confidential interview transcripts, or proprietary research into public tools.
 - **Campus-Approved Secure Environments**: Only enterprise-licensed tools with zero-data-retention agreements (e.g., Microsoft Copilot via institutional SSO, ChatGPT Edu, ZotGPT) may process sensitive university workflows.
 

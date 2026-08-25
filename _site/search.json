@@ -349,7 +349,7 @@
     "href": "chapters/04-policies-guidelines.html#data-privacy-institutional-governance",
     "title": "4. Institutional Guidelines, Policies, and Citation Practices",
     "section": "Data Privacy & Institutional Governance",
-    "text": "Data Privacy & Institutional Governance\nGuides at UC Merced, UC San Diego, and Chapman University emphasize institutional IT data classifications: - No PII or Sensitive Data in Public AI: Users must never enter student records, patient data, confidential interview transcripts, or proprietary research into public tools. - Campus-Approved Secure Environments: Only enterprise-licensed tools with zero-data-retention agreements (e.g., Microsoft Copilot via institutional SSO, ChatGPT Edu, ZotGPT) may process sensitive university workflows.\n\n← Previous: 3. Objectives & Learning Outcomes Next: 5. Instructional Frameworks & Heuristics →",
+    "text": "Data Privacy & Institutional Governance\nGuides at UC Merced, UC San Diego, and Chapman University emphasize institutional IT data classifications:\n\nNo PII or Sensitive Data in Public AI: Users must never enter student records, patient data, confidential interview transcripts, or proprietary research into public tools.\nCampus-Approved Secure Environments: Only enterprise-licensed tools with zero-data-retention agreements (e.g., Microsoft Copilot via institutional SSO, ChatGPT Edu, ZotGPT) may process sensitive university workflows.\n\n\n← Previous: 3. Objectives & Learning Outcomes Next: 5. Instructional Frameworks & Heuristics →",
     "crumbs": [
       "4. Policies, Guidelines & Citation"
     ]
