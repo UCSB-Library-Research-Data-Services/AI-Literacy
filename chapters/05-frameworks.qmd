@@ -4,6 +4,7 @@ subtitle: "Pedagogical Models, Synthetic Source Evaluation, and Prompt Engineeri
 format:
   html:
     toc: true
+bibliography: ../references.bib
 ---
 
 ## Overview of Pedagogical Heuristics
@@ -35,7 +36,7 @@ The **ACRL Framework for Information Literacy for Higher Education** provides th
 
 ## 2. Evaluation Rubrics: The ROBOT Test
 
-Originating from Hervieux & Wheatley (2020) and featured prominently in **UC Davis** and **William & Mary** guides, the **ROBOT Test** replaces the traditional CRAAP test to evaluate generative, synthetic outputs:
+Originating from Hervieux & Wheatley [-@ROBOTTestLibrAIry] and featured prominently in **UC Davis** and **William & Mary** guides, the **ROBOT Test** replaces the traditional CRAAP test to evaluate generative, synthetic outputs:
 
 ```{mermaid}
 %%| fig-cap: "The ROBOT Test for AI Output Evaluation"
