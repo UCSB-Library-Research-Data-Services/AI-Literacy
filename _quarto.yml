@@ -30,8 +30,6 @@ website:
             text: "5. Instructional Frameworks & Heuristics"
           - href: chapters/06-similarity-clusters.qmd
             text: "6. Semantic Similarity & Clustering"
-          - href: chapters/07-recommendations.qmd
-            text: "7. Strategic Recommendations"
       - href: explorer.qmd
         text: "Data Explorer"
       - href: methods.qmd

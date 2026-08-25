@@ -4,70 +4,17 @@ subtitle: "A Qualitative and Vector Semantic Synthesis of 11 Academic Institutio
 format:
   html:
     page-layout: full
+bibliography: references.bib
 ---
 
-::: {.hero-banner}
-# AI Literacy Curricular & Policy Analysis
-[An empirical study extracting, comparing, and synthesizing AI literacy frameworks, definitions, instructional heuristics, and policy guidelines across leading research universities.]{.lead}
-:::
-
-:::: {.grid}
-
-::: {.g-col-12 .g-col-md-3}
-::: {.stat-card}
-::: {.stat-number}
-11
-:::
-::: {.stat-label}
-University LibGuides Analyzed
-:::
-:::
-:::
-
-::: {.g-col-12 .g-col-md-3}
-::: {.stat-card}
-::: {.stat-number}
-72.7%
-:::
-::: {.stat-label}
-Balanced Hybrid Orientation
-:::
-:::
-:::
-
-::: {.g-col-12 .g-col-md-3}
-::: {.stat-card}
-::: {.stat-number}
-45.5%
-:::
-::: {.stat-label}
-Explicit AI Literacy Definitions
-:::
-:::
-:::
-
-::: {.g-col-12 .g-col-md-3}
-::: {.stat-card}
-::: {.stat-number}
-12+
-:::
-::: {.stat-label}
-Named Pedagogical Frameworks
-:::
-:::
-:::
-
-::::
-
----
 
 ## Research Scope & Dimensions
 
-This research investigates how academic library guides (LibGuides) frame, teach, and operationalize **Artificial Intelligence (AI) Literacy** across higher education. 
+This is an exploration on how LibGuides frame, teach, and operationalize **Artificial Intelligence (AI) Literacy** across higher education. 
 
-Using an LLM extraction pipeline with verbatim quote verification and high-dimensional semantic embeddings, this project investigates five core dimensions:
+Using an LLM extraction pipeline with verbatim quote verification and high-dimensional semantic embeddings, this exercise investigates five core dimensions:
 
-1. **Definitions & Conceptual Models**: Formal explicit definitions vs. implicit competencies (Leo Lo’s framework, Bloom-aligned models, ACRL threshold concepts).
+1. **Definitions & Conceptual Models**: Formal explicit definitions vs. implicit competencies (Leo Lo [-@loAILiteracyAll2025]’s framework, Bloom-aligned models, ACRL threshold concepts).
 2. **Instructional Objectives & Learning Outcomes**: Student skills (prompt engineering, lateral fact-checking, bias detection) and faculty pedagogical goals (assignment redesign, syllabus clarity).
 3. **Institutional Guidelines & Policies**: Permitted vs. prohibited use spectra, citation protocols (APA, MLA, Chicago, IEEE), and syllabus policy tiers.
 4. **Instructional Frameworks & Heuristics**: Named rubrics including the **ROBOT Test**, **CLEAR Prompting Framework**, **PAIR/PAIRR Models**, and **Lateral Reading**.
@@ -77,7 +24,7 @@ Using an LLM extraction pipeline with verbatim quote verification and high-dimen
 
 ## Synthesis Report Navigation
 
-The findings are organized into seven dedicated sections:
+The findings are organized into six dedicated sections:
 
 :::: {.grid}
 
@@ -102,9 +49,6 @@ In-depth breakdown of named pedagogical models: ACRL Frames, the ROBOT Test, Lat
 ### [6. Semantic Similarity & Clustering](chapters/06-similarity-clusters.qmd)
 Mathematical analysis of the high-dimensional cosine similarity matrix and hierarchical clustermap revealing institutional affinities.
 
-### [7. Strategic Recommendations](chapters/07-recommendations.qmd)
-A 5-phase evidence-based implementation roadmap for academic libraries developing or updating AI literacy programming.
-
 ### [Interactive Data Explorer](explorer.qmd)
 Interactive searchable matrix and comprehensive institutional profile cards with extracted quotes and framework mappings.
 :::
@@ -113,7 +57,7 @@ Interactive searchable matrix and comprehensive institutional profile cards with
 
 ---
 
-## Participating Institutions
+## Institutions
 
 | Institution | Guide URL | Primary Orientation | Explicit Definition? | Named Frameworks |
 | :--- | :--- | :--- | :--- | :--- |
