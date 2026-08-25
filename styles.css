@@ -1,0 +1,245 @@
+/* Custom Styling for AI Literacy Research Website */
+
+:root {
+  --mermaid-node-bg-color: #ffffff;
+  --mermaid-node-fg-color: #2a5298;
+  --mermaid-edge-color: #475569;
+  --mermaid-label-fg-color: #0f172a;
+  --mermaid-label-bg-color: #ffffff;
+  --mermaid-fg-color--lightest: #f1f5f9;
+  --mermaid-fg-color--lighter: #cbd5e1;
+  --mermaid-font-family: inherit;
+  --mermaid-font-weight: 500;
+}
+
+body.quarto-dark {
+  --mermaid-node-bg-color: #1e293b;
+  --mermaid-node-fg-color: #60a5fa;
+  --mermaid-edge-color: #94a3b8;
+  --mermaid-label-fg-color: #f8fafc;
+  --mermaid-label-bg-color: #0f172a;
+  --mermaid-fg-color--lightest: #0f172a;
+  --mermaid-fg-color--lighter: #334155;
+}
+
+/* Firefox Gecko & Cross-Browser SVG Container Fixes */
+.cell-output-display,
+.cell-output-display > div,
+.cell-output-display div,
+figure.figure,
+.figure {
+  width: 100% !important;
+  max-width: 100% !important;
+  overflow: visible !important;
+  display: block !important;
+}
+
+.cell-output-display div > svg,
+svg.mermaid-js,
+.mermaid svg,
+.mermaid {
+  display: block !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  min-height: 80px !important;
+  overflow: visible !important;
+  font-family: inherit !important;
+  margin: 1.5rem auto !important;
+  transform: translateZ(0); /* Hardware acceleration / render layer trigger in Firefox */
+}
+
+/* Firefox foreignObject and label text layout */
+svg.mermaid-js foreignObject,
+.mermaid foreignObject {
+  overflow: visible !important;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+svg.mermaid-js foreignObject div,
+.mermaid foreignObject div {
+  font-family: inherit !important;
+  color: var(--mermaid-label-fg-color) !important;
+}
+
+/* Ensure crisp contrast across nodes and text */
+.mermaid .node rect,
+.mermaid .node circle,
+.mermaid .node polygon,
+.mermaid .node path,
+svg.mermaid-js .node rect,
+svg.mermaid-js .node circle,
+svg.mermaid-js .node polygon,
+svg.mermaid-js .node path {
+  fill: var(--mermaid-node-bg-color) !important;
+  stroke: var(--mermaid-node-fg-color) !important;
+  stroke-width: 2px !important;
+}
+
+.mermaid .node text,
+.mermaid .node span,
+.mermaid .node p,
+.mermaid .node .label,
+.mermaid text,
+svg.mermaid-js text,
+svg.mermaid-js tspan,
+svg.mermaid-js span,
+svg.mermaid-js p,
+svg.mermaid-js div {
+  color: var(--mermaid-label-fg-color) !important;
+  fill: var(--mermaid-label-fg-color) !important;
+  font-size: 14px !important;
+}
+
+.mermaid .edgePath .path,
+.mermaid .flowchart-link,
+svg.mermaid-js .edgePath .path,
+svg.mermaid-js .flowchart-link {
+  stroke: var(--mermaid-edge-color) !important;
+  stroke-width: 2px !important;
+}
+
+.mermaid .edgeLabel,
+.mermaid .edgeLabel span,
+svg.mermaid-js .edgeLabel,
+svg.mermaid-js .edgeLabel span {
+  background-color: var(--mermaid-label-bg-color) !important;
+  color: var(--mermaid-label-fg-color) !important;
+  fill: var(--mermaid-label-fg-color) !important;
+}
+
+.mermaid .cluster rect,
+svg.mermaid-js .cluster rect {
+  fill: var(--mermaid-fg-color--lightest) !important;
+  stroke: var(--mermaid-fg-color--lighter) !important;
+  stroke-width: 1.5px !important;
+  stroke-dasharray: 4, 4 !important;
+}
+
+.mermaid .cluster text,
+.mermaid .cluster span,
+svg.mermaid-js .cluster text,
+svg.mermaid-js .cluster span {
+  font-weight: 700 !important;
+  color: var(--mermaid-node-fg-color) !important;
+  fill: var(--mermaid-node-fg-color) !important;
+}
+  stroke: #60a5fa !important;
+  stroke-width: 2px !important;
+}
+
+body.quarto-dark .mermaid .nodeLabel,
+body.quarto-dark .mermaid .node .label {
+  color: #f8fafc !important;
+  fill: #f8fafc !important;
+  font-weight: 500 !important;
+}
+
+body.quarto-dark .mermaid .edgePath .path {
+  stroke: #94a3b8 !important;
+  stroke-width: 2px !important;
+}
+
+body.quarto-dark .mermaid .cluster rect {
+  fill: #0f172a !important;
+  stroke: #475569 !important;
+}
+
+body.quarto-dark .mermaid .cluster .nodeLabel {
+  color: #93c5fd !important;
+  fill: #93c5fd !important;
+}
+
+.hero-banner {
+  padding: 2.5rem 1.5rem;
+  margin-bottom: 2rem;
+  background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+  color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.hero-banner h1 {
+  color: #ffffff;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+}
+
+.hero-banner p.lead {
+  color: #e0e8f9;
+  font-size: 1.2rem;
+  margin-bottom: 0;
+}
+
+.stat-card {
+  border-radius: 10px;
+  padding: 1.25rem;
+  border: 1px solid #e2e8f0;
+  background-color: #ffffff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+  margin-bottom: 1rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.stat-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.08);
+}
+
+.stat-card .stat-number {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #2a5298;
+  line-height: 1.1;
+}
+
+.stat-card .stat-label {
+  font-size: 0.9rem;
+  color: #64748b;
+  font-weight: 500;
+  margin-top: 0.25rem;
+}
+
+.badge-hybrid {
+  background-color: #3b82f6;
+  color: white;
+  padding: 0.25rem 0.6rem;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.badge-tool {
+  background-color: #10b981;
+  color: white;
+  padding: 0.25rem 0.6rem;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.badge-critical {
+  background-color: #8b5cf6;
+  color: white;
+  padding: 0.25rem 0.6rem;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.institution-box {
+  background: #f8fafc;
+  border-left: 4px solid #2a5298;
+  padding: 1.25rem;
+  border-radius: 0 8px 8px 0;
+  margin-bottom: 1.5rem;
+}
+
+.callout-model {
+  border-left: 4px solid #0ea5e9 !important;
+}
+
+table.dataTable {
+  font-size: 0.9rem;
+}

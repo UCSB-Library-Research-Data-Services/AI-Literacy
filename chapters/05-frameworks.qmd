@@ -1,0 +1,129 @@
+---
+title: "5. Instructional Frameworks & Evaluation Heuristics"
+subtitle: "Pedagogical Models, Synthetic Source Evaluation, and Prompt Engineering Rubrics"
+format:
+  html:
+    toc: true
+---
+
+## Overview of Pedagogical Heuristics
+
+To move students beyond superficial tool use, academic libraries adapt established information literacy theories and introduce new heuristics designed specifically for generative, probabilistic systems.
+
+```
++----------------------------------------------------------------------------------------------------+
+|                                 TAXONOMY OF INSTRUCTIONAL HEURISTICS                               |
++-------------------+--------------------+-----------------------------------------------------------+
+| FRAMEWORK TYPE    | HEURISTIC / MODEL  | PRIMARY INSTRUCTIONAL FUNCTION                            |
++-------------------+--------------------+-----------------------------------------------------------+
+| Epistemic / LIS   | ACRL Framework     | Contextualize algorithmic authority, information creation |
+|                   |                    | workflows, and searching as strategic exploration.        |
+| Source Evaluation | ROBOT Test         | Appraise Reliability, Objective, Bias, Ownership, Type.   |
+| Verification      | Lateral Reading    | Verify AI claims via independent multi-tab search.        |
+| Prompt Design     | CLEAR Framework    | Scaffold iterative prompt composition.                     |
+| Prompt Design     | RTF / TAG Models   | Define Role-Task-Format / Task-Action-Goal parameters.   |
+| Prompt Design     | Threading          | Maintain conversational context through incremental steps.|
+| Cognitive Stages  | 3-Stage Taxonomy   | Scaffold learning: Understand -> Apply -> Evaluate.       |
+| Pedagogy/Integrity| PAIR / PAIRR       | Structured peer and AI review cycle with reflection.      |
++-------------------+--------------------+-----------------------------------------------------------+
+```
+
+---
+
+## 1. Adapting the ACRL Framework for Information Literacy
+
+The **ACRL Framework for Information Literacy for Higher Education** provides the primary theoretical grounding across research libraries (e.g., UC Irvine, USC, UC Davis):
+
+- **Authority Is Constructed and Contextual**: GenAI systems generate fluent, syntactically flawless text that creates an illusion of expertise. Libraries teach that fluency $\neq$ factual validity, requiring students to interrogate the underlying data provenance and epistemic grounding of algorithmic responses.
+- **Information Creation as a Process**: Generative models obscure the research, editing, and labor processes behind text creation. Students are taught to investigate the hidden training pipelines, web-scraping practices, and human moderation labor (RLHF) that shape model behaviors.
+- **Searching as Strategic Exploration**: Traditional boolean keyword retrieval is contrasted with probabilistic natural language interaction. Searching evolves from index querying into conversational negotiation and iterative refinement.
+
+---
+
+## 2. Evaluation Rubrics: The ROBOT Test
+
+Originating from Hervieux & Wheatley (2020) and featured prominently in **UC Davis** and **William & Mary** guides, the **ROBOT Test** replaces the traditional CRAAP test to evaluate generative, synthetic outputs:
+
+```{mermaid}
+%%| fig-cap: "The ROBOT Test for AI Output Evaluation"
+flowchart TD
+    %%{init: {'flowchart': {'htmlLabels': false}, 'themeVariables': {'fontSize': '14px'}}}%%
+    A["R - Reliability
+Fact-check claims against verified primary literature"] --> B["O - Objective
+Identify developer motives and commercial interests"]
+    B --> C["B - Bias
+Interrogate model outputs for cultural and training skew"]
+    C --> D["O - Ownership
+Audit copyright, IP, and training data provenance"]
+    D --> E["T - Type
+Distinguish predictive LLM vs specialized domain model"]
+```
+
+### Core Evaluation Criteria
+- **[R]eliability**: Are the claims, statistics, and bibliographic citations verifiable in primary databases?
+- **[O]bjective**: What are the corporate, financial, or political incentives of the platform provider?
+- **[B]ias**: How does the output reflect demographic, gender, regional, or linguistic skews from training data?
+- **[O]wnership**: Who holds intellectual property rights over the output? Were original creators compensated?
+- **[T]ype**: Is this a general foundational model, a fine-tuned domain LLM, or a retrieval-augmented (RAG) system?
+
+---
+
+## 3. Lateral Reading for AI Fact-Checking
+
+Adopted from the Stanford History Education Group (SHEG) and featured at **UC Irvine**, **UC San Diego**, and **William & Mary**, **Lateral Reading** serves as a core defense against AI hallucinations:
+
+::: {.callout-note}
+### Vertical vs. Lateral Reading
+- **Vertical Reading (Flawed for AI)**: Reading an AI output from top to bottom, judging its validity by its internal narrative flow, tone, grammar, and confident phrasing.
+- **Lateral Reading (Recommended)**: Opening multiple adjacent browser tabs to independently corroborate claims, verify citations against primary databases (PubMed, Scopus, Web of Science), and evaluate the reputation of cited sources.
+:::
+
+---
+
+## 4. Structured Prompt Engineering Heuristics
+
+Library guides teach students that prompting is an iterative, structured inquiry method rather than casual conversation.
+
+::: {.panel-tabset}
+
+### The CLEAR Path (Leo S. Lo / UC Davis)
+- **C - Concise**: Eliminate unnecessary conversational filler; use precise domain terminology.
+- **L - Logical**: Sequence instructions in a step-by-step reasoning order.
+- **E - Explicit**: Define clear constraints, stylistic boundaries, and negative conditions.
+- **A - Adaptive**: Continuously iterate and modify prompts based on anomalies in the response.
+- **R - Reflective**: Critically appraise the resulting text for omissions, biases, and factual gaps.
+
+### The RTF Framework (UC San Diego)
+- **R - Role**: Assign an operational persona (*"Act as an academic peer reviewer in cognitive science"*).
+- **T - Task**: Specify the exact analytical action (*"Critique this research methodology section for confounding variables"*).
+- **F - Format**: Mandate the structural presentation (*"Provide feedback as an itemized table with severity ratings"*).
+
+### The TAG Framework (Auburn University)
+- **T - Task**: Define the core assignment or question.
+- **A - Action**: Specify the analytical steps to execute.
+- **G - Goal**: Articulate the underlying research or learning objective.
+
+### Conversational Threading (William & Mary)
+- Maintaining contextual continuity within a single session.
+- Building complex outputs incrementally through chained prompts rather than expecting a single prompt to produce an entire literature review.
+
+:::
+
+---
+
+## 5. Pedagogical Frameworks: PAIR & Bloom's Taxonomy
+
+### The PAIR / PAIRR Framework (UC San Diego)
+- **Problem Formulation**: Defining the inquiry before touching AI.
+- **AI Tool Selection**: Choosing the right specialized tool for the task.
+- **Interaction**: Engaging in structured prompt iteration.
+- **Reflection**: Critiquing the generated output against scholarly standards.
+- **Peer & AI Review + Reflection (PAIRR)**: Integrating peer feedback on AI interactions.
+
+### Bloom's Revised Taxonomy (Auburn University)
+Auburn maps GenAI tool integrations across Bloom’s cognitive levels, demonstrating where AI can act as a scaffolding tool (Remembering/Understanding) vs. where human intellectual agency must lead (Evaluating/Creating).
+
+---
+
+[← Previous: 4. Policies, Guidelines & Citation](04-policies-guidelines.qmd){.btn .btn-outline-secondary}
+[Next: 6. Semantic Similarity & Clustering →](06-similarity-clusters.qmd){.btn .btn-primary}

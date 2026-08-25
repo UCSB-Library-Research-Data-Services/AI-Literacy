@@ -1,0 +1,475 @@
+---
+title: "Interactive Data Explorer"
+subtitle: "Browse Structured Extractions, Named Frameworks, and Grounded Quotes Across 11 Institutions"
+format:
+  html:
+    page-layout: full
+    toc: true
+---
+
+::: {.callout-note}
+### Raw Data Downloads
+- Download [Full Extracted Dataset (JSON)](results/extractions_dreamlab_gemini-3.7-flash.json){.btn .btn-sm .btn-outline-primary}
+- Download [Flattened Summary Table (CSV)](results/extractions_summary_dreamlab_gemini-3.7-flash.csv){.btn .btn-sm .btn-outline-primary}
+- Download [Cosine Similarity Matrix (CSV)](results/cosine_similarity_matrix.csv){.btn .btn-sm .btn-outline-primary}
+:::
+
+## Institution Profiles & Frameworks
+
+Explore the complete multi-dimensional profiles extracted from each university LibGuide:
+
+::: {.panel-tabset}
+
+### Auburn
+
+<span class="badge-hybrid">Comprehensive / Balanced Hybrid</span> &nbsp; **Target Audience:** General Campus &nbsp;|&nbsp; **Quote Fidelity:** 100%
+
+#### 1. Definition of AI Literacy
+> **Explicit Definition:** *"AI Literacy involves understanding the functions of AI tools, ethical issues related to AI, how to use AI"*
+
+**Implicit Characterization:** AI literacy is characterized as a multi-dimensional capability that balances practical tool utilization (prompt engineering, AI-assisted research discovery) with critical responsibility (fact-checking, copyright compliance, ethical oversight, and academic integrity).
+
+#### 2. Named Instructional Frameworks
+- **Bloom's Taxonomy**: Applied as a reference framework for instructors to evaluate and redesign course activities and learning outcomes, specifically to emphasize distinctive human skills or purposefully integrate GenAI tools as supplements to learning.
+
+#### 3. Objectives & Learning Outcomes
+**Student Learning Outcomes:**
+- Apply effective prompt engineering techniques (assigning roles, defining audiences, specifying tone, and indicating format) to improve AI output quality
+- Fact-check and verify the accuracy and reliability of GenAI content before incorporating it into academic work
+- Properly cite and acknowledge generative AI tools in academic writing according to specific style guidelines (e.g., APA, AMA)
+- Utilize AI-driven discovery tools (Dimensions Research GPT, ResearchRabbit, Semantic Scholar) for literature reviews, citation analysis, and managing reading materials
+- Distinguish between AI, Machine Learning, and Generative AI concepts and technologies
+
+**Instructor Pedagogical Goals:**
+- Complete professional development training such as the 'Teaching with AI' course
+- Adopt transparent syllabus policies regarding generative AI tool use using institutional options
+- Utilize Bloom's Taxonomy to evaluate and adapt course activities and learning outcomes to emphasize distinctive human skills or integrate GenAI tools as learning supplements
+- Ensure all AI technologies used in courses undergo official institutional vetting processes
+
+#### 4. Policies, Permissibility & Citation
+- **Acceptable vs. Prohibited Uses:** AI use must adhere to institutional, state, federal, and international laws, guided by principles of ethics, transparency, accountability, data privacy, security, fairness, and human-centered oversight. AI tools are intended to enhance productivity and performance, but must not be used improperly, unethically, unlawfully, or insecurely. Enterprise-vetted software (such as Microsoft Copilot and Adobe Firefly) should be prioritized.
+- **Citation & Attribution Rules:** Users must cite generative AI tools whenever paraphrasing, quoting, or incorporating AI-generated content (text, image, data, etc.) into their work. Functional uses (such as editing prose or translating) should be acknowledged in a note or the text. For APA Style, unique chat URLs should be used following author-date-title-source format. AMA style guidelines suggest acknowledging AI tools in the Acknowledgements or Methods section.
+- **Syllabus Guidelines:** The Biggio Center suggests adopting one of four syllabus statements depending on the instructor's desired level of generative AI tool use in the course. Students are expected to check course syllabi to verify whether GenAI use is permitted.
+
+#### 5. Grounded Verbatim Quotes from Source
+- *"AI Literacy involves understanding the functions of AI tools, ethical issues related to AI, how to use AI"*
+- *"Responsible use of AI is guided by principles of ethics, transparency, accountability, data privacy, security, fairness, and human-centered oversight."*
+- *"The Biggio Center suggests one of four syllabus statements depending on the instructor's desired level of use of generative AI tools."*
+- *"Use this table as a reference for evaluating and considering changes to aligned course activities (or, where possible, learning outcomes) that emphasize distinctive human skills and or integrate generative AI (GenAI) tools as a supplement to the learning process."*
+- *"You should: cite a generative AI tool whenever you paraphrase, quote, or incorporate into your own work any content (whether text, image, data, or other) that was created by it"*
+
+---
+
+### Baylor
+
+<span class="badge-tool">Tool-Use / Practical Productivity</span> &nbsp; **Target Audience:** General Campus &nbsp;|&nbsp; **Quote Fidelity:** 100%
+
+#### 1. Definition of AI Literacy
+*No formal explicit definition.*
+**Implicit Characterization:** AI is implicitly characterized as a technological and research capability (e.g., Large Language Models and data mining scripting) that integrates with digital library collections and assists with academic research.
+
+#### 2. Named Instructional Frameworks
+*No named pedagogical frameworks explicitly cited in guide.*
+
+#### 3. Objectives & Learning Outcomes
+**Student Learning Outcomes:**
+- *None explicitly detailed.*
+
+**Instructor Pedagogical Goals:**
+- *None explicitly detailed.*
+
+#### 4. Policies, Permissibility & Citation
+- **Acceptable vs. Prohibited Uses:** *Not explicitly specified.*
+- **Citation & Attribution Rules:** *Not explicitly specified.*
+- **Syllabus Guidelines:** *Not explicitly specified.*
+
+#### 5. Grounded Verbatim Quotes from Source
+- *"Does the library have resources that will assist with incorporating Artificial Intelligence into academic research?"*
+- *"The following Library Guides provide information to assist with getting started with Generative AI:"*
+- *"Online content provides remote access, has advanced search capabilities, saves space, and can integrate with current technologies (Large Language Models, data mining scripting, etc.)."*
+
+---
+
+### Chapman
+
+<span class="badge-critical">Critical & Ethical Evaluation</span> &nbsp; **Target Audience:** Students &nbsp;|&nbsp; **Quote Fidelity:** 100%
+
+#### 1. Definition of AI Literacy
+> **Explicit Definition:** *"AI literacy is the ability to understand, use, and think critically about AI technologies and their impact on society, ethics, and everyday life."*
+
+**Implicit Characterization:** AI literacy is framed as an extension of information, data, and visual literacy. It emphasizes developing ethical information behaviors, understanding the statistical/probabilistic nature of large language models, maintaining critical cognitive engagement without relying on AI as a learning shortcut, and evaluating broader societal and environmental impacts.
+
+#### 2. Named Instructional Frameworks
+- **Leo Lo AI Literacy Framework**: Provides the guiding definition of AI literacy, establishing that students must understand, use, and critically evaluate AI technologies and their broader societal and ethical impacts.
+- **Ethan Mollick's 'Against Brain Damage' Cognitive Learning Strategy**: Used as a pedagogical heuristic to help students keep active thinking and metacognition at the center of their work, preventing AI from becoming an unthinking shortcut that short-circuits learning.
+- **Alberto Cairo's Data and Visual Literacy Framework ('How Charts Lie')**: Applied to teach students how to critically deconstruct data visualizations, charts, and maps to identify misleading representations and understand how data collection shapes visual narratives.
+
+#### 3. Objectives & Learning Outcomes
+**Student Learning Outcomes:**
+- Understand foundational concepts of AI and large language models, including transformer architecture and probability-based decision-making.
+- Develop ethical and useful information behaviors when integrating AI tools into academic research.
+- Contextualize information produced by generative AI and critically evaluate potential errors or misinformation.
+- Maintain active human thinking and writing habits to avoid short-circuiting mental effort and deeper learning.
+- Evaluate the environmental impacts (energy consumption, carbon emissions, water use) of AI models and practice computational efficiency (e.g., using campus-supported PantherAI, prompt reuse).
+- Apply data and visual literacy skills to critically evaluate charts, maps, and statistical representations to detect deceptive or misleading data.
+
+**Instructor Pedagogical Goals:**
+- Navigate how generative AI transforms information literacy habits and learning environments alongside students.
+- Provide instructional guidance that centers human critical thinking and ethical information use.
+
+#### 4. Policies, Permissibility & Citation
+- **Acceptable vs. Prohibited Uses:** Encourages ethical use of AI to support the research process while warning against using AI as a shortcut to replace writing and authentic thinking. Recommends questioning whether AI is necessary for a given task before use and utilizing institution-supported tools like PantherAI and Microsoft Copilot.
+- **Citation & Attribution Rules:** Focuses on honest and ethical use, though specific citation style rules (e.g., APA/MLA) are not detailed in the provided excerpt.
+- **Syllabus Guidelines:** Not explicitly detailed in the provided text excerpt.
+
+#### 5. Grounded Verbatim Quotes from Source
+- *""AI literacy is the ability to understand, use, and think critically about AI technologies and their impact on society, ethics, and everyday life.""*
+- *"Our goal for AI literacy, then, is to provide guidance to students to help develop useful and ethical information behaviors, including how to contextualize information from AI and think critically about the use of AI in their work."*
+- *"One of the most important things to understand about AI is that the decisions made by AI are based on probability and statistics. So, no matter how advanced the system is or how much data went into feeding the machine learning of a particular AI program, the decisions made by AI are not based on the same kind of nuanced and creative reasoning that can be accomplished by a human."*
+- *"According to Ethan Mollick (2025), an influential researcher on AI, the danger isn’t that AI makes you “dumber,” it’s that it offers a tempting shortcut that can cause you to skip the real thinking and learning that help you grow as a student and thinker."*
+- *"Before using an AI tool, ask yourself these questions: Do you really need generative AI for this task? Could you answer your question or complete the task on your own? Could you search for information using library resources or other open online sources instead of relying on AI?"*
+
+---
+
+### UArkansas
+
+<span class="badge-tool">Tool-Use / Practical Productivity</span> &nbsp; **Target Audience:** Researchers &nbsp;|&nbsp; **Quote Fidelity:** 80%
+
+#### 1. Definition of AI Literacy
+*No formal explicit definition.*
+**Implicit Characterization:** AI literacy is characterized as practical competence in using AI-powered search, natural language querying, and automated summarization features embedded within academic databases (such as OneSearch, EBSCO, Mintel Leap, Ovid, SciFinder, and Web of Science), while understanding their underlying mechanics (e.g., RAG, LLMs), recognizing their ephemeral/non-reproducible nature, and adhering to course policies and citation standards.
+
+#### 2. Named Instructional Frameworks
+*No named pedagogical frameworks explicitly cited in guide.*
+
+#### 3. Objectives & Learning Outcomes
+**Student Learning Outcomes:**
+- Construct and execute natural language queries across library discovery systems and specialized databases.
+- Interpret and evaluate AI-generated topic summaries and key takeaways as descriptive starting points rather than replacements for primary sources.
+- Understand the mechanics and limitations of database AI tools, including non-reproducibility of summaries, hallucination reduction via RAG, and lack of coverage for older print materials.
+- Properly capture, copy, and cite AI-generated summaries and source lists when permitted by course instructors.
+- Provide user feedback on AI tool performance using built-in rating mechanisms.
+
+**Instructor Pedagogical Goals:**
+- *None explicitly detailed.*
+
+#### 4. Policies, Permissibility & Citation
+- **Acceptable vs. Prohibited Uses:** Users are repeatedly advised to check with their course instructors regarding permitted uses of AI-generated text before using or submitting it. For specific database tools like Mintel Leap, sharing content within the UARK campus community (students, faculty, and staff) is permitted, but commercial use is strictly prohibited.
+- **Citation & Attribution Rules:** Users are directed to consult the library's AI citation guide and FAQ for guidance on how to cite AI-generated text if its use is permitted by their instructor, taking into account that generated outputs are dynamic and not reproducible.
+- **Syllabus Guidelines:** *Not explicitly specified.*
+
+#### 5. Grounded Verbatim Quotes from Source
+- *"The OneSearch Research Assistant, a tool powered by Generative AI, assists researchers in searches of library materials. You can use it to ask academic questions in natural language..."*
+- *"Please keep in mind that the topic summaries are AI-generated and are not intended to replace resource sources, only to describe them."*
+- *"The answer overview you receive is not retrievable by other researchers. It is intended to provide you with an overview of relevant sources and to guide you to the full articles or books. Please check with your instructor about permitted used of AI-generated text."*
+- *"The AI Insight prompt uses a method called Retrieval Augmented Generation (RAG) to reduce hallucinations. EBSCO also reviews a representative sample of AI Insights with Subject Matter Expert (SME) Human-in-the-Loop (HITL) for biases, tone, accuracy, and timeliness of Insights as a quality and responsible AI metric."*
+- *"AI Insights are regenerated with each search and are not reproduceable. Please check with your instructor about permitted used of AI-generated text and refer to our AI citation guide if use is allowed."*
+
+---
+
+### UCDavis
+
+<span class="badge-hybrid">Comprehensive / Balanced Hybrid</span> &nbsp; **Target Audience:** General Campus &nbsp;|&nbsp; **Quote Fidelity:** 60%
+
+#### 1. Definition of AI Literacy
+*No formal explicit definition.*
+**Implicit Characterization:** AI literacy is characterized as the ability to intentionally and critically engage with generative AI technologies, combining practical prompt engineering skills with ethical evaluation of algorithmic bias, reliability, copyright implications, academic integrity, and appropriate scholarly citation.
+
+#### 2. Named Instructional Frameworks
+- **CLEAR Path Framework (Leo S. Lo, 2023)**: Applied as a structured prompt engineering model to enhance information literacy across five criteria: Concise (brevity and clarity), Logical (structured flow of ideas), Explicit (precise output specifications), Adaptive (flexibility and refinement of prompts), and Reflective (continuous evaluation and improvement).
+- **The ROBOT Test (Hervieux & Wheatley, 2020)**: Applied as an evaluation framework to critically assess the limitations and biases of AI tools and outputs across five dimensions: Reliability (creator credentials and transparency), Objective (purpose of creation), Bias (training data and algorithmic bias), Ownership (private, government, or academic owner), and Type (model architecture and training method).
+- **Harvard Image-Based Prompt Framework**: Applied to guide structured prompting for text-to-image AI generators using four components: Subject (detailed description), Style (media or art style), Details (color, lighting), and Format of Output (e.g., poster).
+
+#### 3. Objectives & Learning Outcomes
+**Student Learning Outcomes:**
+- Apply structured prompt engineering principles (specificity, iteration, sequential prompting, role-play) to elicit precise AI outputs
+- Structure text-to-image generative prompts by specifying subject, style, details, and output format
+- Critically appraise AI outputs and tools for limitations, errors, and systematic algorithmic bias using structured evaluation criteria
+- Evaluate copyright and fair use implications regarding AI training data and human-authorship requirements for generated works
+- Practice proper citation, transparency, and attribution when using generative AI tools in coursework and research
+- Explore AI tools appropriately for academic use cases such as literature synthesis, digital accessibility (transcription, summaries), and coding assistance
+
+**Instructor Pedagogical Goals:**
+- Develop transparent expectations, course policies, and syllabus statements regarding generative AI usage
+- Intentionally incorporate generative AI into course materials, instructional strategies, and assignment redesign
+- Collaborate with teaching support centers (such as the Center for Educational Effectiveness) to explore teaching strategies and construct course policies
+- Support student learning while equipping students with critical literacy and ethical awareness toward emerging AI technologies
+
+#### 4. Policies, Permissibility & Citation
+- **Acceptable vs. Prohibited Uses:** Students must always check with instructors regarding specific course policies before using generative AI for coursework. In publishing, AI cannot be listed as an author; academic publishers generally do not accept AI-authored manuscripts, though using AI for manuscript improvement (style, generating reference lists) or specific content (images/graphs) may be permissible if transparently disclosed and marked. In research, Fair Use can justify non-generative text and data mining (TDM) and training, subject to contractual terms and conditions of licensed library materials.
+- **Citation & Attribution Rules:** Users must practice proper citation and remain transparent about AI use to distinguish original student/researcher contributions from AI-generated content. The guide links to standard styles including APA, MLA, and Chicago.
+- **Syllabus Guidelines:** Instructors are encouraged to establish clear and transparent syllabus statements and course policies regarding permitted generative AI use, referencing model policies such as UC Davis University Writing Program syllabus language and the Sentient Syllabus Project.
+
+#### 5. Grounded Verbatim Quotes from Source
+- *"This guide is a collaboration between the CEE (Center for Educational Effectiveness) and the Library. It aims to provide guidance on using AI by linking to key frameworks, best practices, and current research to help users deepen their understanding of this emerging issue."*
+- *"Prompt engineering is the method to ask generative AI to produce what the individual needs. There are two main principles of building a successful prompt for any AI, specificity and iteration."*
+- *"Understanding the limitations of AI is extremely important both scientifically and ethically. 'Bias in an algorithm is defined as a systematic error in its outputs or processes.' (Vicente & Matute, 2023) The critical appraisal of the bias and correctness of the results of using AI is essential."*
+- *"As academic research on the implications of Generative AI continues to evolve, early scholarship of teaching and learning has suggested that intentional and critical use of Generative AI can support student learning and equip them with critical literacy toward these new technologies."*
+- *"In March 2023, 'Copyright Registration Guidance: Works Containing Material Generated by Artificial Intelligence' has been released. It states that 'copyright can protect only material that is the product of human creativity. Most fundamentally, the term “author,” which is used in both the Constitution and the Copyright Act, excludes non-humans.'"*
+
+---
+
+### UCIrvine
+
+<span class="badge-critical">Critical & Ethical Evaluation</span> &nbsp; **Target Audience:** General Campus &nbsp;|&nbsp; **Quote Fidelity:** 40%
+
+#### 1. Definition of AI Literacy
+*No formal explicit definition.*
+**Implicit Characterization:** AI literacy is framed through the lens of Critical Information Literacy and the ACRL Framework, emphasizing the critique of sociopolitical dimensions, systemic and algorithmic biases, labor exploitation ('digital neocolonialism'), environmental costs, black-box mechanics, and the rigorous fact-checking of AI hallucinations using lateral reading.
+
+#### 2. Named Instructional Frameworks
+- **ACRL Framework for Information Literacy for Higher Education**: Applied to examine how information is produced, valued, and trusted, specifically leveraging the threshold concept 'Authority is Constructed and Contextual' to interrogate the lack of human authorship and the 'black box' nature of LLMs.
+- **Critical Information Literacy**: Used as the core foundational theory (citing Drabinski and Tewell) to examine sociopolitical dimensions of AI, power structures, algorithmic oppression, digital neocolonialism, and labor exploitation in data labeling.
+- **Lateral Reading**: Employed as a practical verification method where users open multiple browser tabs to fact-check AI-generated text and claims against reliable external sources.
+
+#### 3. Objectives & Learning Outcomes
+**Student Learning Outcomes:**
+- Evaluate the credibility and authority of AI-generated content using lateral reading and external verification
+- Identify hallucinations, misinformation, and fabricated bibliographic citations produced by LLMs
+- Analyze systemic, racial, gender, and ableist biases embedded in training data and AI outputs
+- Understand the hidden human labor ('data workers') and environmental resources required to build and run Gen-AI models
+- Properly cite, acknowledge, and document AI tool usage across different citation styles (APA, Chicago, MLA, IEEE)
+- Adhere to university academic integrity policies and instructor-specific course standards regarding AI use
+
+**Instructor Pedagogical Goals:**
+- Establish and communicate clear course standards regarding acceptable and prohibited AI usage
+- Incorporate novel teaching approaches and collaborative learning with AI while maintaining human oversight
+- Monitor emerging research on the cognitive impacts and learning efficacy of student chatbot usage
+
+#### 4. Policies, Permissibility & Citation
+- **Acceptable vs. Prohibited Uses:** AI use must comply with the UCI Policy on Academic Integrity and individual instructor standards. Students must not engage in any activity attempting to receive a grade by means other than honest effort, and must verify course-specific permissions before using AI tools like ZotGPT.
+- **Citation & Attribution Rules:** Students permitted to use AI must acknowledge their use by documenting the tool, model, prompts used, and how outputs were adapted. Detailed style guidance is provided: APA (2025 formats with direct chat URLs), Chicago Style (credited in text or notes with prompt details, not bibliography), IEEE (treated as private communication), and MLA (standard core elements template with prompt description, avoiding naming AI as author).
+- **Syllabus Guidelines:** Highlights that each course and instructor maintains distinct standards and policies regarding AI usage, requiring students to clarify expectations directly with faculty.
+
+#### 5. Grounded Verbatim Quotes from Source
+- *"Critical Information Literacy is 'a theory and practice that considers the sociopolitical dimensions of information and production of knowledge, and critiques the ways in which systems of power shape the creation, distribution, and reception of information' (Drabinski and Tewell, 2019)."*
+- *"The Large Language Models (LLMs) underlying chatbots are trained on large data sets that contain biases that we (the end user) are not able to evaluate."*
+- *"The question of whether you can trust a chatbot's output is fundamentally a question about information literacy."*
+- *"Evaluating AI-generated information can be challenging. At a minimum, it is important to try to fact-check the information, because chatbots are known to 'hallucinate' both information and sources."*
+- *"The human labor used to train generative AI models is often outsourced to underpaid workers in the Global South... Some academics refer to these practices as 'digital neocolonialism'..."*
+
+---
+
+### UCMerced
+
+<span class="badge-hybrid">Comprehensive / Balanced Hybrid</span> &nbsp; **Target Audience:** General Campus &nbsp;|&nbsp; **Quote Fidelity:** 67%
+
+#### 1. Definition of AI Literacy
+*No formal explicit definition.*
+**Implicit Characterization:** AI literacy is approached as a multi-faceted competency encompassing functional proficiency (selecting appropriate tools, prompt engineering, comparative feature evaluation), scholarly workflow integration (literature discovery, data analysis, systematic reviews), compliance with citation standards and publisher policies, data privacy awareness (data protection tiers), and critical awareness of environmental and ethical impacts.
+
+#### 2. Named Instructional Frameworks
+- **AI4K12 Initiative Guidelines**: Referenced as a framework providing national guidelines, curated directories, and practitioner resources for AI education and instruction.
+- **MIT RAISE (Responsible AI for Social Empowerment and Education) Day of AI Curriculum**: Utilized to offer hands-on, inquiry-based activities engaging learners in creative discovery, discussion, and critical thinking regarding the fundamentals and ethics of AI.
+- **The Ethical Framework for AI in Education**: Developed by The Institute for Ethical AI in Education and linked as a governance and ethical guideline for evaluating and implementing AI systems in educational contexts.
+
+#### 3. Objectives & Learning Outcomes
+**Student Learning Outcomes:**
+- Develop effective prompt engineering strategies for large language models such as Copilot and ChatGPT
+- Evaluate and compare features, limitations, and underlying data sources of various AI tools across writing, research, image generation, and video creation
+- Utilize AI tools appropriately across research stages (generating ideas, locating information, summarizing texts, analyzing data, and managing citations)
+- Recognize the inherent biases, weaknesses, and ethical considerations (copyright, intellectual property, paywall limitations) of AI tools in research and evidence synthesis
+- Correctly cite and disclose AI-generated content according to APA, MLA, Chicago, and IEEE citation styles and publication guidelines
+- Understand campus-approved data protection levels (P2, P4) and data security parameters for institutional AI tools
+
+**Instructor Pedagogical Goals:**
+- Leverage generative AI tools to streamline administrative tasks, develop lesson plans, and personalize instruction
+- Adapt assignment design, assessment strategies, and classroom practices to maintain academic integrity in the GenAI era
+- Engage students in hands-on activities, critical thinking, and ethical discussions regarding artificial intelligence
+- Support ethical and responsible classroom integration using curated prompt libraries and educational frameworks
+
+#### 4. Policies, Permissibility & Citation
+- **Acceptable vs. Prohibited Uses:** Permitted use depends on tool authorization and publisher/institutional policies. The guide outlines campus data protection approvals (e.g., Microsoft Copilot and ChatGPT EDU approved for P4 data; Zoom AI Companion and Canva Magic Studio approved for P2 data). For scholarly publishing, major academic publishers (ACM, Elsevier, Emerald, IEEE, Nature, Oxford Academic, PLOS, Taylor & Francis) explicitly prohibit AI tools from being listed as co-authors, requiring AI contributions to be strictly confined to assistance/readability and fully disclosed.
+- **Citation & Attribution Rules:** Detailed rules and templates are provided for major styles: APA format (Author, Date, Title with version, [Large language model], Source URL, and in-text citations); MLA format (prompt text, tool name, version, company, date, URL); Chicago style (footnote citation of generated text); and IEEE/publisher guidelines (mandatory disclosure in an acknowledgments or methods section specifying the AI tool and extent of use).
+- **Syllabus Guidelines:** While the guide does not provide explicit syllabus policy templates, it directs instructors to pedagogical literature (such as 'Teaching with AI' and 'The Opposite of Cheating') that offers guidance on establishing expectations, reframing integrity conversations, and restructuring assessments.
+
+#### 5. Grounded Verbatim Quotes from Source
+- *"Artificial Intelligence (AI), a term introduced by the esteemed Stanford Professor John McCarthy in 1955, was originally described as 'the science and engineering of making intelligent machines.' Initially, AI research centered on programming machines to demonstrate certain behaviors, like playing games. However, the current focus is on crafting machines with the capacity to learn, resembling aspects of human learning processes."*
+- *"Generative AI refers to deep-learning models that can take raw data -- say, all of Wikipedia... -- and 'learn' to generate statistically probably outputs when prompted."*
+- *"While the consensus acknowledges the significant utility of AI tools across different review stages, it's imperative to grasp their inherent biases and weaknesses. Moreover, ethical considerations such as copyright and intellectual property must be at the forefront."*
+- *"Please note that these tools use freely available papers or publicly accessible abstracts. They DO NOT have access to pay-walled content, such as that found in UC Merced Library databases."*
+- *"The use of content generated by artificial intelligence (AI) (including but not limited to text, figures, images, and code) shall be disclosed in an acknowledgments section. The AI system used shall be identified, and specific sections of the document that use AI-generated content shall be identified and accompanied by a brief explanation regarding the level at which the AI system was used to generate the content."*
+- *"Be aware that only certain AI tools have been vetted and approved by OIT for sensitive data. Please visit the UC Merced AI website below for details."*
+
+---
+
+### UCSB
+
+<span class="badge-hybrid">Comprehensive / Balanced Hybrid</span> &nbsp; **Target Audience:** General Campus &nbsp;|&nbsp; **Quote Fidelity:** 80%
+
+#### 1. Definition of AI Literacy
+> **Explicit Definition:** *"The practice of learning how to identify, use, and evaluate AI tools and products is building a set of literacies similar to when a person learns to read, write, and think critically."*
+
+**Implicit Characterization:** AI literacy is framed through the lens of Library and Information Science as a progressive, three-stage developmental capability (Understand AI, Use and Apply AI, Analyze and Evaluate AI) grounded in library values of open access, intellectual integrity, privacy, and social/environmental responsibility.
+
+#### 2. Named Instructional Frameworks
+- **Three-Step AI Literacy Framework (Understand, Use and Apply, Analyze and Evaluate)**: A structured 3-stage developmental model used to build foundational knowledge, practical capabilities, and critical evaluation skills for engaging with AI thoughtfully and responsibly.
+- **UCSB AI Teaching Series (AI 101, AI 102, AI 103)**: A 3-part pedagogical curriculum for campus instruction covering introductory concepts (AI 101), technical fundamentals and everyday applications (AI 102), and learning, critical thinking, limitations, and ethical argumentation (AI 103).
+
+#### 3. Objectives & Learning Outcomes
+**Student Learning Outcomes:**
+- Grasp foundational concepts of how AI works, including machine learning, natural language processing, inputs, and outputs.
+- Interact with generative AI systems (e.g., ChatGPT) and experiment with prompt engineering to iterate and improve outputs.
+- Identify, validate, and mitigate AI-generated issues, including hallucinations and algorithmic biases.
+- Critically evaluate ethical, societal, environmental, and labor implications of AI tools.
+- Utilize specialized AI tools for literature reviews, paper discovery, and citation network mapping (e.g., Semantic Scholar, Elicit, Inciteful, Research Rabbit).
+- Employ AI tools responsibly for coding assistance, debugging, and code generation while maintaining the ability to read, understand, and explain the code.
+- Properly cite and attribute AI-generated content in academic work.
+
+**Instructor Pedagogical Goals:**
+- Engage with the 3-part instructional series (AI 101, AI 102, AI 103) on generative AI within the UCSB teaching context.
+- Incorporate syllabus statements and clear guidelines regarding allowed and prohibited AI uses in courses.
+- Design coursework that fosters critical thinking and authentic engagement rather than passive reliance on AI-generated outputs.
+- Help students recognize how AI tools are built, their limitations, and their ethical implications.
+
+#### 4. Policies, Permissibility & Citation
+- **Acceptable vs. Prohibited Uses:** AI use is acceptable for brainstorming, ideation, background inquiry, skill practice, and literature discovery as an assistant rather than a replacement for human critical thinking and original writing. Using AI to write on behalf of a student is considered plagiarism. Researchers must adhere to publisher and funding agency policies regarding GenAI restrictions. UCSB policy defines academic dishonesty to include 'utilizing artificial-intelligence programs without prior approval from instructor.'
+- **Citation & Attribution Rules:** Whenever text, data, or information produced by AI is used, it must be explicitly cited as a source. The guide points to dedicated resources including the UCSB Office of Teaching and Learning 'How to Cite AI' document, UCSD citation guides across styles, and UCSB STEM citation resources.
+- **Syllabus Guidelines:** Students are instructed to check course syllabi for specific instructor policies before using AI tools in assignments, and to consult instructors directly if policies are absent or ambiguous.
+
+#### 5. Grounded Verbatim Quotes from Source
+- *"The practice of learning how to identify, use, and evaluate AI tools and products is building a set of literacies similar to when a person learns to read, write, and think critically."*
+- *"Through the lens of Library and Information Science, this resource is meant to advance your AI literacy skills, including how to evaluate AI tools and how to safely and responsibly use them in your work."*
+- *"You can feel good about using AI when it assists with your writing and does not replace it. AI does not produce original ideas, but you do. Rely on your curiosity to develop your unique perspective. Using AI to write for you is plagiarism."*
+- *"The UCSB Academic Integrity Policy states: 'Taking credit for any work you did not create including, but not limited to, books, articles, methodology, results, compositions, images, lectures, computer programs, internet postings, or utilizing artificial-intelligence programs without prior approval from instructor.'"*
+- *"Students, before using AI in your assignments, please check your syllabus for any policy your professor may have included. If you have any questions about whether your use of AI is acceptable to your professor, please check with them."*
+
+---
+
+### UCSD
+
+<span class="badge-hybrid">Comprehensive / Balanced Hybrid</span> &nbsp; **Target Audience:** General Campus &nbsp;|&nbsp; **Quote Fidelity:** 100%
+
+#### 1. Definition of AI Literacy
+*No formal explicit definition.*
+**Implicit Characterization:** AI literacy is characterized as the combination of practical tool selection, structured prompt engineering, rigorous fact-checking and hallucination detection, and ethical alignment with academic integrity standards and course-level learning objectives.
+
+#### 2. Named Instructional Frameworks
+- **Academic Integrity Decision Heuristic (Values, Standards, Exposure Tests)**: A self-evaluation heuristic created with the UCSD Academic Integrity Office helping students evaluate whether AI use undermines core values, institutional standards, or comfort with disclosure.
+- **PAIR Framework (Problem formulation, AI tool selection, Interaction, Reflection)**: A pedagogical framework from Harvard Business Publishing to structure assignments that prepare learners to formulate problems, select tools, interact iteratively, and critically reflect.
+- **PAIRR (Peer & AI Review + Reflection)**: A five-part curricular intervention combining AI ethics readings, peer review, guided AI-based draft review, critical reflection on feedback, and student revision.
+- **A Framework for AI Literacy (EDUCAUSE)**: A four-level developmental model for AI literacy encompassing: 1. Understand AI, 2. Use and Apply AI, 3. Analyze and Evaluate AI, and 4. Create AI.
+- **RTF (Role/Task/Format) & TAG (Task/Action/Goal)**: Simple prompting frameworks recommended to guide users in structuring clear instructions and contextual prompts for conversational AI chatbots.
+- **The Artificial Intelligence Disclosure (AID) Framework**: A structured framework to standardize transparency and disclosure of AI tool usage in academic writing, peer review, and research.
+
+#### 3. Objectives & Learning Outcomes
+**Student Learning Outcomes:**
+- Craft effective prompts using structured prompting frameworks (e.g., RTF, TAG).
+- Fact-check AI-generated content and verify sources, citations, and claims to detect hallucinations and bias.
+- Evaluate and select appropriate AI tools (including multimodal and linked research data platforms) for specific academic tasks.
+- Apply self-assessment tests (Values, Standards, Exposure) to ensure AI tool usage adheres to academic integrity policies and learning assessments.
+- Protect privacy by avoiding the inclusion of Personally Identifiable Information (PII) in AI prompts.
+
+**Instructor Pedagogical Goals:**
+- Design assessments emphasizing critical thinking, creativity, and problem-solving to create AI-proof and AI-integrated learning experiences.
+- Leverage generative AI to streamline course preparation, lesson planning, assignment design, and rubric development.
+- Implement pedagogical and curricular frameworks (such as PAIR and PAIRR) to engage students in critical reflection and peer-AI review.
+- Establish clear rules, syllabus expectations, and transparency regarding acceptable and prohibited AI usage.
+
+#### 4. Policies, Permissibility & Citation
+- **Acceptable vs. Prohibited Uses:** AI use must not perform the core capability being assessed (e.g., using a spell checker is acceptable if spelling is not assessed, but ChatGPT/Google Translate is prohibited when language skills are assessed). Using tools that are prohibited or not explicitly allowed may constitute cheating. PII must not be input into prompts.
+- **Citation & Attribution Rules:** Users must verify all AI-generated references, as chatbots frequently invent citations that do not exist. Tools providing verified links are recommended, and formal frameworks such as the Artificial Intelligence Disclosure (AID) Framework are highlighted for scholarly transparency.
+- **Syllabus Guidelines:** Instructors are encouraged to provide clear policies and boundaries for AI usage. Students are instructed that if use is not explicitly permitted or if any doubt exists, they must consult and ask their instructor before using GenAI for academic work.
+
+#### 5. Grounded Verbatim Quotes from Source
+- *"You are expected to complete the work assigned to you so the professor can see if you are learning and what you’ve learned. Ask yourself these two questions before using an AI resource/tool. Is the resource/tool doing the thing for you that is being assessed?"*
+- *"If you use a tool/resource that has been prohibited OR if you use one that is not explicitly allowed, then you might be cheating."*
+- *"Both teaching with AI and creating AI-proof assignments involve designing assessments that emphasize critical thinking, creativity, and problem-solving, making it difficult for students to rely solely on AI-generated responses."*
+- *"Utilizing GenAI tools effectively involves choosing the right tool for the task at hand, crafting prompts that generate the output you want/expect, AND using the tools ethically and with integrity."*
+- *"When in doubt, we suggest starting with a simple framework, like RTF (Role/Task/Format) or TAG (Task/Action/Goal)."*
+- *"ChatGPT and other chatbots are notorious for making up citations to sources that do not exist. If you are asking for factual information, choose tools that provide links to the websites for information sources so that you can check their work."*
+
+---
+
+### USC
+
+<span class="badge-hybrid">Comprehensive / Balanced Hybrid</span> &nbsp; **Target Audience:** General Campus &nbsp;|&nbsp; **Quote Fidelity:** 100%
+
+#### 1. Definition of AI Literacy
+> **Explicit Definition:** *"AI literacy goes beyond understanding AI tools; it equips individuals to critically evaluate, ethically navigate, and practically apply AI in real-world scenarios; [it is] is the ability to understand, use, and think critically about AI technologies and their impact on society, ethics, and everyday life."*
+
+**Implicit Characterization:** AI literacy is characterized as a multidimensional, human-centered competency encompassing technical understanding, critical evaluation, ethical awareness, and pedagogical application. It moves beyond mere functional tool proficiency to emphasize human skills (creativity, critical thinking, emotional intelligence) and continuous reflection in an AI-embedded educational landscape.
+
+#### 2. Named Instructional Frameworks
+- **Leo S. Lo AI Literacy Guide / Framework**: Provides a comprehensive roadmap addressing technical, ethical, critical, and societal dimensions of AI through seven key components: Understanding AI Basics, Evaluating AI Systems, Using AI Responsibly, Ethical Considerations, AI Pedagogy, Self-Reflection and Continuous Learning, and a Human-Centered Approach.
+- **Digital Promise AI Literacy Framework**: Organized around three interconnected Modes of Engagement (Understand, Evaluate, and Use) to help educators and learners make informed decisions about navigating and adopting AI.
+- **Educause AI Literacy in Teaching and Learning (ALTL) Framework**: A durable higher education framework focusing on four core areas (Technical Understanding, Evaluative Skills, Practical Application, and Ethical Considerations) with tailored competencies for students, faculty, and staff.
+- **Digital Education Council AI Literacy Framework**: Takes a human-centered approach emphasizing human skills (critical thinking, creativity, emotional intelligence) and structured guidance for foundational and industry-specific AI competencies.
+- **Six Assessment Redesign Pivotal Strategies (SARPS) & AI Assessment Integration Framework**: Introduced by Chan and Colloton to guide the transformation of curriculum design and assessment methods toward a learner-centric model in the GenAI era.
+- **ACRL Framework for Information Literacy (Critique & AI Adaptation)**: Referenced via Hervieux & Wheatley's Choice White Paper to examine the traditional boundaries of information literacy frameworks and advocate for specialized AI literacy frameworks.
+- **UNESCO AI Competency Frameworks**: Outlines international competency benchmarks tailored specifically for students and teachers navigating AI in education.
+
+#### 3. Objectives & Learning Outcomes
+**Student Learning Outcomes:**
+- Understand foundational AI concepts such as machine learning, neural networks, narrow AI, and general AI.
+- Explain how to use AI tools to find articles for literature reviews and use a 'seed article' to retrieve relevant citations in AI literature mapping tools.
+- State the capabilities and drawbacks of AI literature mapping and search tools.
+- Critically assess and evaluate AI system outputs, including limitations, potential biases, hallucinations, and misinformation.
+- Apply AI tools and systems ethically, safely, and responsibly while recognizing privacy, security, and intellectual property risks.
+
+**Instructor Pedagogical Goals:**
+- Integrate AI effectively into teaching and learning environments to enhance educational experiences and personalize learning.
+- Shift the pedagogical paradigm from focusing on learning as an output to learning as a process.
+- Redesign assignments and assessments using structured frameworks (such as SARPS) to encourage learner-centric evaluation in the GenAI era.
+- Leverage AI tools for administrative tasks, lesson planning, grading assistance, and feedback to free time for high-value humanistic responsibilities.
+- Address academic integrity, anti-bias measures, privacy safeguards, and policy formulation in academic institutions.
+
+#### 4. Policies, Permissibility & Citation
+- **Acceptable vs. Prohibited Uses:** The guide notes that institutional approaches vary, with some banning GenAI as a threat to academic integrity while others embrace it as an innovative practice. Acceptable uses include automating repetitive administrative tasks, adaptive personalized learning, literature mapping, and interactive lesson design, while cautioning against over-reliance, uncritical acceptance of outputs, plagiarism, copyright infringement, and privacy violations.
+- **Citation & Attribution Rules:** Refers users to specialized USC Libraries research guides (such as 'Using Generative AI in Research') for guidance on proper usage, attribution, and ethical practices in academic papers and research.
+- **Syllabus Guidelines:** Highlights the necessity for well-crafted AI educational policies, institutional roadmaps, and policy formulation blueprints for higher education institutions.
+
+#### 5. Grounded Verbatim Quotes from Source
+- *""AI literacy goes beyond understanding AI tools; it equips individuals to critically evaluate, ethically navigate, and practically apply AI in real-world scenarios; [it is] is the ability to understand, use, and think critically about AI technologies and their impact on society, ethics, and everyday life.""*
+- *"An AI literacy framework equips individuals with the knowledge and skills to understand, evaluate, and use AI systems and tools ethically and effectively. It emphasizes critical thinking, responsible AI usage, and awareness of potential biases and limitations."*
+- *"This Guide (prepared for our USC Community - Faculty, Students, and Staff) focuses on Artificial Intelligence (AI) literacy research and scholarship in the broad field of teaching and learning."*
+- *"This leads to an understanding of "AI literacy", i.e., gaining skills that enable you to use AI effectively and ethically in ways that support teaching and learning."*
+- *"GenAI, such as ChatGPT, is not the problem itself; the issue is how we engage with it."*
+
+---
+
+### William
+
+<span class="badge-hybrid">Comprehensive / Balanced Hybrid</span> &nbsp; **Target Audience:** General Campus &nbsp;|&nbsp; **Quote Fidelity:** 100%
+
+#### 1. Definition of AI Literacy
+> **Explicit Definition:** *"Being AI Literate does not mean you need to understand the advanced mechanics of AI. It means that you are actively learning about the technologies involved and that you critically approach any texts you read that concern AI, especially news articles."*
+
+**Implicit Characterization:** Framed through a driving metaphor—one does not need to be a mechanic or data scientist, but must understand basic capabilities, limitations, traffic laws (ethics/honor code), and operational controls. AI literacy requires interrogating tools and their outputs, employing lateral reading to verify probabilistic hallucinations, and recognizing that LLMs act as 'stochastic parrots' rather than human intelligences.
+
+#### 2. Named Instructional Frameworks
+- **The ROBOT Test**: Developed by librarians Sandy Hervieux and Amanda Wheatley (McGill University), this evaluation framework is used to critically assess AI applications, tools, and outputs, particularly when analyzing how these technologies and their legitimacy are presented in news media and academic literature.
+- **Lateral Reading**: Applied as an information verification and fact-checking methodology to investigate and cross-check factual claims, citations, and potential hallucinations produced by Generative AI tools.
+- **AI Disclosure Statement Builder**: Based on the work of librarian Kari Weaver, this tool provides a structured method for students and researchers to draft comprehensive attribution and disclosure statements outlining tool usage, prompt strategies, and application contexts.
+
+#### 3. Objectives & Learning Outcomes
+**Student Learning Outcomes:**
+- Master prompt engineering strategies, including incremental prompting, iterative refinement, and prompt threading.
+- Fact-check and critically evaluate AI outputs to identify hallucinations, bias, and fabricated citations.
+- Apply lateral reading strategies to independently verify AI-generated claims and citations.
+- Critically evaluate claims made about AI technologies in the media and literature using structured evaluation heuristics.
+- Correctly cite, attribute, and construct transparent disclosure statements for AI tool usage in academic work.
+- Understand fundamental concepts and vocabulary of AI/ML, including algorithms, training data bias, deep learning, NLP, and neural networks.
+- Determine appropriate task-based use cases for AI tools while safeguarding private, sensitive, or confidential data.
+
+**Instructor Pedagogical Goals:**
+- Engage with institutional pedagogical development courses (e.g., 'Designing for Learners: Generative AI in Teaching' and 'Approaches to Teaching with Generative AI').
+- Establish transparent, clearly communicated syllabus expectations and policies regarding permissible versus prohibited AI usage.
+- Understand the unreliability and high false-positive rates of commercial AI detection software.
+- Guide students and advisees on disciplinary integrity, ethical tool usage, and academic publishing guidelines.
+
+#### 4. Policies, Permissibility & Citation
+- **Acceptable vs. Prohibited Uses:** Acceptable: Idea generation, getting started on drafts, refining vocabulary and grammar, writing formulaic text (e.g., emails), simplifying dense text, language translation, transcription, and acting as a non-confidential sounding board. Prohibited/Not Recommended: Using AI when prohibited by an instructor, PI, or publisher (constitutes a William & Mary Honor Code violation); generating whole papers; relying on AI for unchecked citations and bibliographies; researching rapidly evolving or real-time current events without live web access; exploring ill-defined, obscure, or non-Western topics with sparse training data; and processing sensitive, harmful, offensive, private, or confidential information.
+- **Citation & Attribution Rules:** AI tools cannot be listed as authors or co-authors because major style guides, scholarly societies, and the US Copyright Office do not recognize them as eligible for authorship. AI contributions must be explicitly acknowledged and documented. Best practices require describing the specific tool, the prompt engineering process, the version/model, the date of access, and the concrete use case (e.g., drafting, translating, editing). Authors must attribute the tool to its corporate purveyor/developer (e.g., OpenAI) and must never cite AI-generated references without independently reading and verifying the primary sources.
+- **Syllabus Guidelines:** Students must consult their specific course syllabus policies or ask their instructors directly before using GenAI, as faculty policies range from total prohibition to conditional allowance or active encouragement. Unauthorized AI use is treated as an Honor Code violation.
+
+#### 5. Grounded Verbatim Quotes from Source
+- *"Being AI Literate does not mean you need to understand the advanced mechanics of AI. It means that you are actively learning about the technologies involved and that you critically approach any texts you read that concern AI, especially news articles."*
+- *"To be AI-literate, users must constantly question and fact-check the information that Generative AI tools like ChatGPT produce. While this can be cumbersome, not exercising due diligence can have serious repercussions."*
+- *"First check your course syllabus policies or with your professor! Some professors don't allow it; others allow it only under specific circumstances; and others encourage it. Using it when prohibited is an honor code violation so if you're unsure, just ask!"*
+- *"While the US Copyright Office, many journals, and a number of scholarly societies don’t consider ChatGPT eligible for authorship status, its contributions and incorporation within a work must still be acknowledged."*
+- *"Do not use sources that are cited by AI tools without reading those sources yourself. There are two different reasons for this: Generative AI tools can create fake citations. These tools may cite a real piece of writing, but the cited content may be inaccurate."*
+
+---
+
+:::

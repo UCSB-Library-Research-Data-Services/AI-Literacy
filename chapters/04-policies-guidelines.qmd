@@ -1,0 +1,80 @@
+---
+title: "4. Institutional Guidelines, Policies, and Citation Practices"
+subtitle: "Permissibility Spectra, Academic Integrity, and Attribution Standards"
+format:
+  html:
+    toc: true
+---
+
+## Spectrum of AI Permissibility
+
+Academic libraries translate broad campus academic integrity policies into concrete classroom and research behaviors. Across the corpus, institutions establish clear boundaries between permissible cognitive assistance and academic dishonesty.
+
+```
++----------------------------------------------------------------------------------------------------+
+|                                    SPECTRUM OF AI PERMISSIBILITY                                   |
++--------------------------+--------------------------------+----------------------------------------+
+| PROHIBITED USE           | CONDITIONAL / ASSISTIVE USE    | EXTENSIVE COLLABORATION                |
++--------------------------+--------------------------------+----------------------------------------+
+| - Unacknowledged text/   | - Brainstorming search terms   | - Exploratory prompt iterations        |
+|   code generation        | - Synthesizing notes/outlines  | - Comparative analysis of AI outputs   |
+| - Submitting synthetic   | - Grammar and language editing | - Code generation with complete        |
+|   prose as original work | - Search query optimization    |   attribution and methodology logs     |
+| - Inputting PII or       | - Vendor tool summaries with   | - Advanced literature mapping and      |
+|   unvetted research data |   source verification          |   thematic visualization               |
++--------------------------+--------------------------------+----------------------------------------+
+```
+
+---
+
+## Core Institutional Policy Tiers
+
+Academic library guides recommend three primary policy models for course syllabi:
+
+::: {.panel-tabset}
+
+### Tier 1: Prohibited Use
+- **Definition**: Complete restriction on all GenAI tools.
+- **Rationale**: Used in foundational courses to ensure mastery of baseline skills (e.g., introductory language acquisition, basic arithmetic, introductory prose composition).
+- **Enforcement**: Submitting AI-generated content without explicit permission constitutes academic misconduct (e.g., UCSB, William & Mary Honor Code).
+
+### Tier 2: Conditional Use with Explicit Disclosure
+- **Definition**: Permitted for specific research and drafting phases (e.g., brainstorming, outlining, code debugging, language polish).
+- **Requirement**: Mandatory inclusion of an **AI Disclosure Statement** documenting tools used, model versions, prompt text, and how outputs were adapted (William & Mary, UCSD, UC Irvine).
+
+### Tier 3: Pervasive Integration
+- **Definition**: AI tools are fully integrated into learning activities and assignments.
+- **Pedagogy**: Focuses on advanced prompt engineering, comparative AI output auditing, and prompt log reflection.
+
+:::
+
+---
+
+## Citation & Attribution Standards
+
+All 11 institutions mandate attribution whenever GenAI tools contribute to academic work. The guides synthesize the official guidance from major style manuals:
+
+| Citation Manual | Reference Entry Structure | In-Text & Methodology Disclosure |
+| :--- | :--- | :--- |
+| **APA 7th Edition** | `Author: Company (e.g., OpenAI). Title: Model Name [Large language model]. URL.` | Provide description of prompt and excerpt in body text or append full chat transcript. Unique chat URLs should be provided where available. |
+| **MLA 9th Edition** | `Title of Source: "Prompt text/description". Container: ChatGPT. Version: Date/Model. Publisher: Company. Date of Access. URL.` | Acknowledge in-text when paraphrasing AI output. AI should not be listed as an author in author field. |
+| **Chicago Style** | Handled primarily via notes (footnotes/endnotes) rather than bibliography: include tool name, company, access date, and prompt description. | Include prompt details in footnote or parenthetical citation. Bibliography entry discouraged unless permalink exists. |
+| **IEEE Style** | Treated as private communication or unpublished non-recoverable material. | Document model, company, date, and specific prompt details in text notes. |
+
+::: {.callout-warning}
+### AI Authorship Prohibition
+Every surveyed library explicitly cites major academic publisher policies (Elsevier, Springer Nature, ACM, IEEE, PLOS, Taylor & Francis) stating that **GenAI cannot be listed as an author or co-author** on scholarly publications because non-human entities cannot take legal responsibility or intellectual accountability for manuscript integrity.
+:::
+
+---
+
+## Data Privacy & Institutional Governance
+
+Guides at **UC Merced**, **UC San Diego**, and **Chapman** emphasize institutional IT data classifications:
+- **No PII or Sensitive Data in Public AI**: Users must never enter student records, patient data, confidential interview transcripts, or proprietary research into public tools.
+- **Campus-Approved Secure Environments**: Only enterprise-licensed tools with zero-data-retention agreements (e.g., Microsoft Copilot via institutional SSO, ChatGPT Edu, ZotGPT) may process sensitive university workflows.
+
+---
+
+[← Previous: 3. Objectives & Learning Outcomes](03-objectives-outcomes.qmd){.btn .btn-outline-secondary}
+[Next: 5. Instructional Frameworks & Heuristics →](05-frameworks.qmd){.btn .btn-primary}

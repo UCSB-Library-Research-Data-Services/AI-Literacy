@@ -1,0 +1,104 @@
+---
+title: "3. Objectives & Learning Outcomes"
+subtitle: "Student Competencies vs. Faculty Pedagogical Objectives"
+format:
+  html:
+    toc: true
+---
+
+## Core Competency Matrix
+
+Library guides structure their learning outcomes across two distinct stakeholder groups: **students** (cultivating critical user agency) and **instructors/faculty** (guiding course design, assessment, and policy transparency).
+
+```
++----------------------------------------------------------------------------------------------------+
+|                                    MAPPING CORE AI COMPETENCIES                                    |
++---------------------------------------+------------------------------------------------------------+
+| COMPETENCY DOMAIN                     | OPERATIONALIZED LEARNING OUTCOME                           |
++---------------------------------------+------------------------------------------------------------+
+| Prompt Engineering & Synthesis        | Formulate structured, iterative queries using clear roles, |
+|                                       | contexts, constraints, and conversational threading.       |
+| Fact-Checking & Hallucination Audits  | Validate AI-generated claims and synthetic citations via   |
+|                                       | lateral reading, primary databases, and provenance tests. |
+| Sociotechnical & Environmental Ethics | Assess algorithmic bias, global content-moderation labor,  |
+|                                       | data privacy, and carbon/water ecological footprints.      |
+| Attribution & Policy Compliance       | Document synthetic tool assistance across citation styles; |
+|                                       | adhere to course-level and institutional AI policies.      |
+| Pedagogical & Authentic Assessment    | Redesign assignments around process-oriented, authentic,   |
+|                                       | metacognitive tasks resistant to uncritical automation.    |
++---------------------------------------+------------------------------------------------------------+
+```
+
+---
+
+## Student Learning Outcomes
+
+The extracted outcomes map into two primary tiers: **functional competencies** (how to use tools productively) and **evaluative competencies** (how to critically interrogate systems).
+
+::: {.panel-tabset}
+
+### Functional Competencies
+
+1. **Structured Prompt Engineering**
+   - Moving beyond single-phrase search queries toward multi-parameter prompt design.
+   - Specifying **Persona/Role**, **Task**, **Context**, **Constraints**, and **Output Format** (Auburn, UC Davis, UC San Diego, William & Mary).
+   - Employing **Conversational Threading** for step-by-step iterative refinement.
+
+2. **Tool Selection for Academic Discovery**
+   - Distinguishing general consumer chatbots (e.g., ChatGPT, Claude) from specialized academic discovery engines (e.g., Dimensions Research GPT, Semantic Scholar, ResearchRabbit, Elicit, Ex Libris Research Assistant).
+   - Using seed papers to map citation networks and literature clusters (USC, Auburn, UCSB).
+
+3. **Responsible Coding & Technical Assistance**
+   - Using AI for debugging and code generation while retaining the ability to explain, verify, and validate every line of code (UCSB, UC Davis).
+
+### Evaluative & Critical Competencies
+
+1. **Hallucination & Citation Auditing**
+   - Interrogating synthetic text for fabricated citations, statistical errors, and non-reproducible claims.
+   - Recognizing that database summaries are dynamic, descriptive starting points rather than primary evidence (UArkansas, William & Mary).
+
+2. **Algorithmic Bias & Representation**
+   - Auditing model outputs for historical, racial, gender, and Western-centric biases inherent in massive web-scraped training corpora (UC Davis, UC Irvine, UCSB).
+
+3. **Privacy & Data Security**
+   - Enforcing data safety: strictly avoiding the input of Personally Identifiable Information (PII), unreleased research data, or copyrighted manuscripts into public LLMs (UC Merced, UC San Diego).
+
+4. **Ecological & Human Labor Impacts**
+   - Understanding data center energy and water consumption, alongside global content moderation supply chains (RLHF labor) (Chapman, UC Irvine, UC Merced, UCSB).
+
+:::
+
+---
+
+## Faculty & Instructor Pedagogical Objectives
+
+Academic library guides increasingly serve as instructional design resources for teaching faculty, recommending key pedagogical pivots:
+
+```{mermaid}
+%%| fig-cap: "Pedagogical Transformation Model for Educators"
+flowchart LR
+    %%{init: {'flowchart': {'htmlLabels': false}, 'themeVariables': {'fontSize': '14px'}}}%%
+    A["Assessment Paradigm Shift
+Focus on Learning Process
+over Final Product"] --> B["Assignment Redesign
+Oral defense, reflection,
+multimodal synthesis, PAIRR"]
+    B --> C["Syllabus Transparency
+Clear policy tiers and
+explicit expectations"]
+```
+
+### 1. Assessment Redesign (Process over Product)
+- **Mitigating Cognitive Offloading**: Designing assessments that require metacognitive reflection, live research defense, peer review, and authentic problem-solving that cannot be trivially automated (UCSD, USC, Chapman).
+- **The PAIR / PAIRR Framework** (UC San Diego): Scaffolding assignments into *Problem formulation*, *AI tool selection*, *Interaction*, and *Reflection* (PAIR), followed by *Peer & AI Review + Reflection* (PAIRR).
+
+### 2. Syllabus Transparency & Explicit Boundaries
+- Establishing explicit, tiered syllabus policies rather than vague guidelines (e.g., clarifying exactly when AI is permitted for brainstorming vs. prohibited during drafting).
+
+### 3. AI-Assisted Course Preparation
+- Modeling the transparent use of AI in lesson planning, drafting case studies, and creating customized rubric criteria while maintaining human oversight (USC, UC Davis).
+
+---
+
+[← Previous: 2. Definitions of AI Literacy](02-definitions.qmd){.btn .btn-outline-secondary}
+[Next: 4. Policies, Guidelines & Citation →](04-policies-guidelines.qmd){.btn .btn-primary}

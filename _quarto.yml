@@ -1,0 +1,75 @@
+project:
+  type: website
+  output-dir: _site
+  resources:
+    - "results/*"
+    - "assets/*"
+  render:
+    - "index.qmd"
+    - "explorer.qmd"
+    - "methods.qmd"
+    - "chapters/*.qmd"
+
+website:
+  title: "AI Literacy in Higher Education"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Overview
+      - text: "Synthesis Report"
+        menu:
+          - href: chapters/01-executive-summary.qmd
+            text: "1. Executive Summary & Typology"
+          - href: chapters/02-definitions.qmd
+            text: "2. Definitions of AI Literacy"
+          - href: chapters/03-objectives-outcomes.qmd
+            text: "3. Objectives & Learning Outcomes"
+          - href: chapters/04-policies-guidelines.qmd
+            text: "4. Policies, Guidelines & Citation"
+          - href: chapters/05-frameworks.qmd
+            text: "5. Instructional Frameworks & Heuristics"
+          - href: chapters/06-similarity-clusters.qmd
+            text: "6. Semantic Similarity & Clustering"
+          - href: chapters/07-recommendations.qmd
+            text: "7. Strategic Recommendations"
+      - href: explorer.qmd
+        text: "Data Explorer"
+      - href: methods.qmd
+        text: "Methodology"
+    right:
+      - icon: github
+        href: https://github.com/
+        aria-label: GitHub
+
+  sidebar:
+    - id: report-sidebar
+      title: "Synthesis Report"
+      style: "docked"
+      collapse-level: 1
+      contents:
+        - href: chapters/01-executive-summary.qmd
+          text: "1. Executive Summary & Typology"
+        - href: chapters/02-definitions.qmd
+          text: "2. Definitions of AI Literacy"
+        - href: chapters/03-objectives-outcomes.qmd
+          text: "3. Objectives & Learning Outcomes"
+        - href: chapters/04-policies-guidelines.qmd
+          text: "4. Policies, Guidelines & Citation"
+        - href: chapters/05-frameworks.qmd
+          text: "5. Instructional Frameworks & Heuristics"
+        - href: chapters/06-similarity-clusters.qmd
+          text: "6. Semantic Similarity & Clustering"
+        - href: chapters/07-recommendations.qmd
+          text: "7. Strategic Recommendations"
+
+format:
+  html:
+    theme:
+      light: sandstone
+      dark: darkly
+    css: styles.css
+    toc: true
+    toc-depth: 3
+    code-fold: true
+    code-tools: true
+    smooth-scroll: true

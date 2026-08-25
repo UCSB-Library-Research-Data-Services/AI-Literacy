@@ -1,0 +1,96 @@
+---
+title: "Methodology & Computational Design"
+subtitle: "Prompt Engineering, Grounding Verification, Vector Embeddings, and Thematic Synthesis"
+format:
+  html:
+    toc: true
+---
+
+## Methodological Overview
+
+This study combines structured Large Language Model (LLM) extraction with high-dimensional vector embeddings and qualitative thematic synthesis to analyze academic library guides on Artificial Intelligence.
+
+```{mermaid}
+%%| fig-cap: "Three-Stage Computational Qualitative Analysis Pipeline"
+flowchart TD
+    %%{init: {'flowchart': {'htmlLabels': false}, 'themeVariables': {'fontSize': '14px'}}}%%
+    D["1. Data Ingestion
+11 Scraped University LibGuides (1.4k to 12.4k words)"] --> S1["2. Grounded LLM Extraction
+Structured JSON + Exact Verbatim Quote Verification"]
+    S1 --> P["3. Multi-Dimensional Institutional Profiles
+Definitions, Outcomes, Policies, Frameworks"]
+    P --> S2["4. High-Dimensional Semantic Embeddings
+Dense Vector Representations (Gemini / Nomic)"]
+    S2 --> M["5. Pairwise Cosine Similarity Matrix and Clustermap"]
+    P --> S3["6. Qualitative Thematic Synthesis
+Cross-Institutional Thematic Grouping"]
+    M --> S3
+    S3 --> R["7. Final Comparative Qualitative Report"]
+```
+
+---
+
+## Step 1: Structured Extraction & Grounding Defense
+
+### 1. Multi-Dimensional Extraction Schema
+To prevent omission of key pedagogical features, each guide was evaluated through a structured JSON schema capturing five dimensions:
+- **Definitions**: Explicit definitions vs. implicit characterizations, definitional models.
+- **Outcomes**: Student learning outcomes vs. instructor pedagogical goals.
+- **Policies**: Permissibility spectrum, citation rules (APA, MLA, Chicago, IEEE), and syllabus templates.
+- **Instructional Frameworks**: Named models (ACRL, ROBOT, CLEAR, RTF/TAG, Bloom's, PAIR/PAIRR).
+- **Supporting Quotes**: Direct quotes extracted from the text to substantiate every claim.
+
+### 2. Verbatim Quote Verification (Fidelity Metric)
+To detect and prevent model hallucinations, every extracted quote is programmatically matched against the raw text of the LibGuide:
+
+$$\text{Fidelity Score} = \frac{\text{Verified Verbatim Quotes}}{\text{Total Extracted Quotes}}$$
+
+If a quote cannot be located word-for-word in the source `.txt`, it is flagged, and the institution's fidelity score decreases. In our primary run with `gemini-3.7-flash`, **over 85% of quotes were matched 100% verbatim**, with the remaining discrepancies originating from minor whitespace/punctuation normalization in HTML scraping.
+
+---
+
+## Step 2: Vector Embeddings & Similarity Matching
+
+### 1. Semantic Profile Formulation
+Each institution is represented as a dense text document synthesizing its orientation, explicit definition, implicit characterization, named frameworks, student outcomes, instructor goals, and policy statements.
+
+### 2. Embedding Generation
+Vector embeddings are computed via `gemini-embedding-2` (and verified locally via `nomic-embed-text:latest` in Ollama).
+
+### 3. Pairwise Cosine Similarity
+Pairwise similarity between two institutional embedding vectors $\mathbf{u}$ and $\mathbf{v}$ is calculated as:
+
+$$\text{Cosine Similarity}(\mathbf{u}, \mathbf{v}) = \frac{\mathbf{u} \cdot \mathbf{v}}{\|\mathbf{u}\|_2 \|\mathbf{v}\|_2}$$
+
+The resulting matrix is clustered hierarchically using UPGMA (Unweighted Pair Group Method with Arithmetic Mean) via `seaborn.clustermap` to identify latent curricular networks.
+
+---
+
+## Step 3: Qualitative Thematic Synthesis
+
+The full extracted JSON corpus alongside the nearest-neighbor similarity rankings are fed back into the LLM with a synthesis prompt acting as a lead educational researcher. The model identifies:
+- Thematic typologies (*Balanced Hybrid*, *Tool-Use*, *Critical/Ethical*).
+- Points of cross-institutional consensus vs. divergence.
+- Pedagogical explanations for nearest-neighbor pairings (e.g., why UCSB and UCSD cluster tightly at 0.969).
+- Actionable curricular recommendations for academic libraries.
+
+---
+
+## Reproducibility & CLI Execution
+
+The entire pipeline is fully reproducible using `analysis.py`:
+
+```bash
+# Execute end-to-end with DreamLab and local Ollama embeddings
+uv run python analysis.py --model dreamlab/gemini-3.7-flash --embed-provider dreamlab
+
+# Execute fully locally via Ollama
+uv run python analysis.py --model ollama/qwen2.5:3b --embed-provider ollama
+
+# Execute multi-model benchmark across 3 LLMs
+uv run python analysis.py --compare
+```
+
+---
+
+[Explore Institutional Data: Data Explorer →](explorer.qmd){.btn .btn-primary}

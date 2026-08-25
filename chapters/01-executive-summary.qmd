@@ -1,0 +1,86 @@
+---
+title: "1. Executive Summary & Typology Overview"
+subtitle: "Cross-Institutional Landscape of AI Literacy in Academic Libraries"
+format:
+  html:
+    toc: true
+---
+
+## Landscape Overview
+
+Academic libraries are actively recalibrating their instructional mandates to address the rapid diffusion of Generative Artificial Intelligence (GenAI) across higher education. Historically the stewards of information evaluation, source attribution, and research methodologies, academic librarians are now central actors in mediating how campus communities conceptualize, apply, and critically interrogate algorithmic tools.
+
+Analysis of curricular LibGuides across 11 representative institutions reveals distinct pedagogical architectures. While institutions vary in instructional depth—ranging from utilitarian database discovery integrations to sociotechnical critiques—the sector demonstrates a decisive convergence toward **Balanced Hybrid** instruction.
+
+```
++-----------------------------------------------------------------------------------------+
+|                                    AI LITERACY TYPOLOGY                                  |
++-----------------------------------+-----------------------------------------------------+
+| ORIENTATION                       | INSTITUTIONAL DISTRIBUTION                          |
++-----------------------------------+-----------------------------------------------------+
+| Comprehensive / Balanced Hybrid   | Auburn, Chapman, UC Davis, UC Merced,               |
+|                                   | UC Santa Barbara, UC San Diego, USC, William & Mary |
+| Tool-Use / Practical Productivity | Baylor, University of Arkansas                      |
+| Critical & Ethical Evaluation     | UC Irvine                                           |
++-----------------------------------+-----------------------------------------------------+
+```
+
+---
+
+## Institutional Typology Distribution
+
+```{mermaid}
+%%| fig-cap: "Distribution of Primary AI Literacy Curricular Orientations across Institutions"
+flowchart TD
+    %%{init: {'flowchart': {'htmlLabels': false}, 'themeVariables': {'fontSize': '14px'}}}%%
+    ROOT["AI Literacy Curricular Landscape"]
+    ROOT --> T1["Balanced Hybrid - 72.7% (8/11)"]
+    ROOT --> T2["Tool-Use - 18.2% (2/11)"]
+    ROOT --> T3["Critical and Ethical - 9.1% (1/11)"]
+
+    T1 --> I1["Auburn, Chapman, UC Davis, UC Merced,
+UCSB, UCSD, USC, William and Mary"]
+    T2 --> I2["Baylor University, University of Arkansas"]
+    T3 --> I3["UC Irvine"]
+```
+
+---
+
+## Detailed Curricular Typologies
+
+### 1. Comprehensive / Balanced Hybrid (72.7%, *n* = 8)
+Characterized by a dual-axis pedagogy that pairs operational utility (prompt engineering, iterative refinement, literature discovery) with rigorous evaluative frameworks (algorithmic bias detection, citation ethics, hallucination verification, environmental and labor cost analyses). 
+
+Institutions such as **Auburn, Chapman, UC Davis, UC Merced, UC Santa Barbara, UC San Diego, USC, and William & Mary** position AI literacy as an evolution of information literacy, requiring both functional capability and ethical discernment.
+
+::: {.callout-tip}
+#### Hallmarks of Balanced Hybrid Guides
+- Teach systematic prompt construction heuristics (**CLEAR**, **RTF**, **TAG**).
+- Introduce tailored evaluation rubrics designed specifically for synthetic outputs (**The ROBOT Test**).
+- Emphasize academic integrity, attribution transparency, and citation mechanics across citation styles.
+:::
+
+### 2. Tool-Use / Practical Productivity (18.2%, *n* = 2)
+Focuses on immediate functional integration, interface navigation, and vendor-integrated library discovery platforms. 
+
+**Baylor** and the **University of Arkansas** focus on embedding GenAI within search workflows—such as natural language querying through discovery layers (e.g., Ex Libris Primo Research Assistant, EBSCO AI Insights, Mintel Leap) and research data mining scripts—while providing baseline guidance on instructor compliance and citation.
+
+### 3. Critical & Ethical Evaluation (9.1%, *n* = 1)
+Prioritizes structural critique over tool optimization. 
+
+**UC Irvine** centers its instructional guide on Critical Information Literacy (CIL) and the ACRL Framework, interrogating the sociopolitical dimensions of large language models (LLMs), including algorithmic bias, labor exploitation in training data pipelines, environmental impacts, and the erosion of epistemic authority.
+
+---
+
+## Definitional Approaches Across the Corpus
+
+A key finding is the split between formal definition and implicit curricular scaffolding:
+
+| Category | Proportion | Institutions | Pedagogical Focus |
+| :--- | :--- | :--- | :--- |
+| **Explicit Formal Definition** | **45.5%** (*n*=5) | Auburn, Chapman, UCSB, USC, William & Mary | Formulates a bounded conceptual model (e.g. Leo Lo’s taxonomy, 3-stage developmental continuum). |
+| **Implicit Characterization** | **54.5%** (*n*=6) | Baylor, UArkansas, UCDavis, UCIrvine, UCMerced, UCSD | Embeds literacy across operational workflows, database tools, and integrity guidelines without an isolated definition. |
+
+---
+
+[Next: 2. Definitions of AI Literacy Across Institutions →](02-definitions.qmd){.btn .btn-primary}

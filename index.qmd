@@ -1,0 +1,135 @@
+---
+title: "AI Literacy in Higher Education LibGuides"
+subtitle: "A Qualitative and Vector Semantic Synthesis of 11 Academic Institutions"
+format:
+  html:
+    page-layout: full
+---
+
+::: {.hero-banner}
+# AI Literacy Curricular & Policy Analysis
+[An empirical study extracting, comparing, and synthesizing AI literacy frameworks, definitions, instructional heuristics, and policy guidelines across leading research universities.]{.lead}
+:::
+
+:::: {.grid}
+
+::: {.g-col-12 .g-col-md-3}
+::: {.stat-card}
+::: {.stat-number}
+11
+:::
+::: {.stat-label}
+University LibGuides Analyzed
+:::
+:::
+:::
+
+::: {.g-col-12 .g-col-md-3}
+::: {.stat-card}
+::: {.stat-number}
+72.7%
+:::
+::: {.stat-label}
+Balanced Hybrid Orientation
+:::
+:::
+:::
+
+::: {.g-col-12 .g-col-md-3}
+::: {.stat-card}
+::: {.stat-number}
+45.5%
+:::
+::: {.stat-label}
+Explicit AI Literacy Definitions
+:::
+:::
+:::
+
+::: {.g-col-12 .g-col-md-3}
+::: {.stat-card}
+::: {.stat-number}
+12+
+:::
+::: {.stat-label}
+Named Pedagogical Frameworks
+:::
+:::
+:::
+
+::::
+
+---
+
+## Research Scope & Dimensions
+
+This research investigates how academic library guides (LibGuides) frame, teach, and operationalize **Artificial Intelligence (AI) Literacy** across higher education. 
+
+Using an LLM extraction pipeline with verbatim quote verification and high-dimensional semantic embeddings, this project investigates five core dimensions:
+
+1. **Definitions & Conceptual Models**: Formal explicit definitions vs. implicit competencies (Leo Lo’s framework, Bloom-aligned models, ACRL threshold concepts).
+2. **Instructional Objectives & Learning Outcomes**: Student skills (prompt engineering, lateral fact-checking, bias detection) and faculty pedagogical goals (assignment redesign, syllabus clarity).
+3. **Institutional Guidelines & Policies**: Permitted vs. prohibited use spectra, citation protocols (APA, MLA, Chicago, IEEE), and syllabus policy tiers.
+4. **Instructional Frameworks & Heuristics**: Named rubrics including the **ROBOT Test**, **CLEAR Prompting Framework**, **PAIR/PAIRR Models**, and **Lateral Reading**.
+5. **Curricular Semantic Alignment**: Pairwise vector similarity and hierarchical clustering identifying pedagogical alignments (e.g., the *UC Core Cluster*, the *Pragmatic Tool Dyad*, and the *Critical Theory Outlier*).
+
+---
+
+## Synthesis Report Navigation
+
+The findings are organized into seven dedicated sections:
+
+:::: {.grid}
+
+::: {.g-col-12 .g-col-md-6}
+### [1. Executive Summary & Typology](chapters/01-executive-summary.qmd)
+High-level overview of findings and the distribution across the three primary curricular typologies: *Balanced Hybrid*, *Tool-Use*, and *Critical/Ethical*.
+
+### [2. Definitions of AI Literacy](chapters/02-definitions.qmd)
+Explicit vs. implicit definitional models, conceptual taxonomies, and the intersection between AI Literacy, Information Literacy, and Digital Literacy.
+
+### [3. Objectives & Learning Outcomes](chapters/03-objectives-outcomes.qmd)
+Delineation between student competencies (prompt design, hallucination auditing, privacy safeguards) and faculty pedagogical objectives.
+
+### [4. Policies, Guidelines & Citation](chapters/04-policies-guidelines.qmd)
+Spectra of permitted vs. prohibited use, data governance, and style guide citation standards (APA, MLA, Chicago, IEEE).
+:::
+
+::: {.g-col-12 .g-col-md-6}
+### [5. Instructional Frameworks & Heuristics](chapters/05-frameworks.qmd)
+In-depth breakdown of named pedagogical models: ACRL Frames, the ROBOT Test, Lateral Reading, CLEAR framework, RTF/TAG, and Bloom's Taxonomy.
+
+### [6. Semantic Similarity & Clustering](chapters/06-similarity-clusters.qmd)
+Mathematical analysis of the high-dimensional cosine similarity matrix and hierarchical clustermap revealing institutional affinities.
+
+### [7. Strategic Recommendations](chapters/07-recommendations.qmd)
+A 5-phase evidence-based implementation roadmap for academic libraries developing or updating AI literacy programming.
+
+### [Interactive Data Explorer](explorer.qmd)
+Interactive searchable matrix and comprehensive institutional profile cards with extracted quotes and framework mappings.
+:::
+
+::::
+
+---
+
+## Participating Institutions
+
+| Institution | Guide URL | Primary Orientation | Explicit Definition? | Named Frameworks |
+| :--- | :--- | :--- | :--- | :--- |
+| **Auburn University** | [Auburn Guide](https://libguides.auburn.edu/c.php?g=1444337) | [Balanced Hybrid]{.badge-hybrid} | Yes | Bloom's Taxonomy |
+| **Baylor University** | [Baylor Guide](https://libguides.baylor.edu/c.php?g=1441620) | [Tool-Use]{.badge-tool} | No | Research Discovery Layers |
+| **Chapman University** | [Chapman Guide](https://libguides.chapman.edu/FFC/digital_literacy/) | [Critical/Ethical]{.badge-critical} | Yes | Leo Lo, Against Brain Damage, Cairo Data Lit |
+| **University of Arkansas** | [UARK Guide](https://libguides.uark.edu/AI/databases) | [Tool-Use]{.badge-tool} | No | RAG Database Heuristics |
+| **UC Davis** | [UC Davis Guide](https://guides.library.ucdavis.edu/genai) | [Balanced Hybrid]{.badge-hybrid} | No | ROBOT Test, CLEAR Path, Harvard Image Prompting |
+| **UC Irvine** | [UC Irvine Guide](https://guides.lib.uci.edu/gen-ai) | [Critical/Ethical]{.badge-critical} | No | ACRL Framework, Critical Info Lit, Lateral Reading |
+| **UC Merced** | [UC Merced Guide](https://libguides.ucmerced.edu/artificial-intelligence) | [Balanced Hybrid]{.badge-hybrid} | No | AI4K12 Guidelines, MIT RAISE, Ethical Framework for AI |
+| **UC Santa Barbara** | [UCSB Guide](https://guides.library.ucsb.edu/ai) | [Balanced Hybrid]{.badge-hybrid} | Yes | 3-Stage AI Literacy Continuum, AI 101-103 Series |
+| **UC San Diego** | [UCSD Guide](https://ucsd.libguides.com/AI) | [Balanced Hybrid]{.badge-hybrid} | No | PAIR / PAIRR, RTF & TAG, AID Framework, EDUCAUSE |
+| **USC** | [USC Guide](https://libguides.usc.edu/c.php?g=1457247) | [Balanced Hybrid]{.badge-hybrid} | Yes | Leo S. Lo Framework, SARPS, Digital Promise, UNESCO |
+| **William & Mary** | [W&M Guide](https://guides.libraries.wm.edu/c.php?g=1317202) | [Balanced Hybrid]{.badge-hybrid} | Yes | ROBOT Test, Lateral Reading, AI Disclosure Builder |
+
+::: {.callout-note}
+### Data & Source Code
+All extraction scripts, raw JSON extractions, summary CSVs, and vector similarity matrices are available in the project repository and navigable in the [Data Explorer](explorer.qmd) and [Methodology](methods.qmd) pages.
+:::

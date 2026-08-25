@@ -1,0 +1,56 @@
+---
+title: "7. Strategic Recommendations for Academic Libraries"
+subtitle: "An Evidence-Based Implementation Roadmap for AI Literacy Curricula"
+format:
+  html:
+    toc: true
+---
+
+## Strategic Implementation Roadmap
+
+Drawing on the cross-institutional synthesis of 11 research universities, academic libraries can use the following evidence-based, phased roadmap to design, update, or expand their AI literacy instructional programming:
+
+```{mermaid}
+%%| fig-cap: "Five-Phase Implementation Roadmap for Academic Library AI Curricula"
+flowchart TD
+    %%{init: {'flowchart': {'htmlLabels': false}, 'themeVariables': {'fontSize': '14px'}}}%%
+    P1["Phase 1: Epistemic Foundation
+Formalize explicit definition and anchor in ACRL Framework"]
+    P2["Phase 2: Evaluative Methodologies
+Adopt the ROBOT Test and Lateral Reading verification"]
+    P3["Phase 3: Structured Practical Querying
+Embed prompt heuristics and curate discovery tools"]
+    P4["Phase 4: Sociotechnical and Environmental Auditing
+Integrate modules on data footprints and labor supply chains"]
+    P5["Phase 5: Institutional Alignment and Support
+Partner with Teaching Centers and publish syllabus templates"]
+
+    P1 --> P2 --> P3 --> P4 --> P5
+```
+
+---
+
+## Actionable Recommendations
+
+### 1. Adopt an Explicit, Multi-Dimensional Definition of AI Literacy
+Move beyond implicit operationalization. Libraries should formally adopt a multi-dimensional definition (such as Leo Lo’s taxonomy or UCSB’s three-stage continuum: *Understand*, *Use and Apply*, *Analyze and Evaluate*) that explicitly connects AI literacy to information literacy, digital ethics, and cognitive development.
+
+### 2. Update Source Evaluation Rubrics for Generative Media
+Traditional source evaluation rubrics (such as the CRAAP test) presuppose human authorship, peer review, and stable publication channels. Libraries should implement evaluation rubrics tailored to generative systems—such as **The ROBOT Test** (*Reliability, Objective, Bias, Owner, Type*)—and train students in **Lateral Reading** to independently corroborate non-deterministic outputs and synthetic citations.
+
+### 3. Integrate Structured Prompt Engineering into Information Literacy
+Incorporate structured prompting heuristics (**CLEAR**, **RTF**, **TAG**, **Conversational Threading**) into library instruction. Reframing prompt design as strategic, iterative query formulation reinforces core information literacy concepts: faceted search, parameter manipulation, and context setting.
+
+### 4. Teach Sociotechnical, Environmental, and Labor Dimensions
+Following the models of **UC Irvine**, **Chapman**, and **UC Merced**, expand curricula beyond functional mechanics to examine the material impacts of GenAI:
+- **Ecological Footprints**: The substantial electrical energy and cooling water requirements of enterprise AI data centers.
+- **Data Labor Supply Chains**: The outsourced, low-wage human labor involved in data labeling, cleaning, and Reinforcement Learning from Human Feedback (RLHF).
+- **Algorithmic Bias & Representation**: The systemic cultural, demographic, and epistemological skews embedded in massive web-scraped training datasets.
+
+### 5. Partner with Campus Teaching Centers on Authentic Assessment
+Collaborate closely with campus Centers for Teaching and Learning (modeled by UC Davis and USC) to support faculty in assignment redesign. Libraries should guide instructors toward process-oriented, authentic assessments that emphasize metacognitive reflection, research defense, and peer review (e.g., the **PAIR/PAIRR framework**), mitigating uncritical cognitive offloading while fostering genuine intellectual agency.
+
+---
+
+[← Previous: 6. Semantic Similarity & Clustering](06-similarity-clusters.qmd){.btn .btn-outline-secondary}
+[Explore Institutional Data: Data Explorer →](../explorer.qmd){.btn .btn-success}
