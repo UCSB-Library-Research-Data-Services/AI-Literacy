@@ -4,6 +4,7 @@ subtitle: "Conceptual Taxonomies, Explicit vs. Implicit Scaffolding, and Interse
 format:
   html:
     toc: true
+bibliography: ../references.bib
 ---
 
 ## Explicit vs. Implicit Formulations
@@ -34,7 +35,7 @@ Academic libraries show a structural divide in how they formalize AI literacy. A
 
 ### 1. Leo S. Lo’s Multidimensional Framework (USC & Chapman University)
 
-**USC** and **Chapman University** explicitly adopt or adapt the framework developed by Leo S. Lo (2025), defining AI literacy as an ecosystemic competency:
+**USC** and **Chapman University** explicitly adopt or adapt the framework developed by Leo S. Lo [-@loAILiteracyAll2025], defining AI literacy as an ecosystemic competency:
 
 ::: {.callout-note appearance="simple"}
 > *"AI literacy goes beyond understanding AI tools; it equips individuals to critically evaluate, ethically navigate, and practically apply AI in real-world scenarios; [it is] the ability to understand, use, and think critically about AI technologies and their impact on society, ethics, and everyday life."*

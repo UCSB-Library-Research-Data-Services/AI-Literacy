@@ -118,4 +118,4 @@ flowchart LR
 ---
 
 [← Previous: 5. Instructional Frameworks](05-frameworks.qmd){.btn .btn-outline-secondary}
-[Next: 7. Strategic Recommendations →](07-recommendations.qmd){.btn .btn-primary}
+[Explore Institutional Data: Data Explorer →](../explorer.qmd){.btn .btn-success}

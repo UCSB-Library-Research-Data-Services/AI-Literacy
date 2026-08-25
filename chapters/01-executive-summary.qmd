@@ -6,9 +6,7 @@ format:
     toc: true
 ---
 
-## Landscape Overview
-
-Academic libraries are actively recalibrating their instructional mandates to address the rapid diffusion of Generative Artificial Intelligence (GenAI) across higher education. Historically the stewards of information evaluation, source attribution, and research methodologies, academic librarians are now central actors in mediating how campus communities conceptualize, apply, and critically interrogate algorithmic tools.
+## Overview
 
 Analysis of curricular LibGuides across 11 representative institutions reveals distinct pedagogical architectures. While institutions vary in instructional depth—ranging from utilitarian database discovery integrations to sociotechnical critiques—the sector demonstrates a decisive convergence toward **Balanced Hybrid** instruction.
 
