@@ -12,18 +12,13 @@ Drawing on the cross-institutional synthesis of 11 research universities, academ
 
 ```{mermaid}
 %%| fig-cap: "Five-Phase Implementation Roadmap for Academic Library AI Curricula"
+%%{init: {'themeVariables': {'fontSize': '14px'}}}%%
 flowchart TD
-    %%{init: {'flowchart': {'htmlLabels': false}, 'themeVariables': {'fontSize': '14px'}}}%%
-    P1["Phase 1: Epistemic Foundation
-Formalize explicit definition and anchor in ACRL Framework"]
-    P2["Phase 2: Evaluative Methodologies
-Adopt the ROBOT Test and Lateral Reading verification"]
-    P3["Phase 3: Structured Practical Querying
-Embed prompt heuristics and curate discovery tools"]
-    P4["Phase 4: Sociotechnical and Environmental Auditing
-Integrate modules on data footprints and labor supply chains"]
-    P5["Phase 5: Institutional Alignment and Support
-Partner with Teaching Centers and publish syllabus templates"]
+    P1["Phase 1: Epistemic Foundation<br/>Formalize explicit definition and anchor in ACRL Framework"]
+    P2["Phase 2: Evaluative Methodologies<br/>Adopt the ROBOT Test and Lateral Reading verification"]
+    P3["Phase 3: Structured Practical Querying<br/>Embed prompt heuristics and curate discovery tools"]
+    P4["Phase 4: Sociotechnical and Environmental Auditing<br/>Integrate modules on data footprints and labor supply chains"]
+    P5["Phase 5: Institutional Alignment and Support<br/>Partner with Teaching Centers and publish syllabus templates"]
 
     P1 --> P2 --> P3 --> P4 --> P5
 ```
