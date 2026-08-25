@@ -20,7 +20,7 @@ Explore the complete multi-dimensional profiles extracted from each university L
 
 ::: {.panel-tabset}
 
-### Auburn
+### Auburn University
 
 <span class="badge-hybrid">Comprehensive / Balanced Hybrid</span> &nbsp; **Target Audience:** General Campus &nbsp;|&nbsp; **Quote Fidelity:** 100%
 
@@ -60,7 +60,7 @@ Explore the complete multi-dimensional profiles extracted from each university L
 
 ---
 
-### Baylor
+### Baylor University
 
 <span class="badge-tool">Tool-Use / Practical Productivity</span> &nbsp; **Target Audience:** General Campus &nbsp;|&nbsp; **Quote Fidelity:** 100%
 
@@ -90,7 +90,7 @@ Explore the complete multi-dimensional profiles extracted from each university L
 
 ---
 
-### Chapman
+### Chapman University
 
 <span class="badge-critical">Critical & Ethical Evaluation</span> &nbsp; **Target Audience:** Students &nbsp;|&nbsp; **Quote Fidelity:** 100%
 
@@ -131,7 +131,7 @@ Explore the complete multi-dimensional profiles extracted from each university L
 
 ---
 
-### UArkansas
+### University of Arkansas
 
 <span class="badge-tool">Tool-Use / Practical Productivity</span> &nbsp; **Target Audience:** Researchers &nbsp;|&nbsp; **Quote Fidelity:** 80%
 
@@ -167,7 +167,7 @@ Explore the complete multi-dimensional profiles extracted from each university L
 
 ---
 
-### UCDavis
+### UC Davis
 
 <span class="badge-hybrid">Comprehensive / Balanced Hybrid</span> &nbsp; **Target Audience:** General Campus &nbsp;|&nbsp; **Quote Fidelity:** 60%
 
@@ -209,7 +209,7 @@ Explore the complete multi-dimensional profiles extracted from each university L
 
 ---
 
-### UCIrvine
+### UC Irvine
 
 <span class="badge-critical">Critical & Ethical Evaluation</span> &nbsp; **Target Audience:** General Campus &nbsp;|&nbsp; **Quote Fidelity:** 40%
 
@@ -250,7 +250,7 @@ Explore the complete multi-dimensional profiles extracted from each university L
 
 ---
 
-### UCMerced
+### UC Merced
 
 <span class="badge-hybrid">Comprehensive / Balanced Hybrid</span> &nbsp; **Target Audience:** General Campus &nbsp;|&nbsp; **Quote Fidelity:** 67%
 
@@ -428,7 +428,7 @@ Explore the complete multi-dimensional profiles extracted from each university L
 
 ---
 
-### William
+### William & Mary
 
 <span class="badge-hybrid">Comprehensive / Balanced Hybrid</span> &nbsp; **Target Audience:** General Campus &nbsp;|&nbsp; **Quote Fidelity:** 100%
 

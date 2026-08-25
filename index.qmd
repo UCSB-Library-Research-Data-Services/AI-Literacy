@@ -121,9 +121,9 @@ Interactive searchable matrix and comprehensive institutional profile cards with
 | **Baylor University** | [Baylor Guide](https://libguides.baylor.edu/c.php?g=1441620) | [Tool-Use]{.badge-tool} | No | Research Discovery Layers |
 | **Chapman University** | [Chapman Guide](https://libguides.chapman.edu/FFC/digital_literacy/) | [Critical/Ethical]{.badge-critical} | Yes | Leo Lo, Against Brain Damage, Cairo Data Lit |
 | **University of Arkansas** | [UARK Guide](https://libguides.uark.edu/AI/databases) | [Tool-Use]{.badge-tool} | No | RAG Database Heuristics |
-| **UC Davis** | [UC Davis Guide](https://guides.library.ucdavis.edu/genai) | [Balanced Hybrid]{.badge-hybrid} | No | ROBOT Test, CLEAR Path, Harvard Image Prompting |
+| **UC Davis** | [UC Davis Guide](https://guides.library.UC Davis.edu/genai) | [Balanced Hybrid]{.badge-hybrid} | No | ROBOT Test, CLEAR Path, Harvard Image Prompting |
 | **UC Irvine** | [UC Irvine Guide](https://guides.lib.uci.edu/gen-ai) | [Critical/Ethical]{.badge-critical} | No | ACRL Framework, Critical Info Lit, Lateral Reading |
-| **UC Merced** | [UC Merced Guide](https://libguides.ucmerced.edu/artificial-intelligence) | [Balanced Hybrid]{.badge-hybrid} | No | AI4K12 Guidelines, MIT RAISE, Ethical Framework for AI |
+| **UC Merced** | [UC Merced Guide](https://libguides.UC Merced.edu/artificial-intelligence) | [Balanced Hybrid]{.badge-hybrid} | No | AI4K12 Guidelines, MIT RAISE, Ethical Framework for AI |
 | **UC Santa Barbara** | [UCSB Guide](https://guides.library.ucsb.edu/ai) | [Balanced Hybrid]{.badge-hybrid} | Yes | 3-Stage AI Literacy Continuum, AI 101-103 Series |
 | **UC San Diego** | [UCSD Guide](https://ucsd.libguides.com/AI) | [Balanced Hybrid]{.badge-hybrid} | No | PAIR / PAIRR, RTF & TAG, AID Framework, EDUCAUSE |
 | **USC** | [USC Guide](https://libguides.usc.edu/c.php?g=1457247) | [Balanced Hybrid]{.badge-hybrid} | Yes | Leo S. Lo Framework, SARPS, Digital Promise, UNESCO |

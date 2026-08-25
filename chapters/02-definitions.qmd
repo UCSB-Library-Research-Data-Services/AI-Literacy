@@ -14,10 +14,10 @@ Academic libraries show a structural divide in how they formalize AI literacy. A
 +-------------------+-----------------------------+-------------------------------------------------------------+
 | INSTITUTION       | DEFINITION STATUS           | PRIMARY CONCEPTUAL MODEL                                    |
 +-------------------+-----------------------------+-------------------------------------------------------------+
-| Auburn            | Explicit Definition         | Functional-Ethical Triad (Functions, Ethics, Application)   |
-| Baylor            | Implicit Characterization   | Computational Research Integration                          |
-| Chapman           | Explicit Definition         | Sociotechnical Habits of Mind / Cognitive Preservation      |
-| UArkansas         | Implicit Characterization   | Vendor Discovery & Provenance Mechanics                     |
+| Auburn University           | Explicit Definition         | Functional-Ethical Triad (Functions, Ethics, Application)   |
+| Baylor University | Implicit Characterization   | Computational Research Integration                          |
+| Chapman University| Explicit Definition         | Sociotechnical Habits of Mind / Cognitive Preservation      |
+| University of Arkansas         | Implicit Characterization   | Vendor Discovery & Provenance Mechanics                     |
 | UC Davis          | Implicit Characterization   | Collaborative Technical-Integrity Schema (CLEAR / ROBOT)   |
 | UC Irvine         | Implicit Characterization   | Critical Information Literacy (CIL) & ACRL Alignment        |
 | UC Merced         | Implicit Characterization   | Workflow-Institutional Compliance Integration               |
@@ -32,9 +32,9 @@ Academic libraries show a structural divide in how they formalize AI literacy. A
 
 ## Prominent Conceptual Models
 
-### 1. Leo S. Lo’s Multidimensional Framework (USC & Chapman)
+### 1. Leo S. Lo’s Multidimensional Framework (USC & Chapman University)
 
-**USC** and **Chapman** explicitly adopt or adapt the framework developed by Leo S. Lo (2025), defining AI literacy as an ecosystemic competency:
+**USC** and **Chapman University** explicitly adopt or adapt the framework developed by Leo S. Lo (2025), defining AI literacy as an ecosystemic competency:
 
 ::: {.callout-note appearance="simple"}
 > *"AI literacy goes beyond understanding AI tools; it equips individuals to critically evaluate, ethically navigate, and practically apply AI in real-world scenarios; [it is] the ability to understand, use, and think critically about AI technologies and their impact on society, ethics, and everyday life."*
@@ -83,7 +83,7 @@ flowchart LR
 
 ---
 
-### 3. Cognitive Habits of Mind & Demystification (Chapman & William & Mary)
+### 3. Cognitive Habits of Mind & Demystification (Chapman University and William & Mary)
 
 **Chapman University** centers its definition around cognitive habits and human metacognition:
 
@@ -130,7 +130,7 @@ flowchart TD
 
 - **Digital Literacy** provides the infrastructural baseline: understanding campus data security tiers (e.g. UC Merced P2/P4 classifications), compute environments, and API endpoints.
 - **Information Literacy** provides the epistemic anchor: as UC Irvine notes, *"The question of whether you can trust a chatbot's output is fundamentally a question about information literacy."*
-- **AI Literacy** synthesizes both to address non-deterministic outputs, non-reproducible research summaries (UArkansas), algorithmic bias mitigation (UC Davis), and cognitive agency (Chapman).
+- **AI Literacy** synthesizes both to address non-deterministic outputs, non-reproducible research summaries (University of Arkansas), algorithmic bias mitigation (UC Davis), and cognitive agency (Chapman University).
 
 ---
 

@@ -54,7 +54,7 @@ Traditional source evaluation rubrics (such as the CRAAP test) presuppose human 
 Incorporate structured prompting heuristics (**CLEAR**, **RTF**, **TAG**, **Conversational Threading**) into library instruction. Reframing prompt design as strategic, iterative query formulation reinforces core information literacy concepts: faceted search, parameter manipulation, and context setting.
 
 ### 4. Teach Sociotechnical, Environmental, and Labor Dimensions
-Following the models of **UC Irvine**, **Chapman**, and **UC Merced**, expand curricula beyond functional mechanics to examine the material impacts of GenAI:
+Following the models of **UC Irvine**, **Chapman University**, and **UC Merced**, expand curricula beyond functional mechanics to examine the material impacts of GenAI:
 - **Ecological Footprints**: The substantial electrical energy and cooling water requirements of enterprise AI data centers.
 - **Data Labor Supply Chains**: The outsourced, low-wage human labor involved in data labeling, cleaning, and Reinforcement Learning from Human Feedback (RLHF).
 - **Algorithmic Bias & Representation**: The systemic cultural, demographic, and epistemological skews embedded in massive web-scraped training datasets.

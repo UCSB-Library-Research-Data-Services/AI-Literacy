@@ -41,12 +41,12 @@ The extracted outcomes map into two primary tiers: **functional competencies** (
 
 1. **Structured Prompt Engineering**
    - Moving beyond single-phrase search queries toward multi-parameter prompt design.
-   - Specifying **Persona/Role**, **Task**, **Context**, **Constraints**, and **Output Format** (Auburn, UC Davis, UC San Diego, William & Mary).
+   - Specifying **Persona/Role**, **Task**, **Context**, **Constraints**, and **Output Format** (Auburn University, UC Davis, UC San Diego, William & Mary).
    - Employing **Conversational Threading** for step-by-step iterative refinement.
 
 2. **Tool Selection for Academic Discovery**
    - Distinguishing general consumer chatbots (e.g., ChatGPT, Claude) from specialized academic discovery engines (e.g., Dimensions Research GPT, Semantic Scholar, ResearchRabbit, Elicit, Ex Libris Research Assistant).
-   - Using seed papers to map citation networks and literature clusters (USC, Auburn, UCSB).
+   - Using seed papers to map citation networks and literature clusters (USC, Auburn University, UCSB).
 
 3. **Responsible Coding & Technical Assistance**
    - Using AI for debugging and code generation while retaining the ability to explain, verify, and validate every line of code (UCSB, UC Davis).
@@ -55,7 +55,7 @@ The extracted outcomes map into two primary tiers: **functional competencies** (
 
 1. **Hallucination & Citation Auditing**
    - Interrogating synthetic text for fabricated citations, statistical errors, and non-reproducible claims.
-   - Recognizing that database summaries are dynamic, descriptive starting points rather than primary evidence (UArkansas, William & Mary).
+   - Recognizing that database summaries are dynamic, descriptive starting points rather than primary evidence (University of Arkansas, William & Mary).
 
 2. **Algorithmic Bias & Representation**
    - Auditing model outputs for historical, racial, gender, and Western-centric biases inherent in massive web-scraped training corpora (UC Davis, UC Irvine, UCSB).
@@ -64,7 +64,7 @@ The extracted outcomes map into two primary tiers: **functional competencies** (
    - Enforcing data safety: strictly avoiding the input of Personally Identifiable Information (PII), unreleased research data, or copyrighted manuscripts into public LLMs (UC Merced, UC San Diego).
 
 4. **Ecological & Human Labor Impacts**
-   - Understanding data center energy and water consumption, alongside global content moderation supply chains (RLHF labor) (Chapman, UC Irvine, UC Merced, UCSB).
+   - Understanding data center energy and water consumption, alongside global content moderation supply chains (RLHF labor) (Chapman University, UC Irvine, UC Merced, UCSB).
 
 :::
 
@@ -101,7 +101,7 @@ flowchart LR
 ```
 
 ### 1. Assessment Redesign (Process over Product)
-- **Mitigating Cognitive Offloading**: Designing assessments that require metacognitive reflection, live research defense, peer review, and authentic problem-solving that cannot be trivially automated (UCSD, USC, Chapman).
+- **Mitigating Cognitive Offloading**: Designing assessments that require metacognitive reflection, live research defense, peer review, and authentic problem-solving that cannot be trivially automated (UCSD, USC, Chapman University).
 - **The PAIR / PAIRR Framework** (UC San Diego): Scaffolding assignments into *Problem formulation*, *AI tool selection*, *Interaction*, and *Reflection* (PAIR), followed by *Peer & AI Review + Reflection* (PAIRR).
 
 ### 2. Syllabus Transparency & Explicit Boundaries

@@ -18,9 +18,9 @@ Analysis of curricular LibGuides across 11 representative institutions reveals d
 +-----------------------------------+-----------------------------------------------------+
 | ORIENTATION                       | INSTITUTIONAL DISTRIBUTION                          |
 +-----------------------------------+-----------------------------------------------------+
-| Comprehensive / Balanced Hybrid   | Auburn, Chapman, UC Davis, UC Merced,               |
+| Comprehensive / Balanced Hybrid   | Auburn University, Chapman University, UC Davis, UC Merced,               |
 |                                   | UC Santa Barbara, UC San Diego, USC, William & Mary |
-| Tool-Use / Practical Productivity | Baylor, University of Arkansas                      |
+| Tool-Use / Practical Productivity |  University, University of Arkansas                      |
 | Critical & Ethical Evaluation     | UC Irvine                                           |
 +-----------------------------------+-----------------------------------------------------+
 ```
@@ -38,7 +38,7 @@ flowchart TD
     ROOT --> T2["Tool-Use - 18.2% (2/11)"]
     ROOT --> T3["Critical and Ethical - 9.1% (1/11)"]
 
-    T1 --> I1["`Auburn, Chapman, UC Davis, UC Merced
+    T1 --> I1["`Auburn University, Chapman University, UC Davis, UC Merced
                 UCSB, UCSD, USC, William and Mary`"]
     T2 --> I2["Baylor University, University of Arkansas"]
     T3 --> I3["UC Irvine"]
@@ -67,7 +67,7 @@ flowchart TD
 ### 1. Comprehensive / Balanced Hybrid (72.7%, *n* = 8)
 Characterized by a dual-axis pedagogy that pairs operational utility (prompt engineering, iterative refinement, literature discovery) with rigorous evaluative frameworks (algorithmic bias detection, citation ethics, hallucination verification, environmental and labor cost analyses). 
 
-Institutions such as **Auburn, Chapman, UC Davis, UC Merced, UC Santa Barbara, UC San Diego, USC, and William & Mary** position AI literacy as an evolution of information literacy, requiring both functional capability and ethical discernment.
+Institutions such as **Auburn University, Chapman University, UC Davis, UC Merced, UC Santa Barbara, UC San Diego, USC, and William & Mary** position AI literacy as an evolution of information literacy, requiring both functional capability and ethical discernment.
 
 ::: {.callout-tip}
 #### Hallmarks of Balanced Hybrid Guides
@@ -79,7 +79,7 @@ Institutions such as **Auburn, Chapman, UC Davis, UC Merced, UC Santa Barbara, U
 ### 2. Tool-Use / Practical Productivity (18.2%, *n* = 2)
 Focuses on immediate functional integration, interface navigation, and vendor-integrated library discovery platforms. 
 
-**Baylor** and the **University of Arkansas** focus on embedding GenAI within search workflows—such as natural language querying through discovery layers (e.g., Ex Libris Primo Research Assistant, EBSCO AI Insights, Mintel Leap) and research data mining scripts—while providing baseline guidance on instructor compliance and citation.
+**Baylor University** and the **University of Arkansas** focus on embedding GenAI within search workflows—such as natural language querying through discovery layers (e.g., Ex Libris Primo Research Assistant, EBSCO AI Insights, Mintel Leap) and research data mining scripts—while providing baseline guidance on instructor compliance and citation.
 
 ### 3. Critical & Ethical Evaluation (9.1%, *n* = 1)
 Prioritizes structural critique over tool optimization. 
@@ -94,8 +94,8 @@ A key finding is the split between formal definition and implicit curricular sca
 
 | Category | Proportion | Institutions | Pedagogical Focus |
 | :--- | :--- | :--- | :--- |
-| **Explicit Formal Definition** | **45.5%** (*n*=5) | Auburn, Chapman, UCSB, USC, William & Mary | Formulates a bounded conceptual model (e.g. Leo Lo’s taxonomy, 3-stage developmental continuum). |
-| **Implicit Characterization** | **54.5%** (*n*=6) | Baylor, UArkansas, UCDavis, UCIrvine, UCMerced, UCSD | Embeds literacy across operational workflows, database tools, and integrity guidelines without an isolated definition. |
+| **Explicit Formal Definition** | **45.5%** (*n*=5) | Auburn University, Chapman University, UCSB, USC, William & Mary | Formulates a bounded conceptual model (e.g. Leo Lo’s taxonomy, 3-stage developmental continuum). |
+| **Implicit Characterization** | **54.5%** (*n*=6) | Baylor University, University of Arkansas, UC Davis, UC Irvine, UC Merced, UCSD | Embeds literacy across operational workflows, database tools, and integrity guidelines without an isolated definition. |
 
 ---
 

@@ -139,7 +139,7 @@ Library guides teach students that prompting is an iterative, structured inquiry
 - **Peer & AI Review + Reflection (PAIRR)**: Integrating peer feedback on AI interactions.
 
 ### Bloom's Revised Taxonomy (Auburn University)
-Auburn maps GenAI tool integrations across Bloom’s cognitive levels, demonstrating where AI can act as a scaffolding tool (Remembering/Understanding) vs. where human intellectual agency must lead (Evaluating/Creating).
+Auburn University maps GenAI tool integrations across Bloom’s cognitive levels, demonstrating where AI can act as a scaffolding tool (Remembering/Understanding) vs. where human intellectual agency must lead (Evaluating/Creating).
 
 ---
 
