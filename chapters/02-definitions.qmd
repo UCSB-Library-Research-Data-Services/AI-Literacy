@@ -39,6 +39,7 @@ Academic libraries show a structural divide in how they formalize AI literacy. A
 :::
 
 This model establishes four interconnected pillars:
+
 - **Technical Mechanics**: Understanding how probabilistic models generate outputs.
 - **Practical Application**: Formulating structured prompts and integrating tools effectively.
 - **Critical Evaluation**: Auditing for hallucination, bias, and epistemic gaps.
