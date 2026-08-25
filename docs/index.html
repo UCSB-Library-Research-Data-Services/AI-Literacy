@@ -215,6 +215,14 @@ div.csl-indent {
   <li><a href="#research-scope-dimensions" id="toc-research-scope-dimensions" class="nav-link active" data-scroll-target="#research-scope-dimensions">Research Scope &amp; Dimensions</a></li>
   <li><a href="#synthesis-report-navigation" id="toc-synthesis-report-navigation" class="nav-link" data-scroll-target="#synthesis-report-navigation">Synthesis Report Navigation</a></li>
   <li><a href="#institutions" id="toc-institutions" class="nav-link" data-scroll-target="#institutions">Institutions</a></li>
+  <li><a href="#generative-ai-disclosure-citation" id="toc-generative-ai-disclosure-citation" class="nav-link" data-scroll-target="#generative-ai-disclosure-citation">Generative AI Disclosure &amp; Citation</a>
+  <ul class="collapse">
+  <li><a href="#tool-model-specifications" id="toc-tool-model-specifications" class="nav-link" data-scroll-target="#tool-model-specifications">Tool &amp; Model Specifications</a></li>
+  <li><a href="#prompting-ai-assistance-role" id="toc-prompting-ai-assistance-role" class="nav-link" data-scroll-target="#prompting-ai-assistance-role">Prompting &amp; AI Assistance Role</a></li>
+  <li><a href="#grounding-quality-control-human-in-the-loop" id="toc-grounding-quality-control-human-in-the-loop" class="nav-link" data-scroll-target="#grounding-quality-control-human-in-the-loop">Grounding &amp; Quality Control (Human-in-the-Loop)</a></li>
+  <li><a href="#citation-format-apa-7th-edition" id="toc-citation-format-apa-7th-edition" class="nav-link" data-scroll-target="#citation-format-apa-7th-edition">Citation Format (APA 7th Edition)</a></li>
+  <li><a href="#citation-format-mla-9th-edition" id="toc-citation-format-mla-9th-edition" class="nav-link" data-scroll-target="#citation-format-mla-9th-edition">Citation Format (MLA 9th Edition)</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -398,11 +406,42 @@ Data &amp; Source Code
 <p>All extraction scripts, raw JSON extractions, summary CSVs, and vector similarity matrices are available in the project repository and navigable in the <a href="./explorer.html">Data Explorer</a> and <a href="./methods.html">Methodology</a> pages.</p>
 </div>
 </div>
+<hr>
+</section>
+<section id="generative-ai-disclosure-citation" class="level2">
+<h2 class="anchored" data-anchor-id="generative-ai-disclosure-citation">Generative AI Disclosure &amp; Citation</h2>
+<p>In alignment with the institutional guidelines and citation practices examined in this synthesis (see <a href="./chapters/04-policies-guidelines.html">Chapter 4: Institutional Guidelines, Policies, and Citation Practices</a>), this section provides full transparency regarding the use of Generative Artificial Intelligence (GenAI) in the creation of this project.</p>
+<section id="tool-model-specifications" class="level3">
+<h3 class="anchored" data-anchor-id="tool-model-specifications">Tool &amp; Model Specifications</h3>
+<ul>
+<li><strong>Large Language Model (Extraction &amp; Synthesis)</strong>: Gemini 3.7 Flash (<code>gemini-3.7-flash</code>), hosted via Google/Dreamlab API.</li>
+<li><strong>Embedding Model (Vector Semantic Analysis)</strong>: Gemini Embedding 2 (<code>gemini-embedding-2</code>) and Nomic Embed Text (<code>nomic-embed-text:latest</code> via Ollama).</li>
+<li><strong>Execution Pipeline</strong>: Custom Python pipeline (<code>analysis.py</code>) executing structured JSON extraction, vector similarity scoring, and hierarchical clustering.</li>
+</ul>
+</section>
+<section id="prompting-ai-assistance-role" class="level3">
+<h3 class="anchored" data-anchor-id="prompting-ai-assistance-role">Prompting &amp; AI Assistance Role</h3>
+<p>GenAI was employed in three distinct capacities: 1. <strong>Structured Data Extraction</strong>: Extracted formal definitions, student outcomes, instructor goals, named frameworks, and supporting verbatim quotes from the scraped raw text of 11 university library guides. 2. <strong>Semantic Representation</strong>: Generated high-dimensional vector embeddings for each institution to construct the pairwise cosine similarity matrix. 3. <strong>Thematic Qualitative Synthesis</strong>: Drafted initial thematic categorizations (e.g., <em>Balanced Hybrid</em>, <em>Tool-Use</em>, and <em>Critical/Ethical</em> typologies) and cross-institutional affinity explanations based on the similarity clusters.</p>
+</section>
+<section id="grounding-quality-control-human-in-the-loop" class="level3">
+<h3 class="anchored" data-anchor-id="grounding-quality-control-human-in-the-loop">Grounding &amp; Quality Control (Human-in-the-Loop)</h3>
+<p>To safeguard research integrity and prevent hallucination, the following controls were implemented: - <strong>Verbatim Quote Verification</strong>: All extracted quotes were programmatically matched word-for-word against the source guides. Only quotes achieving a 100% literal match are included in the final report, yielding a pipeline fidelity score of <strong>&gt;85%</strong>. - <strong>Human Editing &amp; Verification</strong>: All AI-synthesized narrative reports, classifications, and cluster interpretations were thoroughly reviewed, edited, corrected, and validated by the researcher to ensure academic accuracy, conceptual coherence, and analytical depth.</p>
+</section>
+<section id="citation-format-apa-7th-edition" class="level3">
+<h3 class="anchored" data-anchor-id="citation-format-apa-7th-edition">Citation Format (APA 7th Edition)</h3>
+<p>To cite the GenAI contribution to this project, use the following reference: &gt; Google. (2025). <em>Gemini 3.7 Flash</em> (Large language model). Google AI. https://deepmind.google/technologies/gemini/</p>
+</section>
+<section id="citation-format-mla-9th-edition" class="level3">
+<h3 class="anchored" data-anchor-id="citation-format-mla-9th-edition">Citation Format (MLA 9th Edition)</h3>
+<blockquote class="blockquote">
+<p>“Structured extraction and thematic synthesis of AI Literacy LibGuides” prompt. <em>ChatGPT/Gemini 3.7 Flash</em>, Google/Dreamlab API, 2026, https://github.com/UCSB-Library-Research-Data-Services/AI-Literacy.</p>
+</blockquote>
 
 
 <!-- -->
 
 
+</section>
 </section>
 
 <div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
@@ -1100,7 +1139,36 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <span id="cb1-76"><a href="#cb1-76" aria-hidden="true" tabindex="-1"></a>::: {.callout-note}</span>
 <span id="cb1-77"><a href="#cb1-77" aria-hidden="true" tabindex="-1"></a><span class="fu">### Data &amp; Source Code</span></span>
 <span id="cb1-78"><a href="#cb1-78" aria-hidden="true" tabindex="-1"></a>All extraction scripts, raw JSON extractions, summary CSVs, and vector similarity matrices are available in the project repository and navigable in the <span class="co">[</span><span class="ot">Data Explorer</span><span class="co">](explorer.qmd)</span> and <span class="co">[</span><span class="ot">Methodology</span><span class="co">](methods.qmd)</span> pages.</span>
-<span id="cb1-79"><a href="#cb1-79" aria-hidden="true" tabindex="-1"></a>:::</span></code><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></pre></div>
+<span id="cb1-79"><a href="#cb1-79" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb1-80"><a href="#cb1-80" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-81"><a href="#cb1-81" aria-hidden="true" tabindex="-1"></a>---</span>
+<span id="cb1-82"><a href="#cb1-82" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-83"><a href="#cb1-83" aria-hidden="true" tabindex="-1"></a><span class="fu">## Generative AI Disclosure &amp; Citation</span></span>
+<span id="cb1-84"><a href="#cb1-84" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-85"><a href="#cb1-85" aria-hidden="true" tabindex="-1"></a>In alignment with the institutional guidelines and citation practices examined in this synthesis (see <span class="co">[</span><span class="ot">Chapter 4: Institutional Guidelines, Policies, and Citation Practices</span><span class="co">](chapters/04-policies-guidelines.qmd)</span>), this section provides full transparency regarding the use of Generative Artificial Intelligence (GenAI) in the creation of this project.</span>
+<span id="cb1-86"><a href="#cb1-86" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-87"><a href="#cb1-87" aria-hidden="true" tabindex="-1"></a><span class="fu">### Tool &amp; Model Specifications</span></span>
+<span id="cb1-88"><a href="#cb1-88" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Large Language Model (Extraction &amp; Synthesis)**: Gemini 3.7 Flash (<span class="in">`gemini-3.7-flash`</span>), hosted via Google/Dreamlab API.</span>
+<span id="cb1-89"><a href="#cb1-89" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Embedding Model (Vector Semantic Analysis)**: Gemini Embedding 2 (<span class="in">`gemini-embedding-2`</span>) and Nomic Embed Text (<span class="in">`nomic-embed-text:latest`</span> via Ollama).</span>
+<span id="cb1-90"><a href="#cb1-90" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Execution Pipeline**: Custom Python pipeline (<span class="in">`analysis.py`</span>) executing structured JSON extraction, vector similarity scoring, and hierarchical clustering.</span>
+<span id="cb1-91"><a href="#cb1-91" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-92"><a href="#cb1-92" aria-hidden="true" tabindex="-1"></a><span class="fu">### Prompting &amp; AI Assistance Role</span></span>
+<span id="cb1-93"><a href="#cb1-93" aria-hidden="true" tabindex="-1"></a>GenAI was employed in three distinct capacities:</span>
+<span id="cb1-94"><a href="#cb1-94" aria-hidden="true" tabindex="-1"></a><span class="ss">1. </span>**Structured Data Extraction**: Extracted formal definitions, student outcomes, instructor goals, named frameworks, and supporting verbatim quotes from the scraped raw text of 11 university library guides.</span>
+<span id="cb1-95"><a href="#cb1-95" aria-hidden="true" tabindex="-1"></a><span class="ss">2. </span>**Semantic Representation**: Generated high-dimensional vector embeddings for each institution to construct the pairwise cosine similarity matrix.</span>
+<span id="cb1-96"><a href="#cb1-96" aria-hidden="true" tabindex="-1"></a><span class="ss">3. </span>**Thematic Qualitative Synthesis**: Drafted initial thematic categorizations (e.g., *Balanced Hybrid*, *Tool-Use*, and *Critical/Ethical* typologies) and cross-institutional affinity explanations based on the similarity clusters.</span>
+<span id="cb1-97"><a href="#cb1-97" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-98"><a href="#cb1-98" aria-hidden="true" tabindex="-1"></a><span class="fu">### Grounding &amp; Quality Control (Human-in-the-Loop)</span></span>
+<span id="cb1-99"><a href="#cb1-99" aria-hidden="true" tabindex="-1"></a>To safeguard research integrity and prevent hallucination, the following controls were implemented:</span>
+<span id="cb1-100"><a href="#cb1-100" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Verbatim Quote Verification**: All extracted quotes were programmatically matched word-for-word against the source guides. Only quotes achieving a 100% literal match are included in the final report, yielding a pipeline fidelity score of **&gt;85%**.</span>
+<span id="cb1-101"><a href="#cb1-101" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Human Editing &amp; Verification**: All AI-synthesized narrative reports, classifications, and cluster interpretations were thoroughly reviewed, edited, corrected, and validated by the researcher to ensure academic accuracy, conceptual coherence, and analytical depth.</span>
+<span id="cb1-102"><a href="#cb1-102" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-103"><a href="#cb1-103" aria-hidden="true" tabindex="-1"></a><span class="fu">### Citation Format (APA 7th Edition)</span></span>
+<span id="cb1-104"><a href="#cb1-104" aria-hidden="true" tabindex="-1"></a>To cite the GenAI contribution to this project, use the following reference:</span>
+<span id="cb1-105"><a href="#cb1-105" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; Google. (2025). *Gemini 3.7 Flash* (Large language model). Google AI. https://deepmind.google/technologies/gemini/</span></span>
+<span id="cb1-106"><a href="#cb1-106" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-107"><a href="#cb1-107" aria-hidden="true" tabindex="-1"></a><span class="fu">### Citation Format (MLA 9th Edition)</span></span>
+<span id="cb1-108"><a href="#cb1-108" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; "Structured extraction and thematic synthesis of AI Literacy LibGuides" prompt. *ChatGPT/Gemini 3.7 Flash*, Google/Dreamlab API, 2026, https://github.com/UCSB-Library-Research-Data-Services/AI-Literacy.</span></span></code><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></pre></div>
 </div></div></div></div></div>
 </div> <!-- /content -->
 

@@ -77,3 +77,32 @@ Interactive searchable matrix and comprehensive institutional profile cards with
 ### Data & Source Code
 All extraction scripts, raw JSON extractions, summary CSVs, and vector similarity matrices are available in the project repository and navigable in the [Data Explorer](explorer.qmd) and [Methodology](methods.qmd) pages.
 :::
+
+---
+
+## Generative AI Disclosure & Citation
+
+In alignment with the institutional guidelines and citation practices examined in this synthesis (see [Chapter 4: Institutional Guidelines, Policies, and Citation Practices](chapters/04-policies-guidelines.qmd)), this section provides full transparency regarding the use of Generative Artificial Intelligence (GenAI) in the creation of this project.
+
+### Tool & Model Specifications
+- **Large Language Model (Extraction & Synthesis)**: Gemini 3.7 Flash (`gemini-3.7-flash`), hosted via Google/Dreamlab API.
+- **Embedding Model (Vector Semantic Analysis)**: Gemini Embedding 2 (`gemini-embedding-2`) and Nomic Embed Text (`nomic-embed-text:latest` via Ollama).
+- **Execution Pipeline**: Custom Python pipeline (`analysis.py`) executing structured JSON extraction, vector similarity scoring, and hierarchical clustering.
+
+### Prompting & AI Assistance Role
+GenAI was employed in three distinct capacities:
+1. **Structured Data Extraction**: Extracted formal definitions, student outcomes, instructor goals, named frameworks, and supporting verbatim quotes from the scraped raw text of 11 university library guides.
+2. **Semantic Representation**: Generated high-dimensional vector embeddings for each institution to construct the pairwise cosine similarity matrix.
+3. **Thematic Qualitative Synthesis**: Drafted initial thematic categorizations (e.g., *Balanced Hybrid*, *Tool-Use*, and *Critical/Ethical* typologies) and cross-institutional affinity explanations based on the similarity clusters.
+
+### Grounding & Quality Control (Human-in-the-Loop)
+To safeguard research integrity and prevent hallucination, the following controls were implemented:
+- **Verbatim Quote Verification**: All extracted quotes were programmatically matched word-for-word against the source guides. Only quotes achieving a 100% literal match are included in the final report, yielding a pipeline fidelity score of **>85%**.
+- **Human Editing & Verification**: All AI-synthesized narrative reports, classifications, and cluster interpretations were thoroughly reviewed, edited, corrected, and validated by the researcher to ensure academic accuracy, conceptual coherence, and analytical depth.
+
+### Citation Format (APA 7th Edition)
+To cite the GenAI contribution to this project, use the following reference:
+> Google. (2025). *Gemini 3.7 Flash* (Large language model). Google AI. https://deepmind.google/technologies/gemini/
+
+### Citation Format (MLA 9th Edition)
+> "Structured extraction and thematic synthesis of AI Literacy LibGuides" prompt. *ChatGPT/Gemini 3.7 Flash*, Google/Dreamlab API, 2026, https://github.com/UCSB-Library-Research-Data-Services/AI-Literacy.
