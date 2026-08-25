@@ -125,9 +125,6 @@ svg.mermaid-js .cluster span {
   color: var(--mermaid-node-fg-color) !important;
   fill: var(--mermaid-node-fg-color) !important;
 }
-  stroke: #60a5fa !important;
-  stroke-width: 2px !important;
-}
 
 body.quarto-dark .mermaid .nodeLabel,
 body.quarto-dark .mermaid .node .label {
