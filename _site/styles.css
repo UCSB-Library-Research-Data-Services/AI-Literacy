@@ -39,7 +39,7 @@ svg.mermaid-js,
 .mermaid svg,
 .mermaid {
   display: block !important;
-  width: 100% !important;
+  width: auto !important;
   max-width: 100% !important;
   height: auto !important;
   min-height: 80px !important;

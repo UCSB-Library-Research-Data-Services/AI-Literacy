@@ -276,20 +276,28 @@ window.Quarto = {
 <div>
 <p></p><figure class="figure"><p></p>
 <div>
-<pre class="mermaid mermaid-js">flowchart TD
-    %%{init: {'flowchart': {'htmlLabels': false}, 'themeVariables': {'fontSize': '14px'}}}%%
-    D["1. Data Ingestion
-11 Scraped University LibGuides (1.4k to 12.4k words)"] --&gt; S1["2. Grounded LLM Extraction
-Structured JSON + Exact Verbatim Quote Verification"]
-    S1 --&gt; P["3. Multi-Dimensional Institutional Profiles
-Definitions, Outcomes, Policies, Frameworks"]
-    P --&gt; S2["4. High-Dimensional Semantic Embeddings
-Dense Vector Representations (Gemini / Nomic)"]
-    S2 --&gt; M["5. Pairwise Cosine Similarity Matrix and Clustermap"]
-    P --&gt; S3["6. Qualitative Thematic Synthesis
-Cross-Institutional Thematic Grouping"]
+<pre class="mermaid mermaid-js">%%{init: {'flowchart': {'htmlLabels': false}, 'themeVariables': {'fontSize': '14px'}}}%%
+flowchart TD
+    D["`Data Ingestion
+        11 Scraped University LibGuides`"]
+    S1["`Grounded LLM Extraction
+         Structured JSON + Verbatim Quote Verification`"]
+    P["`Multi-Dimensional Institutional Profiles
+        Definitions, Outcomes, Policies, Frameworks`"]
+    S2["`High-Dimensional Semantic Embeddings
+         Dense Vector Representations`"]
+    M["Pairwise Cosine Similarity Matrix and Clustermap"]
+    S3["`Qualitative Thematic Synthesis
+         Cross-Institutional Thematic Grouping`"]
+    R["Final Comparative Qualitative Report"]
+    
+    D --&gt; S1
+    S1 --&gt; P
+    P --&gt; S2
+    S2 --&gt; M
+    P --&gt; S3
     M --&gt; S3
-    S3 --&gt; R["7. Final Comparative Qualitative Report"]
+    S3 --&gt; R
 </pre>
 </div>
 <p></p><figcaption> Three-Stage Computational Qualitative Analysis Pipeline</figcaption> </figure><p></p>
@@ -981,88 +989,96 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a><span class="in">```{mermaid}</span></span>
 <span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a><span class="in">%%| fig-cap: "Three-Stage Computational Qualitative Analysis Pipeline"</span></span>
-<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a><span class="in">flowchart TD</span></span>
-<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a><span class="in">    %%{init: {'flowchart': {'htmlLabels': false}, 'themeVariables': {'fontSize': '14px'}}}%%</span></span>
-<span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a><span class="in">    D["1. Data Ingestion</span></span>
-<span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a><span class="in">11 Scraped University LibGuides (1.4k to 12.4k words)"] --&gt; S1["2. Grounded LLM Extraction</span></span>
-<span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a><span class="in">Structured JSON + Exact Verbatim Quote Verification"]</span></span>
-<span id="cb2-22"><a href="#cb2-22" aria-hidden="true" tabindex="-1"></a><span class="in">    S1 --&gt; P["3. Multi-Dimensional Institutional Profiles</span></span>
-<span id="cb2-23"><a href="#cb2-23" aria-hidden="true" tabindex="-1"></a><span class="in">Definitions, Outcomes, Policies, Frameworks"]</span></span>
-<span id="cb2-24"><a href="#cb2-24" aria-hidden="true" tabindex="-1"></a><span class="in">    P --&gt; S2["4. High-Dimensional Semantic Embeddings</span></span>
-<span id="cb2-25"><a href="#cb2-25" aria-hidden="true" tabindex="-1"></a><span class="in">Dense Vector Representations (Gemini / Nomic)"]</span></span>
-<span id="cb2-26"><a href="#cb2-26" aria-hidden="true" tabindex="-1"></a><span class="in">    S2 --&gt; M["5. Pairwise Cosine Similarity Matrix and Clustermap"]</span></span>
-<span id="cb2-27"><a href="#cb2-27" aria-hidden="true" tabindex="-1"></a><span class="in">    P --&gt; S3["6. Qualitative Thematic Synthesis</span></span>
-<span id="cb2-28"><a href="#cb2-28" aria-hidden="true" tabindex="-1"></a><span class="in">Cross-Institutional Thematic Grouping"]</span></span>
-<span id="cb2-29"><a href="#cb2-29" aria-hidden="true" tabindex="-1"></a><span class="in">    M --&gt; S3</span></span>
-<span id="cb2-30"><a href="#cb2-30" aria-hidden="true" tabindex="-1"></a><span class="in">    S3 --&gt; R["7. Final Comparative Qualitative Report"]</span></span>
-<span id="cb2-31"><a href="#cb2-31" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
-<span id="cb2-32"><a href="#cb2-32" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-33"><a href="#cb2-33" aria-hidden="true" tabindex="-1"></a>---</span>
-<span id="cb2-34"><a href="#cb2-34" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-35"><a href="#cb2-35" aria-hidden="true" tabindex="-1"></a><span class="fu">## Step 1: Structured Extraction &amp; Grounding Defense</span></span>
-<span id="cb2-36"><a href="#cb2-36" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-37"><a href="#cb2-37" aria-hidden="true" tabindex="-1"></a><span class="fu">### 1. Multi-Dimensional Extraction Schema</span></span>
-<span id="cb2-38"><a href="#cb2-38" aria-hidden="true" tabindex="-1"></a>To prevent omission of key pedagogical features, each guide was evaluated through a structured JSON schema capturing five dimensions:</span>
-<span id="cb2-39"><a href="#cb2-39" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Definitions**: Explicit definitions vs. implicit characterizations, definitional models.</span>
-<span id="cb2-40"><a href="#cb2-40" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Outcomes**: Student learning outcomes vs. instructor pedagogical goals.</span>
-<span id="cb2-41"><a href="#cb2-41" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Policies**: Permissibility spectrum, citation rules (APA, MLA, Chicago, IEEE), and syllabus templates.</span>
-<span id="cb2-42"><a href="#cb2-42" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Instructional Frameworks**: Named models (ACRL, ROBOT, CLEAR, RTF/TAG, Bloom's, PAIR/PAIRR).</span>
-<span id="cb2-43"><a href="#cb2-43" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Supporting Quotes**: Direct quotes extracted from the text to substantiate every claim.</span>
+<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a><span class="in">%%{init: {'flowchart': {'htmlLabels': false}, 'themeVariables': {'fontSize': '14px'}}}%%</span></span>
+<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a><span class="in">flowchart TD</span></span>
+<span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a><span class="in">    D["`Data Ingestion</span></span>
+<span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a><span class="in">        11 Scraped University LibGuides`"]</span></span>
+<span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a><span class="in">    S1["`Grounded LLM Extraction</span></span>
+<span id="cb2-22"><a href="#cb2-22" aria-hidden="true" tabindex="-1"></a><span class="in">         Structured JSON + Verbatim Quote Verification`"]</span></span>
+<span id="cb2-23"><a href="#cb2-23" aria-hidden="true" tabindex="-1"></a><span class="in">    P["`Multi-Dimensional Institutional Profiles</span></span>
+<span id="cb2-24"><a href="#cb2-24" aria-hidden="true" tabindex="-1"></a><span class="in">        Definitions, Outcomes, Policies, Frameworks`"]</span></span>
+<span id="cb2-25"><a href="#cb2-25" aria-hidden="true" tabindex="-1"></a><span class="in">    S2["`High-Dimensional Semantic Embeddings</span></span>
+<span id="cb2-26"><a href="#cb2-26" aria-hidden="true" tabindex="-1"></a><span class="in">         Dense Vector Representations`"]</span></span>
+<span id="cb2-27"><a href="#cb2-27" aria-hidden="true" tabindex="-1"></a><span class="in">    M["Pairwise Cosine Similarity Matrix and Clustermap"]</span></span>
+<span id="cb2-28"><a href="#cb2-28" aria-hidden="true" tabindex="-1"></a><span class="in">    S3["`Qualitative Thematic Synthesis</span></span>
+<span id="cb2-29"><a href="#cb2-29" aria-hidden="true" tabindex="-1"></a><span class="in">         Cross-Institutional Thematic Grouping`"]</span></span>
+<span id="cb2-30"><a href="#cb2-30" aria-hidden="true" tabindex="-1"></a><span class="in">    R["Final Comparative Qualitative Report"]</span></span>
+<span id="cb2-31"><a href="#cb2-31" aria-hidden="true" tabindex="-1"></a><span class="in">    </span></span>
+<span id="cb2-32"><a href="#cb2-32" aria-hidden="true" tabindex="-1"></a><span class="in">    D --&gt; S1</span></span>
+<span id="cb2-33"><a href="#cb2-33" aria-hidden="true" tabindex="-1"></a><span class="in">    S1 --&gt; P</span></span>
+<span id="cb2-34"><a href="#cb2-34" aria-hidden="true" tabindex="-1"></a><span class="in">    P --&gt; S2</span></span>
+<span id="cb2-35"><a href="#cb2-35" aria-hidden="true" tabindex="-1"></a><span class="in">    S2 --&gt; M</span></span>
+<span id="cb2-36"><a href="#cb2-36" aria-hidden="true" tabindex="-1"></a><span class="in">    P --&gt; S3</span></span>
+<span id="cb2-37"><a href="#cb2-37" aria-hidden="true" tabindex="-1"></a><span class="in">    M --&gt; S3</span></span>
+<span id="cb2-38"><a href="#cb2-38" aria-hidden="true" tabindex="-1"></a><span class="in">    S3 --&gt; R</span></span>
+<span id="cb2-39"><a href="#cb2-39" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb2-40"><a href="#cb2-40" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-41"><a href="#cb2-41" aria-hidden="true" tabindex="-1"></a>---</span>
+<span id="cb2-42"><a href="#cb2-42" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-43"><a href="#cb2-43" aria-hidden="true" tabindex="-1"></a><span class="fu">## Step 1: Structured Extraction &amp; Grounding Defense</span></span>
 <span id="cb2-44"><a href="#cb2-44" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-45"><a href="#cb2-45" aria-hidden="true" tabindex="-1"></a><span class="fu">### 2. Verbatim Quote Verification (Fidelity Metric)</span></span>
-<span id="cb2-46"><a href="#cb2-46" aria-hidden="true" tabindex="-1"></a>To detect and prevent model hallucinations, every extracted quote is programmatically matched against the raw text of the LibGuide:</span>
-<span id="cb2-47"><a href="#cb2-47" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-48"><a href="#cb2-48" aria-hidden="true" tabindex="-1"></a>$$\text{Fidelity Score} = \frac{\text{Verified Verbatim Quotes}}{\text{Total Extracted Quotes}}$$</span>
-<span id="cb2-49"><a href="#cb2-49" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-50"><a href="#cb2-50" aria-hidden="true" tabindex="-1"></a>If a quote cannot be located word-for-word in the source <span class="in">`.txt`</span>, it is flagged, and the institution's fidelity score decreases. In our primary run with <span class="in">`gemini-3.7-flash`</span>, **over 85% of quotes were matched 100% verbatim**, with the remaining discrepancies originating from minor whitespace/punctuation normalization in HTML scraping.</span>
-<span id="cb2-51"><a href="#cb2-51" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-52"><a href="#cb2-52" aria-hidden="true" tabindex="-1"></a>---</span>
-<span id="cb2-53"><a href="#cb2-53" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-54"><a href="#cb2-54" aria-hidden="true" tabindex="-1"></a><span class="fu">## Step 2: Vector Embeddings &amp; Similarity Matching</span></span>
+<span id="cb2-45"><a href="#cb2-45" aria-hidden="true" tabindex="-1"></a><span class="fu">### 1. Multi-Dimensional Extraction Schema</span></span>
+<span id="cb2-46"><a href="#cb2-46" aria-hidden="true" tabindex="-1"></a>To prevent omission of key pedagogical features, each guide was evaluated through a structured JSON schema capturing five dimensions:</span>
+<span id="cb2-47"><a href="#cb2-47" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Definitions**: Explicit definitions vs. implicit characterizations, definitional models.</span>
+<span id="cb2-48"><a href="#cb2-48" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Outcomes**: Student learning outcomes vs. instructor pedagogical goals.</span>
+<span id="cb2-49"><a href="#cb2-49" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Policies**: Permissibility spectrum, citation rules (APA, MLA, Chicago, IEEE), and syllabus templates.</span>
+<span id="cb2-50"><a href="#cb2-50" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Instructional Frameworks**: Named models (ACRL, ROBOT, CLEAR, RTF/TAG, Bloom's, PAIR/PAIRR).</span>
+<span id="cb2-51"><a href="#cb2-51" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Supporting Quotes**: Direct quotes extracted from the text to substantiate every claim.</span>
+<span id="cb2-52"><a href="#cb2-52" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-53"><a href="#cb2-53" aria-hidden="true" tabindex="-1"></a><span class="fu">### 2. Verbatim Quote Verification (Fidelity Metric)</span></span>
+<span id="cb2-54"><a href="#cb2-54" aria-hidden="true" tabindex="-1"></a>To detect and prevent model hallucinations, every extracted quote is programmatically matched against the raw text of the LibGuide:</span>
 <span id="cb2-55"><a href="#cb2-55" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-56"><a href="#cb2-56" aria-hidden="true" tabindex="-1"></a><span class="fu">### 1. Semantic Profile Formulation</span></span>
-<span id="cb2-57"><a href="#cb2-57" aria-hidden="true" tabindex="-1"></a>Each institution is represented as a dense text document synthesizing its orientation, explicit definition, implicit characterization, named frameworks, student outcomes, instructor goals, and policy statements.</span>
-<span id="cb2-58"><a href="#cb2-58" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-59"><a href="#cb2-59" aria-hidden="true" tabindex="-1"></a><span class="fu">### 2. Embedding Generation</span></span>
-<span id="cb2-60"><a href="#cb2-60" aria-hidden="true" tabindex="-1"></a>Vector embeddings are computed via <span class="in">`gemini-embedding-2`</span> (and verified locally via <span class="in">`nomic-embed-text:latest`</span> in Ollama).</span>
+<span id="cb2-56"><a href="#cb2-56" aria-hidden="true" tabindex="-1"></a>$$\text{Fidelity Score} = \frac{\text{Verified Verbatim Quotes}}{\text{Total Extracted Quotes}}$$</span>
+<span id="cb2-57"><a href="#cb2-57" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-58"><a href="#cb2-58" aria-hidden="true" tabindex="-1"></a>If a quote cannot be located word-for-word in the source <span class="in">`.txt`</span>, it is flagged, and the institution's fidelity score decreases. In our primary run with <span class="in">`gemini-3.7-flash`</span>, **over 85% of quotes were matched 100% verbatim**, with the remaining discrepancies originating from minor whitespace/punctuation normalization in HTML scraping.</span>
+<span id="cb2-59"><a href="#cb2-59" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-60"><a href="#cb2-60" aria-hidden="true" tabindex="-1"></a>---</span>
 <span id="cb2-61"><a href="#cb2-61" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-62"><a href="#cb2-62" aria-hidden="true" tabindex="-1"></a><span class="fu">### 3. Pairwise Cosine Similarity</span></span>
-<span id="cb2-63"><a href="#cb2-63" aria-hidden="true" tabindex="-1"></a>Pairwise similarity between two institutional embedding vectors $\mathbf{u}$ and $\mathbf{v}$ is calculated as:</span>
-<span id="cb2-64"><a href="#cb2-64" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-65"><a href="#cb2-65" aria-hidden="true" tabindex="-1"></a>$$\text{Cosine Similarity}(\mathbf{u}, \mathbf{v}) = \frac{\mathbf{u} \cdot \mathbf{v}}{\|\mathbf{u}\|_2 \|\mathbf{v}\|_2}$$</span>
+<span id="cb2-62"><a href="#cb2-62" aria-hidden="true" tabindex="-1"></a><span class="fu">## Step 2: Vector Embeddings &amp; Similarity Matching</span></span>
+<span id="cb2-63"><a href="#cb2-63" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-64"><a href="#cb2-64" aria-hidden="true" tabindex="-1"></a><span class="fu">### 1. Semantic Profile Formulation</span></span>
+<span id="cb2-65"><a href="#cb2-65" aria-hidden="true" tabindex="-1"></a>Each institution is represented as a dense text document synthesizing its orientation, explicit definition, implicit characterization, named frameworks, student outcomes, instructor goals, and policy statements.</span>
 <span id="cb2-66"><a href="#cb2-66" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-67"><a href="#cb2-67" aria-hidden="true" tabindex="-1"></a>The resulting matrix is clustered hierarchically using UPGMA (Unweighted Pair Group Method with Arithmetic Mean) via <span class="in">`seaborn.clustermap`</span> to identify latent curricular networks.</span>
-<span id="cb2-68"><a href="#cb2-68" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-69"><a href="#cb2-69" aria-hidden="true" tabindex="-1"></a>---</span>
-<span id="cb2-70"><a href="#cb2-70" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-71"><a href="#cb2-71" aria-hidden="true" tabindex="-1"></a><span class="fu">## Step 3: Qualitative Thematic Synthesis</span></span>
+<span id="cb2-67"><a href="#cb2-67" aria-hidden="true" tabindex="-1"></a><span class="fu">### 2. Embedding Generation</span></span>
+<span id="cb2-68"><a href="#cb2-68" aria-hidden="true" tabindex="-1"></a>Vector embeddings are computed via <span class="in">`gemini-embedding-2`</span> (and verified locally via <span class="in">`nomic-embed-text:latest`</span> in Ollama).</span>
+<span id="cb2-69"><a href="#cb2-69" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-70"><a href="#cb2-70" aria-hidden="true" tabindex="-1"></a><span class="fu">### 3. Pairwise Cosine Similarity</span></span>
+<span id="cb2-71"><a href="#cb2-71" aria-hidden="true" tabindex="-1"></a>Pairwise similarity between two institutional embedding vectors $\mathbf{u}$ and $\mathbf{v}$ is calculated as:</span>
 <span id="cb2-72"><a href="#cb2-72" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-73"><a href="#cb2-73" aria-hidden="true" tabindex="-1"></a>The full extracted JSON corpus alongside the nearest-neighbor similarity rankings are fed back into the LLM with a synthesis prompt acting as a lead educational researcher. The model identifies:</span>
-<span id="cb2-74"><a href="#cb2-74" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Thematic typologies (*Balanced Hybrid*, *Tool-Use*, *Critical/Ethical*).</span>
-<span id="cb2-75"><a href="#cb2-75" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Points of cross-institutional consensus vs. divergence.</span>
-<span id="cb2-76"><a href="#cb2-76" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Pedagogical explanations for nearest-neighbor pairings (e.g., why UCSB and UCSD cluster tightly at 0.969).</span>
-<span id="cb2-77"><a href="#cb2-77" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Actionable curricular recommendations for academic libraries.</span>
+<span id="cb2-73"><a href="#cb2-73" aria-hidden="true" tabindex="-1"></a>$$\text{Cosine Similarity}(\mathbf{u}, \mathbf{v}) = \frac{\mathbf{u} \cdot \mathbf{v}}{\|\mathbf{u}\|_2 \|\mathbf{v}\|_2}$$</span>
+<span id="cb2-74"><a href="#cb2-74" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-75"><a href="#cb2-75" aria-hidden="true" tabindex="-1"></a>The resulting matrix is clustered hierarchically using UPGMA (Unweighted Pair Group Method with Arithmetic Mean) via <span class="in">`seaborn.clustermap`</span> to identify latent curricular networks.</span>
+<span id="cb2-76"><a href="#cb2-76" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-77"><a href="#cb2-77" aria-hidden="true" tabindex="-1"></a>---</span>
 <span id="cb2-78"><a href="#cb2-78" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-79"><a href="#cb2-79" aria-hidden="true" tabindex="-1"></a>---</span>
+<span id="cb2-79"><a href="#cb2-79" aria-hidden="true" tabindex="-1"></a><span class="fu">## Step 3: Qualitative Thematic Synthesis</span></span>
 <span id="cb2-80"><a href="#cb2-80" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-81"><a href="#cb2-81" aria-hidden="true" tabindex="-1"></a><span class="fu">## Reproducibility &amp; CLI Execution</span></span>
-<span id="cb2-82"><a href="#cb2-82" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-83"><a href="#cb2-83" aria-hidden="true" tabindex="-1"></a>The entire pipeline is fully reproducible using <span class="in">`analysis.py`</span>:</span>
-<span id="cb2-84"><a href="#cb2-84" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-85"><a href="#cb2-85" aria-hidden="true" tabindex="-1"></a><span class="in">```bash</span></span>
-<span id="cb2-86"><a href="#cb2-86" aria-hidden="true" tabindex="-1"></a><span class="co"># Execute end-to-end with DreamLab and local Ollama embeddings</span></span>
-<span id="cb2-87"><a href="#cb2-87" aria-hidden="true" tabindex="-1"></a><span class="ex">uv</span> run python analysis.py <span class="at">--model</span> dreamlab/gemini-3.7-flash <span class="at">--embed-provider</span> dreamlab</span>
+<span id="cb2-81"><a href="#cb2-81" aria-hidden="true" tabindex="-1"></a>The full extracted JSON corpus alongside the nearest-neighbor similarity rankings are fed back into the LLM with a synthesis prompt acting as a lead educational researcher. The model identifies:</span>
+<span id="cb2-82"><a href="#cb2-82" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Thematic typologies (*Balanced Hybrid*, *Tool-Use*, *Critical/Ethical*).</span>
+<span id="cb2-83"><a href="#cb2-83" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Points of cross-institutional consensus vs. divergence.</span>
+<span id="cb2-84"><a href="#cb2-84" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Pedagogical explanations for nearest-neighbor pairings (e.g., why UCSB and UCSD cluster tightly at 0.969).</span>
+<span id="cb2-85"><a href="#cb2-85" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Actionable curricular recommendations for academic libraries.</span>
+<span id="cb2-86"><a href="#cb2-86" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-87"><a href="#cb2-87" aria-hidden="true" tabindex="-1"></a>---</span>
 <span id="cb2-88"><a href="#cb2-88" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-89"><a href="#cb2-89" aria-hidden="true" tabindex="-1"></a><span class="co"># Execute fully locally via Ollama</span></span>
-<span id="cb2-90"><a href="#cb2-90" aria-hidden="true" tabindex="-1"></a><span class="ex">uv</span> run python analysis.py <span class="at">--model</span> ollama/qwen2.5:3b <span class="at">--embed-provider</span> ollama</span>
-<span id="cb2-91"><a href="#cb2-91" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-92"><a href="#cb2-92" aria-hidden="true" tabindex="-1"></a><span class="co"># Execute multi-model benchmark across 3 LLMs</span></span>
-<span id="cb2-93"><a href="#cb2-93" aria-hidden="true" tabindex="-1"></a><span class="ex">uv</span> run python analysis.py <span class="at">--compare</span></span>
-<span id="cb2-94"><a href="#cb2-94" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
-<span id="cb2-95"><a href="#cb2-95" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-96"><a href="#cb2-96" aria-hidden="true" tabindex="-1"></a>---</span>
-<span id="cb2-97"><a href="#cb2-97" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-98"><a href="#cb2-98" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">Explore Institutional Data: Data Explorer →</span><span class="co">](explorer.qmd)</span>{.btn .btn-primary}</span>
+<span id="cb2-89"><a href="#cb2-89" aria-hidden="true" tabindex="-1"></a><span class="fu">## Reproducibility &amp; CLI Execution</span></span>
+<span id="cb2-90"><a href="#cb2-90" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-91"><a href="#cb2-91" aria-hidden="true" tabindex="-1"></a>The entire pipeline is fully reproducible using <span class="in">`analysis.py`</span>:</span>
+<span id="cb2-92"><a href="#cb2-92" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-93"><a href="#cb2-93" aria-hidden="true" tabindex="-1"></a><span class="in">```bash</span></span>
+<span id="cb2-94"><a href="#cb2-94" aria-hidden="true" tabindex="-1"></a><span class="co"># Execute end-to-end with DreamLab and local Ollama embeddings</span></span>
+<span id="cb2-95"><a href="#cb2-95" aria-hidden="true" tabindex="-1"></a><span class="ex">uv</span> run python analysis.py <span class="at">--model</span> dreamlab/gemini-3.7-flash <span class="at">--embed-provider</span> dreamlab</span>
+<span id="cb2-96"><a href="#cb2-96" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-97"><a href="#cb2-97" aria-hidden="true" tabindex="-1"></a><span class="co"># Execute fully locally via Ollama</span></span>
+<span id="cb2-98"><a href="#cb2-98" aria-hidden="true" tabindex="-1"></a><span class="ex">uv</span> run python analysis.py <span class="at">--model</span> ollama/qwen2.5:3b <span class="at">--embed-provider</span> ollama</span>
+<span id="cb2-99"><a href="#cb2-99" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-100"><a href="#cb2-100" aria-hidden="true" tabindex="-1"></a><span class="co"># Execute multi-model benchmark across 3 LLMs</span></span>
+<span id="cb2-101"><a href="#cb2-101" aria-hidden="true" tabindex="-1"></a><span class="ex">uv</span> run python analysis.py <span class="at">--compare</span></span>
+<span id="cb2-102"><a href="#cb2-102" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb2-103"><a href="#cb2-103" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-104"><a href="#cb2-104" aria-hidden="true" tabindex="-1"></a>---</span>
+<span id="cb2-105"><a href="#cb2-105" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-106"><a href="#cb2-106" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">Explore Institutional Data: Data Explorer →</span><span class="co">](explorer.qmd)</span>{.btn .btn-primary}</span>
 </code><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></pre></div>
 </div></div></div></div></div>
 </div> <!-- /content -->
