@@ -4,352 +4,406 @@
 
 ## 1. Executive Summary & Typology Overview
 
-The rapid integration of Generative Artificial Intelligence (GenAI) into higher education has prompted academic libraries to reposition their pedagogical mandates. Historically the stewards of information evaluation, source attribution, and research methodologies, academic libraries are now developing comprehensive curricular frameworks to cultivate **Artificial Intelligence (AI) Literacy**.
+Academic libraries are actively recalibrating their instructional mandates to address the rapid diffusion of Generative Artificial Intelligence (GenAI) across higher education. Once primarily focused on bibliographic instruction and database search syntax, academic librarians are now central actors in mediating how campus communities conceptualize, apply, and critically interrogate algorithmic tools. 
 
-This qualitative cross-institutional synthesis evaluates AI literacy guides (LibGuides), instructional frameworks, and policy guidelines across 11 major research universities: **Auburn University, Baylor University, Chapman University, University of Arkansas (UArkansas), University of California Davis (UCDavis), University of California Irvine (UCIrvine), University of California Merced (UCMerced), University of California Santa Barbara (UCSB), University of California San Diego (UCSD), University of Southern California (USC), and William & Mary (William)**.
+Analysis of curricular LibGuides across 11 representative institutions reveals distinct pedagogical architectures. While institutions vary in instructional depth—ranging from utilitarian database discovery integrations to sociotechnical critiques—the sector demonstrates a decisive convergence toward **Balanced Hybrid** instruction.
 
 ```
-+----------------------------------------------------------------------------------------------------+
-|                                    CURRICULAR ORIENTATION SPECTRUM                                  |
-+-----------------------------+---------------------------------------+------------------------------+
-| TOOL-USE / PRODUCTIVITY     | COMPREHENSIVE / BALANCED HYBRID       | CRITICAL & ETHICAL           |
-| • Baylor                    | • Auburn, UCDavis, UCMerced, UCSB,     | • Chapman                    |
-| • UArkansas                 |   UCSD, USC, William & Mary           | • UCIrvine                   |
-+-----------------------------+---------------------------------------+------------------------------+
++-----------------------------------------------------------------------------------------+
+|                                    AI LITERACY TYPOLOGY                                  |
++-----------------------------------+-----------------------------------------------------+
+| ORIENTATION                       | INSTITUTIONAL DISTRIBUTION                          |
++-----------------------------------+-----------------------------------------------------+
+| Comprehensive / Balanced Hybrid   | Auburn, Chapman, UC Davis, UC Merced,               |
+|                                   | UC Santa Barbara, UC San Diego, USC, William & Mary |
+| Tool-Use / Practical Productivity | Baylor, University of Arkansas                      |
+| Critical & Ethical Evaluation     | UC Irvine                                           |
++-----------------------------------+-----------------------------------------------------+
 ```
 
-### Institutional Distribution across Orientations
+### Institutional Typology Distribution
 
-Across the sampled corpus, institutional approaches diverge across three dominant orientations:
+```
+Comprehensive / Balanced Hybrid [72.7%] (8/11)
+█████████████████████████████████████████████████████████████████
 
-| Primary Orientation | Defining Focus | Represented Institutions | Key Characteristics |
-| :--- | :--- | :--- | :--- |
-| **Tool-Use / Practical Productivity** | Mechanics, discovery search integration, functional task completion. | Baylor University, University of Arkansas | Emphasizes database-embedded AI tools (e.g., EBSCO AI Insights, OneSearch Research Assistant), natural language querying, retrieval-augmented generation (RAG) mechanics, and research efficiency. |
-| **Critical & Ethical Evaluation** | Sociotechnical critique, algorithmic bias, labor exploitation, cognitive impact. | Chapman University, UC Irvine | Prioritizes Critical Information Literacy (CIL), power structures, digital neocolonialism, environmental costs (water/carbon footprints), and human metacognitive protection. |
-| **Comprehensive / Balanced Hybrid** | Multi-tiered synthesis of operational tool use, critical evaluation, and governance. | Auburn, UC Davis, UC Merced, UC Santa Barbara, UC San Diego, USC, William & Mary | Combines structured prompt engineering frameworks with formal evaluation rubrics (e.g., ROBOT test), academic integrity compliance, syllabus policy templates, and developmental stages. |
+Tool-Use / Practical Productivity [18.2%] (2/11)
+████████████████
 
-While functional proficiency (e.g., prompt crafting, database search acceleration) is present across all institutions, the majority of research libraries adopt a **Balanced Hybrid** model. These institutions integrate practical tool instruction with critical evaluations of machine learning architectures, systemic bias, intellectual property laws, and attribution requirements.
+Critical & Ethical Evaluation [9.1%] (1/11)
+████████
+```
+
+### Curricular Typologies
+
+#### Comprehensive / Balanced Hybrid (72.7%, *n* = 8)
+Characterized by a dual-axis pedagogy that pairs operational utility (prompt engineering, iterative refinement, literature discovery) with rigorous evaluative frameworks (algorithmic bias detection, citation ethics, hallucination verification, environmental and labor cost analyses). Institutions such as Auburn, Chapman, UC Davis, UC Merced, UC Santa Barbara, UC San Diego, USC, and William & Mary position AI literacy as an evolution of information literacy, requiring both functional capability and ethical discernment.
+
+#### Tool-Use / Practical Productivity (18.2%, *n* = 2)
+Focuses on immediate functional integration, interface navigation, and vendor-integrated library discovery platforms. Baylor and the University of Arkansas focus on embedding GenAI within search workflows—such as natural language querying through discovery layers (e.g., Ex Libris Primo Research Assistant) and research data mining scripts—while providing baseline guidance on instructor compliance and citation.
+
+#### Critical & Ethical Evaluation (9.1%, *n* = 1)
+Prioritizes structural critique over tool optimization. UC Irvine centers its instructional guide entirely on Critical Information Literacy (CIL) and the ACRL Framework, interrogating the sociopolitical dimensions of large language models (LLMs), including algorithmic bias, labor exploitation in training data pipelines, environmental impacts, and the erosion of epistemic authority.
 
 ---
 
 ## 2. Definitions of AI Literacy Across Institutions
 
-Academic libraries display significant variation in how they formalize the construct of AI literacy. Across the corpus, **45.5% (n=5)** provide explicit, formally bounded definitions, whereas **54.5% (n=6)** rely on implicit characterizations embedded in operational guidance and tool workflows.
+Academic libraries show a structural divide in how they formalize AI literacy. Across the corpus, **45.5% (*n* = 5)** provide explicit, formal definitions of "AI Literacy," while **54.5% (*n* = 6)** operationalize the concept implicitly through distributed heuristics, competency checklists, and policy frameworks.
 
 ```
-                  EXPLICIT VS. IMPLICIT DEFINITIONAL APPROACHES
-                                 (N = 11)
-  
-         Explicit Definitions [45.5%]            Implicit Characterizations [54.5%]
-    ┌───────────────────────────────────┐    ┌──────────────────────────────────────┐
-    │ • Auburn                          │    │ • Baylor                             │
-    │ • Chapman                         │    │ • UArkansas                          │
-    │ • UCSB                            │    │ • UCDavis                            │
-    │ • USC                             │    │ • UCIrvine                           │
-    │ • William & Mary                  │    │ • UCMerced                           │
-    │                                   │    │ • UCSD                               │
-    └───────────────────────────────────┘    └──────────────────────────────────────┘
+Explicit Formal Definition  [45.5%] (5/11): Auburn, Chapman, UCSB, USC, William & Mary
+Implicit Characterization   [54.5%] (6/11): Baylor, UArkansas, UCDavis, UCIrvine, UCMerced, UCSD
 ```
 
-### Explicit vs. Implicit Formulations
-
-*   **Explicit Institutional Formulations:**
-    *   *USC & Chapman* directly adopt or adapt Leo S. Lo’s baseline definition: *"AI literacy is the ability to understand, use, and think critically about AI technologies and their impact on society, ethics, and everyday life."*
-    *   *Auburn University* defines it as a functional-ethical triad: *"understanding the functions of AI tools, ethical issues related to AI, [and] how to use AI."*
-    *   *UC Santa Barbara* frames AI literacy developmentally through an analogy to foundational literacy: *"The practice of learning how to identify, use, and evaluate AI tools and products is building a set of literacies similar to when a person learns to read, write, and think critically."*
-    *   *William & Mary* demystifies technical gatekeeping by applying a practical functional standard: *"Being AI Literate does not mean you need to understand the advanced mechanics of AI. It means that you are actively learning about the technologies involved and that you critically approach any texts you read that concern AI, especially news articles."*
-*   **Implicit Curricular Characterizations:**
-    *   *UC Irvine* embeds AI literacy within **Critical Information Literacy**, interpreting AI through sociopolitical power dynamics, labor extraction, and epistemological reliability.
-    *   *University of Arkansas* characterizes literacy as user competence in navigating generative discovery layers (e.g., EBSCO RAG pipelines, Mintel Leap, OneSearch), focusing on prompt execution, summary interpretation, and verification.
+```
++-------------------+-----------------------------+-------------------------------------------------------------+
+| INSTITUTION       | DEFINITION STATUS           | PRIMARY CONCEPTUAL MODEL                                    |
++-------------------+-----------------------------+-------------------------------------------------------------+
+| Auburn            | Explicit Definition         | Functional-Ethical Triad (Functions, Ethics, Application)   |
+| Baylor            | Implicit Characterization   | Computational Research Integration                          |
+| Chapman           | Explicit Definition         | Sociotechnical Habits of Mind / Cognitive Preservation      |
+| UArkansas         | Implicit Characterization   | Vendor Discovery & Provenance Mechanics                     |
+| UC Davis          | Implicit Characterization   | Collaborative Technical-Integrity Schema (CLEAR / ROBOT)   |
+| UC Irvine         | Implicit Characterization   | Critical Information Literacy (CIL) & ACRL Alignment        |
+| UC Merced         | Implicit Characterization   | Workflow-Institutional Compliance Integration               |
+| UC Santa Barbara  | Explicit Definition         | Three-Stage Developmental Model (Understand-Apply-Evaluate) |
+| UC San Diego      | Implicit Characterization   | Structured Prompting & Academic Integrity Safeguards        |
+| USC               | Explicit Definition         | Leo S. Lo Multidimensional Taxonomy                         |
+| William & Mary    | Explicit Definition         | Demystified Foundational Literacy & Evaluative Due Diligence|
++-------------------+-----------------------------+-------------------------------------------------------------+
+```
 
 ### Prominent Conceptual Models
 
-Three conceptual models ground library definitions across institutions:
+#### Leo S. Lo’s Multidimensional Framework (USC)
+USC explicitly adopts the framework developed by Leo S. Lo (2025), defining AI literacy as an ecosystemic competency:
+> *"AI literacy goes beyond understanding AI tools; it equips individuals to critically evaluate, ethically navigate, and practically apply AI in real-world scenarios; [it is] the ability to understand, use, and think critically about AI technologies and their impact on society, ethics, and everyday life."*
 
-1.  **Leo Lo’s Multi-Dimensional Model:** Integrates technical comprehension, practical execution, ethical awareness, and continuous self-reflection (observed in USC, Chapman, and UC Davis).
-2.  **Cognitive & Metacognitive Preservation:** Exemplified by Chapman (via Ethan Mollick’s "Against Brain Damage" heuristic) and UCSB, defining literacy as the intentional preservation of human critical reasoning against the cognitive offloading caused by automated outputs.
-3.  **Sociotechnical and Labor Foundations:** Exemplified by UC Irvine, characterizing AI literacy as understanding the hidden infrastructure of machine learning—specifically data labeling, underpaid global-South labor ("digital neocolonialism"), and server environmental footprints.
+This model establishes four interconnected pillars: technical mechanics, critical evaluation, pedagogical application, and socio-ethical awareness.
 
-### Intersection: AI Literacy, Information Literacy, and Digital Literacy
+#### Developmental Stages of Literacy (UC Santa Barbara)
+UCSB operationalizes AI literacy through a developmental continuum modeled after foundational literacy acquisition:
+> *"The practice of learning how to identify, use, and evaluate AI tools and products is building a set of literacies similar to when a person learns to read, write, and think critically."*
 
-Academic libraries position AI literacy not as a replacement for Information and Digital Literacy, but as an advanced, specialized evolution of these domains:
+UCSB translates this into a progressive three-tier pedagogical scaffold:
+1. **Understand AI** (underlying statistical mechanics, machine learning principles),
+2. **Use and Apply AI** (prompt engineering, research synthesis, coding workflows), and
+3. **Analyze and Evaluate AI** (auditing hallucinations, intellectual property boundaries, systemic bias).
+
+#### Cognitive Habits of Mind & Demystification (Chapman & William & Mary)
+Chapman and William & Mary frame AI literacy around cognitive habits and technological demystification. Chapman focuses on preserving human intellectual agency:
+> *"AI doesn't damage our brains, but unthinking use can damage our thinking. What's at stake isn't our neurons but our habits of mind."*
+
+William & Mary explicitly decouples AI literacy from advanced computer science skills:
+> *"Being AI Literate does not mean you need to understand the advanced mechanics of AI... you don't need to be a data scientist, programmer, or application developer... However, you do need to have a basic understanding of what artificial intelligence is, what it isn't, how it works, and how to use it ethically and legally."*
+
+### Intersecting AI Literacy with Information and Digital Literacies
+
+Across the institutions, AI literacy is conceptualized not as a distinct, isolated domain, but as an advanced evolution of **Information Literacy** and **Digital Literacy**:
 
 ```
-+----------------------------------------------------------------------------------------------------+
-|                                    INFORMATION LITERACY (ACRL)                                     |
-|                      Evaluating Authority, Provenance, Context, Information Creation               |
-|                                                  │                                                 |
-|                                                  ▼                                                 |
-|                                      DIGITAL & DATA LITERACY                                       |
-|                       Tool Competence, Visual Literacy, Algorithmic Data Curation                  |
-|                                                  │                                                 |
-|                                                  ▼                                                 |
-|                                            AI LITERACY                                             |
-|        Prompt Engineering  │  RAG Architecture  │  Probabilistic Critique  │  Attribution         |
-+----------------------------------------------------------------------------------------------------+
+                  +----------------------------------------------+
+                  |               DIGITAL LITERACY               |
+                  |     (Data structures, computational tools)   |
+                  +----------------------+-----------------------+
+                                         |
+                                         v
+                  +----------------------------------------------+
+                  |             INFORMATION LITERACY             |
+                  |   (Authority, evaluation, citation ethics)   |
+                  +----------------------+-----------------------+
+                                         |
+                                         v
++---------------------------------------------------------------------------------+
+|                                   AI LITERACY                                   |
+|   - Probabilistic output appraisal (Hallucination detection)                    |
+|   - Synthetic prompt engineering (Iterative query design)                       |
+|   - Socio-computational ethics (Labor, environmental footprints, training bias) |
++---------------------------------------------------------------------------------+
 ```
 
-Libraries explicitly anchor AI critique in the **ACRL Framework for Information Literacy for Higher Education**. Rather than evaluating static authority, students must now evaluate probabilistic language models where *"Authority is Constructed and Contextual"* and *"Information Creation is a Process"* characterized by non-deterministic mathematical next-token predictions rather than human cognitive intent (Chapman, UCI, USC).
+- **Digital Literacy** provides the baseline understanding of computational infrastructure, data security classifications (e.g., UC Merced’s OIT security guidelines), and system interfaces.
+- **Information Literacy** provides the epistemic foundation. As UC Irvine notes, *"The question of whether you can trust a chatbot's output is fundamentally a question about information literacy."* Core tenets like source evaluation, authority contextualization, and attribution are applied to non-deterministic, synthetic outputs.
+- **AI Literacy** synthesizes these domains to address probabilistic text generation, non-reproducible research outputs (UArkansas), algorithmic bias mitigation (UC Davis), and the preservation of human cognition within automated research workflows (Chapman).
 
 ---
 
 ## 3. Instructional Objectives & Learning Outcomes
 
-Library guides structure their instructional objectives around two distinct stakeholder tiers: undergraduate/graduate students and teaching faculty.
+Instructional frameworks across the 11 institutions outline distinct competencies for students and pedagogical objectives for faculty.
 
 ```
-                    STUDENT OUTCOMES VS. INSTRUCTOR PEDAGOGICAL GOALS
-  
-  STUDENT LEARNING OUTCOMES                        INSTRUCTOR PEDAGOGICAL GOALS
-  ┌──────────────────────────────────────────┐    ┌──────────────────────────────────────────┐
-  │ • Structured Prompt Engineering (RTF/TAG)│    │ • Assignment & Assessment Redesign       │
-  │ • Lateral Verification of Hallucinations │    │ • Transparent Syllabus Policy Design     │
-  │ • Distinguishing ML / LLM Architectures  │    │ • Process-Over-Product Evaluation        │
-  │ • Non-authorship Attribution & Citation  │    │ • Humanistic Skill Cultivation           │
-  │ • Data Privacy (PII Protection)          │    │ • Mitigating Flawed AI Detection Tools   │
-  └──────────────────────────────────────────┘    └──────────────────────────────────────────┘
++----------------------------------------------------------------------------------------------------+
+|                                    MAPPING CORE AI COMPETENCIES                                    |
++---------------------------------------+------------------------------------------------------------+
+| COMPETENCY DOMAIN                     | OPERATIONALIZED LEARNING OUTCOME                           |
++---------------------------------------+------------------------------------------------------------+
+| Prompt Engineering & Synthesis        | Formulate structured, iterative queries using clear roles, |
+|                                       | contexts, constraints, and conversational threading.       |
+| Fact-Checking & Hallucination Audits  | Validate AI-generated claims and synthetic citations via   |
+|                                       | lateral reading, primary databases, and provenance tests. |
+| Sociotechnical & Environmental Ethics | Assess algorithmic bias, global content-moderation labor,  |
+|                                       | data privacy, and carbon/water ecological footprints.      |
+| Attribution & Policy Compliance       | Document synthetic tool assistance across citation styles; |
+|                                       | adhere to course-level and institutional AI policies.      |
+| Pedagogical & Authentic Assessment    | Redesign assignments around process-oriented, authentic,   |
+|                                       | metacognitive tasks resistant to uncritical automation.    |
++---------------------------------------+------------------------------------------------------------+
 ```
 
-### Student Learning Outcomes (SLOs)
+### Student Learning Outcomes
 
-Curricular learning outcomes for students transition from foundational functional skills to complex socio-technical critique:
+#### Functional Competencies
+- **Structured Prompt Engineering**: Move beyond single-line search queries toward multi-parameter prompt construction. Students are taught to define Persona, Task, Context, Constraints, and Output Format (Auburn, UC Davis, UC San Diego, William & Mary).
+- **Tool Selection for Academic Discovery**: Distinguish between general consumer chatbots (e.g., ChatGPT) and specialized academic discovery engines (e.g., Scite.ai, Elicit, Consensus, Ex Libris Research Assistant) for literature reviews and thematic mapping (Auburn, UArkansas, UC Merced, USC).
 
-#### Core Operational Competencies
-*   **Structured Prompt Engineering:** Students learn systematic iteration techniques (role-play, setting tone, defining audience, modular decomposition) utilizing formal frameworks like CLEAR, RTF (Role/Task/Format), and TAG (Task/Action/Goal) (Auburn, UCDavis, UCSD, William & Mary).
-*   **AI-Assisted Literature Discovery:** Students use specialized discovery platforms (Semantic Scholar, ResearchRabbit, Elicit, Inciteful, Dimensions Research GPT) to map scholarly citation networks via seed articles (Auburn, UCSB, USC).
-*   **Attribution & Tool Documentation:** Students format non-author citations and build comprehensive AI disclosure statements that document tools, models, prompts, and adaptation parameters (UCDavis, UCIrvine, UCMerced, UCSD, William & Mary).
+#### Evaluative & Critical Competencies
+- **Hallucination and Citation Verification**: Interrogate synthetic outputs for fabricated citations, statistical errors, and non-reproducible claims. Libraries emphasize that GenAI topic summaries describe rather than replace primary literature (UArkansas, William & Mary).
+- **Algorithmic Bias and Representational Auditing**: Evaluate how large-scale training corpora perpetuate historical, racial, gender, and Western-centric biases, treating algorithmic outputs as sociopolitically situated artifacts rather than neutral facts (UC Davis, UC Irvine, UCSB).
+- **Ecological and Labor Awareness**: Understand the physical impacts of GenAI, including the resource consumption (water, energy) of enterprise data centers and the underpaid labor underlying Reinforcement Learning from Human Feedback (RLHF) (Chapman, UC Irvine, UC Merced, UCSB).
 
-#### Advanced Analytical & Evaluative Competencies
-*   **Fact-Checking & Hallucination Mitigation:** Students apply lateral reading strategies to independently verify probabilistic hallucinations, fabricated references, and distorted facts generated by LLMs (Chapman, UCIrvine, UCSD, William & Mary).
-*   **Architectural Comprehension:** Students distinguish between deterministic databases, machine learning, and generative probabilistic models, understanding how Retrieval-Augmented Generation (RAG) and transformer architectures shape outputs (Auburn, Chapman, UArkansas, UCMerced, USC).
-*   **Algorithmic Bias and Social Justice Critique:** Students identify systematic representational, racial, gender, and ableist biases encoded within foundational training corpora (UCDavis, UCIrvine, UCSB, USC).
-*   **Data Privacy and Security Compliance:** Students categorize data based on institutional data classification standards (e.g., UC Merced's P2 vs. P4 tiers) to avoid exposing Personally Identifiable Information (PII) or proprietary research to public LLMs (UCMerced, UCSD, William & Mary).
+### Faculty & Instructor Pedagogical Objectives
 
-### Faculty & Instructor Pedagogical Goals
+Library guides instruct educators on adapting pedagogical design to address the challenges and opportunities of GenAI:
 
-Library instructional units guide faculty on adapting course design and maintaining academic rigor through several core practices:
-
-1.  **Assignment & Assessment Redesign:** Instructors are encouraged to transition from assessing final written artifacts to evaluating authentic learning processes. Guides point to the **PAIR/PAIRR** models (UCSD) and the **Six Assessment Redesign Pivotal Strategies (SARPS)** (USC) to integrate reflective milestones, draft comparisons, and oral defenses.
-2.  **Syllabus Policy Transparency:** Guides provide instructors with customizable syllabus models to establish clear course-level AI policies, reducing reliance on ambiguous, blanket institutional bans (Auburn, UCDavis, UCSB, William & Mary).
-3.  **Human Skill Centering:** Guides urge faculty to use **Bloom’s Revised Taxonomy** to align course assignments with human-centered capabilities—such as emotional intelligence, real-world context synthesis, metacognition, and creative debate—while positioning AI purely as a supplementary brainstorming tool (Auburn, USC).
-4.  **Critique of Commercial AI Detectors:** Instructional guides actively educate faculty on the technical unreliability, false-positive biases (particularly toward non-native English writers), and ethical liabilities of third-party AI detection software (William & Mary).
+- **Assessment Redesign for Cognitive Engagement**: Move away from static take-home writing assignments toward authentic, process-oriented assessments. UCSD and Chapman encourage instructors to design assessments that emphasize critical thinking, oral defense, collaborative problem-solving, and metacognitive reflection on the research process.
+- **Syllabus Policy Construction**: Formulate transparent, explicit course policies regarding permissible GenAI use, addressing student ambiguities by categorizing allowed versus prohibited use cases across course milestones (UC Davis, UCSD, USC).
+- **AI-Assisted Lesson Planning & Scaffolding**: Model the transparent use of AI in drafting lesson plans, generating discipline-specific discussion prompts, and developing instructional case studies (USC, UC Davis).
 
 ---
 
 ## 4. Institutional Guidelines, Policies, and Citation Practices
 
-The synthesis reveals clear consensus across library guides regarding academic integrity, ethical boundaries, and scholarly attribution standards.
+Academic libraries serve as key interpreters of university academic integrity codes and scholarly publishing mandates, translating abstract governance policies into practical research behaviors.
 
 ```
 +----------------------------------------------------------------------------------------------------+
-|                                    SPECTRUM OF ACCEPTABLE AI USE                                   |
-+---------------------------------------------------+------------------------------------------------+
-| PERMISSIBLE / ENCOURAGED                          | RESTRICTED / STRICTLY PROHIBITED               |
-+---------------------------------------------------+------------------------------------------------+
-| • Ideation, Brainstorming, & Topic Scoping        | • Listing GenAI as Co-Author on Publications   |
-| • Grammar Refining & Non-Assessed Proofreading    | • Submitting AI Output as Original Student Work|
-| • Citation Mapping & Seed Article Discovery       | • Inputting PII or Sensitive Institutional Data|
-| • Generating Initial Code Drafts / Debugging      | • Relying on Unverified AI Citation Lists      |
-| • Summarizing Long Complex Public Reports (RAG)   | • Automating Assessed Skills (Language/Writing)|
-+---------------------------------------------------+------------------------------------------------+
+|                                    SPECTRUM OF AI PERMISSIBILITY                                   |
++--------------------------+--------------------------------+----------------------------------------+
+| PROHIBITED USE           | CONDITIONAL / ASSISTIVE USE    | EXTENSIVE COLLABORATION                |
++--------------------------+--------------------------------+----------------------------------------+
+| - Unacknowledged text/   | - Brainstorming search terms   | - Exploratory prompt iterations        |
+|   code generation        | - Synthesizing notes/outlines  | - Comparative analysis of AI outputs   |
+| - Submitting synthetic   | - Grammar and language editing | - Code generation with complete        |
+|   prose as original work | - Search query optimization    |   attribution and methodology logs     |
+| - Inputting PII or       | - Vendor tool summaries with   | - Advanced literature mapping and      |
+|   unvetted research data |   source verification          |   thematic visualization               |
++--------------------------+--------------------------------+----------------------------------------+
 ```
 
-### Spectrum of Use Models
+### Institutional Data Security & Privacy Guidelines
+Libraries frequently communicate institutional IT and privacy mandates:
+- **Data Classification & PII Protection**: UC Merced and UC San Diego explicitly instruct users never to input Personally Identifiable Information (PII), proprietary institutional data, or unreleased research findings into public, commercial LLMs. UC Merced notes that only specific tools approved by the Office of Information Technology (OIT) may process sensitive university data.
 
-Library policies uniformly emphasize that student AI use is governed by individual course policies and institutional honor codes. Acceptable and prohibited uses fall along a defined operational spectrum:
-
-*   **Permissible / Encouraged Use Cases:** Ideation and initial brainstorming; refining phrasing, style, and grammar; natural language code debugging (provided students can explain and defend the code); automated transcription and digital accessibility assistance; and scholarly discovery via verified RAG tools (UCSB, UCSD, UCMerced, William & Mary).
-*   **Prohibited / High-Risk Use Cases:** Direct generation of unedited essay prose submitted for academic credit; entering Personally Identifiable Information (PII), confidential research, or copyrighted text into unvetted tools; using AI to execute the specific learning outcome being assessed (e.g., automated translation when foreign language acquisition is being tested); and uncritically citing fabricated references (UCSD, UCDavis, William & Mary).
-
-### Publisher Governance and Non-Authorship Consensus
-
-All institutions addressing scholarly communications (UCDavis, UCMerced, UCSB, USC, William & Mary) present a unified policy regarding academic publishing:
-
-> **Universal Authorship Rule:** Generative AI tools cannot be credited as authors or co-authors on academic papers, theses, or research manuscripts. 
-
-This standard aligns with guidelines from major academic publishers (Elsevier, Springer Nature, IEEE, ACM, PLOS) and the **U.S. Copyright Office**, which require human creative agency for legal authorship. AI contributions must instead be documented within Acknowledgments or Methods sections.
+### Citation and Attribution Mechanics
+All 11 institutions mandate rigorous attribution whenever GenAI contributes to research, writing, coding, or data visualization.
 
 ```
-                             CITATION & DISCLOSURE REQUIREMENTS
-  
-    ┌───────────────┐  ┌───────────────────────────────────────────────────────────────┐
-    │ APA (7th Ed.) │  │ Author-Date format with model version; direct shareable URL.  │
-    └───────────────┘  └───────────────────────────────────────────────────────────────┘
-    ┌───────────────┐  ┌───────────────────────────────────────────────────────────────┐
-    │ MLA (9th Ed.) │  │ Core Elements Template; prompt text detailed in description.  │
-    └───────────────┘  └───────────────────────────────────────────────────────────────┘
-    ┌───────────────┐  ┌───────────────────────────────────────────────────────────────┐
-    │ Chicago Style │  │ Footnote/endnote attribution with prompt; omitted from bib.   │
-    └───────────────┘  └───────────────────────────────────────────────────────────────┘
-    ┌───────────────┐  ┌───────────────────────────────────────────────────────────────┐
-    │ IEEE Style    │  │ Formatted as private communication or detailed in Methods.    │
-    └───────────────┘  └───────────────────────────────────────────────────────────────┘
++------------------+---------------------------------------------------------------------------------+
+| CITATION STYLE   | ATTRIBUTION REQUIREMENTS ACROSS GUIDES                                          |
++------------------+---------------------------------------------------------------------------------+
+| APA 7th Edition  | Author: Tool Company (e.g., OpenAI).                                            |
+|                  | Title: Model Name (e.g., ChatGPT-4o) [Large language model].                    |
+|                  | URL: Tool URL.                                                                  |
+|                  | In-Text / Appendix: Include prompt text and excerpt of generated response.     |
++------------------+---------------------------------------------------------------------------------+
+| MLA 9th Edition  | Title of Source: Description of prompt / output.                                |
+|                  | Title of Container: Name of AI Tool (e.g., ChatGPT).                            |
+|                  | Version: Date / Model version. Publisher: Company. Date of Access. URL.         |
++------------------+---------------------------------------------------------------------------------+
+| Chicago (Notes)  | Footnote attribution containing tool name, developer, date accessed, and exact |
+|                  | prompt text. Discourages bibliography listing unless permanently archived.      |
++------------------+---------------------------------------------------------------------------------+
 ```
 
-### Citation Guidelines and Attribution Mechanics
-
-Libraries provide detailed attribution templates across major citation styles:
-
-*   **APA Style (7th Edition / 2025 updates):** Requires an Author-Date format crediting the software developer (e.g., OpenAI), specifying the model version in brackets (`[Large language model]`), and providing the unique shareable chat URL (Auburn, UCIrvine, UCMerced, UCSD).
-*   **MLA Style (9th Edition):** Employs the standard Core Elements template, citing the specific prompt used in the title field, followed by the tool name, version, publisher, and timestamp (UCDavis, UCIrvine, UCMerced).
-*   **Chicago Manual of Style:** Directs writers to credit AI interactions within numbered footnotes or parenthetical in-text notes, detailing the prompt and date, while generally excluding the generation from formal bibliographies unless a permanent URL is publicly accessible (UCIrvine, UCMerced).
-*   **IEEE Style:** Recommends treating chatbot interactions as private, non-recoverable communications, or documenting the software usage explicitly within the Methods or Acknowledgments section (UCIrvine, UCMerced).
-*   **Disclosure Frameworks:** Advanced guides integrate standardized tools like the **AID (Artificial Intelligence Disclosure) Framework** and Kari Weaver’s **AI Disclosure Statement Builder**, requiring students to document the tool, model, prompt parameters, and concrete use cases (UCSD, William & Mary).
-
-### Syllabus Policy Recommendations
-
-To eliminate policy ambiguity, libraries direct instructors to implement structured, multi-tiered syllabus statements:
-
-```
-+────────────────────────────────────────────────────────────────────────────────────────────────────+
-|                                    FOUR-TIER SYLLABUS TAXONOMY                                     |
-+───────────────────────────+────────────────────────────────────────────────────────────────────────+
-| TIER 1: TOTAL PROHIBITION | GenAI use strictly forbidden across all assignments; violations        |
-|                           | treated as Academic Integrity / Honor Code offenses.                   |
-+───────────────────────────+────────────────────────────────────────────────────────────────────────+
-| TIER 2: CONDITIONAL USE   | Permitted only for designated stages (brainstorming, grammar review)   |
-|                           | with explicit prior instructor approval.                               |
-+───────────────────────────+────────────────────────────────────────────────────────────────────────+
-| TIER 3: SYSTEMATIC        | AI integrated into specific assignments, accompanied by formal         |
-|         INTEGRATION       | disclosure statements and critical evaluation logs.                    |
-+───────────────────────────+────────────────────────────────────────────────────────────────────────+
-| TIER 4: ACTIVE EMBRACE    | Open experimentation encouraged; students evaluate and compare diverse |
-|                           | models as a central component of coursework.                           |
-+───────────────────────────+────────────────────────────────────────────────────────────────────────+
-```
-
-Libraries frequently reference established models to build these policies, including Auburn's Biggio Center syllabus options, the **Sentient Syllabus Project**, and the UC Davis University Writing Program language.
+### Policy Guidance for Instructors
+Libraries provide tiered template language for course syllabi:
+1. **Fully Prohibited**: Complete restriction on AI tool use to preserve fundamental skill acquisition.
+2. **Authorized with Explicit Attribution**: AI permitted for specific phases (e.g., brainstorming, debugging) provided students append an "AI Usage Disclosure Statement" detailing tools used, prompts submitted, and modifications made.
+3. **Pervasive Integration**: AI embedded directly into learning objectives and assessments.
 
 ---
 
 ## 5. Instructional Frameworks & Heuristics for Literacy Instruction
 
-Academic libraries organize their instructional programming around structured pedagogical frameworks, critical evaluation rubrics, prompt engineering heuristics, and cognitive learning models.
+Academic libraries use specific pedagogical frameworks, evaluation rubrics, and prompting heuristics to teach AI literacy systematically.
 
 ```
 +----------------------------------------------------------------------------------------------------+
-|                               INSTRUCTIONAL FRAMEWORKS IN ACADEMIC LIBRARIES                       |
-+----------------------------------------------------------------------------------------------------+
-| EVALUATION RUBRICS       │ PROMPT HEURISTICS        │ PEDAGOGY & CURRICULUM    │ INFORMATION LIT.  |
-| • The ROBOT Test         │ • CLEAR Path Framework   │ • PAIR / PAIRR Models    │ • ACRL Framework  |
-| • CRAAP Adaptations      │ • RTF (Role/Task/Format) │ • Bloom's Revised        │ • Critical Info   |
-| • Lateral Reading        │ • TAG (Task/Action/Goal) │ • SARPS Redesign Model   │   Literacy (CIL)  |
-| • Values/Standards Test  │ • Harvard Image Prompt   │ • DEC / Educause ALTL    │ • Cairo Visual Lit|
-+----------------------------------------------------------------------------------------------------+
+|                                 TAXONOMY OF INSTRUCTIONAL HEURISTICS                               |
++-------------------+--------------------+-----------------------------------------------------------+
+| FRAMEWORK TYPE    | HEURISTIC / MODEL  | PRIMARY INSTRUCTIONAL FUNCTION                            |
++-------------------+--------------------+-----------------------------------------------------------+
+| Epistemic / LIS   | ACRL Framework     | Contextualize algorithmic authority, information creation |
+|                   |                    | workflows, and searching as strategic exploration.        |
+| Source Evaluation | ROBOT Test         | Appraise Reliability, Objective, Bias, Ownership, Type.   |
+| Verification      | Lateral Reading    | Verify AI claims via independent multi-tab search.        |
+| Prompt Design     | CLEAR Framework    | Scaffold iterative prompt composition.                     |
+| Prompt Design     | RTF / TAG Models   | Define Role-Task-Format / Task-Action-Goal parameters.   |
+| Prompt Design     | Threading          | Maintain conversational context through incremental steps.|
+| Cognitive Stages  | 3-Stage Taxonomy   | Scaffold learning: Understand -> Apply -> Evaluate.       |
++-------------------+--------------------+-----------------------------------------------------------+
 ```
 
-### Detailed Framework Matrix
+### The ACRL Framework for Information Literacy
+Libraries adapt the ACRL Framework's core threshold concepts to address generative systems:
+- **Authority Is Constructed and Contextual**: GenAI systems generate plausible, authoritative prose without genuine epistemic authority or intentionality. UCIrvine and USC emphasize that output fluency should not be mistaken for factual accuracy.
+- **Information Creation as a Process**: GenAI conceals the research, editorial, and labor processes behind text generation. Students learn to evaluate the hidden infrastructures—including scraping practices, algorithmic curation, and RLHF moderation—that shape model outputs.
+- **Searching as Strategic Exploration**: Traditional boolean keyword search is contrasted with probabilistic natural language interfaces. Querying shifts from index retrieval to iterative conversational negotiation.
 
-| Framework Name | Conceptual Focus | Foundational Citations / Origins | Institutions Referencing | Concrete Application in Library Instruction |
-| :--- | :--- | :--- | :--- | :--- |
-| **ACRL Framework for Higher Education** | Evaluative Threshold Concepts | Association of College & Research Libraries (2015) | UCIrvine, USC | Deconstructs the threshold concept *"Authority is Constructed and Contextual"*, examining how non-human statistical models challenge traditional markers of academic authority. |
-| **Critical Information Literacy (CIL)** | Sociotechnical Power Dynamics | Drabinski & Tewell (2019) | UCIrvine | Interrogates the ethical and sociotechnical dimensions of AI, including global-South data labeling labor ("digital neocolonialism"), carbon/water consumption, and data exploitation. |
-| **The ROBOT Test** | Evaluation Rubric | Sandy Hervieux & Amanda Wheatley (McGill, 2020) | UCDavis, William & Mary, USC | Evaluates AI applications across five dimensions: **R**eliability, **O**bjective, **B**ias, **O**wnership, and **T**ype. |
-| **CLEAR Path Framework** | Structured Prompt Engineering | Leo S. Lo (2023) | UCDavis | Structures prompt engineering into five iterative steps: **C**oncise, **L**ogical, **E**xplicit, **A**daptive, and **R**eflective. |
-| **RTF & TAG Prompting Heuristics** | Foundational Prompt Formatting | Practical Prompting Pedagogies | UCSD, Auburn | Scaffolds introductory prompt design: **RTF** (**R**ole, **T**ask, **F**ormat) and **TAG** (**T**ask, **A**ction, **G**oal). |
-| **PAIR & PAIRR Frameworks** | Assignment Design & Peer Review | Harvard Business Publishing / UCSD Teaching Centers | UCSD | Guides assignment design (**P**roblem formulation, **A**I selection, **I**nteraction, **R**eflection) and five-step peer/AI drafting review (**PAIRR**). |
-| **Lateral Reading** | Fact-Checking Heuristic | Stanford History Education Group / Wineburg & McGrew | UCIrvine, William & Mary | Instructs students to verify AI claims and citations by opening multiple browser tabs to cross-check sources externally, bypassing circular AI verification. |
-| **Academic Integrity Decision Heuristic** | Self-Assessment Heuristic | UCSD Academic Integrity Office | UCSD | Guides students in assessing proposed AI use through three self-evaluation questions: the *Values Test*, the *Standards Test*, and the *Exposure Test*. |
-| **Bloom’s Revised Taxonomy (Adapted)** | Cognitive Learning Levels | Anderson & Krathwohl (2001) / Auburn Biggio Center | Auburn, USC | Maps generative tool usage across cognitive domains, ensuring foundational learning (remembering, understanding) is preserved before using AI for higher-order synthesis. |
-| **Educause ALTL Framework** | Higher Ed AI Competencies | Educause AI Literacy Community (2024) | USC, UCSD | Identifies four core competencies across campus roles: Technical Understanding, Evaluative Skills, Practical Application, and Ethical Considerations. |
-| **Alberto Cairo Visual Literacy Model** | Deconstructive Visual Literacy | Alberto Cairo (*How Charts Lie*, 2019) | Chapman | Teaches students to critically evaluate AI-generated infographics, charts, and maps for deceptive statistical representations. |
+### Evaluation Rubrics & Verification Methods
+
+#### The ROBOT Test (UC Davis, William & Mary)
+A tailored alternative to the CRAAP test for synthetic media and algorithmic outputs:
+- **R - Reliability**: Is the output verifiable through primary scholarly literature?
+- **O - Objective**: What is the purpose of the tool, and what commercial interests govern its design?
+- **B - Bias**: What cultural, geographic, or linguistic biases are embedded in the output?
+- **O - Ownership**: Who owns the generated intellectual property, and what training data was scraped to create it?
+- **T - Type**: What type of model generated the output (e.g., predictive text, specialized domain LLM)?
+
+```
+   [R]eliability  --> Fact-check claims against verified primary literature
+   [O]bjective    --> Identify tool developer's commercial / behavioral motives
+   [B]ias         --> Interrogate model outputs for systemic and training skew
+   [O]wnership    --> Audit copyright, training provenance, and intellectual property
+   [T]ype         --> Distinguish between predictive, retrieval, and domain-tuned models
+```
+
+#### Lateral Reading (UC Irvine, UC San Diego, William & Mary)
+Originating from the Stanford History Education Group (SHEG), lateral reading is presented as an essential defense against AI hallucinations. Rather than reading an AI-generated output vertically (evaluating its internal logic, style, and tone), users are instructed to open lateral browser tabs to independently corroborate claims, verify citations, and evaluate source provenance across external scholarly indices.
+
+### Structured Prompting Heuristics
+
+#### CLEAR Framework (UC Davis)
+- **C**oncise: Eliminate conversational filler; use precise terminology.
+- **L**ogical: Structure instructions in a sequential, logical order.
+- **E**xplicit: State exact operational parameters, stylistic constraints, and boundaries.
+- **A**daptive: Iterate prompts based on model output anomalies.
+- **R**eflective: Critically appraise the resulting text for omissions or biases.
+
+#### RTF & TAG Models (UC San Diego, Auburn)
+- **RTF (Role - Task - Format)**: Assign the model an operational persona (*"Act as an academic peer reviewer"*), specify the objective (*"Evaluate this abstract for methodological consistency"*), and mandate the structural output (*"Provide feedback as an itemized markdown list"*).
+- **TAG (Task - Action - Goal)**: Define the core task, the specific action required, and the underlying learning goal.
+
+#### Conversational Threading (William & Mary)
+Instructional guidance on maintaining contextual continuity within a single conversation session. Users learn to build complex outputs incrementally through step-by-step refinements, rather than expecting comprehensive responses from a single, unstructured query.
 
 ---
 
 ## 6. Institutional Clustering & Curricular Nearest Neighbors
 
-Mathematical vector similarity analysis reveals distinct curricular clusters across the 11 institutions, highlighting meaningful pedagogical alignments and divergent outlier approaches.
+Mathematical clustering via high-dimensional vector similarity reveals distinct institutional alignments based on pedagogical design and conceptual focus.
 
 ```
-                     CROSS-INSTITUTIONAL CURRICULAR AFFINITY CLUSTERING
-  
-     ┌───────────────────────────────────┐        ┌───────────────────────────────────┐
-     │       CRITICAL-THEORETICAL        │        │        BALANCED-INTEGRATED        │
-     │             CLUSTER               │        │              CLUSTER              │
-     │                                   │        │                                   │
-     │   Chapman ◄────────────► UCIrvine │        │   UCDavis ◄────────────► UCMerced │
-     │      │                     │      │        │      │                     │      │
-     │      ▼                     ▼      │        │      ▼                     ▼      │
-     │     USC                   USC     │        │     UCSB ◄─────────────► UCSD     │
-     └───────────────────────────────────┘        └───────────────────────────────────┘
-                           │                                    │
-                           └─────────────────┬──────────────────┘
-                                             │
-                                             ▼
-                                  ┌────────────────────┐
-                                  │  PRAGMATIC-VENDOR  │
-                                  │      OUTLIERS      │
-                                  │                    │
-                                  │      UArkansas     │
-                                  │       Baylor       │
-                                  └────────────────────┘
++----------------------------------------------------------------------------------------------------+
+|                                INSTITUTIONAL SIMILARITY MATRIX HEATMAP                             |
++------------------+-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+---------------+
+| Institution      | AUB | BAY | CHP | ARK | UCD | UCI | UCM | USB | USD | USC | W&M | Primary Focus |
++------------------+-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+---------------+
+| Auburn (AUB)     | 1.0 |     | .95 |     |     |     |     | .94 |     |     | .93 | Hybrid/Prompt |
+| Baylor (BAY)     |     | 1.0 |     | .94 | .87 |     |     |     |     |     |     | Tool-Discovery|
+| Chapman (CHP)    | .95 |     | 1.0 |     |     |     | .94 |     |     |     | .93 | Hybrid/Cognit.|
+| UArkansas (ARK)  |     | .94 |     | 1.0 | .87 |     |     |     |     |     |     | Vendor-Tool   |
+| UCDavis (UCD)    |     | .87 |     | .87 | 1.0 | .88 | .96 | .96 | .96 |     |     | Hybrid/Integr.|
+| UCIrvine (UCI)   |     |     |     |     | .88 | 1.0 |     | .88 |     |     |     | Critical/CIL  |
+| UCMerced (UCM)   |     |     | .94 |     | .96 |     | 1.0 | .95 |     |     |     | Hybrid/Policy |
+| UCSB (USB)       | .94 |     |     |     | .96 | .88 | .95 | 1.0 | .97 | .95 |     | Hybrid/Stage  |
+| UCSD (USD)       |     |     |     |     | .96 |     |     | .97 | 1.0 | .94 |     | Hybrid/Prompt |
+| USC (USC)        |     |     |     |     |     |     |     | .95 | .94 | 1.0 |     | Hybrid/Lo-Tax.|
+| Wm & Mary (W&M)  | .93 |     | .93 |     |     |     |     |     |     |     | 1.0 | Hybrid/Demyst.|
++------------------+-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+---------------+
+* Values represent cosine similarity scores >= 0.87
 ```
 
-### Vector Similarity Matrix & Structural Pairings
-
-The quantitative affinity scores reflect shared curricular structures across three main institutional clusters:
-
 ```
-UCDavis  <──(0.9357)──>  UCMerced  <──(0.9235)──>  UCSB  <──(0.9318)──>  UCSD
-   │                                                 │
-   └────────────────────(0.9182)─────────────────────┘
+                        [University of California Cluster]
+                         (Cosine Similarities: 0.95 - 0.97)
+                                 
+                                    UC Davis
+                                   /   |   \
+                             0.96 /    |    \ 0.96
+                                 /   0.96    \
+                        UC Merced -----+----- UCSD
+                                 \     |     /
+                            0.95  \    |    / 0.97
+                                   \   |   /
+                                     UCSB
+                                       |
+                                       | 0.95
+                                      USC
+                                       
+       [Pragmatic Tool Dyad]                      [Critical Theory Outlier]
+        Baylor <=======> UArkansas                        UC Irvine
+               (0.9422)                           (Max similarity: 0.8848 to UCD)
 ```
 
-1.  **The UC Consortial Core (UC Davis, UC Merced, UC Santa Barbara, UC San Diego):**
-    *   *Affinity Scores:* UCDavis–UCMerced (0.9357); UCSB–UCSD (0.9318); UCMerced–UCSB (0.9235); UCDavis–UCSD (0.9182).
-    *   *Pedagogical Rationale:* These institutions share common instructional priorities: structured prompt engineering frameworks (CLEAR, RTF), robust institutional data classification guidelines (P2/P4 tiers), formal evaluation rubrics (the ROBOT test), and coordinated academic integrity and syllabus policies.
-2.  **The Critical-Theoretical Cluster (Chapman University, UC Irvine, USC):**
-    *   *Affinity Scores:* Chapman–UCIrvine (0.9299); Chapman–USC (0.9066); USC–UCSB (0.9197).
-    *   *Pedagogical Rationale:* These institutions ground their curricula in **Critical Information Literacy**, power structures, and the sociotechnical implications of GenAI. They focus on labor exploitation, environmental resource costs, the cognitive risks of over-reliance, and the probabilistic mechanics of language models.
+### Analysis of Institutional Clusters
 
-### Outliers and Distinctive Pedagogical Models
+#### The University of California Core Cluster
+The University of California libraries (Davis, Merced, Santa Barbara, San Diego) form a highly cohesive instructional network, with pairwise cosine similarities consistently exceeding **0.950** (e.g., UCSB $\leftrightarrow$ UCSD: **0.9694**; UCDavis $\leftrightarrow$ UCMerced: **0.9636**; UCSB $\leftrightarrow$ UCDavis: **0.9613**). 
 
-*   **Pragmatic / Vendor Discovery Outlier: University of Arkansas & Baylor University**
-    *   *Affinity Score:* Baylor–UArkansas (0.8464).
-    *   *Pedagogical Rationale:* In contrast to the broader theoretical frameworks of the UC system or Chapman, UArkansas and Baylor organize their instruction around database-integrated discovery tools (e.g., EBSCO AI Insights, OneSearch Generative Assistant, Mintel Leap, Ovid). Their instructional goals focus on practical natural language search mechanics, RAG-driven synthesis, and verifying automated summaries.
-*   **The Practical Demystification Model: William & Mary**
-    *   *Affinity Scores:* William–USC (0.8879); William–UCDavis (0.8846).
-    *   *Pedagogical Rationale:* William & Mary balances accessibility with rigor through a practical, demystified instructional approach. Using its driving metaphor—emphasizing that users do not need to be data scientists to understand ethical "rules of the road"—the guide pairs the ROBOT test and lateral reading with practical tools like Kari Weaver’s AI Disclosure Statement Builder, while warning faculty against the unreliability of commercial AI detectors.
+This cohesion reflects shared institutional contexts, coordinated library committee discussions, and balanced hybrid instructional goals that combine prompt engineering rubrics (CLEAR, RTF) with institutional data governance and academic integrity standards. USC closely aligns with this network (USC $\leftrightarrow$ UCSB: **0.9489**; USC $\leftrightarrow$ UCSD: **0.9435**), sharing a comprehensive, multi-tiered view of AI literacy.
+
+#### The Pragmatic Tool-Use Dyad
+Baylor University and the University of Arkansas form an isolated, highly correlated cluster (**0.9422** similarity), with low affinity to the broader hybrid and critical clusters (e.g., UArkansas $\leftrightarrow$ UCDavis: **0.8728**; Baylor $\leftrightarrow$ UCDavis: **0.8747**). 
+
+Both institutions focus their guides on direct research utility: integrating electronic holdings with LLMs, executing data mining scripts, and navigating vendor-integrated discovery platforms (e.g., OneSearch / Primo Research Assistant), while treating citation and policy compliance as baseline constraints rather than topics for sociotechnical critique.
+
+#### The Critical Theory Outlier: UC Irvine
+UC Irvine represents a pedagogical divergence within the UC system. Its maximum similarity to any peer is **0.8848** (UC Davis) and **0.8780** (UCSB). 
+
+While its UC peers balance tool optimization with critical evaluation, UC Irvine structures its guide primarily around Critical Information Literacy (Drabinski & Tewell, 2019). The guide focuses on the political economy of AI, epistemic justice, global data labor exploitation, and environmental impacts, de-emphasizing utilitarian prompt-engineering guides.
+
+#### The Demystification and Cognitive Preserving Hybrid
+Auburn, Chapman, and William & Mary form an interconnected cluster (**0.9338 – 0.9452**). These guides focus on demystifying AI mechanics for non-computer-scientists, establishing evaluation habits (ROBOT Test), and addressing the impact of cognitive offloading on student intellectual development.
 
 ---
 
 ## 7. Strategic Recommendations for Academic Library AI Curricula
 
-Drawing on this cross-institutional synthesis, the following roadmap offers actionable recommendations for academic libraries developing or revising their AI literacy instruction:
+Drawing on these multi-institutional findings, academic libraries can use the following evidence-based roadmap to design, update, or expand their AI literacy instructional programming.
 
 ```
-+────────────────────────────────────────────────────────────────────────────────────────────────────+
-|                                  AI LITERACY INSTRUCTIONAL ROADMAP                                 |
-+────────────────────────────────────────────────────────────────────────────────────────────────────+
-| PHASE 1: FOUNDATIONAL       │ • Establish explicit multi-dimensional definition (e.g., Leo Lo).   |
-|         INFRASTRUCTURE      │ • Provide tiered syllabus templates (Total Ban to Active Integration)|
-|                             │ • Implement data privacy guidelines based on campus security tiers.  |
-+─────────────────────────────+──────────────────────────────────────────────────────────────────────+
-| PHASE 2: EVALUATIVE &       │ • Adopt structured evaluation rubrics (ROBOT Test, Lateral Reading). |
-|         METHODOLOGICAL      │ • Integrate systematic prompt engineering heuristics (CLEAR, RTF).   |
-|                             │ • Demystify probabilistic mechanics (LLMs as probabilistic engines). |
-+─────────────────────────────+──────────────────────────────────────────────────────────────────────+
-| PHASE 3: CRITICAL           │ • Embed Critical Information Literacy: labor, energy, power dynamics.|
-|         SOCIOTECHNICAL      │ • Address cognitive offloading via metacognitive learning heuristics.|
-|                             │ • Standardize formal disclosure tools (AID Framework, Weaver Builder)|
-+─────────────────────────────+──────────────────────────────────────────────────────────────────────+
-| PHASE 4: FACULTY &          │ • Partner with teaching centers on process-driven assignment redesign|
-|         PEDAGOGICAL SUPPORT │ • Educate campus stakeholders on the unreliability of AI detectors.  |
-|                             │ • Train researchers on AI-assisted literature mapping tools.         |
-+─────────────────────────────+──────────────────────────────────────────────────────────────────────+
+               STRATEGIC IMPLEMENTATION ROADMAP
+               
+  [Phase 1] Epistemic Foundation
+            - Formalize explicit AI literacy definition
+            - Anchor in ACRL Framework & Critical Information Literacy
+            
+  [Phase 2] Evaluative Methodologies
+            - Replace outdated CRAAP tests with the ROBOT Test
+            - Institutionalize Lateral Reading verification protocols
+            
+  [Phase 3] Structured Practical Querying
+            - Embed prompt heuristics (CLEAR, RTF, Threading)
+            - Curate specialized discovery tool ecosystems (Scite, Consensus)
+            
+  [Phase 4] Sociotechnical & Environmental Auditing
+            - Integrate modules on carbon/water data footprints
+            - Examine global supply chains and RLHF labor practices
+            
+  [Phase 5] Institutional Alignment & Pedagogical Support
+            - Partner with Teaching Centers for assessment redesign
+            - Publish tiered syllabus policy templates & privacy protocols
 ```
 
-### Actionable Roadmap for Implementation
+### Strategic Action Items
 
-1. **Establish Multi-Dimensional Definitions:**
-   Move beyond viewing AI literacy purely as functional software training. Ground instructional guides in multi-dimensional definitions (e.g., Leo Lo, Educause ALTL) that balance operational tool use with critical evaluation, ethical awareness, and human metacognition.
-2. **Scaffold Prompt Engineering as an Information Literacy Skill:**
-   Frame prompt engineering as an iterative, critical research capability rather than a technical trick. Integrate structured, accessible heuristics (e.g., CLEAR, RTF, TAG) into introductory library instruction and subject-specific research guides.
-3. **Embed Critical Socio-Technical Literacy:**
-   Incorporate the broader societal and material impacts of GenAI into instructional programming. Address the labor practices behind data labeling, the environmental footprints of large models, and the risks of cognitive offloading to help students make informed, intentional choices about tool adoption.
-4. **Standardize Attribution and Transparent Disclosure:**
-   Provide clear, style-specific citation guides (APA, MLA, Chicago, IEEE) that emphasize non-human attribution standards. Implement structured disclosure tools (such as the AID Framework or Weaver’s Disclosure Builder) to normalize transparency in academic research.
-5. **Partner with Teaching Centers for Curriculum Redesign:**
-   Collaborate with campus centers for educational excellence to offer joint faculty workshops. Help instructors redesign assignments away from vulnerable, product-focused deliverables toward iterative, process-driven assessments (using models like PAIR/PAIRR and SARPS).
-6. **Educate Campus Communities on AI Detection Realities:**
-   Clearly communicate the technical unreliability, false-positive vulnerabilities, and equity risks associated with commercial AI detection software, encouraging faculty to rely on transparent communication and authentic assessment design instead.
+#### 1. Adopt an Explicit, Multi-Dimensional Definition of AI Literacy
+Move beyond implicit operationalization. Libraries should formally adopt a multi-dimensional definition (such as Lo’s taxonomy or UCSB’s three-stage continuum) that explicitly connects AI literacy to information literacy, digital ethics, and cognitive development.
+
+#### 2. Update Evaluation Rubrics for Generative Media
+Replace traditional source evaluation frameworks (e.g., standard CRAAP tests) that presuppose human authors and stable publication processes. Implement evaluation rubrics designed for synthetic media—such as the **ROBOT Test**—and teach **Lateral Reading** to systematically verify non-deterministic claims and synthetic citations.
+
+#### 3. Integrate Structured Prompt Engineering into Library Instruction
+Incorporate structured prompting frameworks (**CLEAR**, **RTF**, **TAG**) into information literacy sessions. Reframing prompt design as strategic, iterative query formulation reinforces library concepts of advanced search logic, facet manipulation, and boundary setting.
+
+#### 4. Address Sociotechnical, Labor, and Environmental Impacts
+Following the models of Chapman, UC Irvine, and UC Merced, expand curricula beyond tool mechanics to examine the physical impacts of GenAI. Curricula should address:
+- The environmental resource consumption (energy, water) of large data centers;
+- The human labor supply chains underlying content moderation and model training; and
+- The systemic cultural and epistemological biases embedded in large training corpora.
+
+#### 5. Collaborate with Teaching Centers on Authentic Assessment
+Partner with campus Centers for Teaching and Learning (as modeled by UC Davis and USC) to guide faculty in redesigning assignments. Libraries should help instructors create process-oriented, research-based assessments that encourage metacognitive reflection, primary-source synthesis, and lateral verification, mitigating uncritical cognitive offloading while fostering genuine intellectual agency.
