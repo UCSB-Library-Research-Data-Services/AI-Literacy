@@ -11,23 +11,19 @@ bibliography: ../references.bib
 
 Academic libraries show a structural divide in how they formalize AI literacy. Across the corpus, **45.5% (*n* = 5)** provide explicit, formal definitions of "AI Literacy," while **54.5% (*n* = 6)** operationalize the concept implicitly through distributed heuristics, competency checklists, and policy frameworks.
 
-```
-+-------------------+-----------------------------+-------------------------------------------------------------+
-| INSTITUTION       | DEFINITION STATUS           | PRIMARY CONCEPTUAL MODEL                                    |
-+-------------------+-----------------------------+-------------------------------------------------------------+
-| Auburn University           | Explicit Definition         | Functional-Ethical Triad (Functions, Ethics, Application)   |
-| Baylor University | Implicit Characterization   | Computational Research Integration                          |
-| Chapman University| Explicit Definition         | Sociotechnical Habits of Mind / Cognitive Preservation      |
-| University of Arkansas         | Implicit Characterization   | Vendor Discovery & Provenance Mechanics                     |
-| UC Davis          | Implicit Characterization   | Collaborative Technical-Integrity Schema (CLEAR / ROBOT)   |
-| UC Irvine         | Implicit Characterization   | Critical Information Literacy (CIL) & ACRL Alignment        |
-| UC Merced         | Implicit Characterization   | Workflow-Institutional Compliance Integration               |
-| UC Santa Barbara  | Explicit Definition         | Three-Stage Developmental Model (Understand-Apply-Evaluate) |
-| UC San Diego      | Implicit Characterization   | Structured Prompting & Academic Integrity Safeguards        |
-| USC               | Explicit Definition         | Leo S. Lo Multidimensional Taxonomy                         |
-| William & Mary    | Explicit Definition         | Demystified Foundational Literacy & Evaluative Due Diligence|
-+-------------------+-----------------------------+-------------------------------------------------------------+
-```
+| Institution | Definition Status | Primary Conceptual Model |
+| :--- | :--- | :--- |
+| **Auburn University** | Explicit Definition | Functional-Ethical Triad (Functions, Ethics, Application) |
+| **Baylor University** | Implicit Characterization | Computational Research Integration |
+| **Chapman University** | Explicit Definition | Sociotechnical Habits of Mind / Cognitive Preservation |
+| **University of Arkansas** | Implicit Characterization | Vendor Discovery & Provenance Mechanics |
+| **UC Davis** | Implicit Characterization | Collaborative Technical-Integrity Schema (CLEAR / ROBOT) |
+| **UC Irvine** | Implicit Characterization | Critical Information Literacy (CIL) & ACRL Alignment |
+| **UC Merced** | Implicit Characterization | Workflow-Institutional Compliance Integration |
+| **UC Santa Barbara** | Explicit Definition | Three-Stage Developmental Model (Understand-Apply-Evaluate) |
+| **UC San Diego** | Implicit Characterization | Structured Prompting & Academic Integrity Safeguards |
+| **USC** | Explicit Definition | Leo S. Lo Multidimensional Taxonomy |
+| **William & Mary** | Explicit Definition | Demystified Foundational Literacy & Evaluative Due Diligence |
 
 ---
 

@@ -10,12 +10,9 @@ format:
 
 Academic libraries translate broad campus academic integrity policies into concrete classroom and research behaviors. Across the corpus, institutions establish clear boundaries between permissible cognitive assistance and academic dishonesty.
 
-```
-+----------------------------------------------------------------------------------------------------+
-|                                    SPECTRUM OF AI PERMISSIBILITY                                   |
 +--------------------------+--------------------------------+----------------------------------------+
 | PROHIBITED USE           | CONDITIONAL / ASSISTIVE USE    | EXTENSIVE COLLABORATION                |
-+--------------------------+--------------------------------+----------------------------------------+
++==========================+================================+========================================+
 | - Unacknowledged text/   | - Brainstorming search terms   | - Exploratory prompt iterations        |
 |   code generation        | - Synthesizing notes/outlines  | - Comparative analysis of AI outputs   |
 | - Submitting synthetic   | - Grammar and language editing | - Code generation with complete        |
@@ -23,7 +20,6 @@ Academic libraries translate broad campus academic integrity policies into concr
 | - Inputting PII or       | - Vendor tool summaries with   | - Advanced literature mapping and      |
 |   unvetted research data |   source verification          |   thematic visualization               |
 +--------------------------+--------------------------------+----------------------------------------+
-```
 
 ---
 

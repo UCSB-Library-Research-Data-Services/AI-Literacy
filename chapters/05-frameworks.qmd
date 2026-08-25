@@ -10,23 +10,16 @@ format:
 
 To move students beyond superficial tool use, academic libraries adapt established information literacy theories and introduce new heuristics designed specifically for generative, probabilistic systems.
 
-```
-+----------------------------------------------------------------------------------------------------+
-|                                 TAXONOMY OF INSTRUCTIONAL HEURISTICS                               |
-+-------------------+--------------------+-----------------------------------------------------------+
-| FRAMEWORK TYPE    | HEURISTIC / MODEL  | PRIMARY INSTRUCTIONAL FUNCTION                            |
-+-------------------+--------------------+-----------------------------------------------------------+
-| Epistemic / LIS   | ACRL Framework     | Contextualize algorithmic authority, information creation |
-|                   |                    | workflows, and searching as strategic exploration.        |
-| Source Evaluation | ROBOT Test         | Appraise Reliability, Objective, Bias, Ownership, Type.   |
-| Verification      | Lateral Reading    | Verify AI claims via independent multi-tab search.        |
-| Prompt Design     | CLEAR Framework    | Scaffold iterative prompt composition.                     |
-| Prompt Design     | RTF / TAG Models   | Define Role-Task-Format / Task-Action-Goal parameters.   |
-| Prompt Design     | Threading          | Maintain conversational context through incremental steps.|
-| Cognitive Stages  | 3-Stage Taxonomy   | Scaffold learning: Understand -> Apply -> Evaluate.       |
-| Pedagogy/Integrity| PAIR / PAIRR       | Structured peer and AI review cycle with reflection.      |
-+-------------------+--------------------+-----------------------------------------------------------+
-```
+| Framework Type | Heuristic / Model | Primary Instructional Function |
+| :--- | :--- | :--- |
+| **Epistemic / LIS** | ACRL Framework | Contextualize algorithmic authority, information creation workflows, and searching as strategic exploration. |
+| **Source Evaluation** | ROBOT Test | Appraise Reliability, Objective, Bias, Ownership, Type. |
+| **Verification** | Lateral Reading | Verify AI claims via independent multi-tab search. |
+| **Prompt Design** | CLEAR Framework | Scaffold iterative prompt composition. |
+| **Prompt Design** | RTF / TAG Models | Define Role-Task-Format / Task-Action-Goal parameters. |
+| **Prompt Design** | Threading | Maintain conversational context through incremental steps. |
+| **Cognitive Stages** | 3-Stage Taxonomy | Scaffold learning: Understand -> Apply -> Evaluate. |
+| **Pedagogy / Integrity** | PAIR / PAIRR | Structured peer and AI review cycle with reflection. |
 
 ---
 

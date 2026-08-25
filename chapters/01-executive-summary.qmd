@@ -10,18 +10,11 @@ format:
 
 Analysis of curricular LibGuides across 11 representative institutions reveals distinct pedagogical architectures. While institutions vary in instructional depth—ranging from utilitarian database discovery integrations to sociotechnical critiques—the sector demonstrates a decisive convergence toward **Balanced Hybrid** instruction.
 
-```
-+-----------------------------------------------------------------------------------------+
-|                                    AI LITERACY TYPOLOGY                                  |
-+-----------------------------------+-----------------------------------------------------+
-| ORIENTATION                       | INSTITUTIONAL DISTRIBUTION                          |
-+-----------------------------------+-----------------------------------------------------+
-| Comprehensive / Balanced Hybrid   | Auburn University, Chapman University, UC Davis, UC Merced,               |
-|                                   | UC Santa Barbara, UC San Diego, USC, William & Mary |
-| Tool-Use / Practical Productivity |  University, University of Arkansas                      |
-| Critical & Ethical Evaluation     | UC Irvine                                           |
-+-----------------------------------+-----------------------------------------------------+
-```
+| Orientation | Institutional Distribution |
+| :--- | :--- |
+| **Comprehensive / Balanced Hybrid** | Auburn University, Chapman University, UC Davis, UC Merced, UC Santa Barbara, UC San Diego, USC, William & Mary |
+| **Tool-Use / Practical Productivity** | Baylor University, University of Arkansas |
+| **Critical & Ethical Evaluation** | UC Irvine |
 
 ---
 

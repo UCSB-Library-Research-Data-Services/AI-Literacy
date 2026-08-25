@@ -10,24 +10,13 @@ format:
 
 Library guides structure their learning outcomes across two distinct stakeholder groups: **students** (cultivating critical user agency) and **instructors/faculty** (guiding course design, assessment, and policy transparency).
 
-```
-+----------------------------------------------------------------------------------------------------+
-|                                    MAPPING CORE AI COMPETENCIES                                    |
-+---------------------------------------+------------------------------------------------------------+
-| COMPETENCY DOMAIN                     | OPERATIONALIZED LEARNING OUTCOME                           |
-+---------------------------------------+------------------------------------------------------------+
-| Prompt Engineering & Synthesis        | Formulate structured, iterative queries using clear roles, |
-|                                       | contexts, constraints, and conversational threading.       |
-| Fact-Checking & Hallucination Audits  | Validate AI-generated claims and synthetic citations via   |
-|                                       | lateral reading, primary databases, and provenance tests. |
-| Sociotechnical & Environmental Ethics | Assess algorithmic bias, global content-moderation labor,  |
-|                                       | data privacy, and carbon/water ecological footprints.      |
-| Attribution & Policy Compliance       | Document synthetic tool assistance across citation styles; |
-|                                       | adhere to course-level and institutional AI policies.      |
-| Pedagogical & Authentic Assessment    | Redesign assignments around process-oriented, authentic,   |
-|                                       | metacognitive tasks resistant to uncritical automation.    |
-+---------------------------------------+------------------------------------------------------------+
-```
+| Competency Domain | Operationalized Learning Outcome |
+| :--- | :--- |
+| **Prompt Engineering & Synthesis** | Formulate structured, iterative queries using clear roles, contexts, constraints, and conversational threading. |
+| **Fact-Checking & Hallucination Audits** | Validate AI-generated claims and synthetic citations via lateral reading, primary databases, and provenance tests. |
+| **Sociotechnical & Environmental Ethics** | Assess algorithmic bias, global content-moderation labor, data privacy, and carbon/water ecological footprints. |
+| **Attribution & Policy Compliance** | Document synthetic tool assistance across citation styles; adhere to course-level and institutional AI policies. |
+| **Pedagogical & Authentic Assessment** | Redesign assignments around process-oriented, authentic, metacognitive tasks resistant to uncritical automation. |
 
 ---
 

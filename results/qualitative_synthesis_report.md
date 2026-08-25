@@ -8,18 +8,11 @@ Academic libraries are actively recalibrating their instructional mandates to ad
 
 Analysis of curricular LibGuides across 11 representative institutions reveals distinct pedagogical architectures. While institutions vary in instructional depth—ranging from utilitarian database discovery integrations to sociotechnical critiques—the sector demonstrates a decisive convergence toward **Balanced Hybrid** instruction.
 
-```
-+-----------------------------------------------------------------------------------------+
-|                                    AI LITERACY TYPOLOGY                                  |
-+-----------------------------------+-----------------------------------------------------+
-| ORIENTATION                       | INSTITUTIONAL DISTRIBUTION                          |
-+-----------------------------------+-----------------------------------------------------+
-| Comprehensive / Balanced Hybrid   | Auburn, Chapman, UC Davis, UC Merced,               |
-|                                   | UC Santa Barbara, UC San Diego, USC, William & Mary |
-| Tool-Use / Practical Productivity | Baylor, University of Arkansas                      |
-| Critical & Ethical Evaluation     | UC Irvine                                           |
-+-----------------------------------+-----------------------------------------------------+
-```
+| Orientation | Institutional Distribution |
+| :--- | :--- |
+| **Comprehensive / Balanced Hybrid** | Auburn, Chapman, UC Davis, UC Merced, UC Santa Barbara, UC San Diego, USC, William & Mary |
+| **Tool-Use / Practical Productivity** | Baylor, University of Arkansas |
+| **Critical & Ethical Evaluation** | UC Irvine |
 
 ### Institutional Typology Distribution
 
@@ -56,23 +49,19 @@ Explicit Formal Definition  [45.5%] (5/11): Auburn, Chapman, UCSB, USC, William 
 Implicit Characterization   [54.5%] (6/11): Baylor, UArkansas, UCDavis, UCIrvine, UCMerced, UCSD
 ```
 
-```
-+-------------------+-----------------------------+-------------------------------------------------------------+
-| INSTITUTION       | DEFINITION STATUS           | PRIMARY CONCEPTUAL MODEL                                    |
-+-------------------+-----------------------------+-------------------------------------------------------------+
-| Auburn            | Explicit Definition         | Functional-Ethical Triad (Functions, Ethics, Application)   |
-| Baylor            | Implicit Characterization   | Computational Research Integration                          |
-| Chapman           | Explicit Definition         | Sociotechnical Habits of Mind / Cognitive Preservation      |
-| UArkansas         | Implicit Characterization   | Vendor Discovery & Provenance Mechanics                     |
-| UC Davis          | Implicit Characterization   | Collaborative Technical-Integrity Schema (CLEAR / ROBOT)   |
-| UC Irvine         | Implicit Characterization   | Critical Information Literacy (CIL) & ACRL Alignment        |
-| UC Merced         | Implicit Characterization   | Workflow-Institutional Compliance Integration               |
-| UC Santa Barbara  | Explicit Definition         | Three-Stage Developmental Model (Understand-Apply-Evaluate) |
-| UC San Diego      | Implicit Characterization   | Structured Prompting & Academic Integrity Safeguards        |
-| USC               | Explicit Definition         | Leo S. Lo Multidimensional Taxonomy                         |
-| William & Mary    | Explicit Definition         | Demystified Foundational Literacy & Evaluative Due Diligence|
-+-------------------+-----------------------------+-------------------------------------------------------------+
-```
+| Institution | Definition Status | Primary Conceptual Model |
+| :--- | :--- | :--- |
+| **Auburn** | Explicit Definition | Functional-Ethical Triad (Functions, Ethics, Application) |
+| **Baylor** | Implicit Characterization | Computational Research Integration |
+| **Chapman** | Explicit Definition | Sociotechnical Habits of Mind / Cognitive Preservation |
+| **UArkansas** | Implicit Characterization | Vendor Discovery & Provenance Mechanics |
+| **UC Davis** | Implicit Characterization | Collaborative Technical-Integrity Schema (CLEAR / ROBOT) |
+| **UC Irvine** | Implicit Characterization | Critical Information Literacy (CIL) & ACRL Alignment |
+| **UC Merced** | Implicit Characterization | Workflow-Institutional Compliance Integration |
+| **UC Santa Barbara** | Explicit Definition | Three-Stage Developmental Model (Understand-Apply-Evaluate) |
+| **UC San Diego** | Implicit Characterization | Structured Prompting & Academic Integrity Safeguards |
+| **USC** | Explicit Definition | Leo S. Lo Multidimensional Taxonomy |
+| **William & Mary** | Explicit Definition | Demystified Foundational Literacy & Evaluative Due Diligence |
 
 ### Prominent Conceptual Models
 
@@ -133,24 +122,13 @@ Across the institutions, AI literacy is conceptualized not as a distinct, isolat
 
 Instructional frameworks across the 11 institutions outline distinct competencies for students and pedagogical objectives for faculty.
 
-```
-+----------------------------------------------------------------------------------------------------+
-|                                    MAPPING CORE AI COMPETENCIES                                    |
-+---------------------------------------+------------------------------------------------------------+
-| COMPETENCY DOMAIN                     | OPERATIONALIZED LEARNING OUTCOME                           |
-+---------------------------------------+------------------------------------------------------------+
-| Prompt Engineering & Synthesis        | Formulate structured, iterative queries using clear roles, |
-|                                       | contexts, constraints, and conversational threading.       |
-| Fact-Checking & Hallucination Audits  | Validate AI-generated claims and synthetic citations via   |
-|                                       | lateral reading, primary databases, and provenance tests. |
-| Sociotechnical & Environmental Ethics | Assess algorithmic bias, global content-moderation labor,  |
-|                                       | data privacy, and carbon/water ecological footprints.      |
-| Attribution & Policy Compliance       | Document synthetic tool assistance across citation styles; |
-|                                       | adhere to course-level and institutional AI policies.      |
-| Pedagogical & Authentic Assessment    | Redesign assignments around process-oriented, authentic,   |
-|                                       | metacognitive tasks resistant to uncritical automation.    |
-+---------------------------------------+------------------------------------------------------------+
-```
+| Competency Domain | Operationalized Learning Outcome |
+| :--- | :--- |
+| **Prompt Engineering & Synthesis** | Formulate structured, iterative queries using clear roles, contexts, constraints, and conversational threading. |
+| **Fact-Checking & Hallucination Audits** | Validate AI-generated claims and synthetic citations via lateral reading, primary databases, and provenance tests. |
+| **Sociotechnical & Environmental Ethics** | Assess algorithmic bias, global content-moderation labor, data privacy, and carbon/water ecological footprints. |
+| **Attribution & Policy Compliance** | Document synthetic tool assistance across citation styles; adhere to course-level and institutional AI policies. |
+| **Pedagogical & Authentic Assessment** | Redesign assignments around process-oriented, authentic, metacognitive tasks resistant to uncritical automation. |
 
 ### Student Learning Outcomes
 
@@ -177,12 +155,9 @@ Library guides instruct educators on adapting pedagogical design to address the 
 
 Academic libraries serve as key interpreters of university academic integrity codes and scholarly publishing mandates, translating abstract governance policies into practical research behaviors.
 
-```
-+----------------------------------------------------------------------------------------------------+
-|                                    SPECTRUM OF AI PERMISSIBILITY                                   |
 +--------------------------+--------------------------------+----------------------------------------+
 | PROHIBITED USE           | CONDITIONAL / ASSISTIVE USE    | EXTENSIVE COLLABORATION                |
-+--------------------------+--------------------------------+----------------------------------------+
++==========================+================================+========================================+
 | - Unacknowledged text/   | - Brainstorming search terms   | - Exploratory prompt iterations        |
 |   code generation        | - Synthesizing notes/outlines  | - Comparative analysis of AI outputs   |
 | - Submitting synthetic   | - Grammar and language editing | - Code generation with complete        |
@@ -190,7 +165,6 @@ Academic libraries serve as key interpreters of university academic integrity co
 | - Inputting PII or       | - Vendor tool summaries with   | - Advanced literature mapping and      |
 |   unvetted research data |   source verification          |   thematic visualization               |
 +--------------------------+--------------------------------+----------------------------------------+
-```
 
 ### Institutional Data Security & Privacy Guidelines
 Libraries frequently communicate institutional IT and privacy mandates:
@@ -199,23 +173,11 @@ Libraries frequently communicate institutional IT and privacy mandates:
 ### Citation and Attribution Mechanics
 All 11 institutions mandate rigorous attribution whenever GenAI contributes to research, writing, coding, or data visualization.
 
-```
-+------------------+---------------------------------------------------------------------------------+
-| CITATION STYLE   | ATTRIBUTION REQUIREMENTS ACROSS GUIDES                                          |
-+------------------+---------------------------------------------------------------------------------+
-| APA 7th Edition  | Author: Tool Company (e.g., OpenAI).                                            |
-|                  | Title: Model Name (e.g., ChatGPT-4o) [Large language model].                    |
-|                  | URL: Tool URL.                                                                  |
-|                  | In-Text / Appendix: Include prompt text and excerpt of generated response.     |
-+------------------+---------------------------------------------------------------------------------+
-| MLA 9th Edition  | Title of Source: Description of prompt / output.                                |
-|                  | Title of Container: Name of AI Tool (e.g., ChatGPT).                            |
-|                  | Version: Date / Model version. Publisher: Company. Date of Access. URL.         |
-+------------------+---------------------------------------------------------------------------------+
-| Chicago (Notes)  | Footnote attribution containing tool name, developer, date accessed, and exact |
-|                  | prompt text. Discourages bibliography listing unless permanently archived.      |
-+------------------+---------------------------------------------------------------------------------+
-```
+| Citation Style | Attribution Requirements Across Guides |
+| :--- | :--- |
+| **APA 7th Edition** | **Author**: Tool Company (e.g., OpenAI).<br>**Title**: Model Name (e.g., ChatGPT-4o) [Large language model].<br>**URL**: Tool URL.<br>**In-Text / Appendix**: Include prompt text and excerpt of generated response. |
+| **MLA 9th Edition** | **Title of Source**: Description of prompt / output.<br>**Title of Container**: Name of AI Tool (e.g., ChatGPT).<br>**Version**: Date / Model version. Publisher: Company. Date of Access. URL. |
+| **Chicago (Notes)** | Footnote attribution containing tool name, developer, date accessed, and exact prompt text. Discourages bibliography listing unless permanently archived. |
 
 ### Policy Guidance for Instructors
 Libraries provide tiered template language for course syllabi:
@@ -229,22 +191,15 @@ Libraries provide tiered template language for course syllabi:
 
 Academic libraries use specific pedagogical frameworks, evaluation rubrics, and prompting heuristics to teach AI literacy systematically.
 
-```
-+----------------------------------------------------------------------------------------------------+
-|                                 TAXONOMY OF INSTRUCTIONAL HEURISTICS                               |
-+-------------------+--------------------+-----------------------------------------------------------+
-| FRAMEWORK TYPE    | HEURISTIC / MODEL  | PRIMARY INSTRUCTIONAL FUNCTION                            |
-+-------------------+--------------------+-----------------------------------------------------------+
-| Epistemic / LIS   | ACRL Framework     | Contextualize algorithmic authority, information creation |
-|                   |                    | workflows, and searching as strategic exploration.        |
-| Source Evaluation | ROBOT Test         | Appraise Reliability, Objective, Bias, Ownership, Type.   |
-| Verification      | Lateral Reading    | Verify AI claims via independent multi-tab search.        |
-| Prompt Design     | CLEAR Framework    | Scaffold iterative prompt composition.                     |
-| Prompt Design     | RTF / TAG Models   | Define Role-Task-Format / Task-Action-Goal parameters.   |
-| Prompt Design     | Threading          | Maintain conversational context through incremental steps.|
-| Cognitive Stages  | 3-Stage Taxonomy   | Scaffold learning: Understand -> Apply -> Evaluate.       |
-+-------------------+--------------------+-----------------------------------------------------------+
-```
+| Framework Type | Heuristic / Model | Primary Instructional Function |
+| :--- | :--- | :--- |
+| **Epistemic / LIS** | ACRL Framework | Contextualize algorithmic authority, information creation workflows, and searching as strategic exploration. |
+| **Source Evaluation** | ROBOT Test | Appraise Reliability, Objective, Bias, Ownership, Type. |
+| **Verification** | Lateral Reading | Verify AI claims via independent multi-tab search. |
+| **Prompt Design** | CLEAR Framework | Scaffold iterative prompt composition. |
+| **Prompt Design** | RTF / TAG Models | Define Role-Task-Format / Task-Action-Goal parameters. |
+| **Prompt Design** | Threading | Maintain conversational context through incremental steps. |
+| **Cognitive Stages** | 3-Stage Taxonomy | Scaffold learning: Understand -> Apply -> Evaluate. |
 
 ### The ACRL Framework for Information Literacy
 Libraries adapt the ACRL Framework's core threshold concepts to address generative systems:
@@ -295,26 +250,21 @@ Instructional guidance on maintaining contextual continuity within a single conv
 
 Mathematical clustering via high-dimensional vector similarity reveals distinct institutional alignments based on pedagogical design and conceptual focus.
 
-```
-+----------------------------------------------------------------------------------------------------+
-|                                INSTITUTIONAL SIMILARITY MATRIX HEATMAP                             |
-+------------------+-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+---------------+
-| Institution      | AUB | BAY | CHP | ARK | UCD | UCI | UCM | USB | USD | USC | W&M | Primary Focus |
-+------------------+-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+---------------+
-| Auburn (AUB)     | 1.0 |     | .95 |     |     |     |     | .94 |     |     | .93 | Hybrid/Prompt |
-| Baylor (BAY)     |     | 1.0 |     | .94 | .87 |     |     |     |     |     |     | Tool-Discovery|
-| Chapman (CHP)    | .95 |     | 1.0 |     |     |     | .94 |     |     |     | .93 | Hybrid/Cognit.|
-| UArkansas (ARK)  |     | .94 |     | 1.0 | .87 |     |     |     |     |     |     | Vendor-Tool   |
-| UCDavis (UCD)    |     | .87 |     | .87 | 1.0 | .88 | .96 | .96 | .96 |     |     | Hybrid/Integr.|
-| UCIrvine (UCI)   |     |     |     |     | .88 | 1.0 |     | .88 |     |     |     | Critical/CIL  |
-| UCMerced (UCM)   |     |     | .94 |     | .96 |     | 1.0 | .95 |     |     |     | Hybrid/Policy |
-| UCSB (USB)       | .94 |     |     |     | .96 | .88 | .95 | 1.0 | .97 | .95 |     | Hybrid/Stage  |
-| UCSD (USD)       |     |     |     |     | .96 |     |     | .97 | 1.0 | .94 |     | Hybrid/Prompt |
-| USC (USC)        |     |     |     |     |     |     |     | .95 | .94 | 1.0 |     | Hybrid/Lo-Tax.|
-| Wm & Mary (W&M)  | .93 |     | .93 |     |     |     |     |     |     |     | 1.0 | Hybrid/Demyst.|
-+------------------+-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+---------------+
-* Values represent cosine similarity scores >= 0.87
-```
+| Institution | AUB | BAY | CHP | ARK | UCD | UCI | UCM | USB | USD | USC | W&M | Primary Focus |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :--- |
+| **Auburn (AUB)** | 1.0 | | .95 | | | | | .94 | | | .93 | Hybrid/Prompt |
+| **Baylor (BAY)** | | 1.0 | | .94 | .87 | | | | | | | Tool-Discovery |
+| **Chapman (CHP)** | .95 | | 1.0 | | | | .94 | | | | .93 | Hybrid/Cognit. |
+| **UArkansas (ARK)** | | .94 | | 1.0 | .87 | | | | | | | Vendor-Tool |
+| **UCDavis (UCD)** | | .87 | | .87 | 1.0 | .88 | .96 | .96 | .96 | | | Hybrid/Integr. |
+| **UCIrvine (UCI)** | | | | | .88 | 1.0 | | .88 | | | | Critical/CIL |
+| **UCMerced (UCM)** | | | .94 | | .96 | | 1.0 | .95 | | | | Hybrid/Policy |
+| **UCSB (USB)** | .94 | | | | .96 | .88 | .95 | 1.0 | .97 | .95 | | Hybrid/Stage |
+| **UCSD (USD)** | | | | | .96 | | | .97 | 1.0 | .94 | | Hybrid/Prompt |
+| **USC (USC)** | | | | | | | | .95 | .94 | 1.0 | | Hybrid/Lo-Tax. |
+| **Wm & Mary (W&M)** | .93 | | .93 | | | | | | | | 1.0 | Hybrid/Demyst. |
+
+\* *Values represent cosine similarity scores >= 0.87*
 
 ```
                         [University of California Cluster]

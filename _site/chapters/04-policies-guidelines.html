@@ -158,10 +158,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <a class="dropdown-item" href="../chapters/06-similarity-clusters.html">
  <span class="dropdown-text">6. Semantic Similarity &amp; Clustering</span></a>
   </li>  
-        <li>
-    <a class="dropdown-item" href="../chapters/07-recommendations.html">
- <span class="dropdown-text">7. Strategic Recommendations</span></a>
-  </li>  
     </ul>
   </li>
   <li class="nav-item">
@@ -1021,74 +1017,70 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>Academic libraries translate broad campus academic integrity policies into concrete classroom and research behaviors. Across the corpus, institutions establish clear boundaries between permissible cognitive assistance and academic dishonesty.</span>
 <span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
-<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a><span class="in">+----------------------------------------------------------------------------------------------------+</span></span>
-<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a><span class="in">|                                    SPECTRUM OF AI PERMISSIBILITY                                   |</span></span>
-<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a><span class="in">+--------------------------+--------------------------------+----------------------------------------+</span></span>
-<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a><span class="in">| PROHIBITED USE           | CONDITIONAL / ASSISTIVE USE    | EXTENSIVE COLLABORATION                |</span></span>
-<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a><span class="in">+--------------------------+--------------------------------+----------------------------------------+</span></span>
-<span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a><span class="in">| - Unacknowledged text/   | - Brainstorming search terms   | - Exploratory prompt iterations        |</span></span>
-<span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a><span class="in">|   code generation        | - Synthesizing notes/outlines  | - Comparative analysis of AI outputs   |</span></span>
-<span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a><span class="in">| - Submitting synthetic   | - Grammar and language editing | - Code generation with complete        |</span></span>
-<span id="cb2-22"><a href="#cb2-22" aria-hidden="true" tabindex="-1"></a><span class="in">|   prose as original work | - Search query optimization    |   attribution and methodology logs     |</span></span>
-<span id="cb2-23"><a href="#cb2-23" aria-hidden="true" tabindex="-1"></a><span class="in">| - Inputting PII or       | - Vendor tool summaries with   | - Advanced literature mapping and      |</span></span>
-<span id="cb2-24"><a href="#cb2-24" aria-hidden="true" tabindex="-1"></a><span class="in">|   unvetted research data |   source verification          |   thematic visualization               |</span></span>
-<span id="cb2-25"><a href="#cb2-25" aria-hidden="true" tabindex="-1"></a><span class="in">+--------------------------+--------------------------------+----------------------------------------+</span></span>
-<span id="cb2-26"><a href="#cb2-26" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>+--------------------------+--------------------------------+----------------------------------------+</span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>| PROHIBITED USE           | CONDITIONAL / ASSISTIVE USE    | EXTENSIVE COLLABORATION                |</span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a>+==========================+================================+========================================+</span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a>| - Unacknowledged text/   | - Brainstorming search terms   | - Exploratory prompt iterations        |</span>
+<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a>|   code generation        | - Synthesizing notes/outlines  | - Comparative analysis of AI outputs   |</span>
+<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a>| - Submitting synthetic   | - Grammar and language editing | - Code generation with complete        |</span>
+<span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a>|   prose as original work | - Search query optimization    |   attribution and methodology logs     |</span>
+<span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a>| - Inputting PII or       | - Vendor tool summaries with   | - Advanced literature mapping and      |</span>
+<span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a>|   unvetted research data |   source verification          |   thematic visualization               |</span>
+<span id="cb2-22"><a href="#cb2-22" aria-hidden="true" tabindex="-1"></a>+--------------------------+--------------------------------+----------------------------------------+</span>
+<span id="cb2-23"><a href="#cb2-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-24"><a href="#cb2-24" aria-hidden="true" tabindex="-1"></a>---</span>
+<span id="cb2-25"><a href="#cb2-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-26"><a href="#cb2-26" aria-hidden="true" tabindex="-1"></a><span class="fu">## Core Institutional Policy Tiers</span></span>
 <span id="cb2-27"><a href="#cb2-27" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-28"><a href="#cb2-28" aria-hidden="true" tabindex="-1"></a>---</span>
+<span id="cb2-28"><a href="#cb2-28" aria-hidden="true" tabindex="-1"></a>Academic library guides recommend three primary policy models for course syllabi:</span>
 <span id="cb2-29"><a href="#cb2-29" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-30"><a href="#cb2-30" aria-hidden="true" tabindex="-1"></a><span class="fu">## Core Institutional Policy Tiers</span></span>
+<span id="cb2-30"><a href="#cb2-30" aria-hidden="true" tabindex="-1"></a>::: {.panel-tabset}</span>
 <span id="cb2-31"><a href="#cb2-31" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-32"><a href="#cb2-32" aria-hidden="true" tabindex="-1"></a>Academic library guides recommend three primary policy models for course syllabi:</span>
-<span id="cb2-33"><a href="#cb2-33" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-34"><a href="#cb2-34" aria-hidden="true" tabindex="-1"></a>::: {.panel-tabset}</span>
-<span id="cb2-35"><a href="#cb2-35" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-36"><a href="#cb2-36" aria-hidden="true" tabindex="-1"></a><span class="fu">### Tier 1: Prohibited Use</span></span>
-<span id="cb2-37"><a href="#cb2-37" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Definition**: Complete restriction on all GenAI tools.</span>
-<span id="cb2-38"><a href="#cb2-38" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Rationale**: Used in foundational courses to ensure mastery of baseline skills (e.g., introductory language acquisition, basic arithmetic, introductory prose composition).</span>
-<span id="cb2-39"><a href="#cb2-39" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Enforcement**: Submitting AI-generated content without explicit permission constitutes academic misconduct (e.g., UCSB, William &amp; Mary Honor Code).</span>
+<span id="cb2-32"><a href="#cb2-32" aria-hidden="true" tabindex="-1"></a><span class="fu">### Tier 1: Prohibited Use</span></span>
+<span id="cb2-33"><a href="#cb2-33" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Definition**: Complete restriction on all GenAI tools.</span>
+<span id="cb2-34"><a href="#cb2-34" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Rationale**: Used in foundational courses to ensure mastery of baseline skills (e.g., introductory language acquisition, basic arithmetic, introductory prose composition).</span>
+<span id="cb2-35"><a href="#cb2-35" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Enforcement**: Submitting AI-generated content without explicit permission constitutes academic misconduct (e.g., UCSB, William &amp; Mary Honor Code).</span>
+<span id="cb2-36"><a href="#cb2-36" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-37"><a href="#cb2-37" aria-hidden="true" tabindex="-1"></a><span class="fu">### Tier 2: Conditional Use with Explicit Disclosure</span></span>
+<span id="cb2-38"><a href="#cb2-38" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Definition**: Permitted for specific research and drafting phases (e.g., brainstorming, outlining, code debugging, language polish).</span>
+<span id="cb2-39"><a href="#cb2-39" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Requirement**: Mandatory inclusion of an **AI Disclosure Statement** documenting tools used, model versions, prompt text, and how outputs were adapted (William &amp; Mary, UCSD, UC Irvine).</span>
 <span id="cb2-40"><a href="#cb2-40" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-41"><a href="#cb2-41" aria-hidden="true" tabindex="-1"></a><span class="fu">### Tier 2: Conditional Use with Explicit Disclosure</span></span>
-<span id="cb2-42"><a href="#cb2-42" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Definition**: Permitted for specific research and drafting phases (e.g., brainstorming, outlining, code debugging, language polish).</span>
-<span id="cb2-43"><a href="#cb2-43" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Requirement**: Mandatory inclusion of an **AI Disclosure Statement** documenting tools used, model versions, prompt text, and how outputs were adapted (William &amp; Mary, UCSD, UC Irvine).</span>
+<span id="cb2-41"><a href="#cb2-41" aria-hidden="true" tabindex="-1"></a><span class="fu">### Tier 3: Pervasive Integration</span></span>
+<span id="cb2-42"><a href="#cb2-42" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Definition**: AI tools are fully integrated into learning activities and assignments.</span>
+<span id="cb2-43"><a href="#cb2-43" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Pedagogy**: Focuses on advanced prompt engineering, comparative AI output auditing, and prompt log reflection.</span>
 <span id="cb2-44"><a href="#cb2-44" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-45"><a href="#cb2-45" aria-hidden="true" tabindex="-1"></a><span class="fu">### Tier 3: Pervasive Integration</span></span>
-<span id="cb2-46"><a href="#cb2-46" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Definition**: AI tools are fully integrated into learning activities and assignments.</span>
-<span id="cb2-47"><a href="#cb2-47" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Pedagogy**: Focuses on advanced prompt engineering, comparative AI output auditing, and prompt log reflection.</span>
+<span id="cb2-45"><a href="#cb2-45" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb2-46"><a href="#cb2-46" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-47"><a href="#cb2-47" aria-hidden="true" tabindex="-1"></a>---</span>
 <span id="cb2-48"><a href="#cb2-48" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-49"><a href="#cb2-49" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb2-49"><a href="#cb2-49" aria-hidden="true" tabindex="-1"></a><span class="fu">## Citation &amp; Attribution Standards</span></span>
 <span id="cb2-50"><a href="#cb2-50" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-51"><a href="#cb2-51" aria-hidden="true" tabindex="-1"></a>---</span>
+<span id="cb2-51"><a href="#cb2-51" aria-hidden="true" tabindex="-1"></a>All 11 institutions mandate attribution whenever GenAI tools contribute to academic work. The guides synthesize the official guidance from major style manuals:</span>
 <span id="cb2-52"><a href="#cb2-52" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-53"><a href="#cb2-53" aria-hidden="true" tabindex="-1"></a><span class="fu">## Citation &amp; Attribution Standards</span></span>
-<span id="cb2-54"><a href="#cb2-54" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-55"><a href="#cb2-55" aria-hidden="true" tabindex="-1"></a>All 11 institutions mandate attribution whenever GenAI tools contribute to academic work. The guides synthesize the official guidance from major style manuals:</span>
-<span id="cb2-56"><a href="#cb2-56" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-57"><a href="#cb2-57" aria-hidden="true" tabindex="-1"></a>| Citation Manual | Reference Entry Structure | In-Text &amp; Methodology Disclosure |</span>
-<span id="cb2-58"><a href="#cb2-58" aria-hidden="true" tabindex="-1"></a>| :--- | :--- | :--- |</span>
-<span id="cb2-59"><a href="#cb2-59" aria-hidden="true" tabindex="-1"></a>| **APA 7th Edition** | <span class="in">`Author: Company (e.g., OpenAI). Title: Model Name [Large language model]. URL.`</span> | Provide description of prompt and excerpt in body text or append full chat transcript. Unique chat URLs should be provided where available. |</span>
-<span id="cb2-60"><a href="#cb2-60" aria-hidden="true" tabindex="-1"></a>| **MLA 9th Edition** | <span class="in">`Title of Source: "Prompt text/description". Container: ChatGPT. Version: Date/Model. Publisher: Company. Date of Access. URL.`</span> | Acknowledge in-text when paraphrasing AI output. AI should not be listed as an author in author field. |</span>
-<span id="cb2-61"><a href="#cb2-61" aria-hidden="true" tabindex="-1"></a>| **Chicago Style** | Handled primarily via notes (footnotes/endnotes) rather than bibliography: include tool name, company, access date, and prompt description. | Include prompt details in footnote or parenthetical citation. Bibliography entry discouraged unless permalink exists. |</span>
-<span id="cb2-62"><a href="#cb2-62" aria-hidden="true" tabindex="-1"></a>| **IEEE Style** | Treated as private communication or unpublished non-recoverable material. | Document model, company, date, and specific prompt details in text notes. |</span>
-<span id="cb2-63"><a href="#cb2-63" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-64"><a href="#cb2-64" aria-hidden="true" tabindex="-1"></a>::: {.callout-warning}</span>
-<span id="cb2-65"><a href="#cb2-65" aria-hidden="true" tabindex="-1"></a><span class="fu">### AI Authorship Prohibition</span></span>
-<span id="cb2-66"><a href="#cb2-66" aria-hidden="true" tabindex="-1"></a>Every surveyed library explicitly cites major academic publisher policies (Elsevier, Springer Nature, ACM, IEEE, PLOS, Taylor &amp; Francis) stating that **GenAI cannot be listed as an author or co-author** on scholarly publications because non-human entities cannot take legal responsibility or intellectual accountability for manuscript integrity.</span>
-<span id="cb2-67"><a href="#cb2-67" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb2-53"><a href="#cb2-53" aria-hidden="true" tabindex="-1"></a>| Citation Manual | Reference Entry Structure | In-Text &amp; Methodology Disclosure |</span>
+<span id="cb2-54"><a href="#cb2-54" aria-hidden="true" tabindex="-1"></a>| :--- | :--- | :--- |</span>
+<span id="cb2-55"><a href="#cb2-55" aria-hidden="true" tabindex="-1"></a>| **APA 7th Edition** | <span class="in">`Author: Company (e.g., OpenAI). Title: Model Name [Large language model]. URL.`</span> | Provide description of prompt and excerpt in body text or append full chat transcript. Unique chat URLs should be provided where available. |</span>
+<span id="cb2-56"><a href="#cb2-56" aria-hidden="true" tabindex="-1"></a>| **MLA 9th Edition** | <span class="in">`Title of Source: "Prompt text/description". Container: ChatGPT. Version: Date/Model. Publisher: Company. Date of Access. URL.`</span> | Acknowledge in-text when paraphrasing AI output. AI should not be listed as an author in author field. |</span>
+<span id="cb2-57"><a href="#cb2-57" aria-hidden="true" tabindex="-1"></a>| **Chicago Style** | Handled primarily via notes (footnotes/endnotes) rather than bibliography: include tool name, company, access date, and prompt description. | Include prompt details in footnote or parenthetical citation. Bibliography entry discouraged unless permalink exists. |</span>
+<span id="cb2-58"><a href="#cb2-58" aria-hidden="true" tabindex="-1"></a>| **IEEE Style** | Treated as private communication or unpublished non-recoverable material. | Document model, company, date, and specific prompt details in text notes. |</span>
+<span id="cb2-59"><a href="#cb2-59" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-60"><a href="#cb2-60" aria-hidden="true" tabindex="-1"></a>::: {.callout-warning}</span>
+<span id="cb2-61"><a href="#cb2-61" aria-hidden="true" tabindex="-1"></a><span class="fu">### AI Authorship Prohibition</span></span>
+<span id="cb2-62"><a href="#cb2-62" aria-hidden="true" tabindex="-1"></a>Every surveyed library explicitly cites major academic publisher policies (Elsevier, Springer Nature, ACM, IEEE, PLOS, Taylor &amp; Francis) stating that **GenAI cannot be listed as an author or co-author** on scholarly publications because non-human entities cannot take legal responsibility or intellectual accountability for manuscript integrity.</span>
+<span id="cb2-63"><a href="#cb2-63" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb2-64"><a href="#cb2-64" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-65"><a href="#cb2-65" aria-hidden="true" tabindex="-1"></a>---</span>
+<span id="cb2-66"><a href="#cb2-66" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-67"><a href="#cb2-67" aria-hidden="true" tabindex="-1"></a><span class="fu">## Data Privacy &amp; Institutional Governance</span></span>
 <span id="cb2-68"><a href="#cb2-68" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-69"><a href="#cb2-69" aria-hidden="true" tabindex="-1"></a>---</span>
-<span id="cb2-70"><a href="#cb2-70" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-71"><a href="#cb2-71" aria-hidden="true" tabindex="-1"></a><span class="fu">## Data Privacy &amp; Institutional Governance</span></span>
+<span id="cb2-69"><a href="#cb2-69" aria-hidden="true" tabindex="-1"></a>Guides at **UC Merced**, **UC San Diego**, and **Chapman University** emphasize institutional IT data classifications:</span>
+<span id="cb2-70"><a href="#cb2-70" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**No PII or Sensitive Data in Public AI**: Users must never enter student records, patient data, confidential interview transcripts, or proprietary research into public tools.</span>
+<span id="cb2-71"><a href="#cb2-71" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Campus-Approved Secure Environments**: Only enterprise-licensed tools with zero-data-retention agreements (e.g., Microsoft Copilot via institutional SSO, ChatGPT Edu, ZotGPT) may process sensitive university workflows.</span>
 <span id="cb2-72"><a href="#cb2-72" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-73"><a href="#cb2-73" aria-hidden="true" tabindex="-1"></a>Guides at **UC Merced**, **UC San Diego**, and **Chapman University** emphasize institutional IT data classifications:</span>
-<span id="cb2-74"><a href="#cb2-74" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**No PII or Sensitive Data in Public AI**: Users must never enter student records, patient data, confidential interview transcripts, or proprietary research into public tools.</span>
-<span id="cb2-75"><a href="#cb2-75" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Campus-Approved Secure Environments**: Only enterprise-licensed tools with zero-data-retention agreements (e.g., Microsoft Copilot via institutional SSO, ChatGPT Edu, ZotGPT) may process sensitive university workflows.</span>
-<span id="cb2-76"><a href="#cb2-76" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-77"><a href="#cb2-77" aria-hidden="true" tabindex="-1"></a>---</span>
-<span id="cb2-78"><a href="#cb2-78" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-79"><a href="#cb2-79" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">← Previous: 3. Objectives &amp; Learning Outcomes</span><span class="co">](03-objectives-outcomes.qmd)</span>{.btn .btn-outline-secondary}</span>
-<span id="cb2-80"><a href="#cb2-80" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">Next: 5. Instructional Frameworks &amp; Heuristics →</span><span class="co">](05-frameworks.qmd)</span>{.btn .btn-primary}</span></code><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></pre></div>
+<span id="cb2-73"><a href="#cb2-73" aria-hidden="true" tabindex="-1"></a>---</span>
+<span id="cb2-74"><a href="#cb2-74" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-75"><a href="#cb2-75" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">← Previous: 3. Objectives &amp; Learning Outcomes</span><span class="co">](03-objectives-outcomes.qmd)</span>{.btn .btn-outline-secondary}</span>
+<span id="cb2-76"><a href="#cb2-76" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">Next: 5. Instructional Frameworks &amp; Heuristics →</span><span class="co">](05-frameworks.qmd)</span>{.btn .btn-primary}</span></code><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></pre></div>
 </div></div></div></div></div>
 </div> <!-- /content -->
 
