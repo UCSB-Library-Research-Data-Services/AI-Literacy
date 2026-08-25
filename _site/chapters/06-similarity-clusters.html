@@ -543,7 +543,7 @@ window.Quarto = {
 <div>
 <p></p><figure class="figure"><p></p>
 <div>
-<pre class="mermaid mermaid-js">%%{init: {'flowchart': {'htmlLabels': false}, 'themeVariables': {'fontSize': '14px'}}}%%
+<pre class="mermaid mermaid-js">%%{init: {'flowchart': {'curve': 'basis', 'htmlLabels': false}, 'themeVariables': {'fontSize': '14px'}}}%%
 flowchart LR
     ALL["AI Literacy Curricular Clusters"]
 
@@ -567,17 +567,17 @@ flowchart LR
     DH --&gt; D2["Chapman University"]
     DH --&gt; D3["William and Mary"]
 
-    classDef root fill:#1e293b,stroke:#0f172a,stroke-width:2px,color:#ffffff;
+    classDef nodeRoot fill:#1e293b,stroke:#0f172a,stroke-width:2px,color:#ffffff;
     classDef ucHeader fill:#1d4ed8,stroke:#1e40af,stroke-width:2px,color:#ffffff;
-    classDef ucNode fill:#eff6ff,stroke:#3b82f6,stroke-width:2px,color:#1e40af;
+    classDef ucNode fill:#eff6ff,stroke:#3b82f6,stroke-width:1.5px,color:#1e40af;
     classDef toolHeader fill:#059669,stroke:#047857,stroke-width:2px,color:#ffffff;
-    classDef toolNode fill:#ecfdf5,stroke:#10b981,stroke-width:2px,color:#065f46;
+    classDef toolNode fill:#ecfdf5,stroke:#10b981,stroke-width:1.5px,color:#065f46;
     classDef critHeader fill:#7c3aed,stroke:#6d28d9,stroke-width:2px,color:#ffffff;
-    classDef critNode fill:#f5f3ff,stroke:#8b5cf6,stroke-width:2px,color:#5b21b6;
+    classDef critNode fill:#f5f3ff,stroke:#8b5cf6,stroke-width:1.5px,color:#5b21b6;
     classDef demystHeader fill:#d97706,stroke:#b45309,stroke-width:2px,color:#ffffff;
-    classDef demystNode fill:#fffbeb,stroke:#f59e0b,stroke-width:2px,color:#92400e;
+    classDef demystNode fill:#fffbeb,stroke:#f59e0b,stroke-width:1.5px,color:#92400e;
 
-    class ALL root;
+    class ALL nodeRoot;
     class UC ucHeader;
     class U1,U2,U3,U4,U5 ucNode;
     class TD toolHeader;
@@ -1297,7 +1297,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <span id="cb1-50"><a href="#cb1-50" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-53"><a href="#cb1-53" aria-hidden="true" tabindex="-1"></a><span class="in">```{mermaid}</span></span>
 <span id="cb1-54"><a href="#cb1-54" aria-hidden="true" tabindex="-1"></a><span class="in">%%| fig-cap: "Institutional Alignment and Curricular Networks"</span></span>
-<span id="cb1-55"><a href="#cb1-55" aria-hidden="true" tabindex="-1"></a><span class="in">%%{init: {'flowchart': {'htmlLabels': false}, 'themeVariables': {'fontSize': '14px'}}}%%</span></span>
+<span id="cb1-55"><a href="#cb1-55" aria-hidden="true" tabindex="-1"></a><span class="in">%%{init: {'flowchart': {'curve': 'basis', 'htmlLabels': false}, 'themeVariables': {'fontSize': '14px'}}}%%</span></span>
 <span id="cb1-56"><a href="#cb1-56" aria-hidden="true" tabindex="-1"></a><span class="in">flowchart LR</span></span>
 <span id="cb1-57"><a href="#cb1-57" aria-hidden="true" tabindex="-1"></a><span class="in">    ALL["AI Literacy Curricular Clusters"]</span></span>
 <span id="cb1-58"><a href="#cb1-58" aria-hidden="true" tabindex="-1"></a></span>
@@ -1321,17 +1321,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <span id="cb1-76"><a href="#cb1-76" aria-hidden="true" tabindex="-1"></a><span class="in">    DH --&gt; D2["Chapman University"]</span></span>
 <span id="cb1-77"><a href="#cb1-77" aria-hidden="true" tabindex="-1"></a><span class="in">    DH --&gt; D3["William and Mary"]</span></span>
 <span id="cb1-78"><a href="#cb1-78" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-79"><a href="#cb1-79" aria-hidden="true" tabindex="-1"></a><span class="in">    classDef root fill:#1e293b,stroke:#0f172a,stroke-width:2px,color:#ffffff;</span></span>
+<span id="cb1-79"><a href="#cb1-79" aria-hidden="true" tabindex="-1"></a><span class="in">    classDef nodeRoot fill:#1e293b,stroke:#0f172a,stroke-width:2px,color:#ffffff;</span></span>
 <span id="cb1-80"><a href="#cb1-80" aria-hidden="true" tabindex="-1"></a><span class="in">    classDef ucHeader fill:#1d4ed8,stroke:#1e40af,stroke-width:2px,color:#ffffff;</span></span>
-<span id="cb1-81"><a href="#cb1-81" aria-hidden="true" tabindex="-1"></a><span class="in">    classDef ucNode fill:#eff6ff,stroke:#3b82f6,stroke-width:2px,color:#1e40af;</span></span>
+<span id="cb1-81"><a href="#cb1-81" aria-hidden="true" tabindex="-1"></a><span class="in">    classDef ucNode fill:#eff6ff,stroke:#3b82f6,stroke-width:1.5px,color:#1e40af;</span></span>
 <span id="cb1-82"><a href="#cb1-82" aria-hidden="true" tabindex="-1"></a><span class="in">    classDef toolHeader fill:#059669,stroke:#047857,stroke-width:2px,color:#ffffff;</span></span>
-<span id="cb1-83"><a href="#cb1-83" aria-hidden="true" tabindex="-1"></a><span class="in">    classDef toolNode fill:#ecfdf5,stroke:#10b981,stroke-width:2px,color:#065f46;</span></span>
+<span id="cb1-83"><a href="#cb1-83" aria-hidden="true" tabindex="-1"></a><span class="in">    classDef toolNode fill:#ecfdf5,stroke:#10b981,stroke-width:1.5px,color:#065f46;</span></span>
 <span id="cb1-84"><a href="#cb1-84" aria-hidden="true" tabindex="-1"></a><span class="in">    classDef critHeader fill:#7c3aed,stroke:#6d28d9,stroke-width:2px,color:#ffffff;</span></span>
-<span id="cb1-85"><a href="#cb1-85" aria-hidden="true" tabindex="-1"></a><span class="in">    classDef critNode fill:#f5f3ff,stroke:#8b5cf6,stroke-width:2px,color:#5b21b6;</span></span>
+<span id="cb1-85"><a href="#cb1-85" aria-hidden="true" tabindex="-1"></a><span class="in">    classDef critNode fill:#f5f3ff,stroke:#8b5cf6,stroke-width:1.5px,color:#5b21b6;</span></span>
 <span id="cb1-86"><a href="#cb1-86" aria-hidden="true" tabindex="-1"></a><span class="in">    classDef demystHeader fill:#d97706,stroke:#b45309,stroke-width:2px,color:#ffffff;</span></span>
-<span id="cb1-87"><a href="#cb1-87" aria-hidden="true" tabindex="-1"></a><span class="in">    classDef demystNode fill:#fffbeb,stroke:#f59e0b,stroke-width:2px,color:#92400e;</span></span>
+<span id="cb1-87"><a href="#cb1-87" aria-hidden="true" tabindex="-1"></a><span class="in">    classDef demystNode fill:#fffbeb,stroke:#f59e0b,stroke-width:1.5px,color:#92400e;</span></span>
 <span id="cb1-88"><a href="#cb1-88" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-89"><a href="#cb1-89" aria-hidden="true" tabindex="-1"></a><span class="in">    class ALL root;</span></span>
+<span id="cb1-89"><a href="#cb1-89" aria-hidden="true" tabindex="-1"></a><span class="in">    class ALL nodeRoot;</span></span>
 <span id="cb1-90"><a href="#cb1-90" aria-hidden="true" tabindex="-1"></a><span class="in">    class UC ucHeader;</span></span>
 <span id="cb1-91"><a href="#cb1-91" aria-hidden="true" tabindex="-1"></a><span class="in">    class U1,U2,U3,U4,U5 ucNode;</span></span>
 <span id="cb1-92"><a href="#cb1-92" aria-hidden="true" tabindex="-1"></a><span class="in">    class TD toolHeader;</span></span>

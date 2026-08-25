@@ -68,11 +68,9 @@ svg.mermaid-js foreignObject div,
 .mermaid .node rect,
 .mermaid .node circle,
 .mermaid .node polygon,
-.mermaid .node path,
 svg.mermaid-js .node rect,
 svg.mermaid-js .node circle,
-svg.mermaid-js .node polygon,
-svg.mermaid-js .node path {
+svg.mermaid-js .node polygon {
   fill: var(--mermaid-node-bg-color);
   stroke: var(--mermaid-node-fg-color);
   stroke-width: 2px;
@@ -95,10 +93,24 @@ svg.mermaid-js div {
 
 .mermaid .edgePath .path,
 .mermaid .flowchart-link,
+.mermaid path.flowchart-link,
 svg.mermaid-js .edgePath .path,
-svg.mermaid-js .flowchart-link {
+svg.mermaid-js .flowchart-link,
+svg.mermaid-js path.flowchart-link {
+  fill: none !important;
   stroke: var(--mermaid-edge-color) !important;
-  stroke-width: 2px !important;
+  stroke-width: 1.75px !important;
+  stroke-linecap: round !important;
+  stroke-linejoin: round !important;
+}
+
+.mermaid .arrowMarkerPath,
+svg.mermaid-js .arrowMarkerPath,
+.mermaid marker path,
+svg.mermaid-js marker path {
+  fill: var(--mermaid-edge-color) !important;
+  stroke: var(--mermaid-edge-color) !important;
+  stroke-width: 1px !important;
 }
 
 .mermaid .edgeLabel,
@@ -134,9 +146,21 @@ body.quarto-dark .mermaid .node .label {
   font-weight: 500 !important;
 }
 
-body.quarto-dark .mermaid .edgePath .path {
+body.quarto-dark .mermaid .edgePath .path,
+body.quarto-dark .mermaid .flowchart-link,
+body.quarto-dark svg.mermaid-js .edgePath .path,
+body.quarto-dark svg.mermaid-js .flowchart-link {
   stroke: #94a3b8 !important;
-  stroke-width: 2px !important;
+  fill: none !important;
+  stroke-width: 1.75px !important;
+}
+
+body.quarto-dark .mermaid .arrowMarkerPath,
+body.quarto-dark svg.mermaid-js .arrowMarkerPath,
+body.quarto-dark .mermaid marker path,
+body.quarto-dark svg.mermaid-js marker path {
+  fill: #94a3b8 !important;
+  stroke: #94a3b8 !important;
 }
 
 body.quarto-dark .mermaid .cluster rect {
