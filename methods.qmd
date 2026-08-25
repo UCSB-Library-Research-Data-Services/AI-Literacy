@@ -95,20 +95,67 @@ The full extracted JSON corpus alongside the nearest-neighbor similarity ranking
 
 ---
 
-## Reproducibility & CLI Execution
+## Reproducibility, CLI Execution, & Extensibility
 
-The entire pipeline is fully reproducible using `analysis.py`:
+The entire pipeline is fully reproducible and easily extended using the modular `analysis.py` script. The design separates pipeline execution, API routing, and provider configuration, allowing to swap models, run benchmarks, or integrate entirely new API providers.
+
+### 1. Command-Line Interface (CLI) Arguments
+
+The pipeline is parameterized via the CLI, enabling seamless local-to-remote transitions:
 
 ```bash
-# Execute end-to-end with DreamLab and local Ollama embeddings
-uv run python analysis.py --model dreamlab/gemini-3.7-flash --embed-provider dreamlab
+# Execute end-to-end with any service provider and local Ollama embeddings
+uv run python analysis.py --model <provider>/<model> --embed-provider <name-of-provider>
 
-# Execute fully locally via Ollama
-uv run python analysis.py --model ollama/qwen2.5:3b --embed-provider ollama
+# Execute fully locally via Ollama, e.g., for Qwen2.5-3B and Nomic embeddings
+uv run python analysis.py --model ollama/qwen2.5:3b --embed-provider ollama --embed-model nomic-embed-text
 
-# Execute multi-model benchmark across 3 LLMs
+# Execute multi-model benchmark comparison mode
 uv run python analysis.py --compare
 ```
+
+Available arguments:
+- `--model`: Unified identifier formatted as `<provider>/<model_name>` (e.g., `dreamlab/gemini-3.7-flash`, `ollama/llama3.2`, `aicommons/claude-3-5-sonnet`). If no slash is provided, `dreamlab` is assumed as the default provider.
+- `--embed-provider`: Source for vector embedding generation (`dreamlab` or `ollama`).
+- `--embed-model`: Specific embedding model name (defaults to `gemini-embedding-2` for `dreamlab` or `nomic-embed-text` for `ollama`).
+- `--compare`: Automatically benchmarks multiple high-performance models against each other, producing a comparison matrix in `results/multi_model_comparison.csv`.
+- `--force`: Force-refreshes extractions by bypassing the cached JSON results from prior runs.
+
+---
+
+### 2. Pipeline Extensibility: Adding New Providers
+
+The system is designed with a lightweight provider-routing architecture that can be extended to include other custom, private, or commercial providers beyond the defaults.
+
+#### Step A: Register the API Endpoint in `config.py`
+Add your new provider's URL and API key environment variable mapping to the `SERVICES` dictionary in `config.py`:
+
+```python
+SERVICES = {
+    # Existing providers...
+    "my_new_provider": {
+        "url": "https://api.my-provider.org/v1",
+        "key": os.getenv("MY_PROVIDER_KEY")
+    }
+}
+```
+
+#### Step B: Map the Provider Prefix in `analysis.py`
+In `analysis.py`, the `call_llm` helper handles the routing. Add your new provider prefix to the routing logic:
+
+```python
+service_map = {
+    "dreamlab": "dreamlab",
+    "grit": "GRIT",
+    "cit": "CIT",
+    "aicommons": "AICommons",
+    "myprovider": "my_new_provider"  # Register your provider prefix
+}
+```
+
+The unified client in `call_llm` automatically parses `<provider>/<model_name>` from `--model`, resolves the base URL, sets up bearer authentication headers, and sends OpenAI-compatible payloads to the endpoint.
+
+This decoupled architecture allows the pipeline to grow with emerging models, institutional proxies, or fully localized offline configurations.
 
 ---
 
