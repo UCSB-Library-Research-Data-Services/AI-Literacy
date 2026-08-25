@@ -4,6 +4,7 @@ subtitle: "Cross-Institutional Landscape of AI Literacy in Academic Libraries"
 format:
   html:
     toc: true
+bibliography: ../references.bib
 ---
 
 ## Overview
@@ -85,7 +86,7 @@ A key finding is the split between formal definition and implicit curricular sca
 
 | Category | Proportion | Institutions | Pedagogical Focus |
 | :--- | :--- | :--- | :--- |
-| **Explicit Formal Definition** | **45.5%** (*n*=5) | Auburn University, Chapman University, UCSB, USC, William & Mary | Formulates a bounded conceptual model (e.g. Leo Lo’s taxonomy, 3-stage developmental continuum). |
+| **Explicit Formal Definition** | **45.5%** (*n*=5) | Auburn University, Chapman University, UCSB, USC, William & Mary | Formulates a bounded conceptual model (e.g. Leo Lo [-@loAILiteracyAll2025]’s taxonomy, 3-stage developmental continuum). |
 | **Implicit Characterization** | **54.5%** (*n*=6) | Baylor University, University of Arkansas, UC Davis, UC Irvine, UC Merced, UCSD | Embeds literacy across operational workflows, database tools, and integrity guidelines without an isolated definition. |
 
 ---
