@@ -76,10 +76,20 @@ Academic library guides increasingly serve as instructional design resources for
 
 ```{mermaid}
 %%| fig-cap: "Pedagogical Transformation Model for Educators"
-%%{init: {'themeVariables': {'fontSize': '14px'}}}%%
+%%{init: {'flowchart': {'htmlLabels': false}, 'themeVariables': {'fontSize': '14px'}}}%%
 flowchart LR
-    A["Assessment Paradigm Shift<br/>Focus on Learning Process<br/>over Final Product"] --> B["Assignment Redesign<br/>Oral defense, reflection,<br/>multimodal synthesis, PAIRR"]
-    B --> C["Syllabus Transparency<br/>Clear policy tiers and<br/>explicit expectations"]
+    A["`Assessment Paradigm Shift
+        Focus on Learning Process
+        over Final Product`"]
+    B["`Assignment Redesign
+        Oral defense, reflection,
+        multimodal synthesis, PAIRR`"]
+    C["`Syllabus Transparency
+        Clear policy tiers and
+        explicit expectations`"]
+
+    A --> B
+    B --> C
 ```
 
 ### 1. Assessment Redesign (Process over Product)

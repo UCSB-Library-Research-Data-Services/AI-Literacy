@@ -31,14 +31,15 @@ Analysis of curricular LibGuides across 11 representative institutions reveals d
 
 ```{mermaid}
 %%| fig-cap: "Distribution of Primary AI Literacy Curricular Orientations across Institutions"
-%%{init: {'themeVariables': {'fontSize': '14px'}}}%%
+%%{init: {'flowchart': {'htmlLabels': false}, 'themeVariables': {'fontSize': '14px'}}}%%
 flowchart TD
     ROOT["AI Literacy Curricular Landscape"]
     ROOT --> T1["Balanced Hybrid - 72.7% (8/11)"]
     ROOT --> T2["Tool-Use - 18.2% (2/11)"]
     ROOT --> T3["Critical and Ethical - 9.1% (1/11)"]
 
-    T1 --> I1["Auburn, Chapman, UC Davis, UC Merced,<br/>UCSB, UCSD, USC, William and Mary"]
+    T1 --> I1["`Auburn, Chapman, UC Davis, UC Merced
+                UCSB, UCSD, USC, William and Mary`"]
     T2 --> I2["Baylor University, University of Arkansas"]
     T3 --> I3["UC Irvine"]
 ```

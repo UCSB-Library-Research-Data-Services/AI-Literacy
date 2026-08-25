@@ -60,10 +60,17 @@ This model establishes four interconnected pillars:
 
 ```{mermaid}
 %%| fig-cap: "UCSB Three-Stage Developmental AI Literacy Model"
-%%{init: {'themeVariables': {'fontSize': '14px'}}}%%
+%%{init: {'flowchart': {'htmlLabels': false}, 'themeVariables': {'fontSize': '14px'}}}%%
 flowchart LR
-    A["Stage 1: Understand AI<br/>Mechanics, Machine Learning, NLP"] --> B["Stage 2: Use and Apply AI<br/>Prompting, Research, Synthesis, Coding"]
-    B --> C["Stage 3: Analyze and Evaluate AI<br/>Hallucinations, Ethics, IP, Bias"]
+    A["`Stage 1: Understand AI    
+    Mechanics, Machine Learning, NLP`"]
+    B["`Stage 2: Use and Apply AI
+    Prompting, Research, Synthesis, Coding`"]
+    C["`Stage 3: Analyze and Evaluate AI
+        Hallucinations, Ethics, IP, Bias`"]
+    
+    A --> B
+    B --> C
 ```
 
 ---
@@ -92,10 +99,17 @@ Across all surveyed institutions, AI literacy is conceptualized not as a detache
 
 ```{mermaid}
 %%| fig-cap: "Convergence of Digital, Information, and AI Literacies"
-%%{init: {'themeVariables': {'fontSize': '14px'}}}%%
+%%{init: {'flowchart': {'htmlLabels': false}, 'themeVariables': {'fontSize': '14px'}}}%%
 flowchart TD
-    DL["Digital Literacy<br/>Computational tools, data structures, campus IT security"] --> IL["Information Literacy<br/>Authority is constructed, source evaluation, attribution ethics"]
-    IL --> AL["AI Literacy<br/>Probabilistic output appraisal, prompt engineering, sociotechnical ethics"]
+    DL["`Digital Literacy
+         Computational tools, data structures, campus IT security`"]
+    IL["`Information Literacy
+         Authority is constructed, source evaluation, attribution ethics`"]
+    AL["`AI Literacy
+    Probabilistic output appraisal, prompt engineering, sociotechnical ethics`"]
+
+    DL --> IL
+    IL --> AL
 ```
 
 - **Digital Literacy** provides the infrastructural baseline: understanding campus data security tiers (e.g. UC Merced P2/P4 classifications), compute environments, and API endpoints.

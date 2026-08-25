@@ -50,7 +50,7 @@ Mathematical clustering reveals three distinct institutional groupings and one p
 
 ```{mermaid}
 %%| fig-cap: "Institutional Alignment and Curricular Networks"
-%%{init: {'themeVariables': {'fontSize': '14px'}}}%%
+%%{init: {'flowchart': {'htmlLabels': false}, 'themeVariables': {'fontSize': '14px'}}}%%
 flowchart TD
     ALL["AI Literacy Curricular Clusters"]
 

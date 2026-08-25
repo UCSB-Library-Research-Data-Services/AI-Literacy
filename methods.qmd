@@ -12,15 +12,28 @@ This study combines structured Large Language Model (LLM) extraction with high-d
 
 ```{mermaid}
 %%| fig-cap: "Three-Stage Computational Qualitative Analysis Pipeline"
-%%{init: {'themeVariables': {'fontSize': '14px'}}}%%
+%%{init: {'flowchart': {'htmlLabels': false}, 'themeVariables': {'fontSize': '14px'}}}%%
 flowchart TD
-    D["1. Data Ingestion<br/>11 Scraped University LibGuides (1.4k to 12.4k words)"] --> S1["2. Grounded LLM Extraction<br/>Structured JSON + Exact Verbatim Quote Verification"]
-    S1 --> P["3. Multi-Dimensional Institutional Profiles<br/>Definitions, Outcomes, Policies, Frameworks"]
-    P --> S2["4. High-Dimensional Semantic Embeddings<br/>Dense Vector Representations (Gemini / Nomic)"]
-    S2 --> M["5. Pairwise Cosine Similarity Matrix and Clustermap"]
-    P --> S3["6. Qualitative Thematic Synthesis<br/>Cross-Institutional Thematic Grouping"]
+    D["`Data Ingestion
+        11 Scraped University LibGuides`"]
+    S1["`Grounded LLM Extraction
+         Structured JSON + Verbatim Quote Verification`"]
+    P["`Multi-Dimensional Institutional Profiles
+        Definitions, Outcomes, Policies, Frameworks`"]
+    S2["`High-Dimensional Semantic Embeddings
+         Dense Vector Representations`"]
+    M["Pairwise Cosine Similarity Matrix and Clustermap"]
+    S3["`Qualitative Thematic Synthesis
+         Cross-Institutional Thematic Grouping`"]
+    R["Final Comparative Qualitative Report"]
+    
+    D --> S1
+    S1 --> P
+    P --> S2
+    S2 --> M
+    P --> S3
     M --> S3
-    S3 --> R["7. Final Comparative Qualitative Report"]
+    S3 --> R
 ```
 
 ---

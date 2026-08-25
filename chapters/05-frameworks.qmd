@@ -46,12 +46,23 @@ Originating from Hervieux & Wheatley (2020) and featured prominently in **UC Dav
 
 ```{mermaid}
 %%| fig-cap: "The ROBOT Test for AI Output Evaluation"
-%%{init: {'themeVariables': {'fontSize': '14px'}}}%%
+%%{init: {'flowchart': {'htmlLabels': false}, 'themeVariables': {'fontSize': '14px'}}}%%
 flowchart TD
-    A["R - Reliability<br/>Fact-check claims against verified primary literature"] --> B["O - Objective<br/>Identify developer motives and commercial interests"]
-    B --> C["B - Bias<br/>Interrogate model outputs for cultural and training skew"]
-    C --> D["O - Ownership<br/>Audit copyright, IP, and training data provenance"]
-    D --> E["T - Type<br/>Distinguish predictive LLM vs specialized domain model"]
+    A["`R - Reliability
+        Fact-check claims against verified primary literature`"]
+    B["`O - Objective
+        Identify developer motives and commercial interests`"]
+    C["`B - Bias
+        Interrogate model outputs for cultural and training skew`"]
+    D["`O - Ownership
+        Audit copyright, IP, and training data provenance`"]
+    E["`T - Type
+        Distinguish predictive LLM vs specialized domain model`"]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
 ```
 
 ### Core Evaluation Criteria
