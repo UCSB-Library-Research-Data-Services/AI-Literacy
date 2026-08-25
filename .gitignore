@@ -1,6 +1,7 @@
 .ipynb_checkpoints/
 __pycache__/
 .playwright-mcp/
+screenshots/
 
 poc.py
 .env
