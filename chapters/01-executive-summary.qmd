@@ -63,8 +63,8 @@ Institutions such as **Auburn University, Chapman University, UC Davis, UC Merce
 
 ::: {.callout-tip}
 #### Hallmarks of Balanced Hybrid Guides
-- Teach systematic prompt construction heuristics (**CLEAR**, **RTF**, **TAG**).
-- Introduce tailored evaluation rubrics designed specifically for synthetic outputs (**The ROBOT Test**).
+- Teach systematic prompt construction heuristics (**CLEAR**, **RTF**, **TAG**) [see more](05-frameworks.html#structured-prompt-engineering-heuristics).
+- Introduce tailored evaluation rubrics designed specifically for synthetic outputs (**[The ROBOT Test](05-frameworks.html#evaluation-rubrics-the-robot-test)**).
 - Emphasize academic integrity, attribution transparency, and citation mechanics across citation styles.
 :::
 
