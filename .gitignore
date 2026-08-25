@@ -2,8 +2,10 @@
 __pycache__/
 .playwright-mcp/
 screenshots/
+.agents/
 
 poc.py
 .env
 
 /.quarto/
+skills-lock.json
