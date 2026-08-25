@@ -50,8 +50,8 @@ Mathematical clustering reveals three distinct institutional groupings and one p
 
 ```{mermaid}
 %%| fig-cap: "Institutional Alignment and Curricular Networks"
+%%{init: {'themeVariables': {'fontSize': '14px'}}}%%
 flowchart TD
-    %%{init: {'flowchart': {'htmlLabels': false}, 'themeVariables': {'fontSize': '14px'}}}%%
     ALL["AI Literacy Curricular Clusters"]
 
     ALL --> UC["UC Core Network - Sim over 0.95"]
