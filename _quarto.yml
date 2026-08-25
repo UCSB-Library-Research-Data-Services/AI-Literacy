@@ -36,7 +36,7 @@ website:
         text: "Methodology"
     right:
       - icon: github
-        href: https://github.com/
+        href: https://github.com/UCSB-Library-Research-Data-Services/AI-Literacy
         aria-label: GitHub
 
   sidebar:
