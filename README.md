@@ -32,8 +32,8 @@ uv run python analysis.py --model ollama/qwen2.5:3b --embed-provider ollama --em
 uv run python analysis.py --compare
 ```
 Key arguments:
-- `--model` – `<provider>/<model>` identifier (default provider `dreamlab`).
-- `--embed-provider` – source for embeddings (`dreamlab` or `ollama`).
+- `--model` – `<provider>/<model>` identifier.
+- `--embed-provider` – source for embeddings.
 - `--embed-model` – specific embedding model name.
 - `--compare` – run a multi‑model benchmark.
 - `--force` – refresh extractions, ignoring cached results.
