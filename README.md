@@ -44,5 +44,5 @@ To add new model providers, update `config.py` with the service endpoint and mod
 ## Reproducing Results
 All results are generated under the `results/` directory. The pipeline is deterministic given the same model and seed.
 
-## License & Citation
-This work is released under the MIT License. For citation details, refer to the `references.bib` file included in the Quarto project.
+## License
+This work is released under the MIT License.
